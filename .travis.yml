@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - 8.12.0
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+before_script:
+# - npm install -g gulp
+
+script:
+  - hexo clean
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "songxingguo"
+  - git config user.email "1328989942@qq.com"
+  - git add .
+  - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  # Github Pages
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+  # Coding Pages
+  - git push --force --quiet "https://zrUWsPQJyF:${CO_TOKEN}@${CO_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - master
+env:
+  global:
+    # Github Pages
+    - GH_REF: github.com/songxingguo/dev-hints.git
+    # Coding Pages
+    - CO_REF: e.coding.net/songxingguo/dev-hints.git

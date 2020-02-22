@@ -2,10 +2,12 @@ title: Mac
 categories:
  - macOS
 author: 宋玉
-date: 2020-02-22 12:37:06
+date: 2020-02-22 17:49:06
 ---
-<a name="ZDlLB"></a>
-## 剪切、拷贝、粘贴和其他常用快捷键
+<a name="o3hf6"></a>
+## 快捷键
+<a name="Gr7oD"></a>
+### 剪切、拷贝、粘贴和其他常用快捷键
 | ****Command-X**** | 剪切所选项并拷贝到剪贴板。 |
 | --- | --- |
 | ****Command-C**** | 将所选项拷贝到剪贴板。这同样适用于“访达”中的文件。 |
@@ -43,4 +45,7 @@ date: 2020-02-22 12:37:06
 | ****Command-Control-O**** | 截屏、录屏、识别 |
 
 
-[参考链接](https://support.apple.com/zh-cn/HT201236)
+<a name="p9h1S"></a>
+## 参考链接
+
+- [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236)

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Inevitable cheeatsheets
-subtitle: 'People use tools in different manners. Thus personal cheatsheets would be a good choice.'
+title: 开发宝典
+subtitle: '个人备忘录'
 description: ''
 keywords:
-author: Glaze
+author: songxinguo
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cheatsheets.inevitable.tech
+url: https://hints.dev.songxingguo.com
 root: /
 permalink: :title/
 permalink_defaults:
@@ -98,4 +98,4 @@ deploy:
   type: 'git'
   repo: https://github.com/glazec/cheatsheets.inevitable.tech.git
   branch: "master"
-  message: 
+  message:

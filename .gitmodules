@@ -1,2 +1,3 @@
 [submodule "themes/cheatsheets"]
-	url = https://github.com/glazec/hexo-cheatsheets.git
+  path = themes/cheatsheets
+	url = https://github.com/songxingguo/hexo-cheatsheets.git

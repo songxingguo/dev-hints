@@ -2,9 +2,9 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-02-22 23:30:01
+date: 2020-02-25 23:42:33
 ---
-<a name="NwfiJ"></a>
+<a name="Sqf8M"></a>
 ## 压缩
 <a name="7ZXa6"></a>
 ### [TinyPNG](https://tinypng.com/)
@@ -32,9 +32,9 @@ date: 2020-02-22 23:30:01
 ## 图片处理
 <a name="9kXUg"></a>
 ### [ILoveIMG](https://www.iloveimg.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385037298-eb21428f-f688-477e-9e5b-7e92ea530637.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=1376465&status=done&style=none&width=1438)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582608852538-93d2771a-3b66-4f8c-8758-d714de1d476a.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2868&size=1072580&status=done&style=none&width=1434)
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385037298-eb21428f-f688-477e-9e5b-7e92ea530637.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=1376465&status=done&style=none&width=1438)**一个用于图片的裁切、水印等功能的在线工具。**
+**一个用于图片的裁切、水印等功能的在线工具。**
 <a name="8Pu1P"></a>
 ### [squoosh](https://squoosh.app/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385069233-bcf6b06a-0696-4446-833d-c031ed8967c0.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2876&size=1239344&status=done&style=none&width=1438)
@@ -47,4 +47,46 @@ date: 2020-02-22 23:30:01
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385109523-d3c084cf-e8f1-4737-b3b7-ae94af0efe57.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2874&size=621556&status=done&style=none&width=1437)
 
 **一个 Mac 上方便好用的截图工具。**
+<a name="BsmIN"></a>
+### [Flowshare](https://flowshare.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582644991700-c637599d-3372-476e-82ab-706f2a295112.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2856&size=231070&status=done&style=none&width=1428)
 
+[6 款 Javascript 的图像处理库](https://segmentfault.com/a/1190000008670319)
+<a name="tpOGe"></a>
+## 软件
+<a name="JWXcJ"></a>
+### [digiKam](https://www.digikam.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582608573134-d5ab4115-6b62-4e9d-8067-dee8eee05bd3.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=556005&status=done&style=none&width=1436)
+
+**图片处理软件**
+<a name="wypJZ"></a>
+### [darktable](https://www.darktable.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582608718495-d34302d1-5c5b-428f-acb0-6b704ee12112.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=3526394&status=done&style=none&width=1437)
+
+**图片处理软件**
+<a name="viEfS"></a>
+### [Doka.Photo](https://doka.photo/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645303590-68d8930b-7069-47db-bd31-2cf569e9ac06.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=1031944&status=done&style=none&width=1437)
+<a name="KNmkR"></a>
+## 图片信息
+<a name="GWqfq"></a>
+### [图虫EXIF查看器](https://exif.tuchong.com/view/7439934/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582630269581-dd034b6a-820c-4eb3-8ebc-c9fb73a6970d.png#align=left&display=inline&height=768&name=image.png&originHeight=1536&originWidth=2860&size=780938&status=done&style=none&width=1430)
+
+**图片 EXIF 信息展示**
+<a name="11d3o"></a>
+### [读取图像的元数据](http://code.ciaoca.com/javascript/exif-js/demo/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645149255-c5d615d8-1c4e-4f7d-85e2-19c23255068e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=2209118&status=done&style=none&width=1438)
+<a name="jxpXG"></a>
+## 其他
+<a name="ShWZE"></a>
+### [生成二维码](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582637845219-628a7a4c-4e00-4cad-a81d-5ee5b89c5929.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2870&size=522345&status=done&style=none&width=1435)
+<a name="TmH0R"></a>
+### [生成头像](https://viveketic.github.io/gavatar/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582642958786-d7cc65d9-c398-4000-a0fe-4ad09bdf42b9.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2870&size=106634&status=done&style=none&width=1435)
+<a name="otbeV"></a>
+### [GifGities](https://gifcities.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582643660734-a7e69262-616f-4975-97cb-015a279ff32a.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2872&size=272719&status=done&style=none&width=1436)
+
+**地理城市动画GIF搜索引擎**

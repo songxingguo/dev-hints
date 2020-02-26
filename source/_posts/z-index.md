@@ -2,8 +2,11 @@ title: z-index
 categories:
  - CSS
 author: 宋玉
-date: 2020-02-22 13:19:48
+date: 2020-02-26 01:03:08
 ---
+
+<a name="mQ3Dd"></a>
+## 层级
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/394169/1574152736070-6d3ae8fa-cb80-4e27-b383-47499cedbe5e.png#align=left&display=inline&height=467&name=image.png&originHeight=467&originWidth=624&size=99370&status=done&style=none&width=624)
 
@@ -15,5 +18,8 @@ date: 2020-02-22 13:19:48
 - 拥有 z-index:0 的子堆叠上下文元素
 - 拥有正 z-index: 的子堆叠上下文元素（正的越低越堆叠层级越低）
 
-https://www.jianshu.com/p/a7cf99fc3b2f
+<a name="NIdrX"></a>
+## 参考链接
+
+- [看似简单的z-index会让你吐血](https://www.jianshu.com/p/a7cf99fc3b2f)
 

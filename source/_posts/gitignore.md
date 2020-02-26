@@ -2,11 +2,12 @@ title: gitignore
 categories:
  - Git
 author: 宋玉
-date: 2020-02-22 13:15:22
+date: 2020-02-26 01:15:37
 ---
 
-vim ~/.gitconfig
-
+<a name="hPjrh"></a>
+### vim ~/.gitconfig
+<br />
 ```javascript
 [user]
     name = ###
@@ -17,7 +18,8 @@ vim ~/.gitconfig
     excludesfile = ~/.gitignore_global
 ```
 
-创建.gitignore_global
+<a name="wjitO"></a>
+### 创建.gitignore_global
 
 ```yaml
  # .gitignore_global
@@ -85,6 +87,11 @@ MANIFEST
 *.sw*
 ```
 
-[参考链接](https://www.cnblogs.com/zjuhjm/p/10581928.html)
-
 配置语法：<br />以斜杠“/”开头表示目录；<br />以星号“*”通配多个字符；<br />以问号“?”通配单个字符<br />以方括号“[]”包含单个字符的匹配列表；<br />以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+
+<a name="oA4zA"></a>
+## 参考链接
+
+- [一劳永逸，.gitignore](https://www.cnblogs.com/zjuhjm/p/10581928.html)
+
+

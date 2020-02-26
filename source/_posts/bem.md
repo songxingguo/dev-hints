@@ -2,8 +2,24 @@ title: BEM
 categories:
  - CSS
 author: 宋玉
-date: 2020-02-22 13:25:06
+date: 2020-02-25 10:16:33
 ---
+block__element--modifier
+
+block-name__elem-name_mod-name_mod-val
+
+命名与业务无关，与功能有关, 与具体实现无关，与意图有关。
+
+能简写的一定简写，舒服😌
+
+[weui](https://weui.io/weui.css)
+
+---
+
+
+<a name="5OXl1"></a>
+### 常用命名
+
 - head
 - content
 - foot<br />
@@ -33,13 +49,3 @@ date: 2020-02-22 13:25:06
 - VM（ViewModel, 视图模型）
 - DM （DataModel, 数据模型）
 - batch
-
-<br />block__element--modifier 正式
-
-命名与业务无关，与功能有关, 与具体实现无关，与意图有关。
-
-block-name__elem-name_mod-name_mod-val
-
-能简写的一定简写，舒服😌
-
-[weui](https://weui.io/weui.css)

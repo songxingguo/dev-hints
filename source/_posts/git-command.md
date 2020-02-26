@@ -2,37 +2,33 @@ title: command
 categories:
  - Git
 author: 宋玉
-date: 2020-02-22 14:44:20
----
-title: git常用命令<br />
-author: songxingguo<br />
-tags:
-
-- git<br />
-categories:
-- 开发者手册
-- ''<br />
-date: 2018-03-25 15:25:00
-
+date: 2020-02-25 08:12:54
 ---
 
-查看状态
+<a name="hYd9B"></a>
+### 查看状态
 
 ```git
 $ git status
 ```
 
-把项目添加到仓库
+<a name="aFJBl"></a>
+### 把项目添加到仓库
 
 ```git
 $ git add 【-A】|【文件名称】|$ git add .
 ```
 
-提交代码
+<a name="0Oemc"></a>
+### 提交代码
 
 ```git
 $ git commit -m "文件描述"
 ```
+
+<a name="nRgkR"></a>
+### 推送到远端
+
 推送到默认分支
 
 ```git
@@ -57,11 +53,16 @@ $ git remote add origin https://github.com/guyibang/TEST2.git
 $ git push -u origin master
 ```
 
-移除远程仓库
+<a name="BEELi"></a>
+### 移除远程仓库
 
 ```git
 $ git remote rm origin
 ```
+
+
+<a name="28Pyk"></a>
+### 分支管理
 
 查看远程分支
 
@@ -86,6 +87,10 @@ $ git branch -a
 ```
 git checkout source-code
 ```
+
+
+<a name="RXafq"></a>
+### 基础配置
 
 配置用户名和邮箱
 

@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-02-25 21:43:40
+date: 2020-02-26 09:43:03
 ---
 <a name="ffsk5"></a>
 ### [Shadowsocks](https://github.com/shadowsocks)
@@ -10,7 +10,7 @@ date: 2020-02-25 21:43:40
 
 <a name="jBpfY"></a>
 #### 教程
-[自建梯子教程-翻墙-科学上网-google](https://github.com/dudefu/btgfw)<br />[自己搭建翻墙服务器](https://jiyiren.github.io/2016/10/06/fanqiang/)
+[自建梯子教程-翻墙-科学上网-google](https://github.com/dudefu/btgfw)<br />[自己搭建翻墙服务器](https://jiyiren.github.io/2016/10/06/fanqiang/)<br />[使用shadowsocks科学上网](https://www.textarea.com/ExpectoPatronum/shiyong-shadowsocks-kexue-shangwang-265/)
 <a name="nhdUp"></a>
 #### 下载地址
 [Mac](https://github.com/shadowsocks/ShadowsocksX-NG)

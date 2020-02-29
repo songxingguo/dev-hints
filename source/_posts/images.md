@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-02-28 22:55:15
+date: 2020-02-29 23:31:59
 ---
 <a name="Sqf8M"></a>
 ## 压缩
@@ -52,6 +52,9 @@ date: 2020-02-28 22:55:15
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582644991700-c637599d-3372-476e-82ab-706f2a295112.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2856&size=231070&status=done&style=none&width=1428)
 
 [6 款 Javascript 的图像处理库](https://segmentfault.com/a/1190000008670319)
+<a name="EzmC3"></a>
+### [webcamera](https://github.com/node-modules/webcamera)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990288139-289cc967-c4b0-4875-a647-3350422a675d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2870&size=320162&status=done&style=none&width=1435)
 <a name="tpOGe"></a>
 ## 软件
 <a name="JWXcJ"></a>

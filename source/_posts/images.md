@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-02-29 23:41:41
+date: 2020-02-29 23:45:03
 ---
 <a name="Sqf8M"></a>
 ## 压缩
@@ -54,12 +54,18 @@ date: 2020-02-29 23:41:41
 [6 款 Javascript 的图像处理库](https://segmentfault.com/a/1190000008670319)
 <a name="EzmC3"></a>
 ### [webcamera](https://github.com/node-modules/webcamera)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990288139-289cc967-c4b0-4875-a647-3350422a675d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2870&size=320162&status=done&style=none&width=1435)<br />**<br />**从 URL 生成截图<br />### **[jimp](https://github.com/oliver-moran/jimp)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990591934-3489120c-567a-4a02-a3b4-473e04f80260.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2872&size=376451&status=done&style=none&width=1436)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990288139-289cc967-c4b0-4875-a647-3350422a675d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2870&size=320162&status=done&style=none&width=1435)<br />**<br />**从 URL 生成截图**
+<a name="ZQVjC"></a>
+### [jimp](https://github.com/oliver-moran/jimp)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990591934-3489120c-567a-4a02-a3b4-473e04f80260.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2872&size=376451&status=done&style=none&width=1436)
 
 **路径或URL读取图像**
 <a name="CTjlo"></a>
 ### [glfx.js](http://evanw.github.io/glfx.js/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990893172-7d7686fb-1b52-4e0d-afe7-1ae98e64ee31.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2860&size=2094292&status=done&style=none&width=1430)
+<a name="Z5JDg"></a>
+### [camanjs](http://camanjs.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582990968042-df0d59c7-1061-4213-ab8e-9821a586e46f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2870&size=415304&status=done&style=none&width=1435)
 <a name="tpOGe"></a>
 ## 软件
 <a name="JWXcJ"></a>

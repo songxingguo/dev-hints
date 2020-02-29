@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-02-29 21:03:01
+date: 2020-02-29 21:07:38
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -21,13 +21,13 @@ date: 2020-02-29 21:03:01
 轻量、可靠的小程序 UI 组件库
 <a name="3ad25565"></a>
 ### [Ant Design React](https://ant.design/docs/react/getting-started-cn)
-<br />**蚂蚁金服 React UI 库**
+**蚂蚁金服 React UI 库**
 <a name="2971157f"></a>
-### [Introduction - Semantic UI React](https://react.semantic-ui.com/)
-
+### [Semantic UI React](https://react.semantic-ui.com/)
+**React UI 库**
 <a name="38fe09d9"></a>
-### [Font Awesome，一套绝佳的图标字体库和CSS框架](http://fontawesome.dashgame.com/)
-
+### [Font Awesome](http://fontawesome.dashgame.com/)
+**一套绝佳的图标字体库和CSS框架**
 <a name="55e2ff16"></a>
 ### [Koala开发平台](http://www.openkoala.org/#page3)
 

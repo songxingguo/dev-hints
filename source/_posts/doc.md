@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 20:34:01
+date: 2020-03-01 20:47:04
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -104,65 +104,41 @@ date: 2020-03-01 20:34:01
 <a name="d994a6c0"></a>
 ## 工程化
 <a name="9d9d7613"></a>
-### [webpack中文文档|webpack中文网](https://www.webpackjs.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008264-5f2828b2-9808-4635-bb23-ef1cf35be4b9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Webpack 中文文档](https://www.webpackjs.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 <a name="7368317f"></a>
-### [CLI介绍|Yarn](https://yarnpkg.com/lang/zh-hans/docs/cli/)
+### [Yarn](https://yarnpkg.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066228897-8b1e56dd-3249-4901-9d5d-fb5738e3eb35.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=303280&status=done&style=none&width=1440)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008315-30648228-e9cf-4919-951a-6a906fcfb28c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+<a name="EnM55"></a>
+### [PM2](https://pm2.keymetrics.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066370934-5bed5eb9-5e32-4b46-afcd-2110ae32c20c.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=3238493&status=done&style=none&width=1439)
 
-<a name="04a802dd"></a>
-### [利用PM2部署node.js项目的方法教程_node.js_脚本之家](https://www.jb51.net/article/113398.htm)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008363-9adb2629-4192-4948-8401-2bfb25b32413.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+[利用PM2部署node.js项目的方法教程](https://www.jb51.net/article/113398.htm)
 <a name="9b98e9ae"></a>
-### [universal-cookies|blog.fossasia.org](https://blog.fossasia.org/tag/universal-cookies/)
-
+### [fossasia](https://blog.fossasia.org/tag/universal-cookies/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008268-f306678d-53dd-43b9-a0bf-0b1d134a3ea1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="7bfcdb46"></a>
-### [🚀快速开始](https://parceljs.org/getting_started.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008241-768d63bb-ed1b-4698-9fb8-e291a34fb159.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Parcel](https://parceljs.org/getting_started.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)
 <a name="771a2e80"></a>
-### [Jenkins介绍_w3cschool](https://www.w3cschool.cn/jenkins/jenkins-5h3228n2.html)
-
+### [Jenkins](https://www.w3cschool.cn/jenkins/jenkins-5h3228n2.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008357-3008e1a7-e789-48a6-8985-9abcc24536e5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="38210649"></a>
-### [TravisCI-APIV2Reference](https://docs.travis-ci.com/api#github-oauth-handshake)
-
-
-
-<a name="6f4d40f7"></a>
-### [Load-Balancing|Guide|PM2Documentation](https://pm2.io/doc/en/runtime/guide/load-balancing/?utm_source=pm2&utm_medium=website&utm_campaign=rebranding)
-
-
-
-<a name="7df0dd68"></a>
-### [EnterpriseContainerPlatform|Docker](https://www.docker.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008275-d7f5408a-97c0-4a53-872e-aec5253e18be.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [TravisCI](https://travis-ci.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066553902-124ca912-3847-49be-a4f9-ee71bebe7f9c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=193379&status=done&style=none&width=1438)
+<a name="PqNdR"></a>
+### [Docker](https://www.docker.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066798398-a70b455f-1ef8-4143-9e03-1762cd5e87d4.png#align=left&display=inline&height=739&name=image.png&originHeight=1478&originWidth=2870&size=1133132&status=done&style=none&width=1435)
 <a name="3d01f838"></a>
-### [gulp.js-基于流的自动化构建工具。|gulp.js中文网](https://www.gulpjs.com.cn/)
-
+### [Gulp](https://www.gulpjs.com.cn/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008545-d3d54cdf-7889-4c11-8253-019ec94f05d9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="ddb8da8d"></a>
-### [TravisCI-TestandDeploywithConfidence](https://www.travis-ci.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008369-3c01da0b-7933-4eb0-a517-a1461bd8e1ce.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**基于流的自动化构建工具**
 <a name="97c4185c"></a>
 ## 模板引擎
-
 <a name="7ae95d4b"></a>
 ### [入门指南–Pug中文文档](https://pug.bootcss.com/api/getting-started.html)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008325-a7d2e307-9a35-4175-b7a1-5d7ae2694217.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="3ae7c8ec"></a>

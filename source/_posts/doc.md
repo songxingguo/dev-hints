@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 20:47:04
+date: 2020-03-01 20:50:56
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -49,6 +49,9 @@ date: 2020-03-01 20:47:04
 <a name="LdUKb"></a>
 ### [WeUI](https://weui.io/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-634b299f-7576-4fdf-9aa9-87d1baacaa13.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />****WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。**
+<a name="d176c3d9"></a>
+### [WeUI.JS中文文档](https://www.kancloud.cn/ywfwj2008/weuijs/274297)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066016018-9fb0bdee-f68d-435d-8e1f-ffd8b5ef2fc0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=317048&status=done&style=none&width=1437)
 <a name="09e90100"></a>
 ### [iView](http://v1.iviewui.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008186-1b713107-373a-43f1-822a-f0fa9835817e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -97,14 +100,10 @@ date: 2020-03-01 20:47:04
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583065945265-27404341-d101-4b4a-a495-9df755abfd0d.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=283537&status=done&style=none&width=1438)
 
 **_手绘风格_ 的 Android 组件库。**
-<a name="d176c3d9"></a>
-### [WeUI.JS中文文档](https://www.kancloud.cn/ywfwj2008/weuijs/274297)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066016018-9fb0bdee-f68d-435d-8e1f-ffd8b5ef2fc0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=317048&status=done&style=none&width=1437)
-
 <a name="d994a6c0"></a>
 ## 工程化
 <a name="9d9d7613"></a>
-### [Webpack 中文文档](https://www.webpackjs.com/)
+### [Webpack](https://www.webpackjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 <a name="7368317f"></a>
 ### [Yarn](https://yarnpkg.com/)
@@ -138,19 +137,11 @@ date: 2020-03-01 20:47:04
 <a name="97c4185c"></a>
 ## 模板引擎
 <a name="7ae95d4b"></a>
-### [入门指南–Pug中文文档](https://pug.bootcss.com/api/getting-started.html)
+### [Pug](https://pug.bootcss.com/api/getting-started.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008325-a7d2e307-9a35-4175-b7a1-5d7ae2694217.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="3ae7c8ec"></a>
-### [11.如何使用pug(jade)作为HTML的模板·webpack3零基础入门教程·看云](https://www.kancloud.cn/hfpp2012/webpack-tutorial/467007)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008366-6998fcb9-5e04-4db7-8a5c-16a5cb79250d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="8eba7d74"></a>
-### [6.1koa2加载模板引擎·GitBook](https://chenshenhai.github.io/koa2-note/note/template/add.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008342-5d29c2fe-fd01-49a6-9c9a-da677c7ad668.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+- [如何使用pug(jade)作为HTML的模板](https://www.kancloud.cn/hfpp2012/webpack-tutorial/467007)
+- [koa2加载模板引擎](https://chenshenhai.github.io/koa2-note/note/template/add.html)
 <a name="765bd76c"></a>
 ### [开始使用-NexT使用文档](http://theme-next.iissnan.com/getting-started.html)
 

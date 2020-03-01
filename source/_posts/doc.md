@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 20:50:56
+date: 2020-03-01 21:05:59
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -45,7 +45,7 @@ date: 2020-03-01 20:50:56
 <a name="289063c9"></a>
 ### [NutUI2.0](http://nutui.jd.com/#/index)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583064974736-bf5bbed4-1746-4d5f-9028-157fc2b548d2.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=754211&status=done&style=none&width=1435)<br />
-一套京东风格的轻量级移动端Vue组件库
+**一套京东风格的轻量级移动端Vue组件库**
 <a name="LdUKb"></a>
 ### [WeUI](https://weui.io/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-634b299f-7576-4fdf-9aa9-87d1baacaa13.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />****WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。**
@@ -143,126 +143,89 @@ date: 2020-03-01 20:50:56
 - [如何使用pug(jade)作为HTML的模板](https://www.kancloud.cn/hfpp2012/webpack-tutorial/467007)
 - [koa2加载模板引擎](https://chenshenhai.github.io/koa2-note/note/template/add.html)
 <a name="765bd76c"></a>
-### [开始使用-NexT使用文档](http://theme-next.iissnan.com/getting-started.html)
-
+### [NexT](http://theme-next.iissnan.com/getting-started.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008328-80cb764e-acf0-45e8-8e5e-c6260f2b064e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="8bc35bb4"></a>
-### [Introduction-Saber](https://saber.land/docs)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008297-ccf73c80-6a5a-449f-b8eb-0ac89ed29cdd.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Saber](https://saber.land/docs)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067148714-00104342-1860-4ea7-959f-000cf1c190b5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2866&size=311611&status=done&style=none&width=1433)
 <a name="0868547c"></a>
-### [Rax-跨容器的渲染引擎](https://alibaba.github.io/rax/)
+### [Rax](https://alibaba.github.io/rax/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067215852-9d7f7135-f79a-4e60-976d-e235537683fc.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=533181&status=done&style=none&width=1438)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008360-d900281f-e4b7-4092-ad94-01b01a13064f.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**跨容器的渲染引擎**
 <a name="4ea08d54"></a>
 ### [lit-html](https://lit-html.polymer-project.org/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-cfde456d-a912-4cd0-9640-3168213e8856.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="41f1d2b6"></a>
 ## 框架
-
 <a name="28abb36a"></a>
-### [API文档|Node.js中文网](http://nodejs.cn/api/)
-
+### [Node.js](http://nodejs.cn/api/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008486-ebf2d561-9ced-4614-8593-75f79fcaada3.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="1f6c2214"></a>
-### [Middleware/中间件-ThinkJS文档](https://thinkjs.org/zh-cn/doc/3.0/middleware.html)
-
+### [ThinkJS](https://thinkjs.org/zh-cn/doc/3.0/middleware.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008327-5d2545f1-1560-4e9d-9516-ff2d3ee1010e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="957bfe05"></a>
-### [ZeroServer-Zeroconfigurationwebframework](https://zeroserver.io/)
-
+### [ZeroServer](https://zeroserver.io/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008408-26bf4101-eeed-4974-8a80-cf10f46d3f18.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="a65161b3"></a>
-### [Koala开发平台](http://www.openkoala.org/#page6)
-
-
-
 <a name="593ad5bf"></a>
-### [BaseWeb-BaseWebReactComponents](https://baseweb.design/)
-
+### [BaseWeb](https://baseweb.design/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008455-0d89927c-119f-43d3-8fe5-4486cdb1e6a0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="eb61794c"></a>
 ### [GatsbyJS](https://www.gatsbyjs.org/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008396-548f9ad5-e9fa-468c-a846-b7860281aba5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="f1723d77"></a>
 ### [RequireJS](https://requirejs.org/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008426-c2062eab-3363-458b-8bd5-c9156c893ac4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="7a1e2374"></a>
-### [Introduction·WebMagicDocuments](http://webmagic.io/docs/zh/)
-
+### [WebMagic](http://webmagic.io/docs/zh/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008407-50512d79-be7f-45ff-96b4-207f191c85d4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="565932ec"></a>
-### [React中文文档-用于构建用户界面的JavaScript库](https://www.reactjscn.com/)
-
+### [React](https://www.reactjscn.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-384001ba-7eb4-4a16-b5b9-d6d7c8d40b8a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="0d7a30fc"></a>
 ### [Vue.js](https://cn.vuejs.org/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008433-6f9f8d86-650d-40b7-8f47-b6ab618801e4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="e8bcb8f1"></a>
-### [介绍|VueRouter](https://router.vuejs.org/zh/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008384-92c6ab58-b304-4bc4-8a51-5715d374207c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+- [VueRouter](https://router.vuejs.org/zh/)
+- [axios](https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
 <a name="0fc3c03a"></a>
 ### [jqGridDemos](http://www.trirand.com/blog/jqgrid/jqgrid.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067635560-eeb3af2a-c218-4fa9-af37-b096959a814e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=237837&status=done&style=none&width=1440)
+<a name="F61B3"></a>
+### [Nuxt.js](https://zh.nuxtjs.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067650577-160ce937-2389-4e09-a40e-f9a6fb5ae26a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=224587&status=done&style=none&width=1437)
 
-
-
-<a name="9bcadbe7"></a>
-### [Nuxt.js-Vue.js通用应用框架](https://zh.nuxtjs.org/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008470-6d4db929-6cc8-48e4-97e9-f1a8caa4a2de.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="31858e0f"></a>
-### [使用axios访问API—Vue.js](https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008447-72353c4a-dfc4-4cf5-be18-e79e73b76d8e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**Vue.js通用应用框架**
 <a name="f7022881"></a>
-### [配置参考|VueCLI](https://cli.vuejs.org/zh/config/#%E5%85%A8%E5%B1%80-cli-%E9%85%8D%E7%BD%AE)
-
-
-
+### [VueCLI](https://cli.vuejs.org/zh/config/#%E5%85%A8%E5%B1%80-cli-%E9%85%8D%E7%BD%AE)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067731643-ece1c682-5f08-4ea6-92eb-de508bc42bf9.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2868&size=441581&status=done&style=none&width=1434)
 <a name="01188bdd"></a>
-### [什么是Weex？|WEEX](https://weex.apache.org/zh/guide/introduction.html#%E6%A6%82%E8%BF%B0)
-
-
-
+### [WEEX](https://weex.apache.org/zh/guide/introduction.html#%E6%A6%82%E8%BF%B0)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067790743-103bfc76-b3ee-4667-8875-bb5af2b70346.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2878&size=458694&status=done&style=none&width=1439)<br />**<br />**Weex 是使用流行的 Web 开发体验来开发高性能原生应用的框架。**
 <a name="77247040"></a>
-### [Introduction-Mithril.js](https://mithril.js.org/)
-
+### [Mithril](https://mithril.js.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008426-00961e92-6c13-4365-a17e-a0d1b866cc47.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="3319cfec"></a>
-### [Electron|使用JavaScript,HTML和CSS构建跨平台的桌面应用。](http://electronjs.org/)
+### [Electron](http://electronjs.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067847915-cfdba284-3583-4719-9a76-c3bc9044da67.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=225316&status=done&style=none&width=1438)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008452-93d67b6d-799b-45a5-8507-e5d6acfdef41.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**使用JavaScript,HTML和CSS构建跨平台的桌面应用。**
 <a name="411bc113"></a>
-### [Craft.js](https://craft.js.org/)
+### [Craft](https://craft.js.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067917513-5a5a5d97-fa9d-4448-851f-22471afdc362.png#align=left&display=inline&height=734&name=image.png&originHeight=1468&originWidth=2880&size=397372&status=done&style=none&width=1440)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008484-e95197b9-6283-4cb0-8cb1-4b56f63aedfb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**可拖拽组件库**
 <a name="8fdd968c"></a>
 ## 数据请求
-
 <a name="e83376b2"></a>
 ### [使用说明·Axios中文说明·看云](https://www.kancloud.cn/yunye/axios/234845)
 

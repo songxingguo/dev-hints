@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 21:05:59
+date: 2020-03-01 21:14:02
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -227,77 +227,51 @@ date: 2020-03-01 21:05:59
 <a name="8fdd968c"></a>
 ## 数据请求
 <a name="e83376b2"></a>
-### [使用说明·Axios中文说明·看云](https://www.kancloud.cn/yunye/axios/234845)
+### [Axios](https://www.kancloud.cn/yunye/axios/234845)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068095004-63d8ef06-c9ac-4464-bea3-b2ab65305752.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=262840&status=done&style=none&width=1439)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008471-de204468-143f-458f-bf07-cda5696f86e3.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="6767ab95"></a>
-### [Axiso解决跨域访问-Jitwxs-CSDN博客](https://blog.csdn.net/yuanlaijike/article/details/80522621)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008465-441b833c-fea8-4884-a0e5-6b770f333051.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+- [Axiso解决跨域访问-Jitwxs-CSDN博客](https://blog.csdn.net/yuanlaijike/article/details/80522621)
 <a name="b1c44d8f"></a>
-### [knDB/README.CN.mdatmaster·Knove/knDB](https://github.com/Knove/knDB/blob/master/README.CN.md)
+### [KnDB](https://github.com/Knove/knDB/blob/master/README.CN.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068144114-adc37edc-6ee7-454a-87bc-150bf8b9b0f7.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=283050&status=done&style=none&width=1437)
 
-
-
+**基于 **[**Node.js**](https://nodejs.org/)**的数据持久化方案，适合轻量级Node.js应用**
 <a name="e9a2d9e3"></a>
 ## 版本控制
-
 <a name="2e87ef72"></a>
-### [Git-Documentation](https://git-scm.com/doc)
-
+### [Git](https://git-scm.com/doc)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008515-2809075a-ed6d-474f-8d05-2c913afe9546.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="4b7ebc36"></a>
-### [Git_w3cschool](https://www.w3cschool.cn/doc_git/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008501-121d4622-9c16-42c1-9caf-f71f623a4102.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+- [Git_w3cschool](https://www.w3cschool.cn/doc_git/)
 <a name="bfc6213c"></a>
-### [npm中文文档|npm中文网](https://www.npmjs.cn/)
-
+### [npm](https://www.npmjs.cn/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008489-fa727da5-880b-44ee-aee7-741b3152450a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="91b5047d"></a>
 ## 代码规范
-
 <a name="c48ade06"></a>
-### [ESLint-PluggableJavaScriptlinter](https://eslint.org/)
-
+### [ESLint](https://eslint.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008507-33a93dab-ef5b-4c52-8823-57549507d5c8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="d212609a"></a>
-### [BEM的定义_BEM教程_w3cplus](https://www.w3cplus.com/css/bem-definitions.html)
-
+### [BEM](https://www.w3cplus.com/css/bem-definitions.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008524-9fee1fa1-8dab-47f0-becc-3bf559903ce8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="5d27c6aa"></a>
-### [Quickstart/Methodology/BEM](https://en.bem.info/methodology/quick-start/)
-
+### [Methodology(BEM)](https://en.bem.info/methodology/quick-start/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008754-5abfc537-052b-441a-ae69-6ea1c227ef7c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="dbb807d0"></a>
-### [airbnb/javascript:JavaScriptStyleGuide](https://github.com/airbnb/javascript)
-
-
-
+### [airbnb 规范](https://github.com/airbnb/javascript)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068320364-c5089a25-69c7-483b-8036-bea8e76aa68e.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=381434&status=done&style=none&width=1437)
 <a name="5def4fcd"></a>
 ### [stylelint](http://stylelint.cn/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008527-db748bd5-07d3-484f-b5b3-3a33fa6d09db.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068387727-b5f4b0c0-237b-4294-a0ad-dec3aaef2229.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=446841&status=done&style=none&width=1440)<br />**<br />**一个强大的现代 CSS 检测器，可以让你在样式表中遵循一致的约定和避免错误。**
 <a name="389d0af7"></a>
-### [JavaScriptCleanCode-BestPractices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008580-b422eb75-fb2d-456c-95be-6e2c02d2d13c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [BestPractices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068425977-a581d35b-5fd9-4161-85e4-31a7c63aa706.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2878&size=498331&status=done&style=none&width=1439)
 <a name="AI"></a>
 ## AI
-
 <a name="638ac5d4"></a>
 ### [文档中心--百度AI-百度AI开放平台](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
-
 
 
 <a name="534d0e77"></a>

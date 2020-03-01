@@ -2,31 +2,26 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 17:32:27
+date: 2020-03-01 19:55:02
 ---
 <a name="1a186f59"></a>
 ## UI库
 
 <a name="dd73cd0f"></a>
-### [AntDesignofVue-AntDesignVue](https://www.antdv.com/docs/vue/introduce-cn/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008142-12fa9b81-1b3b-4aac-baa8-c00e31076182.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [AntDesignofVue](https://www.antdv.com/docs/vue/introduce-cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583063365415-0f8fccf1-03d1-4e44-9752-d3fc3e630e1f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=625138&status=done&style=none&width=1437)
 <a name="14fc4610"></a>
-### [https://react-bootstrap.github.io](https://react-bootstrap.github.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008169-41bc699f-b32c-4dca-8237-5a1b94363fe0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+### [ReactBootstrap](https://react-bootstrap.github.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583063513851-78c04e05-59af-4e1e-8eee-6f0d326c8c68.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2872&size=339984&status=done&style=none&width=1436)
 
 <a name="f745480c"></a>
-### [Bootstrap·全球最流行的HTML、CSS和JS工具库。](https://v4.bootcss.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008185-447d8e5f-c08d-4816-aeae-c1640336ebe9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Bootstrap](https://v4.bootcss.com/)
+**<br />**全球最流行的HTML、CSS和JS工具库。**
 <a name="646fbc18"></a>
-### [VantWeapp-轻量、可靠的小程序UI组件库](https://youzan.github.io/vant-weapp/#/intro)
+### [VantWeapp](https://youzan.github.io/vant-weapp/#/intro)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583063694058-4915bad3-98ce-46f1-af40-00f9b6513313.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=351781&status=done&style=none&width=1438)
 
-
-
+**轻量、可靠的小程序 UI 组件库**
 <a name="259307ae"></a>
 ### [快速上手-AntDesign](https://ant.design/docs/react/getting-started-cn)
 

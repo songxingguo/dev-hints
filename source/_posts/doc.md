@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 19:55:34
+date: 2020-03-01 20:18:07
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -28,43 +28,36 @@ date: 2020-03-01 19:55:34
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008164-de3c55a8-ffea-40ac-9cc9-a51148c89ee5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="e3b3f921"></a>
-### [Introduction-SemanticUIReact](https://react.semantic-ui.com/)
-
+### [SemanticUIReact](https://react.semantic-ui.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008170-800fb73c-8af3-4d25-8c5c-f945ca23ca01.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="2b728d84"></a>
-### [FontAwesome，一套绝佳的图标字体库和CSS框架](http://fontawesome.dashgame.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-01156df9-7b26-4181-92a1-60905eee58e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [FontAwesome](http://fontawesome.dashgame.com/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-01156df9-7b26-4181-92a1-60905eee58e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />**<br />**一套绝佳的图标字体库和CSS框架**
 <a name="55e2ff16"></a>
 ### [Koala开发平台](http://www.openkoala.org/#page3)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583064887073-4c9e9f6f-027c-4a4b-96b7-a3be3cf753bb.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2868&size=545994&status=done&style=none&width=1434)
 
-
-
+**开源规范化项目管理解决方案，实现软件流水线式生产，保证正确性、可靠性**
 <a name="a4822625"></a>
-### [快速上手|Weex](https://weex.apache.org/cn/guide/)
-
+### [Weex](https://weex.apache.org/cn/guide/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008177-c13d3698-f8d0-409a-a63b-b2c477efb7ae.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="289063c9"></a>
-### [NutUI2.0-移动端Vue组件库](http://nutui.jd.com/#/index)
-
-
-
-<a name="90cdedbb"></a>
+### [NutUI2.0](http://nutui.jd.com/#/index)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583064974736-bf5bbed4-1746-4d5f-9028-157fc2b548d2.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=754211&status=done&style=none&width=1435)<br />
+一套京东风格的轻量级移动端Vue组件库
+<a name="LdUKb"></a>
 ### [WeUI](https://weui.io/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-634b299f-7576-4fdf-9aa9-87d1baacaa13.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+****WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。**
 <a name="09e90100"></a>
-### [iView-一套高质量的UI组件库](http://v1.iviewui.com/)
-
+### [iView](http://v1.iviewui.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008186-1b713107-373a-43f1-822a-f0fa9835817e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+**一套高质量的UI组件库**
 <a name="013bee32"></a>
 ### [Ikonate–fullycustomisable&accessiblevectoricons](https://ikonate.com/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008153-ffa8e4fe-71b9-4108-81c1-c3ed0a6f2d1e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="5822d602"></a>

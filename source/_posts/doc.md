@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 21:14:02
+date: 2020-03-01 21:17:10
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -196,10 +196,13 @@ date: 2020-03-01 21:14:02
 
 - [VueRouter](https://router.vuejs.org/zh/)
 - [axios](https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
+
 <a name="0fc3c03a"></a>
 ### [jqGridDemos](http://www.trirand.com/blog/jqgrid/jqgrid.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067635560-eeb3af2a-c218-4fa9-af37-b096959a814e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=237837&status=done&style=none&width=1440)
 <a name="F61B3"></a>
+### 
+<a name="fsY8j"></a>
 ### [Nuxt.js](https://zh.nuxtjs.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067650577-160ce937-2389-4e09-a40e-f9a6fb5ae26a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=224587&status=done&style=none&width=1437)
 
@@ -231,6 +234,7 @@ date: 2020-03-01 21:14:02
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068095004-63d8ef06-c9ac-4464-bea3-b2ab65305752.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=262840&status=done&style=none&width=1439)
 
 - [Axiso解决跨域访问-Jitwxs-CSDN博客](https://blog.csdn.net/yuanlaijike/article/details/80522621)
+
 <a name="b1c44d8f"></a>
 ### [KnDB](https://github.com/Knove/knDB/blob/master/README.CN.md)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068144114-adc37edc-6ee7-454a-87bc-150bf8b9b0f7.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=283050&status=done&style=none&width=1437)
@@ -243,6 +247,7 @@ date: 2020-03-01 21:14:02
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008515-2809075a-ed6d-474f-8d05-2c913afe9546.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 - [Git_w3cschool](https://www.w3cschool.cn/doc_git/)
+
 <a name="bfc6213c"></a>
 ### [npm](https://www.npmjs.cn/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008489-fa727da5-880b-44ee-aee7-741b3152450a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)

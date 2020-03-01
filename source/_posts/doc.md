@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 22:55:22
+date: 2020-03-01 23:09:19
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -427,116 +427,75 @@ date: 2020-03-01 22:55:22
 <a name="ce758e1d"></a>
 ### [Metalsmith](https://metalsmith.io/)
 <a name="58d8376a"></a>
-### [Netlify:All-in-oneplatformforautomatingmodernwebprojects.](https://www.netlify.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009002-08e0b220-0f2c-492d-8310-d3c1e6aa01f5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Netlify](https://www.netlify.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074601186-a875da23-1f44-495e-9ddf-d9cd2372e9f0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=2688940&status=done&style=none&width=1440)
 <a name="5d2ed9da"></a>
 ### [Halo](https://halo.run/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008853-c06f6c46-98b7-4a22-bc5e-51141e45a65b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074634763-ca3744d8-1dde-47aa-9e02-c3beebbcb002.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=229243&status=done&style=none&width=1436)
 <a name="0531f049"></a>
 ### [web-flash](http://blog.enilu.cn/web-flash/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008904-25a90d3e-39cd-4833-80f6-02d79005d176.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="d6396618"></a>
-### [AnarielDesign-PremiumNicheWordPressThemes](https://www.anarieldesign.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008869-4a7c1f59-d28d-4780-8a8c-199270844f74.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [AnarielDesign](https://www.anarieldesign.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074817311-2b61279c-5b37-4e73-a4d9-d0086bed4962.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=919448&status=done&style=none&width=1440)
 <a name="11d0613f"></a>
-### [只需五步，自己动手写一个静态博客-QingZhuoBlog](http://muxueqz.top/a-small-static-site-generator.html)
-
+### [QingZhuoBlog](http://muxueqz.top/a-small-static-site-generator.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008879-e1fdfb83-c0e9-453d-9d42-f8c215db257d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+**只需五步，自己动手写一个静态博客**
 <a name="3566e9bf"></a>
-### [介绍|Valine](https://valine.js.org/)
-
+### [Valine](https://valine.js.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008889-b6d7f0e0-d6a5-43f6-81ca-8a5f2177b645.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="4d79273d"></a>
-### [介绍|RSSHub](https://docs.rsshub.app/)
-
+### [RSSHub](https://docs.rsshub.app/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008900-5c9adb62-fb06-4a86-aa0a-8e2490950f0e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="c0dd540d"></a>
-### [MDwiki-Markdownbasedwikidone100%ontheclientviajavascript](http://dynalon.github.io/mdwiki/#!index.md)
-
-
-
-<a name="9bfada7e"></a>
-### [开发者文档·语雀](https://www.yuque.com/yuque/developer)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008966-d2eb918e-7763-4af2-ac2e-0751001873c0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="52f5f29d"></a>
-### [GitHubAPIv3|GitHubDeveloperGuide](https://developer.github.com/v3/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008916-de855ffd-cc66-4d56-90ce-3821671e81ee.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+### [MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074870598-eb9afa72-24a5-429d-9118-37aac093e06d.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=416955&status=done&style=none&width=1437)
 
 <a name="fcedd884"></a>
 ### [好代码是管出来的——使用GitHub实现简单的CI/CD-7m鱼-博客园](https://www.cnblogs.com/selimsong/p/9398738.html)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009015-53e7e7db-bd48-426e-8fb6-b350151b3bbf.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="2db40733"></a>
 ### [GitHub迎来内置CI/CD，对所有开源项目免费！_Actions](http://www.sohu.com/a/332613031_115128)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008997-974241fc-7958-4d7b-83a6-a2872ccc3a14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="b95c9683"></a>
 ### [Features•GitHubActions](https://github.com/features/actions)
-
-
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075030738-4011b1ff-4e57-421c-b648-ba1bc2fedc7d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=933286&status=done&style=none&width=1438)
 <a name="53a98d85"></a>
-### [Pandoc-Aboutpandoc](https://www.pandoc.org/)
-
-
-
+### [Pandoc](https://www.pandoc.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075179712-38f24102-e776-42b4-b6bf-2dab73d60a99.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=397611&status=done&style=none&width=1440)
 <a name="e825d486"></a>
-### [L2Dwidget|live2d-widget.js](https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html)
-
+### [L2Dwidget](https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008953-109c6342-96d8-4f4a-975d-9817ef233ee5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="703e9dad"></a>
-### [hexo-helper-live2d-npm](https://www.npmjs.com/package/hexo-helper-live2d)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008951-c2f8c40a-f0fd-48e8-8578-8164ce7027a4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+- [hexo-helper-live2d-npm](https://www.npmjs.com/package/hexo-helper-live2d)
 
 <a name="c62b310c"></a>
 ### [HTTPContent-type对照表](https://tool.oschina.net/commons/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009084-5d8c96d5-5a46-43a2-ac7e-737bc243dda4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="0032d670"></a>
-### [Eleventyisasimplerstaticsitegenerator.](https://www.11ty.dev/#quick-start)
-
-
-
+### [11ty](https://www.11ty.dev/#quick-start)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075218475-f7b4afe7-9267-432f-b05b-b67edccfcf5c.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=282695&status=done&style=none&width=1440)
 <a name="851c949f"></a>
-### [QuickStart|GatsbyJS](https://www.gatsbyjs.org/docs/quick-start/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008982-4b1d6665-ef43-4bd2-8791-bf3ac525062e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+### [GatsbyJS](https://www.gatsbyjs.org/docs/quick-start/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075293562-0dfbe70b-1966-4eee-920b-bef8b23681a5.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2878&size=815089&status=done&style=none&width=1439)
 
 <a name="1b4a516b"></a>
-### [BoostNote|BoostHappiness,Productivity,andCreativity.](https://boostnote.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009014-6824b06f-27a1-4322-ae45-172ca0137c5e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [BoostNote](https://boostnote.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075314390-19cfe327-996e-48ef-a87a-15ba720d836e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=216669&status=done&style=none&width=1440)
 <a name="c6fbae95"></a>
-### [Devhints—TL;DRfordeveloperdocumentation](https://devhints.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008973-7d5a1a30-976f-4f80-9028-ce5d8d9a166d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Devhints](https://devhints.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075346495-15873d58-3669-4394-96ed-f79e07cc56d2.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2876&size=375312&status=done&style=none&width=1438)
 <a name="295bb704"></a>
 ## 语言
-
 <a name="9f7d25a0"></a>
 ### [ILoveRuby:Getstartedwiththegreatestprogramminglanguagemadeforhumans.](https://i-love-ruby.gitlab.io/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009064-a2479385-457d-42e3-97ba-5775efac3801.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="f56fc5a2"></a>

@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 21:17:10
+date: 2020-03-01 22:55:22
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -276,236 +276,156 @@ date: 2020-03-01 21:17:10
 <a name="AI"></a>
 ## AI
 <a name="638ac5d4"></a>
-### [文档中心--百度AI-百度AI开放平台](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
-
-
+### [百度AI](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071208843-9f5ddf68-a472-40a2-88bb-55ed159e23ed.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=389669&status=done&style=none&width=1440)
 <a name="534d0e77"></a>
-### [语音合成·科大讯飞REST_API开发指南](https://doc.xfyun.cn/rest_api/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.html)
-
-
-
+### [科大讯飞](https://doc.xfyun.cn/rest_api/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071247259-34035cd4-2bba-4451-918f-c0286a3698ad.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2868&size=717140&status=done&style=none&width=1434)
 <a name="ee28f559"></a>
-### [接口说明_语音合成_智能语音交互-阿里云](https://help.aliyun.com/document_detail/84435.html?spm=a2c4g.11174283.3.2.7c747275CL5a2X)
-
-
-
+### [阿里云](https://ai.aliyun.com/?spm=a2c4g.11186623.h2v3icoap.189.4e3b259eBcWsGD)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071309933-44d237e0-ffaf-4739-9da3-8c2d3d52b232.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=1120074&status=done&style=none&width=1436)
 <a name="3484d65e"></a>
-### [智能语音服务语音合成-语音合成接口-API中心-腾讯云](https://cloud.tencent.com/document/api/441/18086)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008611-ddb996d2-be5a-4eb4-87fc-cdd715510d83.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [腾讯云](https://cloud.tencent.com/document/product)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071386922-f4c52b84-5e08-4681-a2bf-5be80c6db65d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=1036307&status=done&style=none&width=1436)
 <a name="1446785e"></a>
-### [培音_文字转语音，广告配音软件](http://www.peiyinapp.com/index.html)
-
+### [培音](http://www.peiyinapp.com/index.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008708-d27435c1-962c-44a3-9c21-d80e3b19170b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+**文字转语音，广告配音软件**
 <a name="30d23ef4"></a>
 ## 操作系统
-
 <a name="8b8d0bbe"></a>
-### [CreateabootableUSBstickonWindows|Ubuntututorials](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
+### [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071454420-f5796ff0-6189-40fd-89d7-da1ead23246c.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=294044&status=done&style=none&width=1438)
 
-
-
-<a name="6d39da2f"></a>
-### [Centos7安装nvm、node、pm2-简书](https://www.jianshu.com/p/ebb0e97eff83)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008605-6991555b-597c-40bf-bfbc-7b7972dd3733.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="8db882bb"></a>
-### [启动引导_操作运维Linux_常见问题_云服务器ECS-阿里云](https://help.aliyun.com/knowledge_list/41459.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008648-acefdc5b-562a-4c1d-86e1-631e67507c3c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+- [Centos7安装nvm、node、pm2-简书](https://www.jianshu.com/p/ebb0e97eff83)
+- [启动引导_操作运维Linux_常见问题_云服务器ECS-阿里云](https://help.aliyun.com/knowledge_list/41459.html)
 
 <a name="5bf23616"></a>
 ### [WinSCP::WinSCP](https://winscp.net/eng/docs/lang:chs)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008649-a883f8ca-e69a-4074-b0d1-499ece8d6726.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071544483-da41fb3f-de75-4562-b6e8-ad0ce419ac30.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2878&size=269513&status=done&style=none&width=1439)
 <a name="40bffb0a"></a>
-### [Linuxsourcecode:(v5.2.9)-Bootlin](https://elixir.bootlin.com/linux/latest/source)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008617-d8acc2ee-d64d-4187-a58a-43c5fc78bf28.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Bootlin(Linux)](https://elixir.bootlin.com/linux/latest/source)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071590647-6a25938a-26cb-4f1e-a780-528dcf7af9ef.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2870&size=297192&status=done&style=none&width=1435)
 <a name="49c2f8a9"></a>
-### [TheMathBehindtheMagic](http://www.gamezero.com/team-0/articles/math_magic/micro/index.html)
-
+### [Processor Design](http://www.gamezero.com/team-0/articles/math_magic/micro/index.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008629-0a3e78e6-36a2-4de9-bd0d-4cc26dc3ffdb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="91614366"></a>
 ### [openEuler](https://openeuler.org/zh/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008650-f3bd4135-b453-4eac-b116-8b32a5b8e5a7.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072202810-ab722809-8f23-41d7-9766-b3c365bbfb0f.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2880&size=2992216&status=done&style=none&width=1440)
 <a name="0f596779"></a>
 ## 前端特效
-
 <a name="3fd37dd0"></a>
 ### [Swiper中文网](https://www.swiper.com.cn/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008632-a03dd320-b9bd-46e3-bd9b-04a89a74d1a6.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072999558-4759499f-4fdb-4142-8107-e581429baa7c.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=884384&status=done&style=none&width=1440)
 <a name="e8086252"></a>
-### [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
-
+### [jQuery插件库](http://www.jq22.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008677-4037dcc4-86f0-42cd-bec1-14aba3be0389.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="534c7b70"></a>
-### [RecreatingtheIBMLotusphere2012logoinCSS3](http://marcofolio.net/ibm-lotusphere-css/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008685-db7c1245-dbab-4415-b23d-c3326db9eafe.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**收集最全最新最好的jQuery插件**
+<a name="w4a7n"></a>
+### [Marcofolio.net](http://marcofolio.net/ibm-lotusphere-css/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073074640-c9ccb8de-59cd-4aed-8843-cbc41cc15597.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=389986&status=done&style=none&width=1434)
 <a name="9e53334c"></a>
 ### [47个使用CSS3实现的酷炫效果展示|菜鸟教程](https://www.runoob.com/w3cnote/47-css3-useful-tutorials-and-techniques.html)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008670-adcdf591-9e7b-4864-ba3b-d1c3e06b2d8a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="4e265749"></a>
 ## 云服务
-
 <a name="c4b3fb72"></a>
-### [LeanCloud文档](https://leancloud.cn/docs/)
-
+### [LeanCloud](https://leancloud.cn/docs/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008659-5816cec0-2160-4506-b76d-6114129a22a1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+[SDK安装指南-LeanCloud文档](https://leancloud.cn/docs/start.html#hash1778723680)
 <a name="3670e9c0"></a>
-### [文档|Firebase](https://firebase.google.cn/docs/)
-
+### [Firebase](https://firebase.google.cn/docs/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008685-61265e01-c297-4cd4-945e-681eaa06c4b3.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="d1eac348"></a>
-### [野狗简介|开发文档](https://docs.wilddog.com/overview/index.html?_ga=1.41530027.841634801.1550308506)
-
-
-
-<a name="1eb2f90c"></a>
-### [SDK安装指南-LeanCloud文档](https://leancloud.cn/docs/start.html#hash1778723680)
-
-
-
+### [野狗](https://docs.wilddog.com/overview/index.html?_ga=1.41530027.841634801.1550308506)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073147311-da576d64-4c76-4c47-91f0-4752d2cb3f6d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2868&size=346395&status=done&style=none&width=1434)
 <a name="dffbc6a9"></a>
-### [首页|Server酱](https://sc.ftqq.com/3.version)
-
+### [Server酱](https://sc.ftqq.com/3.version)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008686-0fd66763-b990-40f9-9020-1e33aed6978b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="85fecf28"></a>
-### [TheHerokuproductsuite|Heroku](https://www.heroku.com/products)
+### [Heroku](https://www.heroku.com/products)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073624318-759d9614-a543-44a8-87e5-39d4b2b139e3.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=1363514&status=done&style=none&width=1437)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008798-a1c3daa5-8bdf-4206-b91b-3fc0509b5a81.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="0bf01199"></a>
-### [heroku搭建和使用（附几个实用小项目）|技术拉近你我！](https://coderschool.cn/2819.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008742-cef317fd-3abf-44f4-af52-21abe977ffe1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+- [heroku搭建和使用（附几个实用小项目）|技术拉近你我！](https://coderschool.cn/2819.html)
 
 <a name="85032fe1"></a>
-### [AzureKubernetesService(AKS)|MicrosoftAzure](https://azure.microsoft.com/en-us/services/kubernetes-service/)
-
-
-
+### [MicrosoftAzure](https://azure.microsoft.com/en-us/services/kubernetes-service/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073744425-c521511a-64c0-49ce-b945-858df5434d81.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2868&size=307832&status=done&style=none&width=1434)
 <a name="4bbe1f3f"></a>
-### [Flynn-Theproductthatopsprovidestodevelopers](https://flynn.io/apps)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008709-07a4f193-50cc-4091-81bb-e82f3a860fa7.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="b43e1710"></a>
-### [数据存储·JavaScript&快应用&Nodejs&CocosCreator&小程序(新)–Bmob后端云](http://doc.bmob.cn/data/wechat_app_new/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008792-82c38264-6b3e-48aa-b4b3-f78e781e02a1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Flynn](https://flynn.io/apps)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073690643-1eb7c774-6693-46e1-a1a3-d2d9e80d4ec4.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=739360&status=done&style=none&width=1439)
 <a name="48bf577f"></a>
 ### [Bmob后端云](https://www.bmob.cn/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008728-57985e11-52ed-4c5a-ad9c-45af500d7d9e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+- [Bmob后端云文档](http://doc.bmob.cn/data/wechat_app_new/)
+
+数据存储·JavaScript&快应用&Nodejs&CocosCreator&小程序(新)
 <a name="fb9cf019"></a>
-### [好雨，让云落地_提供以应用为中心的云计算产品和服务](https://www.goodrain.com/rainbond.html)
+### [好雨](https://www.goodrain.com/rainbond.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073674905-4eb09ca6-f7d0-43ef-ae75-aaa1e33be88a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=1526483&status=done&style=none&width=1436)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008804-10d3091f-1e30-4584-ba2d-f85228939acb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**让云落地_提供以应用为中心的云计算产品和服务**
 <a name="d022209f"></a>
-### [MakingthisblogwithCloudRun|MrTrustor'sshinyblog](https://blog.mrtrustor.net/post/making-this-blog-with-cloud-run/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008774-6dda2b64-f416-4f77-a164-24431f410657.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [MrTrustor'sshinyblog](https://blog.mrtrustor.net/post/making-this-blog-with-cloud-run/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073731030-b59a193b-883e-41d3-85c9-661376a5a481.png#align=left&display=inline&height=741&name=image.png&originHeight=1482&originWidth=2878&size=320676&status=done&style=none&width=1439)
 <a name="82b94849"></a>
 ### [CloudflareWorkers®](https://workers.cloudflare.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008725-d2dc3c68-00ff-4a67-99c0-84bfdb1b11d2.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073798130-d97dfef5-6324-4f73-ace8-f579f10cc6db.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2866&size=644391&status=done&style=none&width=1433)
 <a name="cccc3954"></a>
-### [CyberSecurityLeader|Imperva,Inc.](https://www.imperva.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008790-fe82d898-1753-4b36-baa5-52e1a86e0ff9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Imperva](https://www.imperva.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074041520-8abec4b6-968f-4589-ad39-e83b5075e819.png#align=left&display=inline&height=739&name=image.png&originHeight=1478&originWidth=2880&size=2120509&status=done&style=none&width=1440)
 <a name="31d99903"></a>
 ### [ICANNLookup](https://lookup.icann.org/lookup)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008862-55e7a544-9f9c-47bd-b114-4983158913ac.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074010159-be2f17fd-a6b1-4ff2-ab56-5276435aaf72.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=398082&status=done&style=none&width=1437)
 <a name="04a0f115"></a>
-### [云函数Node.jsSDK-SDK文档-文档中心-腾讯云](https://cloud.tencent.com/document/product/583/19694)
-
+### [云函数](https://cloud.tencent.com/document/product/583/19694)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008862-55a0597d-8962-4d92-a112-be6387999584.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="2886e4f6"></a>
-### [SlackAPI:Applications|Slack](https://api.slack.com/apps)
-
+### [Slack](https://api.slack.com/apps)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008771-1145ca3d-8834-43b7-91cc-f6ee4c2751fe.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="aff1ea62"></a>
-### [NewTab](https://serverless.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008812-e42471bf-d891-444b-ac43-37a25f920e64.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [serverless](https://serverless.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074181861-dad96262-5d49-4d58-805b-f931ebae9a96.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2882&size=200638&status=done&style=none&width=1441)
 <a name="31f09a6d"></a>
-### [ngrok-secureintrospectabletunnelstolocalhost](https://ngrok.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008806-2a28895b-e926-4fb0-a8fa-860ff7961744.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [ngrok](https://ngrok.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074208961-5a9cf4fa-08a4-4d25-ac4a-214f352e4d1c.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2868&size=322363&status=done&style=none&width=1434)
 <a name="963d6591"></a>
-### [https://raileo.com](https://raileo.com/)
+### [Raileo](https://raileo.com/)
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009098-d3986c25-17aa-4f61-be9e-36f63205da4a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="3b15c395"></a>
-### [MySubscriptions-Vultr.com](https://my.vultr.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008825-7b676abc-4dc0-4b85-89b0-a4b22eb0659e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="921bc72f"></a>
-### [Rax-快速构建多端应用](https://rax.js.org/ssr)
+### [Rax](https://rax.js.org/ssr)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074311651-874cc3fa-bc7b-4fb4-8861-f611f49ba0c2.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2868&size=746522&status=done&style=none&width=1434)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008798-95e3ca2f-aaff-4e8a-aaf6-b9dffde2e12e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+**快速构建多端应用**
 <a name="af1fecf7"></a>
-### [倍洽（BearyChat）-面向未来的团队工作方式，团队沟通与智能化工作流](https://bearychat.com/)
+### [倍洽（BearyChat)](https://bearychat.com/)
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008825-1ac56fb3-a426-4faf-9369-068ce7325aa3.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="d8fac53f"></a>
-### [TowerWebhooks文档](https://p-c8wi.tower.im/p/insx)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008813-9c50190e-fc20-4787-a3a8-1e4747856fc9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+**-面向未来的团队工作方式，团队沟通与智能化工作流**
+<a name="aSlKa"></a>
+### [Tower Webhooks](https://p-c8wi.tower.im/p/insx)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074389709-f2f33f92-1f4d-4aac-80b3-7e3e1fbdb0b3.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=336629&status=done&style=none&width=1440)
 
 <a name="97c183c7"></a>
-### [NewYear,NewJob?Let'sMakeaGrid-PoweredResume!|CSS-Tricks](https://css-tricks.com/new-year-new-job-lets-make-a-grid-powered-resume/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008884-56392f82-9a03-4bf5-b7fa-40da96b55aa1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [CSS-Tricks](https://css-tricks.com/new-year-new-job-lets-make-a-grid-powered-resume/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074446114-08df3734-0400-432d-a582-7ed7dfefe640.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2874&size=1349723&status=done&style=none&width=1437)
 <a name="fcca8af0"></a>
-### [TheJavascriptCMS-FactorJS](https://factor.dev/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008838-8d57dff1-5a42-47b7-9412-6cc4cee9ed64.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [FactorJS](https://factor.dev/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074496792-43d06094-6b8f-491c-a7db-5c3b735561ed.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=680822&status=done&style=none&width=1437)
 <a name="c50d1364"></a>
 ## 博客
-
 <a name="ce758e1d"></a>
 ### [Metalsmith](https://metalsmith.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008851-ee467c2e-f29f-4125-8371-233b6f986cbe.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="58d8376a"></a>
 ### [Netlify:All-in-oneplatformforautomatingmodernwebprojects.](https://www.netlify.com/)
 

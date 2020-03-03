@@ -2,7 +2,7 @@ title: 语法糖🍬
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-03-03 21:23:22
+date: 2020-03-03 21:29:40
 ---
 <a name="CAKpe"></a>
 ## 函数绑定
@@ -21,7 +21,6 @@ doSomething(function(result) {
   }, failureCallback);
 }, failureCallback);
 ```
-
 <a name="ryHEa"></a>
 ### Promise 链 （新壶）
 ```javascript
@@ -37,9 +36,8 @@ doSomething().then(function(result) {
 .catch(failureCallback);
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/png/394169/1566980356127-62c32e09-8967-4e9e-be81-ae8feffa5f3a.png)
-<a name="h3MDs"></a>
-## `[async/await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)` 
+![](https://cdn.nlark.com/yuque/0/2019/png/394169/1566980356127-62c32e09-8967-4e9e-be81-ae8feffa5f3a.png)<a name="wk4jT"></a>
+### `[async/await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)` 
 
 > 让代码同步执行
 
@@ -53,19 +51,15 @@ doSomething().then(function(result) {
 ## Decorator
 > Object.defineProperty(target,name,descriptor)
 
-
 <a name="k1e2D"></a>
 ## [**展开语法（...）**](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-
 <a name="8fg4Z"></a>
 ### `[Function.prototype.apply](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)` （老酒）
-
 ```javascript
 function myFunction(x, y, z) { }
 var args = [0, 1, 2];
 myFunction.apply(null, args);
 ```
-
 <a name="c5Sn7"></a>
 ### ... （新壶）
 ```javascript

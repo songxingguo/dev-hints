@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-03 21:03:10
+date: 2020-03-03 21:10:07
 ---
 <a name="Sqf8M"></a>
 ## 压缩
@@ -59,6 +59,25 @@ date: 2020-03-03 21:03:10
 ```bash
 camera -c ./scripts/docs.json
 ```
+
+安装 phantomjs
+
+- 方法一
+```
+brew update && brew install phantomjs
+```
+
+- 方法二
+1. 下载phantomjs([http://phantomjs.org/download.html](https://link.jianshu.com?t=http%3A%2F%2Fphantomjs.org%2Fdownload.html))官网下载mac版本
+1. 下载后将phantomjs-2.1.1-macosx文件夹放到自己目录下
+1. 终端输入vim .bash_profile 添加语句（i插入，esc退出，:wq保存关闭）
+```
+export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
+# ('/Applications/phantomjs-2.1.1-macosx/bin'换成自己文件路径)
+```
+
+4. 终端输入source .bash_profile(网上大部分教程没有这一步)
+4. 终端输入 phantomjs --version 检测是否配置成功
 
 <a name="ZQVjC"></a>
 ### [jimp](https://github.com/oliver-moran/jimp)

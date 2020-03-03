@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-03 08:02:35
+date: 2020-03-03 08:10:07
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -517,52 +517,34 @@ date: 2020-03-03 08:02:35
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193631043-db371e09-9f1b-4df9-9904-1f394601202b.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=385284&status=done&style=none&width=1438)
 <a name="d0950475"></a>
 ## 图表
-
 <a name="a699d38a"></a>
-### [OpenSourceImageChartsReplacement|QuickChart](https://quickchart.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009104-f4e83d63-5c95-4fa8-aaa3-2b22646dcb3c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [QuickChart](https://quickchart.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193811571-e7269301-2795-42f4-a8e5-3005adfeae1e.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=304058&status=done&style=none&width=1438)
 <a name="cdb67248"></a>
 ### [ECharts](https://echarts.baidu.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009061-825cdc1d-c912-4238-b6e4-d1761f39df32.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193887121-e062c014-7527-4237-ac0f-eb67ce5eaa75.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=9925931&status=done&style=none&width=1440)
 <a name="37f34ffe"></a>
 ### [WebGL中文网](http://www.hewebgl.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009037-544f39d2-647d-429a-b70c-b0d5b1984bc9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193909035-121cea8b-9c1d-43ea-ae60-333a706fa310.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1132441&status=done&style=none&width=1438)
 <a name="ac8345c0"></a>
-### [HowtoCreateanInteractiveGraphusingCSS3&jQuery-Designmodo](https://designmodo.com/create-interactive-graph-css3-jquery/)
-
-
-
+### [Designmodo](https://designmodo.com/create-interactive-graph-css3-jquery/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194105901-20fcd300-22de-44cf-8066-2043a1f74953.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2876&size=270988&status=done&style=none&width=1438)
 <a name="643336c4"></a>
-### [Chart.xkcd|xkcdstyledchartlib](https://timqian.com/chart.xkcd/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009075-9b2ff75f-8b93-407c-95de-b8a5ba3f1407.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Chart.xkcd](https://timqian.com/chart.xkcd/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193997528-09806f79-dead-45b2-8ed7-30d813ee6206.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2872&size=178176&status=done&style=none&width=1436)
 <a name="e1526611"></a>
-### [pagemap·minimapforwebpages·larsjung.de](https://larsjung.de/pagemap/)
-
+### [pagemap](https://larsjung.de/pagemap/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009113-740fdc79-5f1a-48d5-80e7-7a992a49e5bd.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="ee8c784d"></a>
-### [Illustrations|unDraw](https://undraw.co/illustrations)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009189-048463ed-b80a-4d19-bb80-86d31d433950.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [unDraw](https://undraw.co/illustrations)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194074208-baf22c40-813e-4646-8d55-70e40022ca04.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=275912&status=done&style=none&width=1436)
 <a name="5dda1edb"></a>
-### [coreui-icons/README.mdat1.0.0·coreui/coreui-icons](https://github.com/coreui/coreui-icons/blob/1.0.0/README.md)
-
-
-
+### [coreui-icons](https://github.com/coreui/coreui-icons/blob/1.0.0/README.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194164746-4e928eda-3d30-4012-b0a6-12088693104b.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=161096&status=done&style=none&width=1436)
 <a name="a53b5e56"></a>
-### [Pic.Hance-InstantlyEnhanceYourPhotos](https://pichance.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009134-eecca395-349e-49f9-ae4b-beaf8e2d9649.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Pic.Hance](https://pichance.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194189316-44e6bcbd-3140-4b1a-907b-7e9b28308123.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2878&size=340444&status=done&style=none&width=1439)
 <a name="c4a833fa"></a>
 ## js 库
 

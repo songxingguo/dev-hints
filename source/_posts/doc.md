@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 23:09:19
+date: 2020-03-03 08:02:35
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -495,39 +495,26 @@ date: 2020-03-01 23:09:19
 <a name="295bb704"></a>
 ## 语言
 <a name="9f7d25a0"></a>
-### [ILoveRuby:Getstartedwiththegreatestprogramminglanguagemadeforhumans.](https://i-love-ruby.gitlab.io/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009064-a2479385-457d-42e3-97ba-5775efac3801.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [Ruby](https://i-love-ruby.gitlab.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193413542-eb7b220e-4c1e-446b-ab6c-41c69c92a65f.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=491974&status=done&style=none&width=1440)
 <a name="f56fc5a2"></a>
 ### [Haskell趣学指南](http://fleurer.github.io/lyah/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009073-f838ceb5-018f-4f63-8921-8d219a4e72a2.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="031d18cd"></a>
-### [Guriddo»Documentation](http://guriddo.net/?page_id=124250)
-
-
-
+### [Guriddo](http://guriddo.net/?page_id=124250)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193518527-42b84221-68bf-48ec-81d9-da8c4fc4e000.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=388071&status=done&style=none&width=1440)
 <a name="48152463"></a>
-### [PHP:HypertextPreprocessor](http://php.net/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009038-4fb59400-7aec-4860-99ee-e6b50a94e969.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+### [PHP](http://php.net/)
 
 <a name="b719c39c"></a>
-### [GettingStarted](https://www.vugu.org/doc/start)
-
+### [vugu](https://www.vugu.org/doc/start)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009037-e19c4fd9-cb28-415b-b3b1-f54a081fc084.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="02ccae98"></a>
 ### [JCSprout](https://crossoverjie.top/JCSprout/#/)
-
-
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193659073-cb6d5f45-b25e-4235-b730-92bd3ca73276.png#align=left&display=inline&height=739&name=image.png&originHeight=1478&originWidth=2880&size=1902463&status=done&style=none&width=1440)
 <a name="417c86db"></a>
-### [gRPC官方文档中文版_V1.0](http://doc.oschina.net/grpc?t=60134)
-
-
-
+### [gRPC](http://doc.oschina.net/grpc?t=60134)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193631043-db371e09-9f1b-4df9-9904-1f394601202b.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=385284&status=done&style=none&width=1438)
 <a name="d0950475"></a>
 ## 图表
 

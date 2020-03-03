@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-03 08:33:49
+date: 2020-03-03 08:43:00
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -635,57 +635,38 @@ date: 2020-03-03 08:33:49
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009295-8372f01e-3963-4c1a-9cc6-369b8edba0e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 <a name="0ed5103f"></a>
 ## 小程序
-
 <a name="c4ec06e7"></a>
-### [WePY|小程序组件化开发框架](https://tencent.github.io/wepy/)
-
-
-
+### [WePY](https://tencent.github.io/wepy/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195769001-f51a4a30-ffaa-4144-ad23-f4e62c84577b.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=317901&status=done&style=none&width=1439)<br />**<br />**小程序组件化开发框架**
 <a name="26eca417"></a>
-### [mpvue-docs](http://mpvue.com/)
-
+### [mpvue](http://mpvue.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009289-e63e6e91-042d-48e3-934e-47e6668a5876.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="c76dfafc"></a>
-### [wx-extend/validate.mdatmaster·skyvow/wx-extend](https://github.com/skyvow/wx-extend/blob/master/docs/components/validate.md)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009283-dca55934-8822-4437-8d9c-421533748bee.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [WxValidate](https://github.com/skyvow/wx-extend/blob/master/docs/components/validate.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195825576-30b5bd45-b801-43a0-878f-7270bb6cdd9f.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=294191&status=done&style=none&width=1440)
 <a name="9b9d1f5b"></a>
-### [DCloud-HBuilder、HBuilderX、uni-app、uniapp、5+、mui、wap2app、流应用、快应用开发工具、HTML5](http://www.dcloud.io/?hmsr=vuejsorg&hmpl=&hmcu=&hmkw=&hmci=)
+### [DCloud](http://www.dcloud.io/?hmsr=vuejsorg&hmpl=&hmcu=&hmkw=&hmci=)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195888448-059f1628-a49a-4cac-836d-971a9862f214.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=610212&status=done&style=none&width=1436)
 
-
-
+**HBuilder、HBuilderX、uni-app、uniapp、5+、mui、wap2app、流应用、快应用开发工具、HTML5**
 <a name="be244c26"></a>
-### [环境变量和模式-Megalo--基于Vue.js的小程序框架](https://megalojs.org/#/cli/mode-and-env)
+### [Megalo](https://megalojs.org/#/cli/mode-and-env)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195938728-ff5cc24c-54f8-4711-badb-479f6569a626.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=358937&status=done&style=none&width=1436)
 
-
-
-<a name="e59afd0f"></a>
-### [Megalo--基于Vue.js的小程序框架](https://megalojs.org/#/)
-
-
-
+[Megalo--基于Vue.js的小程序框架](https://megalojs.org/#/)
 <a name="132deb7f"></a>
-### [概述–开放平台-小程序](https://docs.alipay.com/mini/developer/getting-started)
-
-
-
+### [支付宝小程序](https://docs.alipay.com/mini/developer/getting-started)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196001066-b5be7e64-3893-4334-ae80-681fc71d2c9f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=394624&status=done&style=none&width=1436)
 <a name="2ab949da"></a>
-### [智能小程序介绍-开发](https://smartprogram.baidu.com/docs/develop/tutorial/codedir/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009331-6e452d22-a556-4f71-8d1c-bbc2d9c8e924.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [百度小程序](https://smartprogram.baidu.com/docs/develop/tutorial/codedir/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196038031-8b1c22a4-8747-4e7f-992a-177a761bb55d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2874&size=314908&status=done&style=none&width=1437)
 <a name="cac64578"></a>
-### [起步·小程序](https://developers.weixin.qq.com/miniprogram/dev/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009340-bb061ba0-eb6b-4d60-9103-10b29c542160.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+### [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196136283-5e8358c8-ade5-4538-a77f-57332ccac5b5.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2868&size=401490&status=done&style=none&width=1434)
 <a name="19874488"></a>
 ### [uni-app官网](https://uniapp.dcloud.io/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009378-c841dce9-4a2a-46e4-a649-6cbd8b2bf711.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196161827-c9fb784e-b59c-49df-866d-3f45ca9819b1.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=848903&status=done&style=none&width=1436)
 <a name="f4fc79e4"></a>
 ## 静态网站
 

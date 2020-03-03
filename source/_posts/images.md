@@ -2,25 +2,25 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-01 10:34:55
+date: 2020-03-03 21:03:10
 ---
 <a name="Sqf8M"></a>
 ## 压缩
 <a name="7ZXa6"></a>
 ### [TinyPNG](https://tinypng.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384674777-ddde029b-644c-4539-a7c7-f8e94ff7d814.png#align=left&display=inline&height=768&name=image.png&originHeight=1536&originWidth=2876&size=2050496&status=done&style=none&width=1438)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384674777-ddde029b-644c-4539-a7c7-f8e94ff7d814.png#align=left&display=inline&height=398&name=image.png&originHeight=1536&originWidth=2876&size=2050496&status=done&style=none&width=746)
 
 **一个专门用于图片压缩的工具。**
 <a name="uaHG5"></a>
 ## 背景
 <a name="2ZIFy"></a>
 ### [RemoveBackground](https://www.remove.bg/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384861061-88ce90f2-e76d-452b-87cf-65dc1780ca32.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=1789538&status=done&style=none&width=1438)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384861061-88ce90f2-e76d-452b-87cf-65dc1780ca32.png#align=left&display=inline&height=398&name=image.png&originHeight=1534&originWidth=2876&size=1789538&status=done&style=none&width=746)
 
 **一个用于移除图片背景的工具。**
 <a name="w671L"></a>
 ### [Grade X](https://jwenjian.github.io/gradex/)
-**![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384953798-05592690-494d-4038-84e1-87bdb70c03e9.png#align=left&display=inline&height=769&name=image.png&originHeight=1538&originWidth=2878&size=1482078&status=done&style=none&width=1439)**<br />**<br />**一个开源的在线工具，从上传的图片里面提取两种主色，生成一张渐变的背景图，可以下载。**
+**![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384953798-05592690-494d-4038-84e1-87bdb70c03e9.png#align=left&display=inline&height=399&name=image.png&originHeight=1538&originWidth=2878&size=1482078&status=done&style=none&width=746)**<br />**<br />**一个开源的在线工具，从上传的图片里面提取两种主色，生成一张渐变的背景图，可以下载。**
 <a name="JXfYR"></a>
 ## PDF
 <a name="u4u6C"></a>

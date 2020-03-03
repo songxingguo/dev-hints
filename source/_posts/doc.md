@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-03 08:43:00
+date: 2020-03-03 08:56:38
 ---
 <a name="1a186f59"></a>
 ## UI库
@@ -671,146 +671,92 @@ date: 2020-03-03 08:43:00
 ## 静态网站
 
 <a name="85e758e2"></a>
-### [VuePress介绍-VuePress中文网](http://caibaojian.com/vuepress/guide/)
-
+### [VuePress](http://caibaojian.com/vuepress/guide/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009368-efebde87-8cfb-47be-941f-d8621321efbc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="69cb6616"></a>
 ### [lit-htmlPart1-AsolutionforDOMmanagementinwebcomponents-Terodox.tech-wickedtechbub](https://terodox.tech/handling-web-component-markup-with-lit-html/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009386-fcfabe3b-3f1e-43e6-8e4a-1d537cf53cfb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="8a884ff2"></a>
 ## 脚手架
-
 <a name="61b37246"></a>
-### [介绍|VueCLI3](https://cli.vuejs.org/zh/guide/)
-
+### [VueCLI3](https://cli.vuejs.org/zh/guide/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009421-0e64f429-db8a-42c9-a4ec-0135349286dc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="0538086b"></a>
 ### [Gckit-CLI](https://seongbrave.github.io/gckit/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009375-9f1a7d9f-ec58-4bbe-a449-c32daf8b477d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="b246bb07"></a>
 ### [D2Admin](https://d2admin.fairyever.com/#/index)
-
-
-
 <a name="7ddbe15c"></a>
 ## 网络
-
 <a name="30b33858"></a>
-### [CharlesWebDebuggingProxy•HTTPMonitor/HTTPProxy/HTTPS&SSLProxy/ReverseProxy](https://www.charlesproxy.com/)
-
+### [Charles](https://www.charlesproxy.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009436-449fb3f2-4983-45ba-954b-33472db11561.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="7174d96e"></a>
-### [分享开发多个线上项目后总结的HTTP接口设计方案-姬涛的个人网站](https://www.jitao.tech/blog/2020/01/java-http-api/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009389-7878deac-62bf-404c-bec9-3becb3a85139.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+[分享开发多个线上项目后总结的HTTP接口设计方案-姬涛的个人网站](https://www.jitao.tech/blog/2020/01/java-http-api/)
 <a name="0f09a83d"></a>
 ## 商家
-
 <a name="b007f30b"></a>
 ### [饿了么商家开放平台](https://open.shop.ele.me/openapi)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009416-b46a7193-631c-4a27-a7cb-e6bec225875f.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="043d547c"></a>
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196500712-ae25eeb2-5dc1-4b6a-b2a9-068471214f04.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=617205&status=done&style=none&width=1437)<br />[订单接口—饿了么openapi开发文档](https://openapi-doc.faas.ele.me/v2/api/order.html#order-create)
+<a name="97w1d"></a>
 ### [美团外卖开放平台](https://developer.waimai.meituan.com/home/doc/food/6)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009414-e440654b-643b-4efd-820e-46e1a67c83c2.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196521091-c0105eae-9820-44a7-91f8-b0f6b9017d71.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2864&size=374508&status=done&style=none&width=1432)
 <a name="11b7563d"></a>
 ### [OpenAPI文档-美团外卖C端开放平台](https://open.waimai.meituan.com/openapi_docs/index.html)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009447-0b884493-c4ee-4fad-9058-188e9c338661.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-<a name="2ca382c4"></a>
-### [订单接口—饿了么openapi开发文档](https://openapi-doc.faas.ele.me/v2/api/order.html#order-create)
-
-
-
-<a name="0d98c747"></a>
-## 其他
-
 <a name="a8aa386a"></a>
 ### [快递100-查快递,寄快递,上快递100](https://www.kuaidi100.com/?from=openv)
-
-
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196590265-4fa06e74-267a-4ab4-8e86-2c09de21079b.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=782700&status=done&style=none&width=1438)
+<a name="0d98c747"></a>
+## 其他
 <a name="49910878"></a>
 ### [Freefordevelopers](https://free-for.dev/#/)
-
-
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196632326-e59b111f-0fc4-41c0-986f-2e022ffcffe7.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2872&size=378134&status=done&style=none&width=1436)
 <a name="8651b314"></a>
 ### [国际化(i18n)|Chrome扩展开发文档](https://wizardforcel.gitbooks.io/chrome-doc/content/24.html)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009447-6545362e-f760-4217-8009-5cd335a0f2cb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="96a101af"></a>
-### [Home-SimpleAsWater](https://simpleaswater.com/ipfs/tutorials/hosting_website_on_ipfs_ipns_dnslink)
-
+### [SimpleAsWater](https://simpleaswater.com/ipfs/tutorials/hosting_website_on_ipfs_ipns_dnslink)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009450-fc67b312-0f8e-4daa-93d1-87e48a4b05ae.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="f37c5432"></a>
-### [AltStoreisaniOSAppStorealternativethatdoesn’trequireajailbreak,here’showtouseit-9to5Mac](https://9to5mac.com/2019/09/25/altstore-is-an-ios-app-store-alternative-that-doesnt-require-a-jailbreak-heres-how-to-use-it/)
-
+### [9to5Mac](https://9to5mac.com/2019/09/25/altstore-is-an-ios-app-store-alternative-that-doesnt-require-a-jailbreak-heres-how-to-use-it/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009499-3f30f1c0-535c-4110-b084-020983dc2225.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="5eb04ada"></a>
 ### [NanoIDCC](https://zelark.github.io/nano-id-cc/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009527-19ef9d1a-25e6-428a-a5fd-6306b27899dc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="717cd707"></a>
-### [RicohReleasesSDKsForPentaxCameras|ePHOTOzine](https://www.ephotozine.com/article/ricoh-releases-sdks-for-pentax-cameras-32298)
-
+### [ePHOTOzine](https://www.ephotozine.com/article/ricoh-releases-sdks-for-pentax-cameras-32298)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009477-75dd0317-9a9f-49a9-822a-d639fe994928.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="9dd26d6f"></a>
-### [ASimpleReactRouterv4Tutorial-PaulSherman-Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
-
-
+### [Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 
 <a name="237e5cd4"></a>
-### [EmmetDocumentation](https://docs.emmet.io/)
-
+### [Emmet](https://docs.emmet.io/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-a5777c60-71fd-477c-9db0-804c6cb4969a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 <a name="faed2b20"></a>
-### [Shadowsocks(简体中文)-ArchWiki](https://wiki.archlinux.org/index.php/Shadowsocks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.91.BD.E4.BB.A4.E8.A1.8C)
-
-
-
+### [Shadowsocks(简体中文)](https://wiki.archlinux.org/index.php/Shadowsocks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.91.BD.E4.BB.A4.E8.A1.8C)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196740527-7685d721-e298-4f45-9f09-4b268926c86f.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=325643&status=done&style=none&width=1438)
 <a name="0f669d57"></a>
-### [sscaffold:lightweightcssforpeoplewhobuildthings](https://sscaffold-css.com/)
-
+### [sscaffold](https://sscaffold-css.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009500-329f9758-64de-4c51-bd7d-21939c9cd4c9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 <a name="0e76c92b"></a>
 ### [Broot](https://dystroy.org/broot/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009502-bee80503-81a3-4a4f-a8c2-2150a6eac7cb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196833656-dda6e02a-d814-4a33-bfc0-9d5bce89b550.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=385935&status=done&style=none&width=1438)
 <a name="6fe9e2ba"></a>
 ### [Snowpack](https://www.snowpack.dev/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009518-f7007546-cf29-461e-8944-e7d91b1f0c1c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196882028-4546dca7-49b8-4efa-8a63-68c4c8d6f012.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2868&size=412661&status=done&style=none&width=1434)
+<a name="4c053ba5"></a>
+### [Exif](https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/colorspace.html)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009531-6d8d8da3-8325-4cb5-974e-7430bc882d8f.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 <a name="046a899e"></a>
 ## 算法
-
 <a name="1d8db740"></a>
 ### [AlgorithmsbyJeffErickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
-
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-87022337-48d5-4aec-8643-7f6a73b2d100.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-<a name="4c053ba5"></a>
-### [ExifTIFFTagColorSpace,code40961(0xA001)](https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/colorspace.html)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009531-6d8d8da3-8325-4cb5-974e-7430bc882d8f.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)

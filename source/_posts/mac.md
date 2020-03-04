@@ -2,11 +2,11 @@ title: Mac
 categories:
  - macOS
 author: 宋玉
-date: 2020-02-22 17:49:06
+date: 2020-03-04 22:24:43
 ---
-<a name="o3hf6"></a>
+
 ## 快捷键
-<a name="Gr7oD"></a>
+
 ### 剪切、拷贝、粘贴和其他常用快捷键
 | ****Command-X**** | 剪切所选项并拷贝到剪贴板。 |
 | --- | --- |
@@ -32,20 +32,20 @@ date: 2020-02-22 17:49:06
 |  ****Shift-Command-5**** | 在 [macOS Mojave](https://support.apple.com/zh-cn/HT201475) 中，拍摄屏幕快照或录制屏幕。在更早的 macOS 版本中，请使用 Shift-Command-3 或 Shift-Command-4 来拍摄屏幕快照。[进一步了解屏幕快照](https://support.apple.com/zh-cn/HT201361)。 |
 | ****Control-左箭头/右箭头**** | 左右切换桌面 |
 
-<a name="KxFAu"></a>
+
 ### 浏览器
 |  ****Option-Command-I**** | 打开浏览器调试 |
 | --- | --- |
 | ** Option-Command-B** | 打开书签 |
 
-<a name="zWyFs"></a>
+
 ### 其他
 | ****Command-Control-A**** | QQ 截屏 |
 | --- | --- |
 | ****Command-Control-O**** | 截屏、录屏、识别 |
 
 
-<a name="p9h1S"></a>
+
 ## 参考链接
 
 - [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236)

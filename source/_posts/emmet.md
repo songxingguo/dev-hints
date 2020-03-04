@@ -2,9 +2,9 @@ title: Emmet
 categories:
  - Markup
 author: 宋玉
-date: 2020-02-24 23:46:20
+date: 2020-03-04 22:27:49
 ---
-<a name="AwGKa"></a>
+
 ### 示例
 
 div#box>p.title+ul.list>li.child![](https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%98%AF%E7%AC%AC#card=math&code=%7B%E6%88%91%E6%98%AF%E7%AC%AC)个}*3^div#box2
@@ -24,7 +24,7 @@ div#box>p.title+ul(.list>child![](https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%9
 ```
 
 
-<a name="3c84894c"></a>
+
 ### html初始结构
 
 **!**
@@ -46,7 +46,7 @@ div#box>p.title+ul(.list>child![](https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%9
 ```
 
 
-<a name="99f1a308"></a>
+
 ### id（#）,class（.）
 
 **div#test**
@@ -56,7 +56,7 @@ div#box>p.title+ul(.list>child![](https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%9
 ```
 
 
-<a name="7603a8d2"></a>
+
 ### 子节点（>），兄弟节点（+），上级节点（^）
 
 **div>ul>li^div**
@@ -71,7 +71,7 @@ div#box>p.title+ul(.list>child![](https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%9
 ```
 
 
-<a name="eac24a20"></a>
+
 ### 重复（*）
 
 div*5
@@ -85,7 +85,7 @@ div*5
 ```
 
 
-<a name="73f81cf3"></a>
+
 ### 分组（()）
 
 div>(ul>li>a)+div>p
@@ -104,7 +104,7 @@ div>(ul>li>a)+div>p
 ```
 
 
-<a name="a123693a"></a>
+
 ### 属性（[attr]）
 
 a[href='www.baidu.com’ name=‘名字’]
@@ -114,7 +114,7 @@ a[href='www.baidu.com’ name=‘名字’]
 ```
 
 
-<a name="0d87056f"></a>
+
 ### 编号（$）
 
 ul>li.test$*3
@@ -140,7 +140,7 @@ ul>li.test$*3
 ```
 
 
-<a name="e12d7f43"></a>
+
 ### 文本（{}）
 
 ul>li.test![](https://g.yuque.com/gr/latex?%7B%E6%B5%8B%E8%AF%95#card=math&code=%7B%E6%B5%8B%E8%AF%95)}*3
@@ -160,7 +160,7 @@ div{你好}
 ```
 
 
-<a name="a523fe8c"></a>
+
 ### 隐式标签
 
 .test

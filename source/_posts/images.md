@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-04 18:39:03
+date: 2020-03-04 18:42:23
 ---
 
 ## 压缩
@@ -40,6 +40,9 @@ date: 2020-03-04 18:39:03
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385069233-bcf6b06a-0696-4446-833d-c031ed8967c0.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2876&size=1239344&status=done&style=none&width=1438)
 
 **一个进行图片放大、缩小等处理等工具。**
+
+### [Doka.Photo](https://doka.photo/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645303590-68d8930b-7069-47db-bd31-2cf569e9ac06.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=1031944&status=done&style=none&width=1437)
 
 ##  截图
 
@@ -103,8 +106,6 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 
 **图片处理软件**
 
-### [Doka.Photo](https://doka.photo/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645303590-68d8930b-7069-47db-bd31-2cf569e9ac06.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=1031944&status=done&style=none&width=1437)
 
 ## 图片信息
 

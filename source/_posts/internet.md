@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-05 12:15:51
+date: 2020-03-05 12:17:19
 ---
 
 ### [Shadowsocks](https://github.com/shadowsocks)
@@ -28,7 +28,7 @@ date: 2020-03-05 12:15:51
 # FinalShell
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583381678360-4efdf799-9812-4811-b481-d81f7bb392ec.png#align=left&display=inline&height=877&name=image.png&originHeight=1754&originWidth=2880&size=198537&status=done&style=none&width=1440)
 
-<br />服务器管理软件<br />[安装](http://www.hostbuf.com/t/1059.html)
+服务器管理软件<br />[安装](http://www.hostbuf.com/t/1059.html)
 
 ### [敏感词防和谐工具](https://we.laogongshuo.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582638072895-0f3a852b-5360-4e2f-aeda-2fa9228df95f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=145734&status=done&style=none&width=1436)

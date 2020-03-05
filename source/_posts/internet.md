@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-05 12:42:51
+date: 2020-03-05 22:52:55
 ---
 
 ### [Shadowsocks](https://github.com/shadowsocks)
@@ -17,7 +17,7 @@ bash ssr.sh
 
 
 #### 下载地址
-[Mac](https://github.com/shadowsocks/ShadowsocksX-NG)
+[Mac](https://github.com/shadowsocks/ShadowsocksX-NG)<br />[客户端](https://shadowsocks.org/en/download/clients.html)
 
 ### [搬瓦工](https://bwh88.net/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582606995538-33fbc0bd-e51f-40ba-809c-6e212d86a966.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=1837449&status=done&style=none&width=1440)

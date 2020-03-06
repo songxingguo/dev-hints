@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-06 08:33:49
+date: 2020-03-06 09:06:26
 ---
 
 ### [Shadowsocks](https://github.com/shadowsocks)
@@ -24,7 +24,7 @@ bash ssr.sh
 
 **VPN 服务器提供商（按月收费）**
 
-### [Vultr](https://my.vultr.com/)
+### [Vultr](https://www.vultr.com/?ref=8478504-6G)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582607151208-a60bf1f9-33d3-4624-9e7e-c371f0920466.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=1273879&status=done&style=none&width=1437)
 
 **VPN 服务器提供商（按量收费，最大 $5，支持支付宝）**<br />[Vultr利用快照Snapshots备份和迁移数据](http://www.idcspy.com/vultr-snapshots-backup.html)

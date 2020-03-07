@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:38:53
+date: 2020-03-07 09:50:24
 ---
 
 ## UI库
@@ -100,6 +100,11 @@ date: 2020-03-07 09:38:53
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583065945265-27404341-d101-4b4a-a495-9df755abfd0d.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=283537&status=done&style=none&width=1438)
 
 **_手绘风格_ 的 Android 组件库。**
+
+### [Craft](https://craft.js.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067917513-5a5a5d97-fa9d-4448-851f-22471afdc362.png#align=left&display=inline&height=734&name=image.png&originHeight=1468&originWidth=2880&size=397372&status=done&style=none&width=1440)
+
+**可拖拽组件库**
 
 ## 工程化
 
@@ -223,10 +228,13 @@ date: 2020-03-07 09:38:53
 
 **使用JavaScript,HTML和CSS构建跨平台的桌面应用。**
 
-### [Craft](https://craft.js.org/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067917513-5a5a5d97-fa9d-4448-851f-22471afdc362.png#align=left&display=inline&height=734&name=image.png&originHeight=1468&originWidth=2880&size=397372&status=done&style=none&width=1440)
+### 
 
-**可拖拽组件库**
+
+#### [revery](https://www.outrunlabs.com/revery/api/revery/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583545749277-495dc638-f24e-4611-bc4c-9143a246909c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2852&size=243707&status=done&style=none&width=1426)
+
+一个构建跨平台桌面应用的框架，跟 Flutter 的思路有点像，也是内置了自己的控件，保证了跨平台一致的体验。它使用 Reason 语言编写，使用 React + Redux。
 
 ## 数据请求
 

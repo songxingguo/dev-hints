@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:16:04
+date: 2020-03-07 10:16:41
 ---
 
 ## 博客系统
@@ -11,6 +11,7 @@ date: 2020-03-07 10:16:04
 ~~![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543800132-1ae3a409-9bf1-4360-862b-d21f791323cf.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=2152274&status=done&style=none&width=1440)~~<br />~~<br />一个超级轻量的静态博客系统，使用 Kotlin 语言。
 
 ### [Metalsmith](https://metalsmith.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547397487-8701b1b5-d168-453e-8063-eb33b9d71de9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1196191&status=done&style=none&width=1438)
 
 ### [Netlify](https://www.netlify.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074601186-a875da23-1f44-495e-9ddf-d9cd2372e9f0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=2688940&status=done&style=none&width=1440)

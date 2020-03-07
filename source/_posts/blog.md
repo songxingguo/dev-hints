@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:27:18
+date: 2020-03-07 10:32:18
 ---
 
 ## 博客系统
@@ -12,8 +12,6 @@ date: 2020-03-07 10:27:18
 
 ### [Metalsmith](https://metalsmith.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547397487-8701b1b5-d168-453e-8063-eb33b9d71de9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1196191&status=done&style=none&width=1438)
-
-### 
 
 
 ### [HUGO](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
@@ -45,14 +43,7 @@ date: 2020-03-07 10:27:18
 ### [GoatCounter](https://www.goatcounter.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543938430-4f07e6fd-e99e-4560-8528-6b0791e6ce2b.png#align=left&display=inline&height=252&name=image.png&originHeight=504&originWidth=800&size=207476&status=done&style=none&width=400)
 
-一个开源的访客统计软件。
-
-## 持续集成
-
-### [Netlify](https://www.netlify.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074601186-a875da23-1f44-495e-9ddf-d9cd2372e9f0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=2688940&status=done&style=none&width=1440)
-
-一个可以用来做静态网站的持续集成与持续部署的工具
+一个开源的访客统计软件。<br />
 
 ## 其他
 

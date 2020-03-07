@@ -2,15 +2,23 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 10:50:28
+date: 2020-03-07 10:53:59
 ---
+
+## 打包
 
 ### [Webpack](https://www.webpackjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 
+## 资源管理器
+
+### [npm](https://www.npmjs.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549622301-fa2d571f-362c-4c9b-815a-b632745ce27b.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=1021020&status=done&style=none&width=1438)
+
 ### [Yarn](https://yarnpkg.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066228897-8b1e56dd-3249-4901-9d5d-fb5738e3eb35.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=303280&status=done&style=none&width=1440)
 
+## 进程管理器
 
 ### [PM2](https://pm2.keymetrics.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066370934-5bed5eb9-5e32-4b46-afcd-2110ae32c20c.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=3238493&status=done&style=none&width=1439)

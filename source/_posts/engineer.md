@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:16:26
+date: 2020-03-07 11:17:01
 ---
 
 ## 工作流管理工具
@@ -32,6 +32,14 @@ date: 2020-03-07 11:16:26
 ### [Webpack](https://www.webpackjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 
+## 
+
+
+### [Parcel](https://parceljs.org/getting_started.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)
+
+一个Web应用程序打包器
+
 ## 编译器
 
 ### [Grunt](https://gruntjs.com/)
@@ -44,16 +52,10 @@ date: 2020-03-07 11:16:26
 
 JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/babel.html)
 
-### [Parcel](https://parceljs.org/getting_started.html)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)
-
-一个Web应用程序打包器
-
 ## 资源管理器
 
 ### [npm](https://www.npmjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549622301-fa2d571f-362c-4c9b-815a-b632745ce27b.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=1021020&status=done&style=none&width=1438)
-
 
 
 ### [Yarn](https://yarnpkg.com/)

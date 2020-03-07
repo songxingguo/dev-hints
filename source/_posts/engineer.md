@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:20:22
+date: 2020-03-07 11:21:46
 ---
 
 ## 工作流管理工具
@@ -84,6 +84,12 @@ JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://
 
  Docker 属于Linux 容器的一种封装，提供简单易用的容器使用接口。<br />[Docker 入门教程- 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 
+## 脚手架
+
+### [Yeoman](https://yeoman.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583551269120-0db019dc-13f3-4b61-bbf0-5620e921b7a4.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=540626&status=done&style=none&width=1440)
+
+Yeamon帮助你快速的开展一个项目工程，提供最佳实践和工具，来让你保持高效率编码。
 
 ## 其他
 

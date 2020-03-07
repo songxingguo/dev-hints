@@ -2,7 +2,7 @@ title: 工具库
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 16:32:11
+date: 2020-03-07 17:02:48
 ---
 
 ## Socket
@@ -36,8 +36,6 @@ date: 2020-03-07 16:32:11
 ### [NW.js](https://nwjs.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194843567-c073f8cc-0853-46de-8be7-66572aaa37a1.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2868&size=716822&status=done&style=none&width=1434)
 
-### 
-
 ## 代码
 
 ### [highlight.js](https://highlightjs.org/)
@@ -59,6 +57,10 @@ date: 2020-03-07 16:32:11
 ### [axios](http://www.axios-js.com/zh-cn/docs/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009266-bfaf3b80-6aa5-4546-b0d2-39a767a71317.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
+- [中文文档](https://www.kancloud.cn/yunye/axios/234845)
+- [Axiso解决跨域访问-Jitwxs-CSDN博客](https://blog.csdn.net/yuanlaijike/article/details/80522621)
+
+
 ## 动画
 
 ### [SmoothScrollbehaviorpolyfill](http://iamdustan.com/smoothscroll/)
@@ -70,3 +72,10 @@ date: 2020-03-07 16:32:11
 ### [JavaScriptCryptography](http://cryptojs.altervista.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195533639-fb8e73ba-0301-479f-a864-c893fc7541b4.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=326138&status=done&style=none&width=1438)
 
+
+## 持久化
+
+### [KnDB](https://github.com/Knove/knDB/blob/master/README.CN.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068144114-adc37edc-6ee7-454a-87bc-150bf8b9b0f7.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=283050&status=done&style=none&width=1437)
+
+**基于 **[**Node.js**](https://nodejs.org/)**的数据持久化方案，适合轻量级Node.js应用**

@@ -2,7 +2,7 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 16:35:33
+date: 2020-03-07 17:33:30
 ---
 
 ### [WebGL](http://www.hewebgl.com/)
@@ -37,3 +37,6 @@ date: 2020-03-07 16:35:33
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008677-4037dcc4-86f0-42cd-bec1-14aba3be0389.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 **收集最全最新最好的jQuery插件**
+
+### [CSS-Tricks](https://css-tricks.com/new-year-new-job-lets-make-a-grid-powered-resume/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074446114-08df3734-0400-432d-a582-7ed7dfefe640.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2874&size=1349723&status=done&style=none&width=1437)

@@ -2,7 +2,7 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 14:29:22
+date: 2020-03-07 16:00:19
 ---
 
 ### [WebGL](http://www.hewebgl.com/)
@@ -12,6 +12,9 @@ date: 2020-03-07 14:29:22
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583562555501-b8fc6177-2891-4f05-9e56-38d190dc98a4.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=4455631&status=done&style=none&width=1436)
 
 **Javascript3Dlibrary**
+
+### [AnIntroductiontoD3.js](https://wattenberger.com/blog/d3#intro)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195441399-57b3035c-c64e-464b-9087-55d2cdc0870e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=452083&status=done&style=none&width=1436)
 
 ### [MojoJS](https://github.com/scottcgi/MojoJS-Animation)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583562015425-b52a4ae2-e877-49f0-88b3-4594483f401e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=142191&status=done&style=none&width=1440)

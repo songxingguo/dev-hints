@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 15:33:11
+date: 2020-03-07 15:42:41
 ---
 
 ## 框架
@@ -293,32 +293,13 @@ date: 2020-03-07 15:33:11
 ### [Features•GitHubActions](https://github.com/features/actions)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075030738-4011b1ff-4e57-421c-b648-ba1bc2fedc7d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=933286&status=done&style=none&width=1438)
 
-### [Pandoc](https://www.pandoc.org/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075179712-38f24102-e776-42b4-b6bf-2dab73d60a99.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=397611&status=done&style=none&width=1440)
+### 
 
-
-### [HTTPContent-type对照表](https://tool.oschina.net/commons/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009084-5d8c96d5-5a46-43a2-ac7e-737bc243dda4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [11ty](https://www.11ty.dev/#quick-start)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075218475-f7b4afe7-9267-432f-b05b-b67edccfcf5c.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=282695&status=done&style=none&width=1440)
-
-### [GatsbyJS](https://www.gatsbyjs.org/docs/quick-start/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075293562-0dfbe70b-1966-4eee-920b-bef8b23681a5.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2878&size=815089&status=done&style=none&width=1439)
-
-
-### [BoostNote](https://boostnote.io/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075314390-19cfe327-996e-48ef-a87a-15ba720d836e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=216669&status=done&style=none&width=1440)
 
 ## 图表
 
-
 ### [pagemap](https://larsjung.de/pagemap/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009113-740fdc79-5f1a-48d5-80e7-7a992a49e5bd.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### 
 
 
 ## js 库

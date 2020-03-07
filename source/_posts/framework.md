@@ -2,7 +2,7 @@ title: 框架
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:49:07
+date: 2020-03-07 18:02:55
 ---
 
 ### [Node.js](http://nodejs.cn/api/)
@@ -71,3 +71,14 @@ date: 2020-03-07 16:49:07
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583545749277-495dc638-f24e-4611-bc4c-9143a246909c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2852&size=243707&status=done&style=none&width=1426)
 
 一个构建跨平台桌面应用的框架，跟 Flutter 的思路有点像，也是内置了自己的控件，保证了跨平台一致的体验。它使用 Reason 语言编写，使用 React + Redux。
+
+## 小程序
+
+### [支付宝小程序](https://docs.alipay.com/mini/developer/getting-started)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196001066-b5be7e64-3893-4334-ae80-681fc71d2c9f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=394624&status=done&style=none&width=1436)
+
+### [百度小程序](https://smartprogram.baidu.com/docs/develop/tutorial/codedir/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196038031-8b1c22a4-8747-4e7f-992a-177a761bb55d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2874&size=314908&status=done&style=none&width=1437)
+
+### [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196136283-5e8358c8-ade5-4538-a77f-57332ccac5b5.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2868&size=401490&status=done&style=none&width=1434)

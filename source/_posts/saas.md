@@ -2,8 +2,13 @@ title: 云服务
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:39:31
+date: 2020-03-07 17:14:37
 ---
+
+## Serverless
+
+### [CloudflareWorkers®](https://workers.cloudflare.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073798130-d97dfef5-6324-4f73-ace8-f579f10cc6db.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2866&size=644391&status=done&style=none&width=1433)
 
 ### [LeanCloud](https://leancloud.cn/docs/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008659-5816cec0-2160-4506-b76d-6114129a22a1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -48,8 +53,8 @@ date: 2020-03-07 16:39:31
 ### [MrTrustor'sshinyblog](https://blog.mrtrustor.net/post/making-this-blog-with-cloud-run/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073731030-b59a193b-883e-41d3-85c9-661376a5a481.png#align=left&display=inline&height=741&name=image.png&originHeight=1482&originWidth=2878&size=320676&status=done&style=none&width=1439)
 
-### [CloudflareWorkers®](https://workers.cloudflare.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073798130-d97dfef5-6324-4f73-ace8-f579f10cc6db.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2866&size=644391&status=done&style=none&width=1433)
+### 
+
 
 ### [Imperva](https://www.imperva.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074041520-8abec4b6-968f-4589-ad39-e83b5075e819.png#align=left&display=inline&height=739&name=image.png&originHeight=1478&originWidth=2880&size=2120509&status=done&style=none&width=1440)
@@ -94,16 +99,6 @@ date: 2020-03-07 16:39:31
 
 ### [FactorJS](https://factor.dev/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074496792-43d06094-6b8f-491c-a7db-5c3b735561ed.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=680822&status=done&style=none&width=1437)
-
-### [搬瓦工](https://bwh88.net/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582606995538-33fbc0bd-e51f-40ba-809c-6e212d86a966.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=1837449&status=done&style=none&width=1440)
-
-**VPN 服务器提供商（按月收费）**
-
-### [Vultr](https://www.vultr.com/?ref=8478504-6G)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582607151208-a60bf1f9-33d3-4624-9e7e-c371f0920466.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=1273879&status=done&style=none&width=1437)
-
-**VPN 服务器提供商（按量收费，最大 $5，支持支付宝）**
 
 ### [Fathom](https://usefathom.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583546020601-6d79a8d5-154d-4eca-b41e-908cfe34f138.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=207103&status=done&style=none&width=1439)

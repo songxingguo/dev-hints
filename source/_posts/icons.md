@@ -2,7 +2,7 @@ title: 图标
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:34:12
+date: 2020-03-07 17:51:51
 ---
 
 ### [阿里巴巴矢量图标库](http://www.baidu.com/link?url=Mk7W4No2b-n4kYnErXsU40ZLPSsvXQ8VTlHTy_hKP8ZrZdagwVnDfmrxydjBkQWC)
@@ -50,3 +50,6 @@ date: 2020-03-07 16:34:12
 
 ### [Marcofolio.net](http://marcofolio.net/ibm-lotusphere-css/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073074640-c9ccb8de-59cd-4aed-8843-cbc41cc15597.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=389986&status=done&style=none&width=1434)
+
+### [FontAwesome](http://fontawesome.dashgame.com/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-01156df9-7b26-4181-92a1-60905eee58e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />**<br />**一套绝佳的图标字体库和CSS框架**

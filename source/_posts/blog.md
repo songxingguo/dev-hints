@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 13:45:55
+date: 2020-03-07 14:03:12
 ---
 
 ## 博客系统
@@ -46,6 +46,9 @@ Saber是一个静态网站生成器，它类似于Hexo，但是，您可以使�
 
 ### [Jan~~e~~](https://jane.pandolia.net/)
 ~~![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543800132-1ae3a409-9bf1-4360-862b-d21f791323cf.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=2152274&status=done&style=none&width=1440)~~<br />~~<br />一个超级轻量的静态博客系统，使用 Kotlin 语言。
+
+### [VuePress](http://caibaojian.com/vuepress/guide/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009368-efebde87-8cfb-47be-941f-d8621321efbc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 ## 博客相关
 

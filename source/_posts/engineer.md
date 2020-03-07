@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:21:46
+date: 2020-03-07 11:24:43
 ---
 
 ## 工作流管理工具
@@ -62,6 +62,12 @@ JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://
 
 ### [Yarn](https://yarnpkg.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066228897-8b1e56dd-3249-4901-9d5d-fb5738e3eb35.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=303280&status=done&style=none&width=1440)
+
+
+### [Gradle](https://gradle.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583551471964-29c95ee8-2434-4aa5-a3d8-2f2dd8f35e83.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=549269&status=done&style=none&width=1435)
+
+依赖管理和打包工具，一个基于Apache Ant和Apache Maven概念的项目自动化建构工具。
 
 ## 软件管理器
 

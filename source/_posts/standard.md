@@ -2,7 +2,7 @@ title: 规范
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:56:09
+date: 2020-03-07 16:57:05
 ---
 
 ### [BEM](https://www.w3cplus.com/css/bem-definitions.html)
@@ -13,3 +13,7 @@ date: 2020-03-07 16:56:09
 
 ### [airbnb 规范](https://github.com/airbnb/javascript)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068320364-c5089a25-69c7-483b-8036-bea8e76aa68e.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=381434&status=done&style=none&width=1437)
+
+
+### [BestPractices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068425977-a581d35b-5fd9-4161-85e4-31a7c63aa706.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2878&size=498331&status=done&style=none&width=1439)

@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:17:01
+date: 2020-03-07 11:20:22
 ---
 
 ## 工作流管理工具
@@ -32,8 +32,10 @@ date: 2020-03-07 11:17:01
 ### [Webpack](https://www.webpackjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 
-## 
+### [Browserify](http://browserify.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583551171201-bfac6199-ced4-49ba-9a0d-b40bee32f7f7.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=402879&status=done&style=none&width=1440)
 
+**基于流的模块打包工具**
 
 ### [Parcel](https://parceljs.org/getting_started.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)

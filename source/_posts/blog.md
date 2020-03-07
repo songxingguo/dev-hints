@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:41:17
+date: 2020-03-07 10:43:55
 ---
 
 ## 博客系统
@@ -13,6 +13,10 @@ date: 2020-03-07 10:41:17
 ### [Metalsmith](https://metalsmith.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547397487-8701b1b5-d168-453e-8063-eb33b9d71de9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1196191&status=done&style=none&width=1438)
 
+### [Hexo](https://hexo.io/zh-cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549021826-8b37ff8e-128b-47b2-93c1-7cf833e7b15e.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2878&size=254651&status=done&style=none&width=1439)
+
+快速、简洁且高效的博客框架
 
 ### [HUGO](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547790306-511e0a2b-ef55-47cb-a825-0c43ca379644.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=356597&status=done&style=none&width=1437)

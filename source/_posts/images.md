@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-04 18:42:23
+date: 2020-03-07 10:07:34
 ---
 
 ## 压缩
@@ -42,7 +42,9 @@ date: 2020-03-04 18:42:23
 **一个进行图片放大、缩小等处理等工具。**
 
 ### [Doka.Photo](https://doka.photo/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645303590-68d8930b-7069-47db-bd31-2cf569e9ac06.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=1031944&status=done&style=none&width=1437)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582645303590-68d8930b-7069-47db-bd31-2cf569e9ac06.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=1031944&status=done&style=none&width=1437)<br />[react-meme-generator](https://lijinke666.github.io/react-meme-generator/#)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583546822164-7ec8c174-df02-4db0-a3cb-e87da9eff165.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=203503&status=done&style=none&width=1437)
+
+图片上加文字的在线工具，支持摄像头，可以制作表情包。
 
 ##  截图
 
@@ -106,7 +108,6 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 
 **图片处理软件**
 
-
 ## 图片信息
 
 ### [图虫EXIF查看器](https://exif.tuchong.com/view/7439934/)
@@ -128,4 +129,6 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 ### [GifGities](https://gifcities.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582643660734-a7e69262-616f-4975-97cb-015a279ff32a.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2872&size=272719&status=done&style=none&width=1436)
 
-**地理城市动画GIF搜索引擎**
+**地理城市动画GIF搜索引擎**<br />**
+
+## 视频

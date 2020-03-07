@@ -2,11 +2,10 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:02:45
+date: 2020-03-07 11:10:09
 ---
 
 ## 工作流管理工具
-
 
 ### [Gulp](https://www.gulpjs.com.cn/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008545-d3d54cdf-7889-4c11-8253-019ec94f05d9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -33,6 +32,13 @@ date: 2020-03-07 11:02:45
 ### [Webpack](https://www.webpackjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066113840-83f6d5ee-f5e0-4929-b3d4-878501c26761.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=240214&status=done&style=none&width=1437)
 
+## 编译器
+
+### [Grunt](https://gruntjs.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583550522862-99393e8c-51e0-44e1-9a60-187cdfb68316.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2878&size=471436&status=done&style=none&width=1439)
+
+**基于流自动编译 LESS 、压缩 CSS 、 JS**
+
 ### [Parcel](https://parceljs.org/getting_started.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)
 
@@ -51,20 +57,19 @@ date: 2020-03-07 11:02:45
 ### [PM2](https://pm2.keymetrics.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066370934-5bed5eb9-5e32-4b46-afcd-2110ae32c20c.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=3238493&status=done&style=none&width=1439)
 
-[利用PM2部署node.js项目的方法教程](https://www.jb51.net/article/113398.htm)<br />
+[利用PM2部署node.js项目的方法教程](https://www.jb51.net/article/113398.htm)
 
 ## 容器
 
 ### [Docker](https://www.docker.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066798398-a70b455f-1ef8-4143-9e03-1762cd5e87d4.png#align=left&display=inline&height=739&name=image.png&originHeight=1478&originWidth=2870&size=1133132&status=done&style=none&width=1435)
 
- Docker 属于Linux 容器的一种封装，提供简单易用的容器使用接口。<br />[](https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)[Docker 入门教程- 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
-
-## 
+ Docker 属于Linux 容器的一种封装，提供简单易用的容器使用接口。<br />[Docker 入门教程- 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 
 
 ## 其他
 
 ### [fossasia](https://blog.fossasia.org/tag/universal-cookies/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008268-f306678d-53dd-43b9-a0bf-0b1d134a3ea1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008268-f306678d-53dd-43b9-a0bf-0b1d134a3ea1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
 

@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:32:31
+date: 2020-03-07 16:35:52
 ---
 
 ## 框架
@@ -160,16 +160,6 @@ date: 2020-03-07 16:32:31
 ### [openEuler](https://openeuler.org/zh/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072202810-ab722809-8f23-41d7-9766-b3c365bbfb0f.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2880&size=2992216&status=done&style=none&width=1440)
 
-## 前端特效
-
-### [jQuery插件库](http://www.jq22.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008677-4037dcc4-86f0-42cd-bec1-14aba3be0389.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-**收集最全最新最好的jQuery插件**
-
-### [Marcofolio.net](http://marcofolio.net/ibm-lotusphere-css/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073074640-c9ccb8de-59cd-4aed-8843-cbc41cc15597.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=389986&status=done&style=none&width=1434)
-
 
 ## 云服务
 
@@ -293,13 +283,8 @@ date: 2020-03-07 16:32:31
 
 ## js 库
 
-
-### 
-
 ### [JavaScriptdesignpatterns#1.SingletonandtheModule](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009316-aa4e7692-ffea-4d68-83e5-cffd7e809d2a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
 
 
 

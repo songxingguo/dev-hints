@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 15:37:36
+date: 2020-03-07 15:46:04
 ---
 
 ## 博客系统
@@ -90,6 +90,11 @@ Saber是一个静态网站生成器，它类似于Hexo，但是，您可以使�
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067215852-9d7f7135-f79a-4e60-976d-e235537683fc.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=533181&status=done&style=none&width=1438)
 
 **跨容器的渲染引擎**
+
+### [MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074870598-eb9afa72-24a5-429d-9118-37aac093e06d.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=416955&status=done&style=none&width=1437)
+
+ 基于 Markdown 和 HTML 5 的纯客户端 Wiki/CMS
 
 ### [lit-html](https://lit-html.polymer-project.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-cfde456d-a912-4cd0-9640-3168213e8856.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)

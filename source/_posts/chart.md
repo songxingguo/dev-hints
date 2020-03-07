@@ -2,7 +2,7 @@ title: 图表
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:01:04
+date: 2020-03-07 10:08:34
 ---
 
 ## 绘图
@@ -42,7 +42,7 @@ date: 2020-03-07 10:01:04
 
 ## 表格
 
-#### [x-spreadsheet](https://github.com/myliang/x-spreadsheet)
+### [x-spreadsheet](https://github.com/myliang/x-spreadsheet)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583546312025-83c7d76f-e5a9-417f-8835-35033827b572.png#align=left&display=inline&height=229&name=image.png&originHeight=457&originWidth=800&size=110155&status=done&style=none&width=400)
 
 一个基于 Canvas 的 JS 电子表格库。

@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:31:45
+date: 2020-03-07 13:42:40
 ---
 
 ## UI库
@@ -105,33 +105,6 @@ date: 2020-03-07 10:31:45
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067917513-5a5a5d97-fa9d-4448-851f-22471afdc362.png#align=left&display=inline&height=734&name=image.png&originHeight=1468&originWidth=2880&size=397372&status=done&style=none&width=1440)
 
 **可拖拽组件库**
-
-### 
-
-
-## 模板引擎
-
-### [Pug](https://pug.bootcss.com/api/getting-started.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008325-a7d2e307-9a35-4175-b7a1-5d7ae2694217.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-- [如何使用pug(jade)作为HTML的模板](https://www.kancloud.cn/hfpp2012/webpack-tutorial/467007)
-- [koa2加载模板引擎](https://chenshenhai.github.io/koa2-note/note/template/add.html)
-
-### [NexT](http://theme-next.iissnan.com/getting-started.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008328-80cb764e-acf0-45e8-8e5e-c6260f2b064e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [Saber](https://saber.land/docs)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067148714-00104342-1860-4ea7-959f-000cf1c190b5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2866&size=311611&status=done&style=none&width=1433)
-
-### [Rax](https://alibaba.github.io/rax/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067215852-9d7f7135-f79a-4e60-976d-e235537683fc.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=533181&status=done&style=none&width=1438)
-
-**跨容器的渲染引擎**
-
-### [lit-html](https://lit-html.polymer-project.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-cfde456d-a912-4cd0-9640-3168213e8856.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 
 ## 框架
 

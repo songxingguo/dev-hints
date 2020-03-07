@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:07:55
+date: 2020-03-07 10:10:28
 ---
 
 ## 压缩
@@ -129,6 +129,4 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 ### [GifGities](https://gifcities.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582643660734-a7e69262-616f-4975-97cb-015a279ff32a.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2872&size=272719&status=done&style=none&width=1436)
 
-**地理城市动画GIF搜索引擎**<br />**
-
-# 视频
+**地理城市动画GIF搜索引擎**

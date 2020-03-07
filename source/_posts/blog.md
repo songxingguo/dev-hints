@@ -2,16 +2,10 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:43:55
+date: 2020-03-07 10:49:03
 ---
 
 ## 博客系统
-
-### [Jan~~e~~](https://jane.pandolia.net/)
-~~![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543800132-1ae3a409-9bf1-4360-862b-d21f791323cf.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=2152274&status=done&style=none&width=1440)~~<br />~~<br />一个超级轻量的静态博客系统，使用 Kotlin 语言。
-
-### [Metalsmith](https://metalsmith.io/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547397487-8701b1b5-d168-453e-8063-eb33b9d71de9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1196191&status=done&style=none&width=1438)
 
 ### [Hexo](https://hexo.io/zh-cn/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549021826-8b37ff8e-128b-47b2-93c1-7cf833e7b15e.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2878&size=254651&status=done&style=none&width=1439)
@@ -33,16 +27,22 @@ Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、�
 ### [AnarielDesign](https://www.anarieldesign.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074817311-2b61279c-5b37-4e73-a4d9-d0086bed4962.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=919448&status=done&style=none&width=1440)
 
+**Wordpress 主题**
+
 ### [QingZhuoBlog](http://muxueqz.top/a-small-static-site-generator.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008879-e1fdfb83-c0e9-453d-9d42-f8c215db257d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 **只需五步，自己动手写一个静态博客**
 
+### [Jan~~e~~](https://jane.pandolia.net/)
+~~![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543800132-1ae3a409-9bf1-4360-862b-d21f791323cf.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=2152274&status=done&style=none&width=1440)~~<br />~~<br />一个超级轻量的静态博客系统，使用 Kotlin 语言。
+
+## 博客相关
+
 ### [Valine](https://valine.js.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008889-b6d7f0e0-d6a5-43f6-81ca-8a5f2177b645.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-### [RSSHub](https://docs.rsshub.app/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008900-5c9adb62-fb06-4a86-aa0a-8e2490950f0e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+一款快速、简洁且高效的无后端评论系统。
 
 ## 数据管理
 
@@ -58,3 +58,10 @@ Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、�
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543848284-80e7a04d-48ec-4035-8705-fdd98d497ccb.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=313018&status=done&style=none&width=1437)
 
  一个通过网页地址转换为 RSS 的在线网站。
+
+### [RSSHub](https://docs.rsshub.app/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008900-5c9adb62-fb06-4a86-aa0a-8e2490950f0e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+
+### [Metalsmith](https://metalsmith.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547397487-8701b1b5-d168-453e-8063-eb33b9d71de9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1196191&status=done&style=none&width=1438)

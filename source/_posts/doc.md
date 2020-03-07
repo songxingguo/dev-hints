@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 14:11:52
+date: 2020-03-07 14:30:00
 ---
 
 ## 框架
@@ -162,8 +162,7 @@ date: 2020-03-07 14:11:52
 
 ## 前端特效
 
-### [Swiper中文网](https://www.swiper.com.cn/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072999558-4759499f-4fdb-4142-8107-e581429baa7c.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=884384&status=done&style=none&width=1440)
+
 
 ### [jQuery插件库](http://www.jq22.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008677-4037dcc4-86f0-42cd-bec1-14aba3be0389.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -172,9 +171,6 @@ date: 2020-03-07 14:11:52
 
 ### [Marcofolio.net](http://marcofolio.net/ibm-lotusphere-css/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073074640-c9ccb8de-59cd-4aed-8843-cbc41cc15597.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=389986&status=done&style=none&width=1434)
-
-### [47个使用CSS3实现的酷炫效果展示|菜鸟教程](https://www.runoob.com/w3cnote/47-css3-useful-tutorials-and-techniques.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008670-adcdf591-9e7b-4864-ba3b-d1c3e06b2d8a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 
 ## 云服务
@@ -302,11 +298,6 @@ date: 2020-03-07 14:11:52
 ### [Pandoc](https://www.pandoc.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075179712-38f24102-e776-42b4-b6bf-2dab73d60a99.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=397611&status=done&style=none&width=1440)
 
-### [L2Dwidget](https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008953-109c6342-96d8-4f4a-975d-9817ef233ee5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-- [hexo-helper-live2d-npm](https://www.npmjs.com/package/hexo-helper-live2d)
-
 
 ### [HTTPContent-type对照表](https://tool.oschina.net/commons/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009084-5d8c96d5-5a46-43a2-ac7e-737bc243dda4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -330,8 +321,8 @@ date: 2020-03-07 14:11:52
 ### [ECharts](https://echarts.baidu.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193887121-e062c014-7527-4237-ac0f-eb67ce5eaa75.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=9925931&status=done&style=none&width=1440)
 
-### [WebGL中文网](http://www.hewebgl.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583193909035-121cea8b-9c1d-43ea-ae60-333a706fa310.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1132441&status=done&style=none&width=1438)
+### 
+
 
 ### [Designmodo](https://designmodo.com/create-interactive-graph-css3-jquery/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194105901-20fcd300-22de-44cf-8066-2043a1f74953.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2876&size=270988&status=done&style=none&width=1438)
@@ -384,10 +375,8 @@ date: 2020-03-07 14:11:52
 ### [Licia](https://licia.liriliri.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194910804-935b35b4-e2ec-47ab-aa5c-b0a0f4208864.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=1299379&status=done&style=none&width=1439)
 
-### [three.js](https://threejs.org/)
+### 
 
-
-**Javascript3Dlibrary**
 
 ### [Mock.js](http://mockjs.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009201-33516d4e-4f82-48f9-9d6d-c4f2b431ca14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)

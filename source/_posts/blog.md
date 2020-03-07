@@ -2,13 +2,39 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:24:46
+date: 2020-03-07 10:16:04
 ---
 
 ## 博客系统
 
 ### [Jan~~e~~](https://jane.pandolia.net/)
 ~~![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543800132-1ae3a409-9bf1-4360-862b-d21f791323cf.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=2152274&status=done&style=none&width=1440)~~<br />~~<br />一个超级轻量的静态博客系统，使用 Kotlin 语言。
+
+### [Metalsmith](https://metalsmith.io/)
+
+### [Netlify](https://www.netlify.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074601186-a875da23-1f44-495e-9ddf-d9cd2372e9f0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=2688940&status=done&style=none&width=1440)
+
+### [Halo](https://halo.run/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074634763-ca3744d8-1dde-47aa-9e02-c3beebbcb002.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=229243&status=done&style=none&width=1436)
+
+### [web-flash](http://blog.enilu.cn/web-flash/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008904-25a90d3e-39cd-4833-80f6-02d79005d176.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+
+### [AnarielDesign](https://www.anarieldesign.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074817311-2b61279c-5b37-4e73-a4d9-d0086bed4962.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=919448&status=done&style=none&width=1440)
+
+### [QingZhuoBlog](http://muxueqz.top/a-small-static-site-generator.html)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008879-e1fdfb83-c0e9-453d-9d42-f8c215db257d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+**只需五步，自己动手写一个静态博客**
+
+### [Valine](https://valine.js.org/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008889-b6d7f0e0-d6a5-43f6-81ca-8a5f2177b645.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+### [RSSHub](https://docs.rsshub.app/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008900-5c9adb62-fb06-4a86-aa0a-8e2490950f0e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 ## 数据管理
 

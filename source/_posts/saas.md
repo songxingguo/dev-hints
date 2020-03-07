@@ -2,7 +2,7 @@ title: 云服务
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 17:36:47
+date: 2020-03-07 18:08:17
 ---
 
 ## Serverless
@@ -54,12 +54,15 @@ date: 2020-03-07 17:36:47
 ### [Flynn](https://flynn.io/apps)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073690643-1eb7c774-6693-46e1-a1a3-d2d9e80d4ec4.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=739360&status=done&style=none&width=1439)
 
-### 
-
 ### [好雨](https://www.goodrain.com/rainbond.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583073674905-4eb09ca6-f7d0-43ef-ae75-aaa1e33be88a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=1526483&status=done&style=none&width=1436)
 
 **让云落地_提供以应用为中心的云计算产品和服务**
+
+### [Koala开发平台](http://www.openkoala.org/#page3)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583064887073-4c9e9f6f-027c-4a4b-96b7-a3be3cf753bb.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2868&size=545994&status=done&style=none&width=1434)
+
+**开源规范化项目管理解决方案，实现软件流水线式生产，保证正确性、可靠性**
 
 ## 监控
 
@@ -78,9 +81,6 @@ date: 2020-03-07 17:36:47
 
 **-面向未来的团队工作方式，团队沟通与智能化工作流**
 
-### 
-
-
 ## 其他
 
 ### [MrTrustor'sshinyblog](https://blog.mrtrustor.net/post/making-this-blog-with-cloud-run/)
@@ -95,7 +95,6 @@ date: 2020-03-07 17:36:47
 
 ### [Slack](https://api.slack.com/apps)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008771-1145ca3d-8834-43b7-91cc-f6ee4c2751fe.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
 
 
 ### [Rax](https://rax.js.org/ssr)

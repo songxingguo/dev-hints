@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:19:13
+date: 2020-03-07 09:24:30
 ---
 
 ## 博客系统
@@ -12,7 +12,7 @@ date: 2020-03-07 09:19:13
 
 ## 数据管理
 
-#### [GoatCounter](https://www.goatcounter.com/)
+### [GoatCounter](https://www.goatcounter.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543938430-4f07e6fd-e99e-4560-8528-6b0791e6ce2b.png#align=left&display=inline&height=252&name=image.png&originHeight=504&originWidth=800&size=207476&status=done&style=none&width=400)
 
 一个开源的访客统计软件。

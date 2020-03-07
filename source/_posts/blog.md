@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:32:18
+date: 2020-03-07 10:41:17
 ---
 
 ## 博客系统
@@ -16,6 +16,8 @@ date: 2020-03-07 10:32:18
 
 ### [HUGO](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547790306-511e0a2b-ef55-47cb-a825-0c43ca379644.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=356597&status=done&style=none&width=1437)
+
+Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 
 ### [Halo](https://halo.run/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074634763-ca3744d8-1dde-47aa-9e02-c3beebbcb002.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=229243&status=done&style=none&width=1436)
@@ -43,7 +45,8 @@ date: 2020-03-07 10:32:18
 ### [GoatCounter](https://www.goatcounter.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583543938430-4f07e6fd-e99e-4560-8528-6b0791e6ce2b.png#align=left&display=inline&height=252&name=image.png&originHeight=504&originWidth=800&size=207476&status=done&style=none&width=400)
 
-一个开源的访客统计软件。<br />
+一个开源的访客统计软件。
+
 
 ## 其他
 

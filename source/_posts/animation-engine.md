@@ -2,7 +2,7 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 16:00:19
+date: 2020-03-07 16:35:33
 ---
 
 ### [WebGL](http://www.hewebgl.com/)
@@ -31,3 +31,9 @@ date: 2020-03-07 16:00:19
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072999558-4759499f-4fdb-4142-8107-e581429baa7c.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=884384&status=done&style=none&width=1440)
 
 [47个使用CSS3实现的酷炫效果展示|菜鸟教程](https://www.runoob.com/w3cnote/47-css3-useful-tutorials-and-techniques.html)
+
+
+### [jQuery插件库](http://www.jq22.com/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008677-4037dcc4-86f0-42cd-bec1-14aba3be0389.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+**收集最全最新最好的jQuery插件**

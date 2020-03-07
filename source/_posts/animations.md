@@ -2,7 +2,7 @@ title: animations
 categories:
  - CSS
 author: 宋玉
-date: 2020-03-07 14:17:26
+date: 2020-03-07 14:18:44
 ---
 1. Animations are useful for more complex movement in the browser. 
 1. Animations also behave a little differently. They can begin automatically. 
@@ -22,4 +22,3 @@ This means that if telling a story or drawing attention to something on a page, 
 | animation-direction | 规定是否应该轮流反向播放动画 |
 
 
-[MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)<br />一个轻量级的 JS 网页动画引擎。

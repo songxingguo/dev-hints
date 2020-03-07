@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:10:09
+date: 2020-03-07 11:16:26
 ---
 
 ## 工作流管理工具
@@ -39,6 +39,11 @@ date: 2020-03-07 11:10:09
 
 **基于流自动编译 LESS 、压缩 CSS 、 JS**
 
+### [Babel](https://babeljs.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583550934756-e20d1dcb-ac4a-4cb6-8a1b-4e86d9ad6ef2.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2878&size=335637&status=done&style=none&width=1439)
+
+JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+
 ### [Parcel](https://parceljs.org/getting_started.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066425429-25a3b0d1-022b-4f32-acdf-80cbc260e48f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=380411&status=done&style=none&width=1440)
 
@@ -49,8 +54,17 @@ date: 2020-03-07 11:10:09
 ### [npm](https://www.npmjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549622301-fa2d571f-362c-4c9b-815a-b632745ce27b.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=1021020&status=done&style=none&width=1438)
 
+
+
 ### [Yarn](https://yarnpkg.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066228897-8b1e56dd-3249-4901-9d5d-fb5738e3eb35.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=303280&status=done&style=none&width=1440)
+
+## 软件管理器
+
+### [Bower](https://bower.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583550741062-283a3414-c691-410f-b5cc-656ee3bbec8c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=440968&status=done&style=none&width=1440)
+
+一个客户端的软件包管理器
 
 ## 进程管理器
 

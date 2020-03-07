@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 15:48:01
+date: 2020-03-07 16:32:31
 ---
 
 ## 框架
@@ -294,86 +294,13 @@ date: 2020-03-07 15:48:01
 ## js 库
 
 
-### [Auto.js](https://hyb1996.github.io/AutoJs-Docs/#/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194766205-054911e6-c610-45ff-8512-f1c763d87f07.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2870&size=518040&status=done&style=none&width=1435)
-
-### [Socket.IO](https://socket.io/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009118-4f8d816e-59a3-4248-acdd-dd3551f0874d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [Moment.js中文网](http://momentjs.cn/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009121-2090c591-1ac2-4c4a-8795-09a1143d83f9.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [Commander.js](https://www.cnblogs.com/mirandachen/p/9826886.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009135-1d3e767f-e2e8-4993-9a94-9892ac33cfc8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [Lodash](https://www.lodashjs.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009156-843494f1-3f88-48a2-9c66-59ec5777e066.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [NW.js](https://nwjs.io/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194843567-c073f8cc-0853-46de-8be7-66572aaa37a1.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2868&size=716822&status=done&style=none&width=1434)
-
-### [cheerio](https://cheerio.js.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009192-2be30cdf-d89f-4614-8ebf-dccdaacfb385.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [jQuery](https://api.jquery.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009234-dc31c71e-964f-4944-b2f7-15eb0501f4e1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [Licia](https://licia.liriliri.io/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194910804-935b35b4-e2ec-47ab-aa5c-b0a0f4208864.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=1299379&status=done&style=none&width=1439)
-
-
-### [Mock.js](http://mockjs.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009201-33516d4e-4f82-48f9-9d6d-c4f2b431ca14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-[Mock.js 0.1 文档](http://mockjs.com/0.1/)
-
-### [axios中文文档|axios中文网|axios](http://www.axios-js.com/zh-cn/docs/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009266-bfaf3b80-6aa5-4546-b0d2-39a767a71317.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [SmoothScrollbehaviorpolyfill](http://iamdustan.com/smoothscroll/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009222-9ed59afe-97ee-4684-8fde-4e07002ae108.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [Rough.js](https://roughjs.com/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009614-ce4284e4-31ca-426e-803e-6e6cad9508fe.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [AnIntroductiontoD3.js](https://wattenberger.com/blog/d3#intro)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195441399-57b3035c-c64e-464b-9087-55d2cdc0870e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=452083&status=done&style=none&width=1436)
-
-### [Pictool](https://chenshenhai.github.io/pictool-doc/)
-
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009267-6338a022-d4ab-459e-800c-5939c6f2b00a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [instant.page](https://instant.page/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195467496-02406c69-35b5-4205-8a83-5db71b43e14a.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=400782&status=done&style=none&width=1438)
-
-### [Rete.js](https://rete.js.org/#/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195497933-3450e14f-ff45-40fd-91a6-4e9c3b11d619.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=206295&status=done&style=none&width=1437)
-
-### [FormatJS](https://formatjs.io/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195611106-12e6750b-6e27-4312-bebd-74797fc1190b.png#align=left&display=inline&height=736&name=image.png&originHeight=1472&originWidth=2876&size=883699&status=done&style=none&width=1438)
-
-### [JavaScriptCryptography](http://cryptojs.altervista.org/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195533639-fb8e73ba-0301-479f-a864-c893fc7541b4.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=326138&status=done&style=none&width=1438)
+### 
 
 ### [JavaScriptdesignpatterns#1.SingletonandtheModule](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009316-aa4e7692-ffea-4d68-83e5-cffd7e809d2a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 
-### [gm](http://aheckmann.github.io/gm/docs.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009296-35a5eb26-2ff5-487c-a3c9-91b8a843a067.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-
-### [highlight.js](https://highlightjs.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009295-8372f01e-3963-4c1a-9cc6-369b8edba0e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 
 ## 脚手架

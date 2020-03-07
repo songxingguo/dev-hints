@@ -2,7 +2,7 @@ title: 工具库
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 17:02:48
+date: 2020-03-07 18:41:44
 ---
 
 ## Socket
@@ -66,6 +66,9 @@ date: 2020-03-07 17:02:48
 ### [SmoothScrollbehaviorpolyfill](http://iamdustan.com/smoothscroll/)
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009222-9ed59afe-97ee-4684-8fde-4e07002ae108.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+#### [qier-progress](https://github.com/vortesnail/qier-progress)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583577643241-16c7d2ea-1945-472d-8ada-e4ea46d818e2.png#align=left&display=inline&height=769&name=image.png&originHeight=1538&originWidth=2882&size=246412&status=done&style=none&width=1441)<br />一个网页顶部进度条的 JS 库。
 
 ## 加密
 

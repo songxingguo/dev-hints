@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 13:57:35
+date: 2020-03-07 14:07:47
 ---
 
 ## UI库
@@ -575,14 +575,7 @@ date: 2020-03-07 13:57:35
 ### [uni-app官网](https://uniapp.dcloud.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196161827-c9fb784e-b59c-49df-866d-3f45ca9819b1.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=848903&status=done&style=none&width=1436)
 
-## 静态网站
-
-
-### [VuePress](http://caibaojian.com/vuepress/guide/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009368-efebde87-8cfb-47be-941f-d8621321efbc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [lit-htmlPart1-AsolutionforDOMmanagementinwebcomponents-Terodox.tech-wickedtechbub](https://terodox.tech/handling-web-component-markup-with-lit-html/)
+## 
 
 ## 脚手架
 
@@ -594,13 +587,7 @@ date: 2020-03-07 13:57:35
 
 
 ### [D2Admin](https://d2admin.fairyever.com/#/index)
-
-## 网络
-
-### [Charles](https://www.charlesproxy.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009436-449fb3f2-4983-45ba-954b-33472db11561.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-[分享开发多个线上项目后总结的HTTP接口设计方案-姬涛的个人网站](https://www.jitao.tech/blog/2020/01/java-http-api/)
+<br />
 
 ## 商家
 

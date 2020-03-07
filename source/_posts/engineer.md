@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 11:24:43
+date: 2020-03-07 16:53:43
 ---
 
 ## 工作流管理工具
@@ -59,6 +59,8 @@ JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://
 ### [npm](https://www.npmjs.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583549622301-fa2d571f-362c-4c9b-815a-b632745ce27b.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=1021020&status=done&style=none&width=1438)
 
+[官方文档](https://www.npmjs.cn/)
+
 
 ### [Yarn](https://yarnpkg.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066228897-8b1e56dd-3249-4901-9d5d-fb5738e3eb35.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=303280&status=done&style=none&width=1440)
@@ -96,6 +98,22 @@ JavaScript 编译器<br />[Babel 入门教程- 阮一峰的网络日志](http://
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583551269120-0db019dc-13f3-4b61-bbf0-5620e921b7a4.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=540626&status=done&style=none&width=1440)
 
 Yeamon帮助你快速的开展一个项目工程，提供最佳实践和工具，来让你保持高效率编码。
+
+## 版本控制
+
+### [Git](https://git-scm.com/doc)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008515-2809075a-ed6d-474f-8d05-2c913afe9546.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+- [Git_w3cschool](https://www.w3cschool.cn/doc_git/)
+
+
+## 代码规范
+
+### [ESLint](https://eslint.org/)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008507-33a93dab-ef5b-4c52-8823-57549507d5c8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+### [stylelint](http://stylelint.cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068387727-b5f4b0c0-237b-4294-a0ad-dec3aaef2229.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=446841&status=done&style=none&width=1440)<br />**<br />**一个强大的现代 CSS 检测器，可以让你在样式表中遵循一致的约定和避免错误。**
 
 ## 其他
 

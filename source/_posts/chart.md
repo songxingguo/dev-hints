@@ -1,9 +1,11 @@
-title: 绘图
+title: 图表
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:56:43
+date: 2020-03-07 10:01:04
 ---
+
+## 绘图
 
 ### [Zen Flowchart](https://www.zenflowchart.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582386318774-4afb5046-a206-49b3-9d16-eeb34e5076f1.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2872&size=593099&status=done&style=none&width=1436)
@@ -37,3 +39,10 @@ date: 2020-03-07 09:56:43
 
 ### [imgagecharts](https://www.image-charts.com/#feature)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582642674753-8efceeb1-be5d-4cb9-a9d7-6d8ae63ccd0b.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=243904&status=done&style=none&width=1440)
+
+## 表格
+
+#### [x-spreadsheet](https://github.com/myliang/x-spreadsheet)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583546312025-83c7d76f-e5a9-417f-8835-35033827b572.png#align=left&display=inline&height=229&name=image.png&originHeight=457&originWidth=800&size=110155&status=done&style=none&width=400)
+
+一个基于 Canvas 的 JS 电子表格库。

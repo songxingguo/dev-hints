@@ -2,7 +2,7 @@ title: 编辑器
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:59:38
+date: 2020-03-07 15:38:21
 ---
 
 ### [微信 Markdown 编辑器](https://github.com/doocs/md)
@@ -20,3 +20,5 @@ date: 2020-03-07 09:59:38
 
 AI 写作助手，可以给出文章中的语言错误。
 
+### [BoostNote](https://boostnote.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075314390-19cfe327-996e-48ef-a87a-15ba720d836e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=216669&status=done&style=none&width=1440)

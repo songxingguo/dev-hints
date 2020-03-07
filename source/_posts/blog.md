@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 10:18:12
+date: 2020-03-07 10:23:16
 ---
 
 ## 博客系统
@@ -15,6 +15,9 @@ date: 2020-03-07 10:18:12
 
 ### [Netlify](https://www.netlify.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074601186-a875da23-1f44-495e-9ddf-d9cd2372e9f0.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=2688940&status=done&style=none&width=1440)
+
+### [HUGO](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583547790306-511e0a2b-ef55-47cb-a825-0c43ca379644.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=356597&status=done&style=none&width=1437)
 
 ### [Halo](https://halo.run/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074634763-ca3744d8-1dde-47aa-9e02-c3beebbcb002.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=229243&status=done&style=none&width=1436)

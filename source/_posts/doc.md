@@ -2,77 +2,8 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:43:16
+date: 2020-03-07 16:57:24
 ---
-
-## 框架
-
-### [Node.js](http://nodejs.cn/api/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008486-ebf2d561-9ced-4614-8593-75f79fcaada3.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [ThinkJS](https://thinkjs.org/zh-cn/doc/3.0/middleware.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008327-5d2545f1-1560-4e9d-9516-ff2d3ee1010e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [ZeroServer](https://zeroserver.io/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008408-26bf4101-eeed-4974-8a80-cf10f46d3f18.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [BaseWeb](https://baseweb.design/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008455-0d89927c-119f-43d3-8fe5-4486cdb1e6a0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [GatsbyJS](https://www.gatsbyjs.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008396-548f9ad5-e9fa-468c-a846-b7860281aba5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [RequireJS](https://requirejs.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008426-c2062eab-3363-458b-8bd5-c9156c893ac4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [WebMagic](http://webmagic.io/docs/zh/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008407-50512d79-be7f-45ff-96b4-207f191c85d4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [React](https://www.reactjscn.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-384001ba-7eb4-4a16-b5b9-d6d7c8d40b8a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [Vue.js](https://cn.vuejs.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008433-6f9f8d86-650d-40b7-8f47-b6ab618801e4.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-- [VueRouter](https://router.vuejs.org/zh/)
-- [axios](https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
-
-
-### [jqGridDemos](http://www.trirand.com/blog/jqgrid/jqgrid.html)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067635560-eeb3af2a-c218-4fa9-af37-b096959a814e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=237837&status=done&style=none&width=1440)
-
-### 
-
-### [Nuxt.js](https://zh.nuxtjs.org/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067650577-160ce937-2389-4e09-a40e-f9a6fb5ae26a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=224587&status=done&style=none&width=1437)
-
-**Vue.js通用应用框架**
-
-### [VueCLI](https://cli.vuejs.org/zh/config/#%E5%85%A8%E5%B1%80-cli-%E9%85%8D%E7%BD%AE)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067731643-ece1c682-5f08-4ea6-92eb-de508bc42bf9.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2868&size=441581&status=done&style=none&width=1434)
-
-### [WEEX](https://weex.apache.org/zh/guide/introduction.html#%E6%A6%82%E8%BF%B0)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067790743-103bfc76-b3ee-4667-8875-bb5af2b70346.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2878&size=458694&status=done&style=none&width=1439)<br />**<br />**Weex 是使用流行的 Web 开发体验来开发高性能原生应用的框架。**
-
-### [Mithril](https://mithril.js.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008426-00961e92-6c13-4365-a17e-a0d1b866cc47.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [Electron](http://electronjs.org/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067847915-cfdba284-3583-4719-9a76-c3bc9044da67.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=225316&status=done&style=none&width=1438)
-
-**使用JavaScript,HTML和CSS构建跨平台的桌面应用。**
-
-### [revery](https://www.outrunlabs.com/revery/api/revery/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583545749277-495dc638-f24e-4611-bc4c-9143a246909c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2852&size=243707&status=done&style=none&width=1426)
-
-一个构建跨平台桌面应用的框架，跟 Flutter 的思路有点像，也是内置了自己的控件，保证了跨平台一致的体验。它使用 Reason 语言编写，使用 React + Redux。
 
 ## 数据请求
 
@@ -87,57 +18,9 @@ date: 2020-03-07 16:43:16
 
 **基于 **[**Node.js**](https://nodejs.org/)**的数据持久化方案，适合轻量级Node.js应用**
 
-## 版本控制
 
-### [Git](https://git-scm.com/doc)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008515-2809075a-ed6d-474f-8d05-2c913afe9546.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+## 
 
-- [Git_w3cschool](https://www.w3cschool.cn/doc_git/)
-
-
-### [npm](https://www.npmjs.cn/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008489-fa727da5-880b-44ee-aee7-741b3152450a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-## 代码规范
-
-### [ESLint](https://eslint.org/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008507-33a93dab-ef5b-4c52-8823-57549507d5c8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
-### [BEM](https://www.w3cplus.com/css/bem-definitions.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008524-9fee1fa1-8dab-47f0-becc-3bf559903ce8.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [Methodology(BEM)](https://en.bem.info/methodology/quick-start/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008754-5abfc537-052b-441a-ae69-6ea1c227ef7c.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### [airbnb 规范](https://github.com/airbnb/javascript)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068320364-c5089a25-69c7-483b-8036-bea8e76aa68e.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=381434&status=done&style=none&width=1437)
-
-### [stylelint](http://stylelint.cn/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068387727-b5f4b0c0-237b-4294-a0ad-dec3aaef2229.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=446841&status=done&style=none&width=1440)<br />**<br />**一个强大的现代 CSS 检测器，可以让你在样式表中遵循一致的约定和避免错误。**
-
-### [BestPractices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068425977-a581d35b-5fd9-4161-85e4-31a7c63aa706.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2878&size=498331&status=done&style=none&width=1439)
-
-## AI
-
-### [百度AI](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071208843-9f5ddf68-a472-40a2-88bb-55ed159e23ed.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=389669&status=done&style=none&width=1440)
-
-### [科大讯飞](https://doc.xfyun.cn/rest_api/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.html)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071247259-34035cd4-2bba-4451-918f-c0286a3698ad.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2868&size=717140&status=done&style=none&width=1434)
-
-### [阿里云](https://ai.aliyun.com/?spm=a2c4g.11186623.h2v3icoap.189.4e3b259eBcWsGD)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071309933-44d237e0-ffaf-4739-9da3-8c2d3d52b232.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2872&size=1120074&status=done&style=none&width=1436)
-
-### [腾讯云](https://cloud.tencent.com/document/product)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071386922-f4c52b84-5e08-4681-a2bf-5be80c6db65d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=1036307&status=done&style=none&width=1436)
-
-### [培音](http://www.peiyinapp.com/index.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008708-d27435c1-962c-44a3-9c21-d80e3b19170b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-**文字转语音，广告配音软件**
 
 ## 操作系统
 
@@ -159,9 +42,6 @@ date: 2020-03-07 16:43:16
 
 ### [openEuler](https://openeuler.org/zh/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583072202810-ab722809-8f23-41d7-9766-b3c365bbfb0f.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2880&size=2992216&status=done&style=none&width=1440)
-
-### 
-
 
 ## 博客
 
@@ -195,8 +75,6 @@ date: 2020-03-07 16:43:16
 
 
 ### [D2Admin](https://d2admin.fairyever.com/#/index)
-
-### 
 
 
 ## 算法

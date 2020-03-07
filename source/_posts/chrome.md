@@ -2,7 +2,7 @@ title: Chrome
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:20:41
+date: 2020-03-07 09:23:59
 ---
 
 #### [Clipboard History Pro](https://chrome.google.com/webstore/detail/clipboard-history-pro-bes/ajiejmhbejpdgkkigpddefnjmgcbkenk)

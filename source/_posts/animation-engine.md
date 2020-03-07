@@ -2,11 +2,18 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 14:24:01
+date: 2020-03-07 14:25:03
 ---
-[MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583562015425-b52a4ae2-e877-49f0-88b3-4594483f401e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=142191&status=done&style=none&width=1440)
+
+### [MojoJS](https://github.com/scottcgi/MojoJS-Animation)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583562015425-b52a4ae2-e877-49f0-88b3-4594483f401e.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=142191&status=done&style=none&width=1440)
 
 一个轻量级的 JS 网页动画引擎。
+
+### [L2Dwidget](https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008953-109c6342-96d8-4f4a-975d-9817ef233ee5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+- [hexo-helper-live2d-npm](https://www.npmjs.com/package/hexo-helper-live2d)
 
 
 ### [Swiper中文网](https://www.swiper.com.cn/)

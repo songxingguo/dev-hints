@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 16:02:19
+date: 2020-03-07 16:09:58
 ---
 
 ## 压缩
@@ -113,6 +113,9 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 ### [Pictool](https://chenshenhai.github.io/pictool-doc/)
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009267-6338a022-d4ab-459e-800c-5939c6f2b00a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+### [gm](http://aheckmann.github.io/gm/docs.html)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009296-35a5eb26-2ff5-487c-a3c9-91b8a843a067.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 ## 图片信息
 

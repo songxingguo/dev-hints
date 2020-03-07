@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 14:03:12
+date: 2020-03-07 14:03:51
 ---
 
 ## 博客系统
@@ -86,6 +86,8 @@ Saber是一个静态网站生成器，它类似于Hexo，但是，您可以使�
 
 ### [lit-html](https://lit-html.polymer-project.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008387-cfde456d-a912-4cd0-9640-3168213e8856.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+[lit-htmlPart1-AsolutionforDOMmanagementinwebcomponents-Terodox.tech-wickedtechbub](https://terodox.tech/handling-web-component-markup-with-lit-html/)
 
 JavaScript 下一代模版
 

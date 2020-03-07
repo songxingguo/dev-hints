@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 09:54:04
+date: 2020-03-07 09:55:03
 ---
 
 ## UI库
@@ -228,8 +228,7 @@ date: 2020-03-07 09:54:04
 
 **使用JavaScript,HTML和CSS构建跨平台的桌面应用。**
 
-
-#### [revery](https://www.outrunlabs.com/revery/api/revery/)
+### [revery](https://www.outrunlabs.com/revery/api/revery/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583545749277-495dc638-f24e-4611-bc4c-9143a246909c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2852&size=243707&status=done&style=none&width=1426)
 
 一个构建跨平台桌面应用的框架，跟 Flutter 的思路有点像，也是内置了自己的控件，保证了跨平台一致的体验。它使用 Reason 语言编写，使用 React + Redux。

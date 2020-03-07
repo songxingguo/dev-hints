@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 15:46:04
+date: 2020-03-07 16:03:56
 ---
 
 ## 博客系统
@@ -56,6 +56,8 @@ Saber是一个静态网站生成器，它类似于Hexo，但是，您可以使�
 ### [GatsbyJS](https://www.gatsbyjs.org/docs/quick-start/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075293562-0dfbe70b-1966-4eee-920b-bef8b23681a5.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2878&size=815089&status=done&style=none&width=1439)
 
+### [instant.page](https://instant.page/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195467496-02406c69-35b5-4205-8a83-5db71b43e14a.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=400782&status=done&style=none&width=1438)
 
 ## 博客相关
 

@@ -2,8 +2,10 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-06 10:22:09
+date: 2020-03-07 17:09:52
 ---
+
+## VPN 代理
 
 ### [Shadowsocks](https://github.com/shadowsocks)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582606753454-a712673f-4328-4d21-a1ac-cf3fe89b0403.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=296751&status=done&style=none&width=1437)
@@ -19,6 +21,8 @@ bash ssr.sh
 #### 下载地址
 [Mac](https://github.com/shadowsocks/ShadowsocksX-NG)<br />[客户端](https://shadowsocks.org/en/download/clients.html)
 
+## VPN 服务器
+
 ### [搬瓦工](https://bwh88.net/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582606995538-33fbc0bd-e51f-40ba-809c-6e212d86a966.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=1837449&status=done&style=none&width=1440)
 
@@ -29,10 +33,18 @@ bash ssr.sh
 
 **VPN 服务器提供商（按量收费，最大 $5，支持支付宝）**<br />[Vultr利用快照Snapshots备份和迁移数据](http://www.idcspy.com/vultr-snapshots-backup.html)<br />[官网修改密码](https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password)<br />[修改密码]()
 
-# FinalShell
+## 远程服务器管理
+
+### FinalShell
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583381678360-4efdf799-9812-4811-b481-d81f7bb392ec.png#align=left&display=inline&height=877&name=image.png&originHeight=1754&originWidth=2880&size=198537&status=done&style=none&width=1440)
 
-服务器管理软件<br />[安装](http://www.hostbuf.com/t/1059.html)
+
+[安装](http://www.hostbuf.com/t/1059.html)
+
+### [WinSCP::WinSCP](https://winscp.net/eng/docs/lang:chs)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071544483-da41fb3f-de75-4562-b6e8-ad0ce419ac30.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2878&size=269513&status=done&style=none&width=1439)
+
+## 其他
 
 ### [敏感词防和谐工具](https://we.laogongshuo.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582638072895-0f3a852b-5360-4e2f-aeda-2fa9228df95f.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=145734&status=done&style=none&width=1436)

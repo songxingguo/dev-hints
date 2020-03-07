@@ -2,7 +2,7 @@ title: UI 库
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 14:15:07
+date: 2020-03-07 14:30:59
 ---
 
 ### [AntDesignofVue](https://www.antdv.com/docs/vue/introduce-cn/)
@@ -100,7 +100,7 @@ date: 2020-03-07 14:15:07
 ### [Craft](https://craft.js.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583067917513-5a5a5d97-fa9d-4448-851f-22471afdc362.png#align=left&display=inline&height=734&name=image.png&originHeight=1468&originWidth=2880&size=397372&status=done&style=none&width=1440)
 
-**可拖拽组件库**<br />**
+**可拖拽组件库**
 
 ## 小程序
 

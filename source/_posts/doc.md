@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 15:42:41
+date: 2020-03-07 15:48:01
 ---
 
 ## 框架
@@ -278,23 +278,12 @@ date: 2020-03-07 15:42:41
 
 ## 博客
 
-### [MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583074870598-eb9afa72-24a5-429d-9118-37aac093e06d.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=416955&status=done&style=none&width=1437)
-
-
-### [好代码是管出来的——使用GitHub实现简单的CI/CD-7m鱼-博客园](https://www.cnblogs.com/selimsong/p/9398738.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009015-53e7e7db-bd48-426e-8fb6-b350151b3bbf.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-
 ### [GitHub迎来内置CI/CD，对所有开源项目免费！_Actions](http://www.sohu.com/a/332613031_115128)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008997-974241fc-7958-4d7b-83a6-a2872ccc3a14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 
 ### [Features•GitHubActions](https://github.com/features/actions)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075030738-4011b1ff-4e57-421c-b648-ba1bc2fedc7d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=933286&status=done&style=none&width=1438)
-
-### 
-
 
 ## 图表
 

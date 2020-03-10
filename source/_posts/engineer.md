@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:53:43
+date: 2020-03-10 17:32:17
 ---
 
 ## 工作流管理工具
@@ -114,6 +114,13 @@ Yeamon帮助你快速的开展一个项目工程，提供最佳实践和工具�
 
 ### [stylelint](http://stylelint.cn/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068387727-b5f4b0c0-237b-4294-a0ad-dec3aaef2229.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=446841&status=done&style=none&width=1440)<br />**<br />**一个强大的现代 CSS 检测器，可以让你在样式表中遵循一致的约定和避免错误。**
+
+### [yorkie](https://www.npmjs.com/package/yorkie)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583832679195-0ce51fc9-10cf-40c1-8182-346dd89064a3.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=321907&status=done&style=none&width=1440)
+
+Git 提交信息规范化检查
+
+- [Git 提交信息规范化](https://zhuanlan.zhihu.com/p/74930500)
 
 ## 其他
 

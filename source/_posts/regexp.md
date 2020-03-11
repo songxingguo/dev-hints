@@ -2,13 +2,9 @@ title: 正则表达式
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-03-11 08:23:39
+date: 2020-03-11 08:24:52
 ---
-[可视化工具](https://regexper.com/)<br />[regexp](https://devhints.io/regexp)
-
----
-
-
+[](https://regexper.com/)
 
 ## 语法
 
@@ -97,5 +93,6 @@ date: 2020-03-11 08:23:39
 | /(<a name=.*?>.*?<\/a>)/g  | 去除锚点 |
 
 
+---
 
-
+[可视化工具](https://regexper.com/)<br />[regexp](https://devhints.io/regexp)

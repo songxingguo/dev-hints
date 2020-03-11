@@ -2,11 +2,15 @@ title: 正则表达式
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-03-11 08:26:10
+date: 2020-03-11 08:28:18
+---
+[可视化工具](https://regexper.com/)
+
 ---
 
 
 ## 语法
+[regexp](https://devhints.io/regexp)
 
 ### Character classes
 | Pattern | Description |
@@ -93,6 +97,4 @@ date: 2020-03-11 08:26:10
 | /(<a name=.*?>.*?<\/a>)/g  | 去除锚点 |
 
 
----
-
-[可视化工具](https://regexper.com/)<br />[regexp](https://devhints.io/regexp)
+[](https://regexper.com/)<br />

@@ -2,7 +2,7 @@ title: 工程化
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-10 17:34:28
+date: 2020-03-11 08:08:59
 ---
 
 ## 工作流管理工具
@@ -16,6 +16,9 @@ date: 2020-03-10 17:34:28
 
 ### [TravisCI](https://travis-ci.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583066553902-124ca912-3847-49be-a4f9-ee71bebe7f9c.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=193379&status=done&style=none&width=1438)
+
+### [circleci](https://circleci.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583884733813-32dee421-e246-4aec-983a-b574a351b429.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2876&size=355721&status=done&style=none&width=1438)
 
 ### [Jenkins](https://www.w3cschool.cn/jenkins/jenkins-5h3228n2.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008357-3008e1a7-e789-48a6-8985-9abcc24536e5.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -122,9 +125,29 @@ Git 提交信息规范化检查
 
 - [Git 提交信息规范化](https://zhuanlan.zhihu.com/p/74930500)
 
+### [CodeClimate](https://codeclimate.com/customers/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583885091684-2ab6e322-d426-4620-877a-d77afb083ce7.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=4767726&status=done&style=none&width=1439)
+
+代码质量检查
+
+## 监控
+
+### [sentry](https://sentry.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583884536176-f5eebcb0-f4dc-4d15-b536-55767ea4860d.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=2644648&status=done&style=none&width=1438)
+
+日志记录和汇集的平台
+
+### [NewRelic](https://www.newrelic.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583884886590-3d247caa-470f-4e36-8776-5b9284025d03.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=2725272&status=done&style=none&width=1440)
+
+性能监控工具
+
+### [Mixpanel](https://mixpanel.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583885294532-b9343058-a977-4afe-8329-9c95421ae152.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=1006335&status=done&style=none&width=1437)
+
+用户行为记录
+
 ## 其他
 
 ### [fossasia](https://blog.fossasia.org/tag/universal-cookies/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008268-f306678d-53dd-43b9-a0bf-0b1d134a3ea1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-

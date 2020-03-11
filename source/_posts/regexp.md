@@ -2,7 +2,7 @@ title: 正则表达式
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-03-11 08:28:18
+date: 2020-03-11 08:30:32
 ---
 [可视化工具](https://regexper.com/)
 
@@ -97,4 +97,5 @@ date: 2020-03-11 08:28:18
 | /(<a name=.*?>.*?<\/a>)/g  | 去除锚点 |
 
 
-[](https://regexper.com/)<br />
+
+

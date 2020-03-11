@@ -2,7 +2,7 @@ title: 正则表达式
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-03-11 08:53:05
+date: 2020-03-11 08:54:23
 ---
 [可视化工具](https://regexper.com/)
 
@@ -82,7 +82,6 @@ date: 2020-03-11 08:53:05
 | --- | --- |
 | `a(?=b)` | Match `a` in `baby` but not in `bay` |
 | `a(?!b)` | Match `a` in `Stan` but not in `Stab` |
-| --- | --- |
 | `(?<=a)b` | Match `b` in `crabs` but not in `cribs` |
 | `(?<!a)b` | Match `b` in `fib` but not in `fab` |
 

@@ -2,7 +2,7 @@ title: 绘图
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-11 21:05:24
+date: 2020-03-11 21:22:47
 ---
 
 ## 绘图
@@ -39,6 +39,9 @@ date: 2020-03-11 21:05:24
 
 ### [imgagecharts](https://www.image-charts.com/#feature)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582642674753-8efceeb1-be5d-4cb9-a9d7-6d8ae63ccd0b.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=243904&status=done&style=none&width=1440)
+
+### [xMind](https://www.xmind.cn/zen/?ref=zhihu)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583932955154-0607825e-3f55-4e3b-9c56-a01196df8f44.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=289065&status=done&style=none&width=1440)
 
 ## 表格
 

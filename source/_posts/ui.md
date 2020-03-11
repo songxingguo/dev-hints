@@ -2,7 +2,7 @@ title: UI 库
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 18:14:29
+date: 2020-03-11 11:29:14
 ---
 PC 端
 
@@ -21,8 +21,6 @@ PC 端
 ### [Bootstrap](https://v4.bootcss.com/)
 **![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583063725825-2f5c0965-74ae-40c4-b6a7-9fe559acfbef.png#align=left&display=inline&height=757&name=image.png&originHeight=1514&originWidth=2866&size=458941&status=done&style=none&width=1433)**<br />**<br />**全球最流行的HTML、CSS和JS工具库。**
 
-### 
-
 
 ### [WeUI](https://weui.io/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008208-634b299f-7576-4fdf-9aa9-87d1baacaa13.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />****WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。**
@@ -40,6 +38,11 @@ PC 端
 
 **一套高质量的UI组件库**
 
+### [TaroUi](https://taro-ui.aotu.io/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583897332612-a51071c4-a21d-4617-b501-1a01367efc0a.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2876&size=2274236&status=done&style=none&width=1438)
+
+[官方文档](https://taro-ui.aotu.io/#/docs/introduction)
+
 ### [NutUI2.0](http://nutui.jd.com/#/index)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583064974736-bf5bbed4-1746-4d5f-9028-157fc2b548d2.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=754211&status=done&style=none&width=1435)<br />**一套京东风格的轻量级移动端Vue组件库**
 
@@ -51,8 +54,6 @@ PC 端
 
 ### [SemanticUIReact](https://react.semantic-ui.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008170-800fb73c-8af3-4d25-8c5c-f945ca23ca01.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### 
 
 
 
@@ -68,13 +69,9 @@ PC 端
 ### [OverwatchUI](https://haixiang6123.github.io/overwatch-ui-doc/#/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583065686715-43d6520f-9e81-4ae1-b243-59a6889b002f.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=257068&status=done&style=none&width=1434)
 
-### 
-
 
 ### [Formik](https://jaredpalmer.com/formik/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008247-70cc6254-955c-4068-85f6-2ea023f4d6ac.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-### 
 
 
 ### [storybook](https://storybook.js.org/docs/examples/)
@@ -87,11 +84,7 @@ PC 端
 
 **_手绘风格_ 的 Android 组件库。**
 
-## 
-
-
 ## 小程序
-
 
 ### [VantWeapp](https://youzan.github.io/vant-weapp/#/intro)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583063694058-4915bad3-98ce-46f1-af40-00f9b6513313.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=351781&status=done&style=none&width=1438)
@@ -108,16 +101,10 @@ PC 端
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583576054062-5f37c92b-9e93-4241-9f94-2cfa162ca69d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2874&size=1382922&status=done&style=none&width=1437)
 
 
-### 
-<br />
-
 ## 表单
 
 ### [WxValidate](https://github.com/skyvow/wx-extend/blob/master/docs/components/validate.md)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195825576-30b5bd45-b801-43a0-878f-7270bb6cdd9f.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=294191&status=done&style=none&width=1440)<br />
-
-
-
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195825576-30b5bd45-b801-43a0-878f-7270bb6cdd9f.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=294191&status=done&style=none&width=1440)
 
 ## 跨平台
 

@@ -2,7 +2,7 @@ title: BEM
 categories:
  - CSS
 author: 宋玉
-date: 2020-02-25 10:16:33
+date: 2020-03-12 11:35:37
 ---
 block__element--modifier
 
@@ -17,7 +17,7 @@ block-name__elem-name_mod-name_mod-val
 ---
 
 
-<a name="5OXl1"></a>
+
 ### 常用命名
 
 - head
@@ -49,3 +49,6 @@ block-name__elem-name_mod-name_mod-val
 - VM（ViewModel, 视图模型）
 - DM （DataModel, 数据模型）
 - batch
+- need
+- has
+- not

@@ -2,7 +2,7 @@ title: 设计
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-12 09:12:54
+date: 2020-03-12 09:13:33
 ---
 
 ##  配色
@@ -106,4 +106,6 @@ UI 中国同样是一个历史悠久的社区，在其中可以找到大量的�
 **RGB转16进制工具具用于将RGB颜色值与十六进制字符串相互转换**<br />**
 
 ## 设计师
-**[David Lanham](https://dlanham.com/)**<br />**![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583975480692-4b7a0ba1-ab39-48c2-a270-7515b7373e60.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=1566498&status=done&style=none&width=1440)**
+
+### [David Lanham](https://dlanham.com/)
+**![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583975480692-4b7a0ba1-ab39-48c2-a270-7515b7373e60.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=1566498&status=done&style=none&width=1440)**

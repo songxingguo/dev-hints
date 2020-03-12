@@ -2,7 +2,7 @@ title: 在线练习
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-12 09:53:27
+date: 2020-03-12 09:55:27
 ---
 
 ## 练习
@@ -16,7 +16,7 @@ date: 2020-03-12 09:53:27
 ### [algorithm-visualizer](https://algorithm-visualizer.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539255810-ed02c3da-4a6e-4e95-abca-e751982c3696.png#align=left&display=inline&height=769&name=image.png&originHeight=1538&originWidth=2880&size=734377&status=done&style=none&width=1440)
 
-一个直观的算法可视化工具，你可以自由选择自己想学习的算法，每个算法它都清晰描绘了其原理和运作过程。
+一个直观的算法可视化工具，你可以自由选择自己想学习的算法，每个算法它都清晰描绘了其原理和运作过程。<br />[算法](https://github.com/MisterBooo/LeetCodeAnimation)
 
 ### [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539321822-391ea725-f7c8-42bb-a694-be9d17b0b198.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2878&size=394516&status=done&style=none&width=1439)
@@ -50,8 +50,6 @@ Codewars提供了大量由他们自己的社区提交和编辑的编程挑战，
 
 ### [SegmentFault](https://segmentfault.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846964464-408652ca-32e8-4ab2-b12e-17d14749cccd.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1149358&status=done&style=none&width=1438)
-
-### 
 
 
 ## 竞赛

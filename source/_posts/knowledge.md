@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-12 09:24:00
+date: 2020-03-12 09:50:02
 ---
 
 ## 创作
@@ -43,11 +43,8 @@ date: 2020-03-12 09:24:00
 ### [知乎](https://www.zhihu.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846813218-da8733af-83f7-467f-8231-64935f872348.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1225298&status=done&style=none&width=1438)
 
-### [StackOverflow](https://stackoverflow.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846926208-18f2262e-6480-4e71-91b4-2003dd4f2e39.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2876&size=419353&status=done&style=none&width=1438)
+### 
 
-### [SegmentFault](https://segmentfault.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846964464-408652ca-32e8-4ab2-b12e-17d14749cccd.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1149358&status=done&style=none&width=1438)
 
 ## 社交
 

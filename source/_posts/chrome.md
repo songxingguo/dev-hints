@@ -2,7 +2,7 @@ title: Chrome
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-12 09:37:37
+date: 2020-03-12 09:37:47
 ---
 
 #### [Clipboard History Pro](https://chrome.google.com/webstore/detail/clipboard-history-pro-bes/ajiejmhbejpdgkkigpddefnjmgcbkenk)
@@ -13,7 +13,7 @@ Chrome 浏览器插件，用来管理系统的剪贴板，可以查看剪贴板�
 
 ### GitHub 插件
 
-### SourceGraph
+#### SourceGraph
 
 #### GitZip
 

@@ -2,7 +2,7 @@ title: 设计
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-12 09:13:33
+date: 2020-03-12 09:30:44
 ---
 
 ##  配色
@@ -84,7 +84,9 @@ Facebook 设计团队的博客网站
 ### [知群设计圈](http://izhiqun.com/app.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583974317145-b6dbcc6b-610d-4233-aec7-14ecef345d35.png#align=left&display=inline&height=1492&name=image.png&originHeight=1492&originWidth=1440&size=1471852&status=done&style=none&width=1440)
 
-[UI](http://ui.cn)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583974409751-47bce9f2-be94-42dd-bd7d-7289427c3a11.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=3432472&status=done&style=none&width=1440)
+
+### [UI](http://ui.cn)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583974409751-47bce9f2-be94-42dd-bd7d-7289427c3a11.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=3432472&status=done&style=none&width=1440)
 
 UI 中国同样是一个历史悠久的社区，在其中可以找到大量的各种软件的使用教程和设计相关教程。
 

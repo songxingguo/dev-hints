@@ -2,7 +2,7 @@ title: 在线练习
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 12:40:36
+date: 2020-03-13 12:40:52
 ---
 
 ## 练习
@@ -60,4 +60,7 @@ Codewars提供了大量由他们自己的社区提交和编辑的编程挑战，
 Kaggle 是数据挖掘、机器学习在线竞赛平台，在简历上有这一经历对求职者来说是非常具有优势的。
 
 ### [TopCoder](https://link.zhihu.com/?target=https%3A//www.topcoder.com/challenges/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583977635975-2ff32cd5-f873-420f-bb51-af9a0a6e4ac7.png#align=left&display=inline&height=496&name=image.png&originHeight=496&originWidth=1080&size=888950&status=done&style=none&width=1080)<br />TopCoder 是最早的在线编程竞技平台之一，他们还会赞助竞赛，如果你写出最好的解决方案，就可以拿到奖励！2019年就有5000美金给前5名。<br />[summerofcode](https://summerofcode.withgoogle.com/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584074430990-38e2331d-3b4e-4884-96d3-294e77518e36.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=1726461&status=done&style=none&width=1440)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583977635975-2ff32cd5-f873-420f-bb51-af9a0a6e4ac7.png#align=left&display=inline&height=496&name=image.png&originHeight=496&originWidth=1080&size=888950&status=done&style=none&width=1080)<br />TopCoder 是最早的在线编程竞技平台之一，他们还会赞助竞赛，如果你写出最好的解决方案，就可以拿到奖励！2019年就有5000美金给前5名。
+
+### [summerofcode](https://summerofcode.withgoogle.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584074430990-38e2331d-3b4e-4884-96d3-294e77518e36.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=1726461&status=done&style=none&width=1440)

@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 16:09:58
+date: 2020-03-13 08:19:31
 ---
 
 ## 压缩
@@ -46,7 +46,10 @@ date: 2020-03-07 16:09:58
 
 图片上加文字的在线工具，支持摄像头，可以制作表情包。
 
-##  截图
+### [photopea](https://www.photopea.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584058539333-d33f020b-58a0-4b28-9f62-cd523e67cce6.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2880&size=564464&status=done&style=none&width=1440)
+
+## 截图
 
 ### [Xinp](http://zh.xnipapp.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385109523-d3c084cf-e8f1-4737-b3b7-ae94af0efe57.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2874&size=621556&status=done&style=none&width=1437)

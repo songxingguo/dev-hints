@@ -2,7 +2,7 @@ title: 导航
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-11 12:01:28
+date: 2020-03-13 13:38:35
 ---
 
 ## 工具导航
@@ -38,3 +38,8 @@ date: 2020-03-11 12:01:28
 
 ### [Awesome Mac](https://ripperhe.com/awesome-mac-html/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583899245610-4661100a-6042-4bec-956d-36aef92d9b92.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=318033&status=done&style=none&width=1438)
+
+## 面试
+
+### [数据科学面试准备指南](https://www.kdnuggets.com/2020/01/data-science-interview-study-guide.html)
+这是一份英语清单，列出了数据科学方面的常见面试问题，分成机器学习算法、概率统计、产品和实验设计、程序设计、算法和数据结构、SQL 六个大类。

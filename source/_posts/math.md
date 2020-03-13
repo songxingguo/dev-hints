@@ -2,7 +2,7 @@ title: 数学
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 08:13:24
+date: 2020-03-13 13:37:39
 ---
 
 ### [Mathpix Snip](https://mathpix.com/)
@@ -13,4 +13,4 @@ date: 2020-03-07 08:13:24
 #### [简易数学函数作图工具](https://helloacm.com/tools/math-plot-graph/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539980736-db7dbb86-10e8-462d-aa00-56f845703a51.png#align=left&display=inline&height=269&name=image.png&originHeight=537&originWidth=650&size=141447&status=done&style=none&width=325)
 
-一个在线生成数学函数图形的网页小工具。
+一个在线生成数学函数图形的网页小工具。<br />[数学网站](https://mathvault.ca/websites/)<br />该网站收集网上的数学学习资源。

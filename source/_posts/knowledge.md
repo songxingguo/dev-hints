@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-13 13:31:58
+date: 2020-03-13 13:33:25
 ---
 
 ## 创作
@@ -106,3 +106,6 @@ date: 2020-03-13 13:31:58
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077509958-275d814f-1de6-4cb4-868c-e0c12d6a7c34.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=291969&status=done&style=none&width=1435)
 
 开源的知识管理软件，支持 Web 、命令行和浏览器插件。
+
+## 英语
+[免费有声读物](http://www.openculture.com/freeaudiobooks)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077601396-b34f64a0-04aa-49f6-98fd-dd7f2edf9baf.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=558471&status=done&style=none&width=1440)

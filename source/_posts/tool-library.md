@@ -2,7 +2,7 @@ title: 工具库
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-07 18:41:44
+date: 2020-03-13 13:36:34
 ---
 
 ## Socket
@@ -40,6 +40,11 @@ date: 2020-03-07 18:41:44
 
 ### [highlight.js](https://highlightjs.org/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009295-8372f01e-3963-4c1a-9cc6-369b8edba0e0.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+
+### [darken](https://github.com/ColinEspinas/darken)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077771266-033a6bfb-af33-4f90-8990-bcb88fa4249d.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=127391&status=done&style=none&width=1440)
+
+一个 JS 脚本，一行代码让网页从亮模式变为暗模式。
 
 ## 自动化
 

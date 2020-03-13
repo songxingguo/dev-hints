@@ -2,7 +2,7 @@ title: Chrome
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-12 09:37:47
+date: 2020-03-13 08:20:09
 ---
 
 #### [Clipboard History Pro](https://chrome.google.com/webstore/detail/clipboard-history-pro-bes/ajiejmhbejpdgkkigpddefnjmgcbkenk)
@@ -18,4 +18,4 @@ Chrome 浏览器插件，用来管理系统的剪贴板，可以查看剪贴板�
 #### GitZip
 
 #### Octotree
-**
+[ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584058804224-f99b0cb3-61a3-4d5c-b842-d7fccc4d3019.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=361820&status=done&style=none&width=1440)

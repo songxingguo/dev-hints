@@ -2,7 +2,7 @@ title: 框架
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-13 13:25:01
+date: 2020-03-13 13:35:09
 ---
 
 ### [Node.js](http://nodejs.cn/api/)
@@ -90,3 +90,6 @@ date: 2020-03-13 13:25:01
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077007675-f5d7d1ca-064d-45bd-a328-fdfeb79e9841.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2876&size=1801606&status=done&style=none&width=1438)
 
 Google一个新的用于构建跨平台的手机App的SDK<br />[Fluttify](https://fluttify.com/)<br />一个 Flutter 框架的插件开发工具，解决了插件开发过程中的类型安全，编码繁琐等痛点，目前已有的典型案例有高德地图插件。
+
+### [Proton Native](https://proton-native.js.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077212112-e0fec443-a434-453e-9d4a-f3608f4e068b.png#align=left&display=inline&height=754&name=image.png&originHeight=1508&originWidth=2880&size=1891840&status=done&style=none&width=1440)<br />Electron 的替代品，使用 React Native 的语法开发跨平台的桌面应用程序，但是底层使用的是 Qt 组件库。

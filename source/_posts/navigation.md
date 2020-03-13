@@ -2,7 +2,7 @@ title: 导航
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 13:38:35
+date: 2020-03-13 20:37:25
 ---
 
 ## 工具导航
@@ -38,6 +38,9 @@ date: 2020-03-13 13:38:35
 
 ### [Awesome Mac](https://ripperhe.com/awesome-mac-html/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583899245610-4661100a-6042-4bec-956d-36aef92d9b92.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=318033&status=done&style=none&width=1438)
+
+### [推荐库](https://github.com/PanJiaChen/awesome-bookmarks/tree/master/docs/repository)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584103039704-267e2a01-1e62-4497-87b5-7cc42d254bf7.png#align=left&display=inline&height=758&name=image.png&originHeight=1516&originWidth=2866&size=274815&status=done&style=none&width=1433)
 
 ## 面试
 

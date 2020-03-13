@@ -2,7 +2,7 @@ title: 框架
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 18:02:55
+date: 2020-03-13 13:25:01
 ---
 
 ### [Node.js](http://nodejs.cn/api/)
@@ -82,3 +82,11 @@ date: 2020-03-07 18:02:55
 
 ### [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196136283-5e8358c8-ade5-4538-a77f-57332ccac5b5.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2868&size=401490&status=done&style=none&width=1434)
+
+
+## 跨平台
+
+### [Flutter](https://flutter.dev/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077007675-f5d7d1ca-064d-45bd-a328-fdfeb79e9841.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2876&size=1801606&status=done&style=none&width=1438)
+
+Google一个新的用于构建跨平台的手机App的SDK<br />[Fluttify](https://fluttify.com/)<br />一个 Flutter 框架的插件开发工具，解决了插件开发过程中的类型安全，编码繁琐等痛点，目前已有的典型案例有高德地图插件。

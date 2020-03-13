@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-13 13:04:48
+date: 2020-03-13 13:31:58
 ---
 
 ## 创作
@@ -99,3 +99,10 @@ date: 2020-03-13 13:04:48
 
 ### [福布斯](https://www.forbes.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583931216054-4b123d2f-37cf-450b-a05f-9839660939a3.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=3412216&status=done&style=none&width=1439)
+
+## 管理
+
+### [dnote](https://github.com/dnote/dnote)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077509958-275d814f-1de6-4cb4-868c-e0c12d6a7c34.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=291969&status=done&style=none&width=1435)
+
+开源的知识管理软件，支持 Web 、命令行和浏览器插件。

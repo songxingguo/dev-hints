@@ -2,7 +2,7 @@ title: UI 库
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-11 11:29:14
+date: 2020-03-13 15:11:12
 ---
 PC 端
 
@@ -34,7 +34,7 @@ PC 端
 **好用的React组件库**
 
 ### [iView](http://v1.iviewui.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008186-1b713107-373a-43f1-822a-f0fa9835817e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008186-1b713107-373a-43f1-822a-f0fa9835817e.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 **一套高质量的UI组件库**
 
@@ -76,6 +76,7 @@ PC 端
 
 ### [storybook](https://storybook.js.org/docs/examples/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583065744566-ef542845-8f06-41ca-b566-95674eef3ff9.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=717054&status=done&style=none&width=1435)
+
 
 ## Android
 

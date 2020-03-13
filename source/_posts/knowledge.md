@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-13 08:09:57
+date: 2020-03-13 13:04:48
 ---
 
 ## 创作
@@ -24,7 +24,7 @@ date: 2020-03-13 08:09:57
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846847970-292a01ec-6fac-44c8-9ff9-011cde8bdc23.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2876&size=3067456&status=done&style=none&width=1438)
 
 ### [少数派](https://sspai.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583847136328-ea7878e8-80e1-425d-9e68-1641b83f008f.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=1609207&status=done&style=none&width=1438)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583847136328-ea7878e8-80e1-425d-9e68-1641b83f008f.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=1609207&status=done&style=none&width=1438)<br />[Dev](https://dev.to/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584075877713-005291ea-0572-4418-9414-caf8cc2885ee.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=499572&status=done&style=none&width=1440)
 
 ## 分享
 

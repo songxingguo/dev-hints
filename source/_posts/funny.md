@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-07 08:11:05
+date: 2020-03-13 13:15:47
 ---
 
 ### [🦄️独角兽排行榜](https://dujiaoshou.io/)
@@ -157,3 +157,6 @@ date: 2020-03-07 08:11:05
 在线练习双拼输入法的网站，漂亮的键位图，支持多种双拼方案。这里还有一个[同类网站](https://api.ihint.me/shuang/)<br />[WOWA](https://www.wowa.me/)<br />一个收集免费音乐的网站，可以下载用来制作视频的背景音乐。该网站的目标是成为免费音乐的 Unsplash。<br />[大代表的可视化](https://news.cgtn.com/event/2019/whorunschina/index.html)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539752610-4b68401b-3e62-401e-b864-cba2da735b12.png#align=left&display=inline&height=230&name=image.png&originHeight=459&originWidth=800&size=328722&status=done&style=none&width=400)
 
 第十三届全国人民代表大会的代表数据可视化。
+
+## 教育
+[这里有多少只猫？](https://stylishsite.github.io/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584076541768-67d9d319-1962-48b2-a68e-221a23ed642d.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=176642&status=done&style=none&width=1440)

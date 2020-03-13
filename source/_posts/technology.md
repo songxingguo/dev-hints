@@ -2,7 +2,7 @@ title: 技术分享
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-13 14:12:01
+date: 2020-03-13 14:12:33
 ---
 
 ### [阮一峰每周分享](https://wanmaoor.github.io/ryfWeekly/)
@@ -20,3 +20,6 @@ date: 2020-03-13 14:12:01
 
 ### [前端开发技术日报](https://github.com/kujian/frontendDaily)
 每日分享互联网上的前端技术、前端资讯。
+
+### [GitNews](https://git.news/)
+该网站实时显示 GitHub 趋势、HackerNews 和 Reddit 里面出现的热门代码仓库。

@@ -2,7 +2,7 @@ title: 编辑器
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 15:38:21
+date: 2020-03-13 13:28:37
 ---
 
 ### [微信 Markdown 编辑器](https://github.com/doocs/md)
@@ -22,3 +22,10 @@ AI 写作助手，可以给出文章中的语言错误。
 
 ### [BoostNote](https://boostnote.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075314390-19cfe327-996e-48ef-a87a-15ba720d836e.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=216669&status=done&style=none&width=1440)
+
+## 笔记
+
+### [Nototo](https://www.nototo.app/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077283370-381396ef-74bf-4cad-b9ca-7fbb4256c08a.png#align=left&display=inline&height=279&name=image.png&originHeight=557&originWidth=800&size=403327&status=done&style=none&width=400)
+
+一个思路很新颖的笔记软件，以可视化的方式做笔记，目前只有 Web 版。一条笔记就是新建一块地，一个目录就是新建一个岛屿，打标签就是新建建筑物。

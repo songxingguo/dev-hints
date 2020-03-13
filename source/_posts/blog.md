@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 20:57:21
+date: 2020-03-13 21:12:25
 ---
 
 ## 博客系统
@@ -121,6 +121,8 @@ JavaScript 下一代模版
 - [RcPress](https://www.yvescoding.com/rcpress/)：AntD 风格文档
 
 ### 小程序文档
+
+- [Min](https://meili.github.io/min/index.html) ：自动集成文档，基于 **[wepy](https://tencent.github.io/wepy/)**
 
 ### API 文档
 

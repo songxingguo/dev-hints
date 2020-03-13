@@ -1,8 +1,8 @@
 title: 开发
 categories:
- - Tools
+ - Devops
 author: 宋玉
-date: 2020-03-05 12:47:50
+date: 2020-03-13 13:19:26
 ---
 
 ### [图片占位](https://placeholder.com/)
@@ -40,3 +40,6 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582682413230-c2494a93-29d8-4c84-b8c3-5f4cbdab2108.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=3011180&status=done&style=none&width=1437)
 
 **一个展示 HTTP 状态码的网站**
+
+### [可视化浮点数](http://evanw.github.io/float-toy/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584076762984-77e5efa8-e5e0-48e3-aa3f-f3610d73745b.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=255642&status=done&style=none&width=1440)

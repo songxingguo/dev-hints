@@ -2,7 +2,7 @@ title: 工具库
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-13 13:36:34
+date: 2020-03-13 14:08:16
 ---
 
 ## Socket
@@ -35,6 +35,9 @@ date: 2020-03-13 13:36:34
 
 ### [NW.js](https://nwjs.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583194843567-c073f8cc-0853-46de-8be7-66572aaa37a1.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2868&size=716822&status=done&style=none&width=1434)
+
+### [LitElement](https://lit-element.polymer-project.org/)
+Polymer 项目推出的一个 JS 基类库，基于这个基类，可以方便快速地创建 Web 组件。
 
 ## 代码
 

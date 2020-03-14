@@ -2,7 +2,7 @@ title: UI 库
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-13 15:17:32
+date: 2020-03-14 12:14:34
 ---
 
 ## PC 端
@@ -138,4 +138,6 @@ date: 2020-03-13 15:17:32
 **可拖拽组件库**
 
 ### [Rete.js](https://rete.js.org/#/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195497933-3450e14f-ff45-40fd-91a6-4e9c3b11d619.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=206295&status=done&style=none&width=1437)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195497933-3450e14f-ff45-40fd-91a6-4e9c3b11d619.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2874&size=206295&status=done&style=none&width=1437)<br />[wix](https://zh.wix.com/)
+
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584159266110-c826d94b-fcc8-47da-86dd-42c487a9981d.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=4400258&status=done&style=none&width=1440)

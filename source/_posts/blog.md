@@ -2,7 +2,7 @@ title: 博客
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 21:12:25
+date: 2020-03-16 22:17:02
 ---
 
 ## 博客系统
@@ -60,7 +60,9 @@ Saber是一个静态网站生成器，它类似于Hexo，但是，您可以使�
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583075293562-0dfbe70b-1966-4eee-920b-bef8b23681a5.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2878&size=815089&status=done&style=none&width=1439)
 
 ### [instant.page](https://instant.page/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195467496-02406c69-35b5-4205-8a83-5db71b43e14a.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=400782&status=done&style=none&width=1438)
+
+### ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583195467496-02406c69-35b5-4205-8a83-5db71b43e14a.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2876&size=400782&status=done&style=none&width=1438)[movabletype](https://movabletype.org/about/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584368218842-d6c57912-bacc-46d4-a235-840a4ec42f5a.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2878&size=302914&status=done&style=none&width=1439)
 
 ## 博客相关
 

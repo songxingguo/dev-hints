@@ -2,8 +2,11 @@ title: 大佬
 categories:
  - Others
 author: 宋玉
-date: 2020-03-04 15:11:03
+date: 2020-03-16 22:06:04
 ---
+
+### [Seth Godin](https://seths.blog/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584367558348-68f39f34-f98b-46f3-9bac-16967365998f.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=482464&status=done&style=none&width=1440)
 
 ### [翁天信](http://www.dandyweng.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582679435262-8d3c9635-04fa-49dd-84a1-f95ba4753389.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2872&size=2136862&status=done&style=none&width=1436)

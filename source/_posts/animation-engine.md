@@ -2,7 +2,7 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-17 22:04:31
+date: 2020-03-17 22:08:53
 ---
 
 ### [WebGL](http://www.hewebgl.com/)
@@ -48,3 +48,18 @@ date: 2020-03-17 22:04:31
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582683121173-2f51a985-2ffd-4c3f-9196-3df8c2ea7a8e.png#align=left&display=inline&height=768&name=image.png&originHeight=1536&originWidth=2868&size=337153&status=done&style=none&width=1434)
 
 **3D 动画渲染引擎**
+
+### [hattemi](https://hattemi.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582694782855-6beb180f-9960-43a7-ae58-09f190cb25b6.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2866&size=161763&status=done&style=none&width=1433)
+
+**生成彩虹文字**<br />
+
+### [svg-text-animate](https://oubenruing.github.io/svg-text-animate/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582695077576-f5ae4764-2e34-4b53-b42d-5e000188a079.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2866&size=348777&status=done&style=none&width=1433)
+
+**字体动画**
+
+### [leon-kim](https://leon-kim.com/#rain)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582695176920-f514a49d-e083-4056-a81c-73b609697386.png#align=left&display=inline&height=756&name=image.png&originHeight=1512&originWidth=2862&size=124577&status=done&style=none&width=1431)
+
+**炫酷动画**

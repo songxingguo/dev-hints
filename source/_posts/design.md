@@ -2,7 +2,7 @@ title: 设计
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-12 09:30:44
+date: 2020-03-17 22:33:58
 ---
 
 ##  配色
@@ -17,6 +17,11 @@ date: 2020-03-12 09:30:44
 
 ### [itmeo](https://webgradients.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384388159-e9772b6c-4651-44cd-8fb5-2c8e5eabd7ae.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2878&size=821800&status=done&style=none&width=1439)
+
+### [picular](https://picular.co/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693439272-21609f0b-472c-47fb-b0c7-9576d6222bb5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=281922&status=done&style=none&width=1435)
+
+**根据搜索生成颜色**
 
 ## 素材
 

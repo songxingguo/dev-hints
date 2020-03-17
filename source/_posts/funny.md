@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-13 14:09:09
+date: 2020-03-17 21:46:45
 ---
 
 ### [🦄️独角兽排行榜](https://dujiaoshou.io/)
@@ -141,17 +141,17 @@ date: 2020-03-13 14:09:09
 
 **萤火虫**
 
-#### [如何计算月相](http://witchy.co/trig/)（英文）
+### [如何计算月相](http://witchy.co/trig/)（英文）
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539715383-80eaa9c3-9874-45d2-8c1c-3f898efdfeab.png#align=left&display=inline&height=229&name=image.png&originHeight=457&originWidth=800&size=130074&status=done&style=none&width=400)
 
 地球看到的月亮形状是不一样的，本文通过可视化图形，解释如何通过三角函数计算月相。
 
-#### [Maze_Solver_Generator](https://github.com/dmaydan/Maze_Solver_Generator)
+### [Maze_Solver_Generator](https://github.com/dmaydan/Maze_Solver_Generator)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539725003-3483311c-4214-4a75-96b0-2a4a9dc073d5.png#align=left&display=inline&height=249&name=image.png&originHeight=498&originWidth=500&size=245589&status=done&style=none&width=250)
 
 一个在 <canvas> 元素上绘制和解决迷宫的 JavaScript 库。
 
-#### [双拼输入法练习](https://linci.co/sp/)
+### [双拼输入法练习](https://linci.co/sp/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539738803-9650e4fd-4e3d-418b-8012-a69cb7f77ec7.png#align=left&display=inline&height=222&name=image.png&originHeight=444&originWidth=800&size=116358&status=done&style=none&width=400)
 
 在线练习双拼输入法的网站，漂亮的键位图，支持多种双拼方案。这里还有一个[同类网站](https://api.ihint.me/shuang/)<br />[WOWA](https://www.wowa.me/)<br />一个收集免费音乐的网站，可以下载用来制作视频的背景音乐。该网站的目标是成为免费音乐的 Unsplash。<br />[大代表的可视化](https://news.cgtn.com/event/2019/whorunschina/index.html)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539752610-4b68401b-3e62-401e-b864-cba2da735b12.png#align=left&display=inline&height=230&name=image.png&originHeight=459&originWidth=800&size=328722&status=done&style=none&width=400)
@@ -162,6 +162,13 @@ date: 2020-03-13 14:09:09
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1584079732797-0f6a055b-48de-41f1-bd8a-6c113d2708ce.jpeg#align=left&display=inline&height=485&originHeight=485&originWidth=675&size=0&status=done&style=none&width=675)
 
 开源的飞行模拟器，可在 Linux，MacOS 和 Windows 上运行。
+
+## 音乐
+
+### [autopiano](https://www.autopiano.cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584452797931-aa6095d0-d3ca-4bd0-a2e1-9584267d611d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=2238527&status=done&style=none&width=1438)
+
+在线钢琴
 
 ## 教育
 [这里有多少只猫？](https://stylishsite.github.io/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584076541768-67d9d319-1962-48b2-a68e-221a23ed642d.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=176642&status=done&style=none&width=1440)

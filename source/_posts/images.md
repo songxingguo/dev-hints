@@ -2,7 +2,7 @@ title: 图片处理
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 14:06:49
+date: 2020-03-17 22:10:13
 ---
 
 ## 压缩
@@ -145,3 +145,8 @@ export PATH=/Applications/phantomjs-2.1.1-macosx/bin:$PATH
 
 ### [My Brand New Logo](https://mybrandnewlogo.com/)
 你提供产品的描述，该网站会自动生成 Logo 图案。
+
+### [baran](https://bangs.baran.wang/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582694411663-fb5c8faa-b78e-4e80-b5c1-1940cce33516.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=952896&status=done&style=none&width=1437)
+
+**给 IPhoneX 换发型**

@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-13 13:19:26
+date: 2020-03-17 22:24:02
 ---
 
 ### [图片占位](https://placeholder.com/)
@@ -43,3 +43,8 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 
 ### [可视化浮点数](http://evanw.github.io/float-toy/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584076762984-77e5efa8-e5e0-48e3-aa3f-f3610d73745b.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=255642&status=done&style=none&width=1440)
+
+### [gitmoji](https://gitmoji.carloscuesta.me/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693695541-03e21485-4c39-44dd-8649-91f971107c64.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=313290&status=done&style=none&width=1434)
+
+**Git 提交信息表情**

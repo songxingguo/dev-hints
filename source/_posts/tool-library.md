@@ -2,7 +2,7 @@ title: 工具库
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-13 14:08:16
+date: 2020-03-17 22:13:55
 ---
 
 ## Socket
@@ -90,3 +90,10 @@ Polymer 项目推出的一个 JS 基类库，基于这个基类，可以方便�
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583068144114-adc37edc-6ee7-454a-87bc-150bf8b9b0f7.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2874&size=283050&status=done&style=none&width=1437)
 
 **基于 **[**Node.js**](https://nodejs.org/)**的数据持久化方案，适合轻量级Node.js应用**
+
+## 其他
+
+### [Maze_Solver_Generator](https://github.com/dmaydan/Maze_Solver_Generator)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539725003-3483311c-4214-4a75-96b0-2a4a9dc073d5.png#align=left&display=inline&height=249&name=image.png&originHeight=498&originWidth=500&size=245589&status=done&style=none&width=250)
+
+一个在 <canvas> 元素上绘制和解决迷宫的 JavaScript 库。

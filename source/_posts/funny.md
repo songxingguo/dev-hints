@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-17 22:29:34
+date: 2020-03-17 22:33:44
 ---
 
 ## 科技
@@ -92,14 +92,6 @@ date: 2020-03-17 22:29:34
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539715383-80eaa9c3-9874-45d2-8c1c-3f898efdfeab.png#align=left&display=inline&height=229&name=image.png&originHeight=457&originWidth=800&size=130074&status=done&style=none&width=400)
 
 地球看到的月亮形状是不一样的，本文通过可视化图形，解释如何通过三角函数计算月相。
-
-## 设计
-
-### [picular](https://picular.co/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693439272-21609f0b-472c-47fb-b0c7-9576d6222bb5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=281922&status=done&style=none&width=1435)
-
-**根据搜索生成颜色**
-
 
 ## 游戏
 

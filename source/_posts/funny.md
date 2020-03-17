@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-17 22:20:35
+date: 2020-03-17 22:23:48
 ---
 
 ## 科技
@@ -93,23 +93,14 @@ date: 2020-03-17 22:20:35
 
 地球看到的月亮形状是不一样的，本文通过可视化图形，解释如何通过三角函数计算月相。
 
-
 ## 设计
-
 
 ### [picular](https://picular.co/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693439272-21609f0b-472c-47fb-b0c7-9576d6222bb5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=281922&status=done&style=none&width=1435)
 
-**根据搜索生成颜色**
-
-
-### [gitmoji](https://gitmoji.carloscuesta.me/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693695541-03e21485-4c39-44dd-8649-91f971107c64.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=313290&status=done&style=none&width=1434)
-
-**Git 提交信息表情**
+**根据搜索生成颜色**<br />
 
 ## 游戏
-
 
 ### [bellwoods](https://bellwoods.xyz/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582694150114-0b13853d-32bd-4a21-bc12-48fde866cdf5.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2872&size=128702&status=done&style=none&width=1436)
@@ -156,10 +147,6 @@ date: 2020-03-17 22:20:35
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582695629621-1b34b1e4-c84f-4698-a8fe-caad6c27ae79.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2876&size=208024&status=done&style=none&width=1438)
 
 **随机生成爱好**
-
-
-### 
-
 
 [大代表的可视化](https://news.cgtn.com/event/2019/whorunschina/index.html)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539752610-4b68401b-3e62-401e-b864-cba2da735b12.png#align=left&display=inline&height=230&name=image.png&originHeight=459&originWidth=800&size=328722&status=done&style=none&width=400)
 

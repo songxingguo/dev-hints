@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-17 22:28:01
+date: 2020-03-17 22:29:05
 ---
 
 ## 科技
@@ -149,7 +149,8 @@ date: 2020-03-17 22:28:01
 
 **随机生成爱好**
 
-[大代表的可视化](https://news.cgtn.com/event/2019/whorunschina/index.html)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539752610-4b68401b-3e62-401e-b864-cba2da735b12.png#align=left&display=inline&height=230&name=image.png&originHeight=459&originWidth=800&size=328722&status=done&style=none&width=400)
+### [大代表的可视化](https://news.cgtn.com/event/2019/whorunschina/index.html)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539752610-4b68401b-3e62-401e-b864-cba2da735b12.png#align=left&display=inline&height=230&name=image.png&originHeight=459&originWidth=800&size=328722&status=done&style=none&width=400)
 
 第十三届全国人民代表大会的代表数据可视化。
 

@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-17 22:23:48
+date: 2020-03-17 22:24:50
 ---
 
 ## 科技
@@ -98,7 +98,8 @@ date: 2020-03-17 22:23:48
 ### [picular](https://picular.co/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693439272-21609f0b-472c-47fb-b0c7-9576d6222bb5.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=281922&status=done&style=none&width=1435)
 
-**根据搜索生成颜色**<br />
+**根据搜索生成颜色**
+
 
 ## 游戏
 

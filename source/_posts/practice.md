@@ -2,7 +2,7 @@ title: 在线练习
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 12:40:52
+date: 2020-03-17 22:19:08
 ---
 
 ## 练习
@@ -64,3 +64,10 @@ Kaggle 是数据挖掘、机器学习在线竞赛平台，在简历上有这一�
 
 ### [summerofcode](https://summerofcode.withgoogle.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584074430990-38e2331d-3b4e-4884-96d3-294e77518e36.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2880&size=1726461&status=done&style=none&width=1440)
+
+## 打字
+
+### [双拼输入法练习](https://linci.co/sp/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583539738803-9650e4fd-4e3d-418b-8012-a69cb7f77ec7.png#align=left&display=inline&height=222&name=image.png&originHeight=444&originWidth=800&size=116358&status=done&style=none&width=400)
+
+在线练习双拼输入法的网站，漂亮的键位图，支持多种双拼方案。这里还有一个[同类网站](https://api.ihint.me/shuang/)

@@ -2,10 +2,15 @@ title: 导航
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-13 20:37:25
+date: 2020-03-20 14:32:49
 ---
 
 ## 工具导航
+
+### [socode.pd](https://socode.pro/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1584685954486-51b4b4a8-9f46-49b5-9da9-521b8c613bf3.jpeg#align=left&display=inline&height=455&originHeight=455&originWidth=800&size=0&status=done&style=none&width=800)
+
+程序员的搜索工具，将各种网络资源汇总在一个搜索框里面。
 
 ### [ToolFK](https://www.toolfk.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582385777048-7e2a04b9-4831-41b0-8853-4b2f7637c865.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=1081853&status=done&style=none&width=1439)

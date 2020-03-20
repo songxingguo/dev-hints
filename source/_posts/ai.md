@@ -2,7 +2,7 @@ title: AI
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 16:44:38
+date: 2020-03-20 14:30:28
 ---
 
 ### [百度AI](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
@@ -20,4 +20,7 @@ date: 2020-03-07 16:44:38
 ### [培音](http://www.peiyinapp.com/index.html)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008708-d27435c1-962c-44a3-9c21-d80e3b19170b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
-**文字转语音，广告配音软件**
+**文字转语音，广告配音软件<br />**
+
+### [fastai-cnn-camera-app](https://github.com/TylerNoblett/fastai-cnn-camera-app)
+一个示例项目，如何在网页上使用神经网络，识别照片里面的物体，比如人、树、椅子等等。

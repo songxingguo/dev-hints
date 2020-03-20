@@ -2,7 +2,7 @@ title: 导航
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-20 14:32:49
+date: 2020-03-20 14:34:24
 ---
 
 ## 工具导航
@@ -46,6 +46,9 @@ date: 2020-03-20 14:32:49
 
 ### [推荐库](https://github.com/PanJiaChen/awesome-bookmarks/tree/master/docs/repository)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584103039704-267e2a01-1e62-4497-87b5-7cc42d254bf7.png#align=left&display=inline&height=758&name=image.png&originHeight=1516&originWidth=2866&size=274815&status=done&style=none&width=1433)
+
+### [Awesome Open Source](https://awesomeopensource.com/)
+该网站对 GitHub 上的开源项目进行分类，共有7000多个类别。
 
 ## 面试
 

@@ -2,7 +2,7 @@ title: 调试
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 15:56:57
+date: 2020-03-20 14:31:30
 ---
 
 ### [Mocky](https://www.mocky.io/)
@@ -27,3 +27,9 @@ date: 2020-03-07 15:56:57
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582639371972-4be593a3-bd03-41e4-b826-ec11fdd62934.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2872&size=287799&status=done&style=none&width=1436)
 
 **在线接口调试工具**
+
+### [vardbg](https://github.com/CCExtractor/vardbg)
+一个 Python 脚本的调试工具，并可以生成脚本运行流程的可视化视频。
+
+### [Mirage JS](https://miragejs.com/)
+一个模拟服务器 API 返回结果的前端 JS 库。

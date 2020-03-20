@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-20 14:27:04
+date: 2020-03-20 14:32:04
 ---
 
 ### [图片占位](https://placeholder.com/)
@@ -20,6 +20,11 @@ https://via.placeholder.com/210/fff
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582603521979-b5c2d34f-bdc9-4538-8e82-b850dc5e922a.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2864&size=282785&status=done&style=none&width=1432)
 
 **生成艺术的占位图**
+
+### [几何艺术占位符图像](https://generative-placeholders.glitch.me/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1584685906460-9cf8bf7d-3b7f-496d-b66a-c83dd9053b2b.jpeg#align=left&display=inline&height=300&originHeight=300&originWidth=600&size=0&status=done&style=none&width=600)
+
+该网站提供占位符图像（Placeholder），图像内容是算法生成的几何图形。
 
 ```
 # 使用方法

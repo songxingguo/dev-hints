@@ -2,7 +2,7 @@ title: 图标
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 17:52:46
+date: 2020-03-20 14:34:55
 ---
 
 ### [阿里巴巴矢量图标库](http://www.baidu.com/link?url=Mk7W4No2b-n4kYnErXsU40ZLPSsvXQ8VTlHTy_hKP8ZrZdagwVnDfmrxydjBkQWC)
@@ -59,3 +59,6 @@ date: 2020-03-07 17:52:46
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583065218632-f926f574-1f07-4596-b23e-fdecd31fcde0.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2866&size=319426&status=done&style=none&width=1433)
 
 **图标库**
+
+### [awesome-icons](https://github.com/vkarampinis/awesome-icons)
+这个仓库收集免费的图标资源。

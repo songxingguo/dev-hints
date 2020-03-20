@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-17 22:24:02
+date: 2020-03-20 14:27:04
 ---
 
 ### [图片占位](https://placeholder.com/)
@@ -48,3 +48,8 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582693695541-03e21485-4c39-44dd-8649-91f971107c64.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2868&size=313290&status=done&style=none&width=1434)
 
 **Git 提交信息表情**
+
+### [GitHub 官方 App](https://github.blog/2020-03-17-github-for-mobile-is-now-available/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1584685608513-154f0beb-ff3c-4c82-863b-c21035ba8662.jpeg#align=left&display=inline&height=424&originHeight=424&originWidth=800&size=0&status=done&style=none&width=800)
+
+GitHub 的官方手机客户端，安卓和 iOS 都支持，可以发 issue、合并 PR、代码 Diff 等等。

@@ -2,7 +2,7 @@ title: Mac
 categories:
  - macOS
 author: 宋玉
-date: 2020-03-04 22:24:43
+date: 2020-03-23 12:37:34
 ---
 
 ## 快捷键
@@ -49,3 +49,6 @@ date: 2020-03-04 22:24:43
 ## 参考链接
 
 - [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236)
+
+## 软件
+

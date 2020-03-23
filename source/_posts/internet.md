@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-07 17:09:52
+date: 2020-03-23 20:45:58
 ---
 
 ## VPN 代理
@@ -21,6 +21,15 @@ bash ssr.sh
 #### 下载地址
 [Mac](https://github.com/shadowsocks/ShadowsocksX-NG)<br />[客户端](https://shadowsocks.org/en/download/clients.html)
 
+#### 加速
+逐行执行下面命令安装 BBR。
+```javascript
+wget — no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+```
+
+
 ## VPN 服务器
 
 ### [搬瓦工](https://bwh88.net/)
@@ -37,7 +46,6 @@ bash ssr.sh
 
 ### FinalShell
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583381678360-4efdf799-9812-4811-b481-d81f7bb392ec.png#align=left&display=inline&height=877&name=image.png&originHeight=1754&originWidth=2880&size=198537&status=done&style=none&width=1440)
-
 
 [安装](http://www.hostbuf.com/t/1059.html)
 

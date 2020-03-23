@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-23 20:45:58
+date: 2020-03-23 20:53:08
 ---
 
 ## VPN 代理
@@ -29,6 +29,7 @@ chmod +x bbr.sh
 ./bbr.sh
 ```
 
+[参考地址](https://medium.com/@jackme256/vultr%E6%90%AD%E5%BB%BAss%E5%8F%8A%E9%94%90%E9%80%9F%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-69763d7e2cdc)
 
 ## VPN 服务器
 

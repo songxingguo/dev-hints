@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-23 20:53:08
+date: 2020-03-24 09:58:53
 ---
 
 ## VPN 代理
@@ -13,13 +13,38 @@ date: 2020-03-23 20:53:08
 
 #### 教程
 [自建梯子教程-翻墙-科学上网-google](https://github.com/dudefu/btgfw)<br />[自己搭建翻墙服务器](https://jiyiren.github.io/2016/10/06/fanqiang/)<br />[使用shadowsocks科学上网](https://www.textarea.com/ExpectoPatronum/shiyong-shadowsocks-kexue-shangwang-265/)
+
+#### 安装
+系统<br />Debian 7 x64<br />安装 wget
+```bash
+apt-get install wget 或 yum -y install wget
+```
+下载 SSR
+```bash
+wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+或
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+管理脚本：
 ```bash
 bash ssr.sh
 ```
+安装并配置SSR:
+> 端口：333
+> 加密：chacha20
+> 协议：auth_sha1_v4
+> 混淆：plain
 
+chacha20 需要提前安装。<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585014164075-4dbe8d39-83e7-4bdc-876c-894e4d5a0f70.png#align=left&display=inline&height=722&name=image.png&originHeight=1444&originWidth=1916&size=356381&status=done&style=none&width=958)安装 BBR 加速<br />`bash ssr.sh`  执行后选择 14, 不安装内核
 
 #### 下载地址
 [Mac](https://github.com/shadowsocks/ShadowsocksX-NG)<br />[客户端](https://shadowsocks.org/en/download/clients.html)
+
+#### SwitchyOmega 插件安装
+> SSR改为手动代理
+
 
 #### 加速
 逐行执行下面命令安装 BBR。

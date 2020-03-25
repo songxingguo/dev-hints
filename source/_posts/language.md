@@ -2,7 +2,7 @@ title: 语言
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 13:59:09
+date: 2020-03-25 21:30:24
 ---
 
 ### [Ruby](https://i-love-ruby.gitlab.io/)
@@ -28,3 +28,6 @@ date: 2020-03-07 13:59:09
 
 ### [Sane](https://opensource.bloom.sh/sane)<br />
 一种配置文件格式，基于对 Yaml 和 Toml 格式的改进。
+
+### [clojurescript](https://www.learn-clojurescript.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143018776-e512be3f-d5a8-4557-bc1b-20490f72f06d.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=2762437&status=done&style=none&width=1435)

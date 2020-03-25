@@ -2,13 +2,32 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-07 17:44:24
+date: 2020-03-25 21:14:38
 ---
+
+## 技术
+
+### [MDN](https://developer.mozilla.org/zh-CN/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585101466097-9464e84f-f8a3-44f9-a12b-087355b108d5.png#align=left&display=inline&height=764&name=image.png&originHeight=1528&originWidth=2878&size=499093&status=done&style=none&width=1439)
+
+### [tc39](https://tc39.es/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585101537394-7f6ebe72-efbd-4208-9fc8-33b6509c9579.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=324047&status=done&style=none&width=1440)
+
+### [W3C](https://www.w3.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585101569407-5b3f00f9-ca6f-4861-835c-16cf52656686.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2874&size=694163&status=done&style=none&width=1437)
+
+### [microsoft](https://docs.microsoft.com/zh-cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585101643252-f7452bc0-36c2-418d-b4e2-c821693ce10b.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=444629&status=done&style=none&width=1439)<br />[IBM](https://www.ibm.com/support/knowledgecenter/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585101689166-d0890151-6a1d-4150-a037-42b49eba3b1c.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2874&size=1791047&status=done&style=none&width=1437)
+
+## 浏览器
+
+### [webkit](https://webkit.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142021596-44abcadd-51e5-438d-839a-590a3cc48917.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=2383363&status=done&style=none&width=1440)
 
 ## 博客
 
 ### [GitHub迎来内置CI/CD，对所有开源项目免费！_Actions](http://www.sohu.com/a/332613031_115128)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008997-974241fc-7958-4d7b-83a6-a2872ccc3a14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008997-974241fc-7958-4d7b-83a6-a2872ccc3a14.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [Features•GitHubActions](https://github.com/features/actions)
@@ -17,14 +36,14 @@ date: 2020-03-07 17:44:24
 ## 图表
 
 ### [pagemap](https://larsjung.de/pagemap/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009113-740fdc79-5f1a-48d5-80e7-7a992a49e5bd.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009113-740fdc79-5f1a-48d5-80e7-7a992a49e5bd.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ## js 库
 
 ### [JavaScriptdesignpatterns#1.SingletonandtheModule](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009316-aa4e7692-ffea-4d68-83e5-cffd7e809d2a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009316-aa4e7692-ffea-4d68-83e5-cffd7e809d2a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
+<br />
 
 
 ## 脚手架
@@ -33,22 +52,22 @@ date: 2020-03-07 17:44:24
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009421-0e64f429-db8a-42c9-a4ec-0135349286dc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 ### [Gckit-CLI](https://seongbrave.github.io/gckit/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009375-9f1a7d9f-ec58-4bbe-a449-c32daf8b477d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009375-9f1a7d9f-ec58-4bbe-a449-c32daf8b477d.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [D2Admin](https://d2admin.fairyever.com/#/index)
 
 
+
 ## 算法
 
 ### [AlgorithmsbyJeffErickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-87022337-48d5-4aec-8643-7f6a73b2d100.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-87022337-48d5-4aec-8643-7f6a73b2d100.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [nervos](https://learning.nervos.org/crypto-block/0-intro.html)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583197860076-4305f1af-09d2-4192-a870-94dfe6fead8f.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=340576&status=done&style=none&width=1439)
-
-**密码学**
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583197860076-4305f1af-09d2-4192-a870-94dfe6fead8f.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=340576&status=done&style=none&width=1439)<br />
+<br />**密码学**
 
 ## 其他
 
@@ -56,29 +75,30 @@ date: 2020-03-07 17:44:24
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583196632326-e59b111f-0fc4-41c0-986f-2e022ffcffe7.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2872&size=378134&status=done&style=none&width=1436)
 
 ### [国际化(i18n)|Chrome扩展开发文档](https://wizardforcel.gitbooks.io/chrome-doc/content/24.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009447-6545362e-f760-4217-8009-5cd335a0f2cb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009447-6545362e-f760-4217-8009-5cd335a0f2cb.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [SimpleAsWater](https://simpleaswater.com/ipfs/tutorials/hosting_website_on_ipfs_ipns_dnslink)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009450-fc67b312-0f8e-4daa-93d1-87e48a4b05ae.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009450-fc67b312-0f8e-4daa-93d1-87e48a4b05ae.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [9to5Mac](https://9to5mac.com/2019/09/25/altstore-is-an-ios-app-store-alternative-that-doesnt-require-a-jailbreak-heres-how-to-use-it/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009499-3f30f1c0-535c-4110-b084-020983dc2225.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009499-3f30f1c0-535c-4110-b084-020983dc2225.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [NanoIDCC](https://zelark.github.io/nano-id-cc/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009527-19ef9d1a-25e6-428a-a5fd-6306b27899dc.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
 
 ### [ePHOTOzine](https://www.ephotozine.com/article/ricoh-releases-sdks-for-pentax-cameras-32298)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009477-75dd0317-9a9f-49a9-822a-d639fe994928.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009477-75dd0317-9a9f-49a9-822a-d639fe994928.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 
 
+
 ### [Emmet](https://docs.emmet.io/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-a5777c60-71fd-477c-9db0-804c6cb4969a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055009535-a5777c60-71fd-477c-9db0-804c6cb4969a.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [Shadowsocks(简体中文)](https://wiki.archlinux.org/index.php/Shadowsocks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.91.BD.E4.BB.A4.E8.A1.8C)
@@ -100,5 +120,5 @@ date: 2020-03-07 17:44:24
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583197894408-dd02601e-f260-463c-b03e-10fff8ee214f.png#align=left&display=inline&height=756&name=image.png&originHeight=1512&originWidth=2880&size=361094&status=done&style=none&width=1440)
 
 ### marvel
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583198095954-9577a7f3-f797-429a-bdcb-42b514fa4dd9.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=2474205&status=done&style=none&width=1440)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583198095954-9577a7f3-f797-429a-bdcb-42b514fa4dd9.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=2474205&status=done&style=none&width=1440)<br />
 

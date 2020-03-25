@@ -2,7 +2,7 @@ title: 语言
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-25 21:30:24
+date: 2020-03-25 21:35:26
 ---
 
 ### [Ruby](https://i-love-ruby.gitlab.io/)
@@ -31,3 +31,6 @@ date: 2020-03-25 21:30:24
 
 ### [clojurescript](https://www.learn-clojurescript.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143018776-e512be3f-d5a8-4557-bc1b-20490f72f06d.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=2762437&status=done&style=none&width=1435)
+
+### [React](http://huziketang.mangojuice.top/books/react/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143317415-e7e891fc-8109-4bda-ae08-91b85b8d2554.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=401508&status=done&style=none&width=1440)

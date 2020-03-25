@@ -2,7 +2,7 @@ title: 官方文档
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-25 21:17:14
+date: 2020-03-25 21:20:18
 ---
 
 ## 技术
@@ -24,8 +24,16 @@ date: 2020-03-25 21:17:14
 ### [Chrome](https://developers.google.com/web/updates/2019/05/devtools)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142223969-0a77d8fa-f9a7-4f55-bb49-e7505becb667.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2876&size=1911738&status=done&style=none&width=1438)
 
+### [V8](https://v8.dev/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142378091-dd4a92ff-8396-4697-a84e-99c58e83cadf.png#align=left&display=inline&height=772&name=image.png&originHeight=1544&originWidth=2880&size=427003&status=done&style=none&width=1440)
+
 ### [webkit](https://webkit.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142021596-44abcadd-51e5-438d-839a-590a3cc48917.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=2383363&status=done&style=none&width=1440)
+
+## 版本控制
+
+### [Git](https://git-scm.com/book/zh/v2)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142291926-a542d531-71f8-483c-b0d1-15a97a7ed9b6.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=1191899&status=done&style=none&width=1440)
 
 ## 博客
 

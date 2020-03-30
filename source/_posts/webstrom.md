@@ -2,26 +2,41 @@ title: Webstrom
 categories:
  - Apps
 author: 宋玉
-date: 2020-03-04 22:26:41
+date: 2020-03-30 15:02:10
 ---
+
+## 操作定义
 整理常用快捷键，按规则定义快捷键
 
 - 使用频率
 - 见名知意
 - 操作方便
 
-command + * 系统命令<br />command + shift + * <br />option + * 常用操作<br />option + shift + * 常用操作加强<br />option/command/control + 上/下/左/右 移动
+
+
+
+| 规则 | 描述 |
+| --- | --- |
+| command + * | 系统操作 |
+| command + shift + *  | 系统操作增强 |
+| option + *  | 普通操作 |
+| option + shift + * | 普通操作增强 |
+| option/command/control + 上/下/左/右 移动 | 跳转操作 |
+
+
+
 
 ---
 
 
+## 常用操作
 
 ### 配置
 Command-, 打开配置
 
 
 ### 增删改查
-`command + C` 复制、快速复制一<br />`command + X` 剪切<br />`command + V` 粘贴<br />`command + shift + V` 从剪贴板里选择粘贴<br />`command + D` 对文件使用时是比较两个文本，对代码使用删除当前行<br />command + delete 隔单词删除<br />option + delete 隔单词删除<br />`command + F` 查找当前文档<br />**Control-H **全局查找<br />command + option + ⬇️ 复制上一行<br />control + k cut up to line end<br />`command + R` 替换当前文档<br />`command + G` 查找下一个<br />`command + shift + G` 查找上一个<br />优化导入
+`command + C` 复制、快速复制一<br />`command + X` 剪切<br />`command + V` 粘贴<br />`command + shift + V` 从剪贴板里选择粘贴<br />`command + D` 对文件使用时是比较两个文本，对代码使用删除当前行<br />command + delete 隔单词删除<br />option + delete 隔单词删除<br />`command + F` 查找当前文档<br />**Control-H **全局查找<br />command + option + ⬇️ 复制上一行<br />control + k cut up to line end<br />`command + R` 替换当前文档<br />`command + G` 查找下一个<br />`command + shift + G` 查找上一个<br />优化导入<br />
 
 
 ### 提醒
@@ -33,9 +48,8 @@ Command-, 打开配置
 
 
 ### 光标(caret)
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/394169/1574058359287-3a1361b7-5525-49f7-b716-a1239fe50923.png#align=left&display=inline&height=670&name=image.png&originHeight=670&originWidth=1529&size=167488&status=done&style=none&width=1529)
-
-option  + shift + -> 选择单词
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/394169/1574058359287-3a1361b7-5525-49f7-b716-a1239fe50923.png#align=left&display=inline&height=670&name=image.png&originHeight=670&originWidth=1529&size=167488&status=done&style=none&width=1529)<br />
+<br />option  + shift + -> 选择单词<br />
 
 
 ### 选项页
@@ -75,7 +89,7 @@ option  + shift + -> 选择单词
 
 
 ### 调试
-`command + F8` 添加断点<br />`control + alt + R` 运行项目<br />`command + control + R` 运行Debug
+`command + F8` 添加断点<br />`control + alt + R` 运行项目<br />`command + control + R` 运行Debug<br />
 
 
 ### 屏幕控制

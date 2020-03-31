@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-13 13:33:25
+date: 2020-03-31 16:54:20
 ---
 
 ## 创作
@@ -17,7 +17,7 @@ date: 2020-03-13 13:33:25
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846765540-9e1708e2-7391-41d1-8319-5782cf5ff39e.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2880&size=655551&status=done&style=none&width=1440)
 
 ### [虎嗅网](https://www.huxiu.com/)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846462188-fc25f623-c5ab-42e9-a7e5-9f8a170a12aa.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846462188-fc25f623-c5ab-42e9-a7e5-9f8a170a12aa.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
 
 
 ### [CSDN](https://www.csdn.net/)
@@ -29,7 +29,7 @@ date: 2020-03-13 13:33:25
 ## 分享
 
 ### [Instagram](https://www.instagram.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583976192010-20bc3120-9bd8-48cb-a02e-d3af025b2516.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=3514966&status=done&style=none&width=1440)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583976192010-20bc3120-9bd8-48cb-a02e-d3af025b2516.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2880&size=3514966&status=done&style=none&width=1440)<br />
 
 
 ### [Pinterest](https://www.pinterest.co.uk/)
@@ -41,7 +41,7 @@ date: 2020-03-13 13:33:25
 ## 问答
 
 ### [知乎](https://www.zhihu.com/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846813218-da8733af-83f7-467f-8231-64935f872348.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1225298&status=done&style=none&width=1438)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846813218-da8733af-83f7-467f-8231-64935f872348.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=1225298&status=done&style=none&width=1438)<br />
 
 
 ## 社交
@@ -56,6 +56,9 @@ date: 2020-03-13 13:33:25
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583847051624-41efeee1-47e9-4399-8936-1f57937efee8.png#align=left&display=inline&height=758&name=image.png&originHeight=1516&originWidth=2876&size=1015156&status=done&style=none&width=1438)
 
 ## 资讯
+
+### [纽约时报](https://cn.nytimes.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585644840239-73b9dcfd-d411-464f-a68a-1d2df46afe7f.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2878&size=2841072&status=done&style=none&width=1439)
 
 ### [财新视听](http://video.caixin.com/)
 ![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583846461799-bea95d42-4001-4f2a-9373-0b4fb813f3a1.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
@@ -100,12 +103,24 @@ date: 2020-03-13 13:33:25
 ### [福布斯](https://www.forbes.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583931216054-4b123d2f-37cf-450b-a05f-9839660939a3.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2878&size=3412216&status=done&style=none&width=1439)
 
+### [金融时报](https://www.ft.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585100089130-2f6bbc79-acf2-4a7c-9c5a-4a5b32216f82.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2880&size=1389072&status=done&style=none&width=1440)
+
 ## 管理
 
 ### [dnote](https://github.com/dnote/dnote)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077509958-275d814f-1de6-4cb4-868c-e0c12d6a7c34.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=291969&status=done&style=none&width=1435)
-
-开源的知识管理软件，支持 Web 、命令行和浏览器插件。
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077509958-275d814f-1de6-4cb4-868c-e0c12d6a7c34.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=291969&status=done&style=none&width=1435)<br />
+<br />开源的知识管理软件，支持 Web 、命令行和浏览器插件。
 
 ## 英语
-[免费有声读物](http://www.openculture.com/freeaudiobooks)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077601396-b34f64a0-04aa-49f6-98fd-dd7f2edf9baf.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=558471&status=done&style=none&width=1440)
+
+### [免费有声读物](http://www.openculture.com/freeaudiobooks)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077601396-b34f64a0-04aa-49f6-98fd-dd7f2edf9baf.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=558471&status=done&style=none&width=1440)
+
+## 书籍
+[bookfere](https://bookfere.com/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585099943203-12e33acf-e738-4dce-8d9e-bbae4fce350f.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=499935&status=done&style=none&width=1437)<br />
+<br />书籍资源下载网站
+
+### [基于 IPFS 的电子书搜索引擎](https://i-book.in/)
+![](https://www.wangbase.com/blogimg/asset/202003/bg2020032310.jpg#align=left&display=inline&height=411&originHeight=411&originWidth=700&status=uploading&style=none&width=700)<br />
+<br />网友上传至 IPFS 网络的电子书索引，目前收入量约5万。使用Flask + Elasticsearch + Nginx 构建，已在 [GitHub](https://github.com/SaltyLeo/i-book.in) 部分开源。

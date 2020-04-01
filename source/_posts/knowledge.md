@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-03-31 16:54:20
+date: 2020-04-01 14:45:34
 ---
 
 ## 创作
@@ -122,5 +122,15 @@ date: 2020-03-31 16:54:20
 <br />书籍资源下载网站
 
 ### [基于 IPFS 的电子书搜索引擎](https://i-book.in/)
-![](https://www.wangbase.com/blogimg/asset/202003/bg2020032310.jpg#align=left&display=inline&height=411&originHeight=411&originWidth=700&status=uploading&style=none&width=700)<br />
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1585723375585-5cac35d6-733f-4edd-a381-ee1995e696c8.jpeg#align=left&display=inline&height=411&originHeight=411&originWidth=700&size=0&status=done&style=none&width=700)<br />
 <br />网友上传至 IPFS 网络的电子书索引，目前收入量约5万。使用Flask + Elasticsearch + Nginx 构建，已在 [GitHub](https://github.com/SaltyLeo/i-book.in) 部分开源。
+
+## 其他
+
+### [奈飞](https://www.netflix.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585723419941-759d481d-1088-4d63-8165-010111e0301b.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=7443287&status=done&style=none&width=1440)
+
+### [爱彼迎](https://www.airbnb.cn/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585723520466-79452145-8456-4b4f-a0fd-f61ca36bc54d.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=3346618&status=done&style=none&width=1440)<br />
+<br />
+

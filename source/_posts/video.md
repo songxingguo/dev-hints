@@ -2,7 +2,7 @@ title: 音视频
 categories:
  - Tools
 author: 宋玉
-date: 2020-03-27 15:55:09
+date: 2020-04-01 14:25:08
 ---
 
 ### [netease](https://jianwai.netease.com/)
@@ -18,3 +18,6 @@ date: 2020-03-27 15:55:09
 
 ### [dino](https://dino.im/)
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1585295695040-d89238a7-a12f-4beb-9f1d-a2660a46a632.jpeg#align=left&display=inline&height=490&originHeight=490&originWidth=800&size=0&status=done&style=none&width=800)<br />一个支持 XMPP 协议的聊天客户端。
+
+### [ffmpeg](https://www.ffmpeg.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585722284892-809e4922-e843-42be-b4b6-18cb8c745666.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=242315&status=done&style=none&width=1440)

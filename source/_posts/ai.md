@@ -2,7 +2,7 @@ title: AI
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-20 14:30:28
+date: 2020-04-08 16:59:55
 ---
 
 ### [百度AI](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
@@ -18,9 +18,11 @@ date: 2020-03-20 14:30:28
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583071386922-f4c52b84-5e08-4681-a2bf-5be80c6db65d.png#align=left&display=inline&height=761&name=image.png&originHeight=1522&originWidth=2872&size=1036307&status=done&style=none&width=1436)
 
 ### [培音](http://www.peiyinapp.com/index.html)
-![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008708-d27435c1-962c-44a3-9c21-d80e3b19170b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)
-
-**文字转语音，广告配音软件<br />**
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1583055008708-d27435c1-962c-44a3-9c21-d80e3b19170b.png#align=left&display=inline&height=769&originHeight=769&originWidth=1440&size=0&status=done&style=none&width=1440)<br />
+<br />**文字转语音，广告配音软件<br />**
 
 ### [fastai-cnn-camera-app](https://github.com/TylerNoblett/fastai-cnn-camera-app)
 一个示例项目，如何在网页上使用神经网络，识别照片里面的物体，比如人、树、椅子等等。
+
+### [clobotics](https://www.clobotics.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586336337387-11b35201-d810-49ec-9102-8f488ce99f48.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=4514491&status=done&style=none&width=1439)

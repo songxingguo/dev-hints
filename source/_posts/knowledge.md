@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-04-01 14:46:43
+date: 2020-04-08 17:24:30
 ---
 
 ## 创作
@@ -112,10 +112,13 @@ date: 2020-04-01 14:46:43
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077509958-275d814f-1de6-4cb4-868c-e0c12d6a7c34.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2870&size=291969&status=done&style=none&width=1435)<br />
 <br />开源的知识管理软件，支持 Web 、命令行和浏览器插件。
 
-## 英语
+## 语言
 
 ### [免费有声读物](http://www.openculture.com/freeaudiobooks)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584077601396-b34f64a0-04aa-49f6-98fd-dd7f2edf9baf.png#align=left&display=inline&height=759&name=image.png&originHeight=1518&originWidth=2880&size=558471&status=done&style=none&width=1440)
+
+### [多邻国](https://www.duolingo.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586337865411-20a1cc3a-2c3a-4a52-8101-236117bdfcd7.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2874&size=252209&status=done&style=none&width=1437)
 
 ## 书籍
 [bookfere](https://bookfere.com/)<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585099943203-12e33acf-e738-4dce-8d9e-bbae4fce350f.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2874&size=499935&status=done&style=none&width=1437)<br />

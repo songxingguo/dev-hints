@@ -2,7 +2,7 @@ title: 知识
 categories:
  - Others
 author: 宋玉
-date: 2020-04-08 17:24:30
+date: 2020-04-09 11:53:35
 ---
 
 ## 创作
@@ -80,6 +80,9 @@ date: 2020-04-08 17:24:30
 
 ### [NPR](https://www.npr.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1583847639297-62276e6b-7912-4282-8dcf-271e14d197a1.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2880&size=3578923&status=done&style=none&width=1440)
+
+### [medium](https://medium.com/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586404407397-414c0e4c-83b4-493e-9891-46cdd4daa9d2.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2880&size=1627231&status=done&style=none&width=1440)
 
 ## 影音
 

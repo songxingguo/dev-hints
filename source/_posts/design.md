@@ -2,14 +2,17 @@ title: 设计
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-25 21:27:19
+date: 2020-04-09 18:59:44
 ---
 
 ##  配色
 
 ### [中国色](https://colors.ichuantong.cn/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582383664346-9c1850c1-f477-48a1-b90a-d7a344eaa51c.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2876&size=3304682&status=done&style=none&width=1438)<br />
-<br />**一个用于展示中国颜色的在线颜色库。**
+<br />一个用于展示中国颜色的在线颜色库。
+
+### [colorhunt](https://colorhunt.co/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586429978318-1fa688ac-0103-40ef-807a-0b5454e32305.png#align=left&display=inline&height=765&name=image.png&originHeight=1530&originWidth=2878&size=458787&status=done&style=none&width=1439)
 
 ### [CoolHue](https://webkul.github.io/coolhue/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582384360375-ada013fa-4a34-4f43-abb5-43b54f163451.png#align=left&display=inline&height=769&name=image.png&originHeight=1538&originWidth=2870&size=2043037&status=done&style=none&width=1435)

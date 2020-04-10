@@ -2,7 +2,7 @@ title: AI
 categories:
  - Devops
 author: 宋玉
-date: 2020-04-08 16:59:55
+date: 2020-04-10 11:29:06
 ---
 
 ### [百度AI](http://ai.baidu.com/docs#/TTS-Android-SDK/top)
@@ -26,3 +26,7 @@ date: 2020-04-08 16:59:55
 
 ### [clobotics](https://www.clobotics.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586336337387-11b35201-d810-49ec-9102-8f488ce99f48.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2878&size=4514491&status=done&style=none&width=1439)
+
+### [DeepL](https://www.deepl.com/translator)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586489337779-3d60e449-1213-4ea7-bacd-7458a2f55cf9.png#align=left&display=inline&height=762&name=image.png&originHeight=1524&originWidth=2874&size=262266&status=done&style=none&width=1437)<br />
+<br />一家创业公司推出的机器翻译引擎，据称比谷歌翻译得更好。

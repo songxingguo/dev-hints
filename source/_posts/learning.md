@@ -2,7 +2,7 @@ title: 学习
 categories:
  - Devops
 author: 宋玉
-date: 2020-03-25 21:44:43
+date: 2020-04-10 11:35:39
 ---
 
 ## 技术
@@ -52,6 +52,10 @@ date: 2020-03-25 21:44:43
 ### [慕课网](https://www.imooc.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585141850574-2bf8c640-97a4-4227-a5b6-ed3669ac5f5b.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2880&size=1307939&status=done&style=none&width=1440)
 
+### [Pluralsight](https://www.pluralsight.com/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1586489723725-44a01132-e402-4c20-9894-c9b264ab291c.jpeg#align=left&display=inline&height=351&originHeight=351&originWidth=800&size=0&status=done&style=none&width=800)<br />
+<br />Pluralsight 宣布四月份对用户免费，网站上面 7000 多门视频课都可以免费听。它家的 C# 课程很有名，最近 Python、JS、Java、Devops 课程也添加了不少。
+
 ## 书籍
 
 ### [ES6 入门教程](https://es6.ruanyifeng.com/)
@@ -87,4 +91,8 @@ date: 2020-03-25 21:44:43
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143018776-e512be3f-d5a8-4557-bc1b-20490f72f06d.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2870&size=2762437&status=done&style=none&width=1435)
 
 ### [React](http://huziketang.mangojuice.top/books/react/)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143317415-e7e891fc-8109-4bda-ae08-91b85b8d2554.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=401508&status=done&style=none&width=1440)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585143317415-e7e891fc-8109-4bda-ae08-91b85b8d2554.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2880&size=401508&status=done&style=none&width=1440)<br />
+
+
+### [TypeScript](https://www.typescriptlang.org/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585722854627-db58ccea-bae2-4ef2-a460-6e86a2b36edb.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=684732&status=done&style=none&width=1438)

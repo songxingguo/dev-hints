@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-03-27 16:02:32
+date: 2020-04-10 11:37:04
 ---
 
 ## 科技
@@ -72,6 +72,10 @@ date: 2020-03-27 16:02:32
 
 ### [thetreeographer](https://thetreeographer.com)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584793375177-011407b6-085a-4efb-ad6a-07eef88acad0.png#align=left&display=inline&height=767&name=image.png&originHeight=1534&originWidth=2880&size=7980967&status=done&style=none&width=1440)
+
+### [哺乳动物树](http://vertlife.org/data/mammals/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1586489771188-3b38ff09-4ce8-4920-b030-6c89129338b4.jpeg#align=left&display=inline&height=378&originHeight=378&originWidth=800&size=0&status=done&style=none&width=800)<br />
+<br />一个数据可视化作品，根据5,911种动物的种属，将它们画成一棵倒金字塔型的树，可以连续放大查看。
 
 ## 科学
 

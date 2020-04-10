@@ -2,7 +2,7 @@ title: 学习
 categories:
  - Devops
 author: 宋玉
-date: 2020-04-10 11:35:39
+date: 2020-04-10 11:38:27
 ---
 
 ## 技术
@@ -96,3 +96,6 @@ date: 2020-04-10 11:35:39
 
 ### [TypeScript](https://www.typescriptlang.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585722854627-db58ccea-bae2-4ef2-a460-6e86a2b36edb.png#align=left&display=inline&height=760&name=image.png&originHeight=1520&originWidth=2876&size=684732&status=done&style=none&width=1438)
+
+### [简单粗暴 TensorFlow 2](https://tf.wiki/)
+这是一本简明的 TensorFlow 2 入门指导手册的中文版翻译，力图让具备一定机器学习及 Python 基础的开发者们快速上手 TensorFlow 2。

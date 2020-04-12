@@ -2,7 +2,7 @@ title: 动画引擎
 categories:
  - JavaScript libraries
 author: 宋玉
-date: 2020-03-25 21:21:10
+date: 2020-04-12 23:00:37
 ---
 
 ### [WebGL](http://www.hewebgl.com/)
@@ -61,3 +61,7 @@ date: 2020-03-25 21:21:10
 
 ### [cssanimation](https://cssanimation.rocks/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585142464085-40ddc546-9252-4244-a68e-1cfea030b471.png#align=left&display=inline&height=763&name=image.png&originHeight=1526&originWidth=2880&size=741543&status=done&style=none&width=1440)
+
+### [3dwarehouse](https://3dwarehouse.sketchup.com/?hl=en)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1586703622805-f001b08b-1f29-4d5c-a194-efb2727afbca.png#align=left&display=inline&height=766&name=image.png&originHeight=1532&originWidth=2872&size=2211634&status=done&style=none&width=1436)<br />
+<br />3D 素材库

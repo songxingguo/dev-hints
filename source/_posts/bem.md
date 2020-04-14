@@ -2,7 +2,7 @@ title: BEM
 categories:
  - CSS
 author: 宋玉
-date: 2020-03-12 11:35:37
+date: 2020-04-14 18:02:05
 ---
 block__element--modifier
 
@@ -10,11 +10,12 @@ block-name__elem-name_mod-name_mod-val
 
 命名与业务无关，与功能有关, 与具体实现无关，与意图有关。
 
-能简写的一定简写，舒服😌
+能简写的一定简写，舒服😌<br />
+<br />[weui](https://weui.io/weui.css)<br />
 
-[weui](https://weui.io/weui.css)
 
 ---
+
 
 
 
@@ -52,3 +53,4 @@ block-name__elem-name_mod-name_mod-val
 - need
 - has
 - not
+- on (onShow)

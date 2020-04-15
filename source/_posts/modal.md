@@ -2,7 +2,7 @@ title: Modal
 categories:
  - JavaScript
 author: 宋玉
-date: 2020-04-14 14:23:34
+date: 2020-04-15 18:44:25
 ---
 ```javascript
 const ABORT = 'abort'
@@ -68,8 +68,8 @@ class ModalManager {
   /**
    * @returns {Modal}
    */
-  pop () {
-    return this._stack.pop()
+  shift () {
+    return this._stack.shift()
   }
 
   /**
@@ -77,11 +77,11 @@ class ModalManager {
    * @returns {Promise<void>}
    */
   async play () {
-    let modalIns = this.pop()
+    let modalIns = this.shift()
     while (modalIns) {
       try {
         await modalIns.show()
-        modalIns = this.pop()
+        modalIns = this.shift()
       } catch (e) {
         if (e.message === ABORT) {
           modalIns = null

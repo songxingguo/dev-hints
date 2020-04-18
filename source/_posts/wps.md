@@ -1,13 +1,13 @@
 title: WPS
 categories:
  - Apps
-author: 宋玉
-date: 2020-02-22 17:06:50
+author: å®ç
+date: 2020-02-22 16:31:28
 ---
-<a name="STKuw"></a>
-### 基础命令
 
-| option+enter | 表格内换行 |
+### åºç¡å½ä»¤
+
+| option+enter | è¡¨æ ¼åæ¢è¡ |
 | --- | --- |
 
 

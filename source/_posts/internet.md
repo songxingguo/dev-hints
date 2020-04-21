@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-04-21 14:17:43
+date: 2020-04-21 14:19:49
 ---
 
 ## VPN 代理
@@ -75,6 +75,8 @@ chmod +x bbr.sh
 <br />**VPN 服务器提供商（按量收费，最大 $5，支持支付宝）**<br />[Vultr利用快照Snapshots备份和迁移数据](http://www.idcspy.com/vultr-snapshots-backup.html)<br />[官网修改密码](https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password)<br />[修改密码]()
 
 ### [免费VPN](https://zh.vpnmentor.com/blog/%E5%B9%B4%E5%89%8D%E5%85%AD%E5%A4%A7%EF%BC%88%E7%9C%9F%E6%AD%A3%E5%85%8D%E8%B4%B9%EF%BC%89vpn%E6%9C%8D%E5%8A%A1/)
+
+### [OpenDNS](http://www.opendns.com/)
 
 ## 远程服务器管理
 

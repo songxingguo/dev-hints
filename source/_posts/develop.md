@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-04-18 19:45:11
+date: 2020-04-24 10:51:59
 ---
 
 ## 占位
@@ -30,6 +30,10 @@ https://via.placeholder.com/210/fff
 # 使用方法
 https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellular-automata&cells=10
 ```
+
+### [pattern.css](https://github.com/bansal-io/pattern.css)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1587696700880-a3c46719-9645-4284-be33-5218e606acd6.jpeg#align=left&display=inline&height=595&margin=%5Bobject%20Object%5D&originHeight=595&originWidth=790&size=0&status=done&style=none&width=790)<br />
+<br />一个纯 CSS 库，提供各种形状的背景图案。这里还有一个类似的[网站](http://www.heropatterns.com/)。
 
 ## 模拟数据
 

@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-04-17 10:05:22
+date: 2020-04-24 10:49:55
 ---
 
 ## 科技
@@ -36,6 +36,9 @@ date: 2020-04-17 10:05:22
 ### [informationisbeautiful](https://informationisbeautiful.net/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582691082192-0f74699a-6fa0-4a28-9fe7-5d98a5a8ff5d.png#align=left&display=inline&height=764&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1528&originWidth=2874&size=799021&status=done&style=none&width=1437)<br />
 <br />**图片数据网站**
+
+### [avatarify](https://github.com/alievk/avatarify)
+一个开源软件，只需要提供一张头像照片，就可以生成人物开口讲话的视频。
 
 ## 文学
 
@@ -76,6 +79,9 @@ date: 2020-04-17 10:05:22
 ### [哺乳动物树](http://vertlife.org/data/mammals/)
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1586489771188-3b38ff09-4ce8-4920-b030-6c89129338b4.jpeg#align=left&display=inline&height=378&margin=%5Bobject%20Object%5D&originHeight=378&originWidth=800&size=0&status=done&style=none&width=800)<br />
 <br />一个数据可视化作品，根据5,911种动物的种属，将它们画成一棵倒金字塔型的树，可以连续放大查看。
+
+### [生物插图下载](https://www.flickr.com/photos/biodivlibrary/)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1587090924543-6056e198-0851-436b-a6c5-150c251c5e37.png#align=left&display=inline&height=394&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1514&originWidth=2870&size=4864978&status=done&style=none&width=746)<br />生物多样性图书馆（Biodiversity Heritage Library，BHL）提供15000多张生物插图，可以免费下载，都来自历史上的各种资料。
 
 ## 科学
 

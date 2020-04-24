@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-04-24 10:49:55
+date: 2020-04-24 10:55:26
 ---
 
 ## 科技
@@ -124,6 +124,10 @@ date: 2020-04-24 10:49:55
 ### [WOWA](https://www.wowa.me/)
 一个收集免费音乐的网站，可以下载用来制作视频的背景音乐。该网站的目标是成为免费音乐的 Unsplash。
 
+### [图书馆噪音](https://www.ox.ac.uk/soundsofthebodleian/#radcam)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1587696816645-9189977e-8f20-4385-b9f8-aa9e8a4df252.jpeg#align=left&display=inline&height=634&margin=%5Bobject%20Object%5D&originHeight=634&originWidth=700&size=0&status=done&style=none&width=700)<br />
+<br />该网站提供牛津大学图书馆的噪音。喜欢图书馆环境的朋友，可以用它作为工作时的背景音。
+
 ## 教育
 
 ### [这里有多少只猫？](https://stylishsite.github.io/)
@@ -147,4 +151,10 @@ date: 2020-04-24 10:49:55
 
 ### [MoodFeed](https://moodfeed.buzzfeed.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582691262118-c2b5b69a-5afb-4f50-a66d-bb36481296e1.png#align=left&display=inline&height=764&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1528&originWidth=2876&size=1876106&status=done&style=none&width=1438)<br />
-<br />**选择心情，生成结果**
+<br />**选择心情，生成结果**<br />
+
+## 艺术
+
+### [人工智能艺术品](https://art42.net/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1587696890947-909b5906-98a0-4e24-b6ab-907e33ab0bbe.jpeg#align=left&display=inline&height=600&margin=%5Bobject%20Object%5D&originHeight=600&originWidth=600&size=0&status=done&style=none&width=600)<br />
+<br />该网站收集机器学习生成的抽象画。

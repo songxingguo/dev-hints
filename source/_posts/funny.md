@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-04-24 10:55:26
+date: 2020-04-30 10:23:41
 ---
 
 ## 科技
@@ -133,6 +133,10 @@ date: 2020-04-24 10:55:26
 ### [这里有多少只猫？](https://stylishsite.github.io/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1584076541768-67d9d319-1962-48b2-a68e-221a23ed642d.png#align=left&display=inline&height=762&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1524&originWidth=2880&size=176642&status=done&style=none&width=1440)
 
+### [CS Unplugged](https://csunplugged.org/en/topics/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588213286798-3c73d86d-a263-44e8-87e3-d46f39839c99.jpeg#align=left&display=inline&height=515&margin=%5Bobject%20Object%5D&originHeight=515&originWidth=800&size=0&status=done&style=none&width=800)<br />
+<br />一个面向儿童的计算机教育网站，目前有六个课程，提供讲解和编程练习。
+
 ## 生活
 
 ### [findyourselfahobby](http://findyourselfahobby.com/index.php)
@@ -151,7 +155,11 @@ date: 2020-04-24 10:55:26
 
 ### [MoodFeed](https://moodfeed.buzzfeed.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582691262118-c2b5b69a-5afb-4f50-a66d-bb36481296e1.png#align=left&display=inline&height=764&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1528&originWidth=2876&size=1876106&status=done&style=none&width=1438)<br />
-<br />**选择心情，生成结果**<br />
+<br />**选择心情，生成结果**
+
+### [自来水水质数据库](https://www.iswatersafetodrink.in/China)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588213405720-dd2f0826-64ca-4a1d-afe0-37d76f30859b.jpeg#align=left&display=inline&height=370&margin=%5Bobject%20Object%5D&originHeight=370&originWidth=710&size=0&status=done&style=none&width=710)<br />
+<br />该网站提供全球各国的自来水的水质数据，你可以查询某个地点的自来水是否可以安全饮用。
 
 ## 艺术
 

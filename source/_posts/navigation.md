@@ -2,7 +2,7 @@ title: 导航
 categories:
  - Tools
 author: 宋玉
-date: 2020-04-26 16:55:22
+date: 2020-04-30 10:22:48
 ---
 
 ## 工具导航
@@ -64,6 +64,9 @@ date: 2020-04-26 16:55:22
 
 ### [icheese](https://www.icheese.org/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1587536432679-f2fadc42-6499-4b98-988b-b051e6efce4b.png#align=left&display=inline&height=1302&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1302&originWidth=2557&size=758920&status=done&style=none&width=2557)
+
+### [PWA Store](https://progressiveapp.store/pwas)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588213357535-e3acbb3c-c2a2-4a3d-a1ac-6e2a2bf7e453.jpeg#align=left&display=inline&height=538&margin=%5Bobject%20Object%5D&originHeight=538&originWidth=800&size=0&status=done&style=none&width=800)<br />该网站收集各类 PWA（渐进式网页引用），可以在该网站进行统一安装。
 
 ## 搜索
 

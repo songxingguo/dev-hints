@@ -2,7 +2,7 @@ title: 有趣
 categories:
  - Others
 author: 宋玉
-date: 2020-04-30 10:23:41
+date: 2020-05-08 09:40:30
 ---
 
 ## 科技
@@ -166,3 +166,6 @@ date: 2020-04-30 10:23:41
 ### [人工智能艺术品](https://art42.net/)
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1587696890947-909b5906-98a0-4e24-b6ab-907e33ab0bbe.jpeg#align=left&display=inline&height=600&margin=%5Bobject%20Object%5D&originHeight=600&originWidth=600&size=0&status=done&style=none&width=600)<br />
 <br />该网站收集机器学习生成的抽象画。
+
+### [拉美西斯六世陵墓的 3D 模拟](https://my.matterport.com/show/?m=NeiMEZa9d93&mls=1)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588902012713-4cf8a4dc-8cea-4041-b479-59066fc5d4e4.jpeg#align=left&display=inline&height=359&margin=%5Bobject%20Object%5D&originHeight=359&originWidth=800&size=0&status=done&style=none&width=800)<br />这个网站是古埃及拉美西斯六世（约公元前1145年--约公元前1137年在位）陵墓的 3D 实景模拟，效果非常好，细节放大后都很清晰，手机也可以浏览。

@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-04-24 10:51:59
+date: 2020-05-08 09:33:43
 ---
 
 ## 占位
@@ -35,10 +35,13 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1587696700880-a3c46719-9645-4284-be33-5218e606acd6.jpeg#align=left&display=inline&height=595&margin=%5Bobject%20Object%5D&originHeight=595&originWidth=790&size=0&status=done&style=none&width=790)<br />
 <br />一个纯 CSS 库，提供各种形状的背景图案。这里还有一个类似的[网站](http://www.heropatterns.com/)。
 
-## 模拟数据
+## 数据
 
 ### [JSON Generator](https://next.json-generator.com/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1587090644120-50839088-23ec-4776-83cf-720ef03f2994.png#align=left&display=inline&height=762&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1524&originWidth=2880&size=596212&status=done&style=none&width=1440)<br />一个生成虚拟 JSON 数据的在线工具，可以根据给定的模式，自动生成 JSON 数据。
+
+### [Insomnia](https://insomnia.rest/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588901599102-4936258a-f857-4de2-8774-181614990399.jpeg#align=left&display=inline&height=394&margin=%5Bobject%20Object%5D&originHeight=394&originWidth=800&size=0&status=done&style=none&width=800)<br />一个开源的桌面软件，用于简化 API 的设计和开发。
 
 ## 命名
 
@@ -83,3 +86,8 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 ### [TranslationPlugin](http://yiiguxing.github.io/TranslationPlugin/start.html)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585128769243-29227d4d-65b3-4cc9-a77b-057fc18dc774.png#align=left&display=inline&height=762&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1524&originWidth=2876&size=205763&status=done&style=none&width=1438)<br />
 <br />翻译插件
+
+## 管理
+
+### [Tara](https://tara.ai/)
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588901535436-f835bbd6-f4b8-4793-8594-8e5e95983947.jpeg#align=left&display=inline&height=401&margin=%5Bobject%20Object%5D&originHeight=401&originWidth=800&size=0&status=done&style=none&width=800)<br />项目管理软件 Jira 的一个免费仿制品。

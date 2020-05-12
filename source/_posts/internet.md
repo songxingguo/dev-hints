@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-05-12 10:59:46
+date: 2020-05-12 11:18:40
 ---
 
 ## VPN 代理
@@ -63,15 +63,19 @@ chmod +x bbr.sh
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1589252359638-ad062c25-cedc-421c-8566-5ead8683f958.png#align=left&display=inline&height=350&margin=%5Bobject%20Object%5D&name=image.png&originHeight=699&originWidth=834&size=119899&status=done&style=none&width=417)<br />
 <br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585488711950-c75aeaaf-4bc4-43cb-9c75-d2385c5b4f61.png#align=left&display=inline&height=219&margin=%5Bobject%20Object%5D&name=image.png&originHeight=438&originWidth=422&size=55331&status=done&style=none&width=211)
 
-## VPN 服务器
+### V2Ray
+
+### [trojan](https://github.com/trojan-gfw/trojan)
+
+## VPS 服务器
 
 ### [搬瓦工](https://bwh88.net/)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582606995538-33fbc0bd-e51f-40ba-809c-6e212d86a966.png#align=left&display=inline&height=763&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1526&originWidth=2880&size=1837449&status=done&style=none&width=1440)<br />
-<br />**VPN 服务器提供商（按月收费）**
+<br />**VPS 服务器提供商（按月收费）**
 
 ### [Vultr](https://www.vultr.com/?ref=8478504-6G)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1582607151208-a60bf1f9-33d3-4624-9e7e-c371f0920466.png#align=left&display=inline&height=761&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1522&originWidth=2874&size=1273879&status=done&style=none&width=1437)<br />
-<br />**VPN 服务器提供商（按量收费，最大 $5，支持支付宝）**<br />[Vultr利用快照Snapshots备份和迁移数据](http://www.idcspy.com/vultr-snapshots-backup.html)<br />[官网修改密码](https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password)<br />[修改密码]()
+<br />**VPS 服务器提供商（按量收费，最大 $3.5，支持支付宝）**<br />[Vultr利用快照Snapshots备份和迁移数据](http://www.idcspy.com/vultr-snapshots-backup.html)<br />[官网修改密码](https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password)<br />[修改密码]()
 
 ### [免费VPN](https://zh.vpnmentor.com/blog/%E5%B9%B4%E5%89%8D%E5%85%AD%E5%A4%A7%EF%BC%88%E7%9C%9F%E6%AD%A3%E5%85%8D%E8%B4%B9%EF%BC%89vpn%E6%9C%8D%E5%8A%A1/)
 

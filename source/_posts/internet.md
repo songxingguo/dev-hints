@@ -2,7 +2,7 @@ title: 科学上网
 categories:
  - Tools
 author: 宋玉
-date: 2020-04-21 14:19:49
+date: 2020-05-12 10:59:46
 ---
 
 ## VPN 代理
@@ -60,8 +60,7 @@ chmod +x bbr.sh
 > 同一 wifi, 电脑ip, 1087 
 > 手机连接上 wifi 使用代理
 
-
-<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585488782201-a918efa8-5554-49ad-a111-090546e5f653.png#align=left&display=inline&height=563&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1126&originWidth=1336&size=201471&status=done&style=none&width=668)<br />
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1589252359638-ad062c25-cedc-421c-8566-5ead8683f958.png#align=left&display=inline&height=350&margin=%5Bobject%20Object%5D&name=image.png&originHeight=699&originWidth=834&size=119899&status=done&style=none&width=417)<br />
 <br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/394169/1585488711950-c75aeaaf-4bc4-43cb-9c75-d2385c5b4f61.png#align=left&display=inline&height=219&margin=%5Bobject%20Object%5D&name=image.png&originHeight=438&originWidth=422&size=55331&status=done&style=none&width=211)
 
 ## VPN 服务器
@@ -77,6 +76,10 @@ chmod +x bbr.sh
 ### [免费VPN](https://zh.vpnmentor.com/blog/%E5%B9%B4%E5%89%8D%E5%85%AD%E5%A4%A7%EF%BC%88%E7%9C%9F%E6%AD%A3%E5%85%8D%E8%B4%B9%EF%BC%89vpn%E6%9C%8D%E5%8A%A1/)
 
 ### [OpenDNS](http://www.opendns.com/)
+
+## 机场[<br />](https://www.duyaoss.com/)
+
+### [毒药机场](https://www.duyaoss.com/)
 
 ## 远程服务器管理
 

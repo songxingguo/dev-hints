@@ -2,7 +2,7 @@ title: 开发
 categories:
  - Devops
 author: 宋玉
-date: 2020-05-08 09:33:43
+date: 2020-05-15 20:52:35
 ---
 
 ## 占位
@@ -42,6 +42,9 @@ https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellu
 
 ### [Insomnia](https://insomnia.rest/)
 ![](https://cdn.nlark.com/yuque/0/2020/jpeg/394169/1588901599102-4936258a-f857-4de2-8774-181614990399.jpeg#align=left&display=inline&height=394&margin=%5Bobject%20Object%5D&originHeight=394&originWidth=800&size=0&status=done&style=none&width=800)<br />一个开源的桌面软件，用于简化 API 的设计和开发。
+
+### [endpoints.dev](https://www.endpoints.dev/)
+该网站向每个用户提供一个独特的 API 终点（endpoint），用于接受 HTTP 请求。用户发来的所有请求，都可以在该网站实时显示，用于调试和记录。
 
 ## 命名
 

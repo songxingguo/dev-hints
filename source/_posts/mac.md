@@ -2,11 +2,11 @@ title: Mac
 categories:
  - macOS
 author: 宋玉
-date: 2020-03-23 12:37:34
+date: 2020-07-31 10:18:38
 ---
 
 ## 快捷键
-
+![](https://cdn.nlark.com/yuque/0/2020/png/394169/1596161916363-fceda993-094f-4801-8e08-81a65f20dd06.png)
 ### 剪切、拷贝、粘贴和其他常用快捷键
 | ****Command-X**** | 剪切所选项并拷贝到剪贴板。 |
 | --- | --- |
@@ -46,9 +46,11 @@ date: 2020-03-23 12:37:34
 
 
 
+
 ## 参考链接
 
 - [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236)
 
 ## 软件
+
 

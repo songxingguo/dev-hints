@@ -1,8 +1,8 @@
 title: BEM
 categories:
- - CSS
+ - 规范
 author: 宋玉
-date: 2020-04-14 18:02:05
+date: 2020-09-29 14:18:02
 ---
 block__element--modifier
 
@@ -54,3 +54,13 @@ block-name__elem-name_mod-name_mod-val
 - has
 - not
 - on (onShow)
+- dev
+- hub
+- box
+- cloud
+- last
+- Struct/Schema
+- wrapper 包装器
+- more
+- handle 回调处理
+- on 回调

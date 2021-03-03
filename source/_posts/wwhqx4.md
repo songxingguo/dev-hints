@@ -2,7 +2,7 @@ title: Slider.vue
 categories:
  - 基础库
 author: 宋玉
-date: 2021-03-03 19:17:10
+date: 2021-03-03 19:18:03
 ---
 ```vue
 <template>
@@ -326,6 +326,248 @@ export default {
   border-radius: 4rpx;
   margin-left: -5rpx;
   margin-top: -8rpx;
+}
+</style>
+```
+```vue
+<template>
+  <div class="slider">
+    <div ref="slider"
+      :class="['slider__runway flex-row flex-items-center', btnIsClick?'active':'']"
+      @mousedown="onSliderClick">
+      <div class="slider__bar"
+        :style="{width:`${percentVal}%`}"></div>
+      <div class="slider__btn-wrapper"
+        @mousedown.stop="onBtnClick"
+        :style="{left: `${percentVal}%`}">
+        <div class="slider__btn"></div>
+      </div>
+      <template v-if="isShowRangeComment">
+        <div class="slider-range__mark"
+          :style="{left:`${rangeStartX}px`}"></div>
+        <div class="slider-range__mark"
+          :style="{left:`${rangeEndX}px`}"></div>
+      </template>
+    </div>
+  </div>
+</template>
+
+<script>
+import { mapState, mapGetters } from "vuex";
+
+export default {
+  name: "Slider",
+  model: {
+    prop: "value",
+    event: "change",
+  },
+  props: {
+    value: {
+      type: Number,
+      default: 0,
+    },
+    max: {
+      type: Number,
+    },
+  },
+  data() {
+    return {
+      val: 0,
+      offsetLeft: 0,
+      offsetWidth: 0,
+      btnIsClick: false,
+    };
+  },
+  computed: {
+    ...mapState({
+      isCommentsFocus: (state) => state.comment.isCommentsFocus,
+      commentRanges: (state) => state.comment.commentRanges,
+    }),
+    ...mapGetters({
+      isRangeComment: "comment/isRangeComment",
+      hasSelectedComment: "comment/hasSelectedComment",
+    }),
+    newValue() {
+      const { val, max } = this;
+      return val * max;
+    },
+    percentVal() {
+      const { val } = this;
+      return val * 100;
+    },
+    rangeStartX() {
+      const {
+        offsetWidth,
+        $parent: { durationMS },
+        commentRanges: [sTime],
+      } = this;
+      return (sTime / durationMS) * offsetWidth;
+    },
+    rangeEndX() {
+      const {
+        offsetWidth,
+        $parent: { durationMS },
+        commentRanges: [, eTime],
+      } = this;
+      return (eTime / durationMS) * offsetWidth;
+    },
+    isShowRangeComment() {
+      const { isCommentsFocus, isRangeComment, hasSelectedComment } = this;
+      if (hasSelectedComment) {
+        return isRangeComment;
+      }
+      return isCommentsFocus && isRangeComment;
+    },
+  },
+  watch: {
+    value(val) {
+      const { max } = this;
+      this.val = val / max;
+    },
+  },
+  mounted() {
+    this.initSlider();
+    // 窗口大小改变
+    window.addEventListener("resize", () => {
+      this.initSlider();
+    });
+  },
+  beforeDestroy() {
+    // 解除resize事件
+    window.removeEventListener("resize", () => {
+      this.initSlider();
+    });
+  },
+  methods: {
+    initSlider() {
+      const {
+        $refs: { slider },
+      } = this;
+      if (!slider) return;
+      const { offsetWidth } = slider;
+      this.offsetLeft = slider.getBoundingClientRect().left;
+      this.offsetWidth = offsetWidth;
+      // 鼠标移动事件, 用于拖动
+      document.onmousemove = async (e) => {
+        if (this.btnIsClick) {
+          const { pageX } = e;
+          this.move({ curX: pageX });
+          await this.$nextTick();
+          this.$emit("change", this.newValue);
+        }
+      };
+      // 鼠标弹起事件，用于释放拖动
+      document.onmouseup = () => {
+        this.btnIsClick = false;
+      };
+      this.setSlider();
+    },
+    // 设置Slider组件
+    setSlider() {
+      this.$store.commit("setSlider", this.$refs.slider);
+    },
+    /**
+     * 进度条整体的鼠标按下事件
+     */
+    async onSliderClick({ pageX }) {
+      this.move({ curX: pageX });
+      await this.$nextTick();
+      this.$emit("change", this.newValue);
+    },
+    /**
+     * 鼠标点击按钮事件
+     */
+    onBtnClick() {
+      this.btnIsClick = true;
+      this.initSlider();
+    },
+    /**
+     * 进度条拖动
+     */
+    move({ curX }) {
+      const {
+        max,
+        offsetLeft,
+        offsetWidth,
+        isRangeComment,
+        commentRanges: [sTime, eTime],
+      } = this;
+      let val = (curX - offsetLeft) / offsetWidth;
+      // 将值限制在时间区间内
+      const minVal = isRangeComment ? sTime / max : 0;
+      const maxVal = isRangeComment ? eTime / max : 1;
+      val = Math.min(Math.max(minVal, val), maxVal);
+      this.val = val;
+    },
+    updateCommentRanges() {
+      if (isRangeComment) return;
+      const { newValue, isRangeComment } = this;
+      const commentRanges = [newValue, newValue];
+      this.$store.commit("comment/updateCommentRanges", commentRanges);
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.slider {
+  position: relative;
+  z-index: 3;
+}
+.slider__runway {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6px;
+  background-color: #4b4c52;
+  cursor: pointer;
+  &:hover {
+    transform: scaleY(2);
+    transform-origin: bottom;
+    .slider__btn {
+      display: block;
+      transform: scaleY(0.5);
+      transform-origin: center;
+    }
+  }
+  &.active {
+    .slider__btn {
+      display: block;
+    }
+  }
+}
+.slider__bar {
+  position: absolute;
+  height: 6px;
+  background-color: #3e3bff;
+}
+.slider__btn-wrapper {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: grab;
+  &:active {
+    cursor: grabbing;
+  }
+}
+.slider__btn {
+  display: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  &:hover {
+    transform: scale(2);
+  }
+}
+.slider-range__mark {
+  position: absolute;
+  width: 4px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-left: -2px;
 }
 </style>
 ```

@@ -1,17 +1,63 @@
 title: 小技巧
 categories:
- - JavaScript
+ - 基础库
 author: 宋玉
-date: 2020-03-03 21:19:39
+date: 2021-03-10 19:00:12
 ---
-<a name="GA2Iz"></a>
+
+# [div的keydown事件无效的原因及解决方案、tabindex属性的作用](https://www.cnblogs.com/goloving/p/13220359.html)
+
+#### 一、解决方案
+　　如果需要在div上监听键盘事件怎么办呢？<br />　　其实也很简单，只需要在需要监听 keydown 事件的 div 的属性中加上 tabIndex=0 即可，即：
+```javascript
+<div tabindex="0" οnkeydοwn="alert('keydown');">...</div>
+```
+
+#### 二、tabindex属性的作用
+　　当使用键盘时，tabindex是个关键因素，它用来定位html元素。<br />　　tabindex有三个值：0 ，-1， 以及X（X里32767是界点，稍后说明）<br />　　原本在Html中，只有链接a和表单元素可以被键盘访问（即使是a也必须加上href属性才可以)，但是aria允许tabindex指定给任何html元素。<br />　　当tabindex=0时，该元素可以用tab键获取焦点，且访问的顺序是按照元素在文档中的顺序来focus，即使采用了浮动改变了页面中显示的顺序，依然是按照html文档中的顺序来定位。<br />　　当tabindex=-1时，该元素用tab键获取不到焦点，但是可以通过js获取，这样就便于我们通过js设置上下左右键的响应事件来focus，在widget内部可以用到。<br />　　当tabindex>=1时，该元素可以用tab键获取焦点，而且优先级大于tabindex=0；不过在tabindex>=1时，数字越小，越先定位到。<br />　　在IE中，tabindex范围在1到32767之间（包括32767），在FF， Chrome无限制，不过一旦超出32768，顺序跟tabindex=0时一样。这个估计跟各个浏览器对int型的解析有关。
+
+### 下载
+```javascript
+//下载
+const download = (url)  => {
+    const a = document.createElement('a')
+    a.setAttribute('download', '')
+    a.setAttribute('href', url)
+    a.click()
+    a.remove()
+}
+// 下载地址
+function downLoad(content,fileName){
+        var aEle = document.createElement("a");// 创建a标签
+        // blob = new Blob([content]); 
+        aEle.download = fileName;// 设置下载文件的文件名
+        //aEle.href = URL.createObjectUrl(blob);
+        aEle.href = content;// content为后台返回的下载地址
+        aEle.click();// 设置点击事件
+        aEle.remove()
+}
+let URL ='XXXX' //下载地址
+downLoad(URL ,'test.xlxs')
+// content 非下载地址
+function downLoad(content,fileName){
+        var aEle = document.createElement("a");// 创建a标签
+        blob = new Blob([content]); 
+        aEle.download = fileName;// 设置下载文件的文件名
+        aEle.href = URL.createObjectUrl(blob);
+        aEle.click();// 设置点击事件
+
+}
+downLoad('下载内容123123','test.txt')
+```
+[参考地址](https://www.cnblogs.com/phermis/p/11393144.html)
+
 ### 类型检测
-<a name="GR4Sf"></a>
+
 ### 空值保护
 ```javascript
 (sorter.columns || {})._sortName
 ```
-<a name="y34Mu"></a>
+
 ### 冻结对象
 ```javascript
 var constantize = (obj) => {
@@ -23,7 +69,7 @@ var constantize = (obj) => {
   });
 };
 ```
-<a name="aURBR"></a>
+
 ### 取到顶层对象
 ```javascript
 // 方法一
@@ -42,40 +88,40 @@ var getGlobal = function () {
   throw new Error('unable to locate global object');
 };
 ```
-<a name="FxOy4"></a>
+
 ### 实现顶部/下部固定，中间滚动效果
-<a name="r6LvF"></a>
+
 ### 空值保护
 ```javascript
 this.helpList[this.currentTab] || [] // helpList 还没有返回时就设置为空数组
 ```
-<a name="fuohO"></a>
+
 ### max 和   min 的妙用
 ```javascript
     const index = this.keyList.findIndex(key => key === helpKey)
     this.currentTab = Math.max(index, FIRST_TAB) // 找到相应的key就设置下标，否则设置为第一项
 ```
-<a name="STcNc"></a>
+
 ### Object.assign 浅拷贝
 ```javascript
 Object.assign({}, defaultPrivilege, customPrivilege) 
 ```
-<a name="LBLKD"></a>
+
 ### text 支持换行与 view 的区别<br />
-<a name="1im6H"></a>
-### !! 的妙用，代替 data  ''
-<a name="nTrvL"></a>
+
+### !! 的妙用，代替 data  null 或 data  = ''
+
 ### 1px border iphone 无法显示问题
 ```css
 
 border:1px solid red;
 transform:scaleY(0.5);
 ```
-<a name="FVqAj"></a>
+
 ### border-radius overflow:hidden 解决子元素超过父元素问题
-<a name="F7bTb"></a>
+
 ### 放大效果调试法（【动画】增加时间，【样式】增加大小）
-<a name="4dSWn"></a>
+
 ### 将 `time += Math.floor(Math.random() * 1000 + 500)`  服务器请求分配到一个范围
 ```javascript
   setAutoRefresh (time) {
@@ -86,7 +132,7 @@ transform:scaleY(0.5);
     }, time)
   },
 ```
-<a name="tyLiT"></a>
+
 ### 默认值覆盖，提前返回、逻辑上下文（逻辑分叉）、平行逻辑（if-else)、提前返回逻辑
 ```javascript
   _getJoinText () {
@@ -96,7 +142,7 @@ transform:scaleY(0.5);
     return $t.getNeededUserCount(this.neededUserCount)
   }
 ```
-<a name="ZfY4S"></a>
+
 ### 对象取值
 ```javascript
     this.title = {
@@ -107,7 +153,7 @@ transform:scaleY(0.5);
       wcxrw: '完成小任务'
     }[index] || `打卡第${index}名`
 ```
-<a name="MKPqe"></a>
+
 ### 使用 js 脚本以及列编辑处理文字格式化
 ```javascript
 const text = `前端开发、移动开发、后端开发、硬件开发、运维/技术支持、测试、人工智能、通信
@@ -138,7 +184,7 @@ const newTextArr = textArr.map(item => {
 })
 console.log(newTextArr)
 ```
-<a name="AVE1Q"></a>
+
 ### 文本格式化
 ```javascript
 const list = [{
@@ -196,7 +242,7 @@ dataStr.push(']')
 const fs = require('fs')
 fs.writeFileSync('./test.json', dataStr.join(',\n'))
 ```
-<a name="sREhk"></a>
+
 ### 订阅模式（我是谁）VS 控制方式
 ```javascript
   openMyDDB () {
@@ -205,8 +251,8 @@ fs.writeFileSync('./test.json', dataStr.join(',\n'))
     })
   }
 ```
-<a name="LwezN"></a>
-# [js去除字符串空格(空白符)](https://www.cnblogs.com/a-cat/p/8872498.html)
+
+### [js去除字符串空格(空白符)](https://www.cnblogs.com/a-cat/p/8872498.html)
 
 1. **replace正则匹配方法**
 - 去除字符串内所有的空格：str = str.replace(/\s*/g,"");
@@ -215,3 +261,56 @@ fs.writeFileSync('./test.json', dataStr.join(',\n'))
 - 去除字符串内右侧的空格：str = str.replace(/(\s*$)/g,"");
 2. **str.trim()方法**
 2. **$.trim(str)方法**
+
+**
+
+### 注解检查参数
+```javascript
+  /**
+   * 启动定时器
+   * @param countdown millisecond
+   * @param fn 每步回调
+   * @param {Number} countdown millisecond
+   * @param {Function} fn 每步回调
+   */
+  start (countdown, fn) {
+    this.cancel()
+    if (typeof countdown !== 'number' || countdown <= 0) return
+    this.countdown = countdown
+    this.fn = fn
+    this._isTimeUp()
+  }
+```
+
+### HOC 实现权限验证
+```javascript
+/**
+* 用户权限检查
+* @param authSetting
+*/
+authCheck(afterCheck, modifiers) {
+  const _that = this
+  return function () {
+    if (!_that.has(modifiers)) {
+      return uni.showToast({ title: "您无权进行此操作", icon: "none" });
+    }
+    if (afterCheck) afterCheck()
+  }
+},
+  // 权限检查方法
+  has(modifiers) {
+    let isExist = false;
+    let { data: buttonperms } = JSON.parse(localStorage.getItem('permission'));
+    if (buttonperms == undefined || buttonperms == null || JSON.stringify(modifiers) === '{}') {
+      return false;
+    }
+    for (let modifier of modifiers) {
+      if (buttonperms[modifier]) {
+        isExist = true;
+        break;
+      }
+    }
+    return isExist;
+  }
+```
+[参考链接](https://mp.weixin.qq.com/s/a3-dPLprmYlkUsvUPLlGoQ)

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Git 设计思想 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-ezmevv" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/ezmevv/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Git 设计思想 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <ol>
+<li>解决痛点问题： Git 的缘起便是 Linus 本人及 Linux 社区的诉求，而这些诉求推而广之是项目协作开发（特别是跨地域项目）的共性诉求。Linus 解决了他本人遇到的痛点问题，顺便达成了一项伟大的成就。</li>
+<li>极简设计：Linus 在设计 Git 工具时并没有受传统 SCM 工具的束缚，考虑文件差异、版本对比等，而是抽象了几种基本对象就把 git 的设计思路给理清楚了。</li>
+<li>MVP (minimum viable product, 最小可用产品)：这个概念大家都懂，但实际操作起来却不容易。一个 MVP 的配置管理工具需要哪些功能？一般来说会想到代码提交、历史追溯、版本比较、分支合并等。但 Linus 却将它拆解开来，快速实现了底层的基本功能，简单到只有开源社区黑客才能用。但这就够了，黑客们因此发现了它的价值，继续给它添砖加瓦。</li>
+<li>快速发布，快速迭代：这也是源于 Linux Kernel 的开发经验；Linus 在实现了 Git MVP 后，便在 Linux 社区邮件列表中公布，并征求意见，迭代完善。</li>
+<li>找到合适接班人：《大教堂与集市》中也有类似的观点，它说的是：“如果你对一个项目失去了兴趣，你最后的职责就是把它交给一个称职的继承者。”不过 Linus 将 Git 交给 Junio 并不是因为失去了兴趣，而是因为他发现在 Git 基础架构建立好之后，Junio 比他更擅长于实现更丰富、对普通用户界面更友好的功能，因此他就放心的将 Git 交给了 Junio. 为开源项目找到更合适的接班人，这既需要魄力也需要智慧。</li>
+</ol>
+<p><br /><a href="https://hutusi.com/the-greatest-git-commit" target="_blank" rel="noopener">https://hutusi.com/the-greatest-git-commit</a></p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

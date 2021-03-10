@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Slider.vue | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-wwhqx4" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/wwhqx4/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Slider.vue <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="vue">&lt;template&gt;
+  &lt;cover-view :class=&quot;[&#39;slider-box flex-row flex-all-center&#39;, styleMode, isActive?&#39;active&#39;:&#39;&#39;]&quot;
+    @tap=&quot;handleTap&quot;&gt;
+    &lt;cover-view class=&quot;readers-slider-container flex-row flex-items-center&quot;&gt;
+      &lt;cover-view class=&quot;readers-slider&quot;&gt;
+        &lt;cover-view class=&quot;readers-slider__value&quot;
+          :style=&quot;{
+                    width: `${widthPx}px`,
+                }&quot;&gt;
+        &lt;/cover-view&gt;
+      &lt;/cover-view&gt;
+    &lt;/cover-view&gt;
+    &lt;cover-view class=&quot;rid-box-container flex-row flex-items-center&quot;
+      :style=&quot;{
+          transform: `translateX(${widthPx}px)`
+                    }&quot;&gt;
+      &lt;cover-view class=&quot;rid-box&quot;
+        @touchstart=&quot;touchS&quot;
+        @touchmove=&quot;touchM&quot;
+        @touchend=&quot;touchE&quot;&gt;
+      &lt;/cover-view&gt;
+    &lt;/cover-view&gt;
+    &lt;template v-if=&quot;isRangeComment&quot;&gt;
+      &lt;cover-view class=&quot;slider-range__mark&quot;
+        :style=&quot;{left:`${rangeStartX}px`}&quot;&gt;&lt;/cover-view&gt;
+      &lt;cover-view class=&quot;slider-range__mark&quot;
+        :style=&quot;{left:`${rangeEndX}px`}&quot;&gt;&lt;/cover-view&gt;
+    &lt;/template&gt;
+  &lt;/cover-view&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { mapState, mapGetters } from &quot;vuex&quot;;
+
+export default {
+  name: &quot;Slider&quot;,
+  props: {
+    styleMode: {
+      type: String,
+      default: &quot;&quot;,
+    },
+    value: {
+      default: 0,
+      type: Number,
+    },
+    min: {
+      default: 0,
+      type: Number,
+    },
+    max: {
+      default: 100,
+      type: Number,
+    },
+  },
+  data() {
+    return {
+      posVal: 0, //进度条值
+      val: 0, // 进度条原始值
+      moveLock: false, //操作锁，双向绑定音频进度拖动操作可用
+      sliderWidth: 0, // 进度条宽度
+      sliderLeft: 0, // 进度条起点位置
+      sTouches: {}, // 起始触摸点
+      isActive: false, // 是否激活进度条
+    };
+  },
+  watch: {
+    value: {
+      //监听进度值变化
+      handler(val) {
+        const { moveLock, min, max } = this;
+        if (moveLock || !max) {
+          return;
+        }
+        let _val = this.limit((val - min) / (max - min));
+        this.val = _val;
+        this.posVal = _val * 100;
+      },
+      immediate: true,
+    },
+  },
+  computed: {
+    ...mapState({
+      commentRanges: (state) =&gt; state.comment.commentRanges,
+    }),
+    ...mapGetters({
+      isRangeComment: &quot;comment/isRangeComment&quot;,
+    }),
+    widthPx() {
+      const { sliderWidth, posVal } = this;
+      let _width = (sliderWidth * posVal) / 100;
+      return Math.min(_width, sliderWidth);
+    },
+    rangeStartX() {
+      const {
+        sliderWidth,
+        max,
+        commentRanges: [sTime],
+      } = this;
+      const durationMS = max * 1000;
+      if(!durationMS) return -2;
+      return (sTime / durationMS) * sliderWidth;
+    },
+    rangeEndX() {
+      const {
+        sliderWidth,
+        max,
+        commentRanges: [, eTime],
+      } = this;
+      const durationMS = max * 1000;
+      if(!durationMS) return -2;
+      return (eTime / durationMS) * sliderWidth;
+    },
+    valueMs() {
+      const { value } = this;
+      return value * 1000;
+    },
+  },
+  mounted() {
+    this.initSlider();
+    uni.onWindowResize(() =&gt; {
+      this.initSlider();
+    });
+  },
+  methods: {
+    // 初始化Slider组件数据
+    initSlider() {
+      const query = uni.createSelectorQuery().in(this);
+      const that = this;
+      setTimeout(() =&gt; {
+        query
+          .select(&quot;.readers-slider&quot;)
+          .boundingClientRect((data) =&gt; {
+            that.sliderWidth = data.width; // 节点的宽度
+            that.sliderLeft = data.left; // 节点的左边界坐标
+          })
+          .exec();
+      }, 300);
+    },
+    // 点击进度条跳到进度位置
+    handleTap({ detail: { x: sliderX, y } }) {
+      this.lockSlider(true);
+      const { sliderWidth, sliderLeft, isActive } = this;
+      if (isActive) return;
+      // （当前坐标-起点坐标）/进度条宽度
+      let val = this.increase({
+        startX: sliderLeft,
+        endX: sliderX,
+      });
+      // 进度值限制在 0 到 1 之间
+      val = this.limit(val);
+      // 设置当前值
+      this.val = val;
+      // 进度条值
+      this.posVal = val * 100;
+      // 根据用户传入 min 和 max 将值出来成用户使用的实际值
+      val = this.format(val);
+      this.$emit(&quot;changed&quot;, {
+        progress: this.posVal,
+        value: val,
+        valueMs: this.valueMs,
+      });
+      this.lockSlider(false);
+    },
+    touchS({ changedTouches }) {
+      this.sTouches = changedTouches[0];
+    },
+    touchM({ changedTouches: [mTouches] }) {
+      this.lockSlider(true);
+      // 当前值 + 移动的值
+      let { val, sTouches } = this;
+      val = this.increase({
+        val,
+        startX: sTouches.pageX,
+        endX: mTouches.pageX,
+      });
+      // 进度值限制在 0 到 1 之间
+      val = this.limit(val);
+      // 进度条值
+      this.posVal = val * 100;
+      // 根据用户传入 min 和 max 将值出来成用户使用的实际值
+      const { min, max } = this;
+      val = this.format(val);
+      this.$emit(&quot;changing&quot;, {
+        progress: this.posVal,
+        value: val,
+        valueMs: val * 1000,
+      });
+    },
+    touchE({ changedTouches: [eTouches] }) {
+      let { val, sTouches } = this;
+      if (!this.isMove({ sTouches, eTouches })) return;
+      // 当前值 + 移动的值
+      val = this.increase({
+        val,
+        startX: sTouches.pageX,
+        endX: eTouches.pageX,
+      });
+      // 进度值限制在 0 到 1 之间
+      val = this.limit(val);
+      // 设置当前值
+      this.val = val;
+      // 进度条值
+      this.posVal = val * 100;
+      // 根据用户传入 min 和 max 将值出来成用户使用的实际值
+      val = this.format(val);
+      this.$emit(&quot;changed&quot;, {
+        progress: this.posVal,
+        value: val,
+        valueMs: this.valueMs,
+      });
+      this.lockSlider(false);
+    },
+    // 是否有移动
+    isMove({ sTouches, eTouches }) {
+      return Math.abs(eTouches.pageX - sTouches.pageX) &gt; 0;
+    },
+    // 当前值 + 移动的值
+    increase({ val = 0, startX, endX } = {}) {
+      const { sliderWidth } = this;
+      return val + (endX - startX) / sliderWidth;
+    },
+    // 进度值限制在 0 到 1 之间
+    limit(val) {
+      return Math.min(Math.max(0, val), 1);
+    },
+    // 根据用户传入 min 和 max 将值出来成用户使用的实际值
+    format(val) {
+      const { min, max } = this;
+      return min + (max - min) * val;
+    },
+    // 上锁/解锁
+    lockSlider(locked) {
+      if (locked) {
+        this.moveLock = true;
+      } else {
+        setTimeout(() =&gt; {
+          this.moveLock = false;
+        }, 1000);
+      }
+    },
+    // 更新进度条激活状态
+    updateActiveState(isActive) {
+      this.isActive = isActive;
+    },
+  },
+};
+&lt;/script&gt;
+&lt;style lang=&quot;scss&quot; scope&gt;
+@import &quot;@assets/style/mixin.scss&quot;;
+.slider-box {
+  position: relative;
+  z-index: 3;
+  height: 40rpx;
+  &amp;.active {
+    .readers-slider {
+      transform: scaleY(2);
+      transform-origin: bottom;
+    }
+    .rid-box {
+      display: block;
+    }
+  }
+  &amp;.normal {
+    .rid-box-container {
+      margin-left: -18rpx;
+    }
+    .readers-slider {
+      transform: scaleY(2);
+      transform-origin: bottom;
+    }
+    .readers-slider-container {
+      width: calc(100% - 36rpx);
+      @include extend-tap-area();
+    }
+    .rid-box {
+      margin: 0 18rpx;
+      display: block;
+      @include extend-tap-area(-40rpx, -40rpx, -40rpx, -140rpx);
+    }
+  }
+}
+.readers-slider-container {
+  width: 100%;
+  height: 100%;
+}
+.rid-box-container {
+  position: absolute;
+  z-index: 1;
+  top: -4rpx;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(0);
+  margin-left: -16rpx;
+}
+.readers-slider {
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 4rpx;
+  transition: 0.3s all ease-out;
+}
+.readers-slider__value {
+  background-color: #3567fe;
+  width: 0;
+  height: 100%;
+}
+.rid-box {
+  display: none;
+  width: 36rpx;
+  height: 36rpx;
+  background-color: #3468fe;
+  border-radius: 50%;
+}
+.slider-range__mark {
+  position: absolute;
+  width: 8rpx;
+  height: 20rpx;
+  background: #ffffff;
+  border-radius: 4rpx;
+  margin-left: -5rpx;
+  margin-top: -8rpx;
+}
+&lt;/style&gt;</code></pre>
+<pre><code class="vue">&lt;template&gt;
+  &lt;div class=&quot;slider&quot;&gt;
+    &lt;div ref=&quot;slider&quot;
+      :class=&quot;[&#39;slider__runway flex-row flex-items-center&#39;, btnIsClick?&#39;active&#39;:&#39;&#39;]&quot;
+      @mousedown=&quot;onSliderClick&quot;&gt;
+      &lt;div class=&quot;slider__bar&quot;
+        :style=&quot;{width:`${percentVal}%`}&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;slider__btn-wrapper&quot;
+        @mousedown.stop=&quot;onBtnClick&quot;
+        :style=&quot;{left: `${percentVal}%`}&quot;&gt;
+        &lt;div class=&quot;slider__btn&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;template v-if=&quot;isShowRangeComment&quot;&gt;
+        &lt;div class=&quot;slider-range__mark&quot;
+          :style=&quot;{left:`${rangeStartX}px`}&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;slider-range__mark&quot;
+          :style=&quot;{left:`${rangeEndX}px`}&quot;&gt;&lt;/div&gt;
+      &lt;/template&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { mapState, mapGetters } from &quot;vuex&quot;;
+
+export default {
+  name: &quot;Slider&quot;,
+  model: {
+    prop: &quot;value&quot;,
+    event: &quot;change&quot;,
+  },
+  props: {
+    value: {
+      type: Number,
+      default: 0,
+    },
+    max: {
+      type: Number,
+    },
+  },
+  data() {
+    return {
+      val: 0,
+      offsetLeft: 0,
+      offsetWidth: 0,
+      btnIsClick: false,
+    };
+  },
+  computed: {
+    ...mapState({
+      isCommentsFocus: (state) =&gt; state.comment.isCommentsFocus,
+      commentRanges: (state) =&gt; state.comment.commentRanges,
+    }),
+    ...mapGetters({
+      isRangeComment: &quot;comment/isRangeComment&quot;,
+      hasSelectedComment: &quot;comment/hasSelectedComment&quot;,
+    }),
+    newValue() {
+      const { val, max } = this;
+      return val * max;
+    },
+    percentVal() {
+      const { val } = this;
+      return val * 100;
+    },
+    rangeStartX() {
+      const {
+        offsetWidth,
+        $parent: { durationMS },
+        commentRanges: [sTime],
+      } = this;
+      return (sTime / durationMS) * offsetWidth;
+    },
+    rangeEndX() {
+      const {
+        offsetWidth,
+        $parent: { durationMS },
+        commentRanges: [, eTime],
+      } = this;
+      return (eTime / durationMS) * offsetWidth;
+    },
+    isShowRangeComment() {
+      const { isCommentsFocus, isRangeComment, hasSelectedComment } = this;
+      if (hasSelectedComment) {
+        return isRangeComment;
+      }
+      return isCommentsFocus &amp;&amp; isRangeComment;
+    },
+  },
+  watch: {
+    value(val) {
+      const { max } = this;
+      this.val = val / max;
+    },
+  },
+  mounted() {
+    this.initSlider();
+    // 窗口大小改变
+    window.addEventListener(&quot;resize&quot;, () =&gt; {
+      this.initSlider();
+    });
+  },
+  beforeDestroy() {
+    // 解除resize事件
+    window.removeEventListener(&quot;resize&quot;, () =&gt; {
+      this.initSlider();
+    });
+  },
+  methods: {
+    initSlider() {
+      const {
+        $refs: { slider },
+      } = this;
+      if (!slider) return;
+      const { offsetWidth } = slider;
+      this.offsetLeft = slider.getBoundingClientRect().left;
+      this.offsetWidth = offsetWidth;
+      // 鼠标移动事件, 用于拖动
+      document.onmousemove = async (e) =&gt; {
+        if (this.btnIsClick) {
+          const { pageX } = e;
+          this.move({ curX: pageX });
+          await this.$nextTick();
+          this.$emit(&quot;change&quot;, this.newValue);
+        }
+      };
+      // 鼠标弹起事件，用于释放拖动
+      document.onmouseup = () =&gt; {
+        this.btnIsClick = false;
+      };
+      this.setSlider();
+    },
+    // 设置Slider组件
+    setSlider() {
+      this.$store.commit(&quot;setSlider&quot;, this.$refs.slider);
+    },
+    /**
+     * 进度条整体的鼠标按下事件
+     */
+    async onSliderClick({ pageX }) {
+      this.move({ curX: pageX });
+      await this.$nextTick();
+      this.$emit(&quot;change&quot;, this.newValue);
+    },
+    /**
+     * 鼠标点击按钮事件
+     */
+    onBtnClick() {
+      this.btnIsClick = true;
+      this.initSlider();
+    },
+    /**
+     * 进度条拖动
+     */
+    move({ curX }) {
+      const {
+        max,
+        offsetLeft,
+        offsetWidth,
+        isRangeComment,
+        commentRanges: [sTime, eTime],
+      } = this;
+      let val = (curX - offsetLeft) / offsetWidth;
+      // 将值限制在时间区间内
+      const minVal = isRangeComment ? sTime / max : 0;
+      const maxVal = isRangeComment ? eTime / max : 1;
+      val = Math.min(Math.max(minVal, val), maxVal);
+      this.val = val;
+    },
+    updateCommentRanges() {
+      if (isRangeComment) return;
+      const { newValue, isRangeComment } = this;
+      const commentRanges = [newValue, newValue];
+      this.$store.commit(&quot;comment/updateCommentRanges&quot;, commentRanges);
+    },
+  },
+};
+&lt;/script&gt;
+
+&lt;style lang=&quot;scss&quot; scoped&gt;
+.slider {
+  position: relative;
+  z-index: 3;
+}
+.slider__runway {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6px;
+  background-color: #4b4c52;
+  cursor: pointer;
+  &amp;:hover {
+    transform: scaleY(2);
+    transform-origin: bottom;
+    .slider__btn {
+      display: block;
+      transform: scaleY(0.5);
+      transform-origin: center;
+    }
+  }
+  &amp;.active {
+    .slider__btn {
+      display: block;
+    }
+  }
+}
+.slider__bar {
+  position: absolute;
+  height: 6px;
+  background-color: #3e3bff;
+}
+.slider__btn-wrapper {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: grab;
+  &amp;:active {
+    cursor: grabbing;
+  }
+}
+.slider__btn {
+  display: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  &amp;:hover {
+    transform: scale(2);
+  }
+}
+.slider-range__mark {
+  position: absolute;
+  width: 4px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-left: -2px;
+}
+&lt;/style&gt;</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

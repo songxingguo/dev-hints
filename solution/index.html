@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>小技巧 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-solution" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/solution/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 小技巧 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h1 id="div的keydown事件无效的原因及解决方案、tabindex属性的作用"><a href="#div的keydown事件无效的原因及解决方案、tabindex属性的作用" class="headerlink" title="div的keydown事件无效的原因及解决方案、tabindex属性的作用"></a><a href="https://www.cnblogs.com/goloving/p/13220359.html" target="_blank" rel="noopener">div的keydown事件无效的原因及解决方案、tabindex属性的作用</a></h1><h4 id="一、解决方案"><a href="#一、解决方案" class="headerlink" title="一、解决方案"></a>一、解决方案</h4><p>　　如果需要在div上监听键盘事件怎么办呢？<br />　　其实也很简单，只需要在需要监听 keydown 事件的 div 的属性中加上 tabIndex=0 即可，即：</p>
+<pre><code class="javascript">&lt;div tabindex=&quot;0&quot; οnkeydοwn=&quot;alert(&#39;keydown&#39;);&quot;&gt;...&lt;/div&gt;</code></pre>
+<h4 id="二、tabindex属性的作用"><a href="#二、tabindex属性的作用" class="headerlink" title="二、tabindex属性的作用"></a>二、tabindex属性的作用</h4><p>　　当使用键盘时，tabindex是个关键因素，它用来定位html元素。<br />　　tabindex有三个值：0 ，-1， 以及X（X里32767是界点，稍后说明）<br />　　原本在Html中，只有链接a和表单元素可以被键盘访问（即使是a也必须加上href属性才可以)，但是aria允许tabindex指定给任何html元素。<br />　　当tabindex=0时，该元素可以用tab键获取焦点，且访问的顺序是按照元素在文档中的顺序来focus，即使采用了浮动改变了页面中显示的顺序，依然是按照html文档中的顺序来定位。<br />　　当tabindex=-1时，该元素用tab键获取不到焦点，但是可以通过js获取，这样就便于我们通过js设置上下左右键的响应事件来focus，在widget内部可以用到。<br />　　当tabindex&gt;=1时，该元素可以用tab键获取焦点，而且优先级大于tabindex=0；不过在tabindex&gt;=1时，数字越小，越先定位到。<br />　　在IE中，tabindex范围在1到32767之间（包括32767），在FF， Chrome无限制，不过一旦超出32768，顺序跟tabindex=0时一样。这个估计跟各个浏览器对int型的解析有关。</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><pre><code class="javascript">//下载
+const download = (url)  =&gt; {
+    const a = document.createElement(&#39;a&#39;)
+    a.setAttribute(&#39;download&#39;, &#39;&#39;)
+    a.setAttribute(&#39;href&#39;, url)
+    a.click()
+    a.remove()
+}
+// 下载地址
+function downLoad(content,fileName){
+        var aEle = document.createElement(&quot;a&quot;);// 创建a标签
+        // blob = new Blob([content]); 
+        aEle.download = fileName;// 设置下载文件的文件名
+        //aEle.href = URL.createObjectUrl(blob);
+        aEle.href = content;// content为后台返回的下载地址
+        aEle.click();// 设置点击事件
+        aEle.remove()
+}
+let URL =&#39;XXXX&#39; //下载地址
+downLoad(URL ,&#39;test.xlxs&#39;)
+// content 非下载地址
+function downLoad(content,fileName){
+        var aEle = document.createElement(&quot;a&quot;);// 创建a标签
+        blob = new Blob([content]); 
+        aEle.download = fileName;// 设置下载文件的文件名
+        aEle.href = URL.createObjectUrl(blob);
+        aEle.click();// 设置点击事件
+
+}
+downLoad(&#39;下载内容123123&#39;,&#39;test.txt&#39;)</code></pre>
+<p><a href="https://www.cnblogs.com/phermis/p/11393144.html" target="_blank" rel="noopener">参考地址</a></p>
+<h3 id="类型检测"><a href="#类型检测" class="headerlink" title="类型检测"></a>类型检测</h3><h3 id="空值保护"><a href="#空值保护" class="headerlink" title="空值保护"></a>空值保护</h3><pre><code class="javascript">(sorter.columns || {})._sortName</code></pre>
+<h3 id="冻结对象"><a href="#冻结对象" class="headerlink" title="冻结对象"></a>冻结对象</h3><pre><code class="javascript">var constantize = (obj) =&gt; {
+  Object.freeze(obj);
+  Object.keys(obj).forEach( (key, i) =&gt; {
+    if ( typeof obj[key] === &#39;object&#39; ) {
+      constantize( obj[key] );
+    }
+  });
+};</code></pre>
+<h3 id="取到顶层对象"><a href="#取到顶层对象" class="headerlink" title="取到顶层对象"></a>取到顶层对象</h3><pre><code class="javascript">// 方法一
+(typeof window !== &#39;undefined&#39;
+   ? window
+   : (typeof process === &#39;object&#39; &amp;&amp;
+      typeof require === &#39;function&#39; &amp;&amp;
+      typeof global === &#39;object&#39;)
+     ? global
+     : this);
+// 方法二
+var getGlobal = function () {
+  if (typeof self !== &#39;undefined&#39;) { return self; }
+  if (typeof window !== &#39;undefined&#39;) { return window; }
+  if (typeof global !== &#39;undefined&#39;) { return global; }
+  throw new Error(&#39;unable to locate global object&#39;);
+};</code></pre>
+<h3 id="实现顶部-下部固定，中间滚动效果"><a href="#实现顶部-下部固定，中间滚动效果" class="headerlink" title="实现顶部/下部固定，中间滚动效果"></a>实现顶部/下部固定，中间滚动效果</h3><h3 id="空值保护-1"><a href="#空值保护-1" class="headerlink" title="空值保护"></a>空值保护</h3><pre><code class="javascript">this.helpList[this.currentTab] || [] // helpList 还没有返回时就设置为空数组</code></pre>
+<h3 id="max-和-min-的妙用"><a href="#max-和-min-的妙用" class="headerlink" title="max 和   min 的妙用"></a>max 和   min 的妙用</h3><pre><code class="javascript">    const index = this.keyList.findIndex(key =&gt; key === helpKey)
+    this.currentTab = Math.max(index, FIRST_TAB) // 找到相应的key就设置下标，否则设置为第一项</code></pre>
+<h3 id="Object-assign-浅拷贝"><a href="#Object-assign-浅拷贝" class="headerlink" title="Object.assign 浅拷贝"></a>Object.assign 浅拷贝</h3><pre><code class="javascript">Object.assign({}, defaultPrivilege, customPrivilege) </code></pre>
+<h3 id="text-支持换行与-view-的区别"><a href="#text-支持换行与-view-的区别" class="headerlink" title="text 支持换行与 view 的区别"></a>text 支持换行与 view 的区别<br /></h3><h3 id="的妙用，代替-data-null-或-data-‘’"><a href="#的妙用，代替-data-null-或-data-‘’" class="headerlink" title="!! 的妙用，代替 data  null 或 data  = ‘’"></a>!! 的妙用，代替 data  null 或 data  = ‘’</h3><h3 id="1px-border-iphone-无法显示问题"><a href="#1px-border-iphone-无法显示问题" class="headerlink" title="1px border iphone 无法显示问题"></a>1px border iphone 无法显示问题</h3><pre><code class="css">
+border:1px solid red;
+transform:scaleY(0.5);</code></pre>
+<h3 id="border-radius-overflow-hidden-解决子元素超过父元素问题"><a href="#border-radius-overflow-hidden-解决子元素超过父元素问题" class="headerlink" title="border-radius overflow:hidden 解决子元素超过父元素问题"></a>border-radius overflow:hidden 解决子元素超过父元素问题</h3><h3 id="放大效果调试法（【动画】增加时间，【样式】增加大小）"><a href="#放大效果调试法（【动画】增加时间，【样式】增加大小）" class="headerlink" title="放大效果调试法（【动画】增加时间，【样式】增加大小）"></a>放大效果调试法（【动画】增加时间，【样式】增加大小）</h3><h3 id="将-time-Math-floor-Math-random-1000-500-服务器请求分配到一个范围"><a href="#将-time-Math-floor-Math-random-1000-500-服务器请求分配到一个范围" class="headerlink" title="将 time += Math.floor(Math.random() * 1000 + 500)  服务器请求分配到一个范围"></a>将 <code>time += Math.floor(Math.random() * 1000 + 500)</code>  服务器请求分配到一个范围</h3><pre><code class="javascript">  setAutoRefresh (time) {
+    time += Math.floor(Math.random() * 1000 + 500)
+    clearTimeout(this.autoRefreshTimeoutHandler)
+    this.autoRefreshTimeoutHandler = setTimeout(() =&gt; {
+      this.init()
+    }, time)
+  },</code></pre>
+<h3 id="默认值覆盖，提前返回、逻辑上下文（逻辑分叉）、平行逻辑（if-else-、提前返回逻辑"><a href="#默认值覆盖，提前返回、逻辑上下文（逻辑分叉）、平行逻辑（if-else-、提前返回逻辑" class="headerlink" title="默认值覆盖，提前返回、逻辑上下文（逻辑分叉）、平行逻辑（if-else)、提前返回逻辑"></a>默认值覆盖，提前返回、逻辑上下文（逻辑分叉）、平行逻辑（if-else)、提前返回逻辑</h3><pre><code class="javascript">  _getJoinText () {
+    if (this._isFinish()) return $t.isFinish
+    if (this._isStartWithoutMe()) return $t.isStart
+    if (this._hasJoin()) return this._isStart() ? $t.isStart : $t.willStart
+    return $t.getNeededUserCount(this.neededUserCount)
+  }</code></pre>
+<h3 id="对象取值"><a href="#对象取值" class="headerlink" title="对象取值"></a>对象取值</h3><pre><code class="javascript">    this.title = {
+      jl: &#39;锦鲤&#39;,
+      jlyqz: &#39;锦鲤邀请者&#39;,
+      xysz: &#39;幸运数字&#39;,
+      wcdk: &#39;完成打卡&#39;,
+      wcxrw: &#39;完成小任务&#39;
+    }[index] || `打卡第${index}名`</code></pre>
+<h3 id="使用-js-脚本以及列编辑处理文字格式化"><a href="#使用-js-脚本以及列编辑处理文字格式化" class="headerlink" title="使用 js 脚本以及列编辑处理文字格式化"></a>使用 js 脚本以及列编辑处理文字格式化</h3><pre><code class="javascript">const text = `前端开发、移动开发、后端开发、硬件开发、运维/技术支持、测试、人工智能、通信
+销售专员、销售经理、销售顾问、客户代表、渠道销售、网络营销、BD经理、销售主管、代理商销售
+人力资源、财务、法务
+总裁/总经理、事业部负责人、区域/分公司/代表处负责人、副总裁/副总经理、CEO/总裁/总经理/合伙人、创始人
+运营、客服、编辑、高端运营职位、其他运营职位
+投融资、互联网金融、税务审计、银行、风控、证券、保险、其他金融职位
+视觉设计、非视觉设计、交互设计、用户研究、高端设计职位、其他设计职位
+教师、教育行政、教练、招生、教育产品研发、职业培训、IT培训、其他教育培训
+市场/营销、公关媒体、高端市场职位、会务会展、广告、其他市场职位
+影视媒体、采编/写作/出版、公关媒体、广告、会务会展、其他传媒职位
+产品经理、高端产品职位、其他产品职位
+设计装修与市政建设、物业管理、房地产规划开发、房地产经纪、高端房地产职位、其他房地产职位
+餐饮、零售、酒店、美容/健身、安保/家政、其他服务职位、婚礼/花艺
+物流、运输、仓储、高端供应链职位、其他供应链职位
+采购、进出口贸易、其他采购/贸易职位
+护士/护理、医生/医技、市场营销/媒体、生物制药、健康整形、医疗器械、药店、其他医疗健康类职位
+翻译、咨询/调研、律师、高端咨询类职位、其他咨询类职位
+技工/普工、机械设计/制造、生产营运、化工、服装/纺织/皮革、其他生产制造职位
+汽车销售与服务、汽车设计与研发、汽车生产与制造、其他汽车职位
+旅游服务、旅游产品开发/策划、其他旅游职位`
+
+const textArr = text.split(&#39;\n&#39;)
+console.log(textArr)
+const newTextArr = textArr.map(item =&gt; {
+  return item.split(&#39;、&#39;)
+})
+console.log(newTextArr)</code></pre>
+<h3 id="文本格式化"><a href="#文本格式化" class="headerlink" title="文本格式化"></a>文本格式化</h3><pre><code class="javascript">const list = [{
+  name: &#39;技术&#39;,
+  children: [&#39;前端开发&#39;, &#39;移动开发&#39;, &#39;后端开发&#39;, &#39;硬件开发&#39;, &#39;运维/技术支持&#39;, &#39;测试&#39;, &#39;人工智能&#39;, &#39;通信&#39;]
+},
+  {
+    name: &#39;销售&#39;,
+    children: [&#39;销售专员&#39;, &#39;销售经理&#39;, &#39;销售顾问&#39;, &#39;客户代表&#39;, &#39;渠道销售&#39;, &#39;网络营销&#39;, &#39;BD经理&#39;, &#39;销售主管&#39;, &#39;代理商销售&#39;]
+  },
+  {name: &#39;人事/财务/行政&#39;, children: [&#39;人力资源&#39;, &#39;财务&#39;, &#39;法务&#39;]},
+  {
+    name: &#39;高级管理&#39;,
+    children: [&#39;总裁/总经理&#39;, &#39;事业部负责人&#39;, &#39;区域/分公司/代表处负责人&#39;, &#39;副总裁/副总经理&#39;, &#39;CEO/总裁/总经理/合伙人&#39;, &#39;创始人&#39;]
+  },
+  {name: &#39;运营&#39;, children: [&#39;运营&#39;, &#39;客服&#39;, &#39;编辑&#39;, &#39;高端运营职位&#39;, &#39;其他运营职位&#39;]},
+  {name: &#39;金融&#39;, children: [&#39;投融资&#39;, &#39;互联网金融&#39;, &#39;税务审计&#39;, &#39;银行&#39;, &#39;风控&#39;, &#39;证券&#39;, &#39;保险&#39;, &#39;其他金融职位&#39;]},
+  {name: &#39;设计&#39;, children: [&#39;视觉设计&#39;, &#39;非视觉设计&#39;, &#39;交互设计&#39;, &#39;用户研究&#39;, &#39;高端设计职位&#39;, &#39;其他设计职位&#39;]},
+  {name: &#39;教育培训&#39;, children: [&#39;教师&#39;, &#39;教育行政&#39;, &#39;教练&#39;, &#39;招生&#39;, &#39;教育产品研发&#39;, &#39;职业培训&#39;, &#39;IT培训&#39;, &#39;其他教育培训&#39;]},
+  {name: &#39;市场&#39;, children: [&#39;市场/营销&#39;, &#39;公关媒体&#39;, &#39;高端市场职位&#39;, &#39;会务会展&#39;, &#39;广告&#39;, &#39;其他市场职位&#39;]},
+  {name: &#39;传媒&#39;, children: [&#39;影视媒体&#39;, &#39;采编/写作/出版&#39;, &#39;公关媒体&#39;, &#39;广告&#39;, &#39;会务会展&#39;, &#39;其他传媒职位&#39;]},
+  {name: &#39;产品&#39;, children: [&#39;产品经理&#39;, &#39;高端产品职位&#39;, &#39;其他产品职位&#39;]},
+  {name: &#39;房地产/建筑&#39;, children: [&#39;设计装修与市政建设&#39;, &#39;物业管理&#39;, &#39;房地产规划开发&#39;, &#39;房地产经纪&#39;, &#39;高端房地产职位&#39;, &#39;其他房地产职位&#39;]},
+  {name: &#39;服务业&#39;, children: [&#39;餐饮&#39;, &#39;零售&#39;, &#39;酒店&#39;, &#39;美容/健身&#39;, &#39;安保/家政&#39;, &#39;其他服务职位&#39;, &#39;婚礼/花艺&#39;]},
+  {name: &#39;供应链/物流&#39;, children: [&#39;物流&#39;, &#39;运输&#39;, &#39;仓储&#39;, &#39;高端供应链职位&#39;, &#39;其他供应链职位&#39;]},
+  {name: &#39;采购/贸易&#39;, children: [&#39;采购&#39;, &#39;进出口贸易&#39;, &#39;其他采购/贸易职位&#39;]},
+  {
+    name: &#39;医疗健康&#39;,
+    children: [&#39;护士/护理&#39;, &#39;医生/医技&#39;, &#39;市场营销/媒体&#39;, &#39;生物制药&#39;, &#39;健康整形&#39;, &#39;医疗器械&#39;, &#39;药店&#39;, &#39;其他医疗健康类职位&#39;]
+  },
+  {name: &#39;咨询/翻译/法律&#39;, children: [&#39;翻译&#39;, &#39;咨询/调研&#39;, &#39;律师&#39;, &#39;高端咨询类职位&#39;, &#39;其他咨询类职位&#39;]},
+  {name: &#39;生产制造&#39;, children: [&#39;技工/普工&#39;, &#39;机械设计/制造&#39;, &#39;生产营运&#39;, &#39;化工&#39;, &#39;服装/纺织/皮革&#39;, &#39;其他生产制造职位&#39;]},
+  {name: &#39;汽车&#39;, children: [&#39;汽车销售与服务&#39;, &#39;汽车设计与研发&#39;, &#39;汽车生产与制造&#39;, &#39;其他汽车职位&#39;]},
+  {name: &#39;旅游&#39;, children: [&#39;旅游服务&#39;, &#39;旅游产品开发/策划&#39;, &#39;其他旅游职位&#39;]},
+  {name: &#39;公务员&#39;, children: [&#39;公务员&#39;]},
+  {name: &#39;其他&#39;, children: [&#39;其他&#39;]}]
+
+const data = list.map(item =&gt; {
+  const children = item.children.map(item =&gt; {
+    return {
+      name: item
+    }
+  })
+  return {
+    name: item.name,
+    children
+  }
+})
+let dataStr = [&#39;[&#39;]
+data.forEach(item =&gt; {
+  dataStr.push(JSON.stringify(item))
+})
+dataStr.push(&#39;]&#39;)
+
+const fs = require(&#39;fs&#39;)
+fs.writeFileSync(&#39;./test.json&#39;, dataStr.join(&#39;,\n&#39;))</code></pre>
+<h3 id="订阅模式（我是谁）VS-控制方式"><a href="#订阅模式（我是谁）VS-控制方式" class="headerlink" title="订阅模式（我是谁）VS 控制方式"></a>订阅模式（我是谁）VS 控制方式</h3><pre><code class="javascript">  openMyDDB () {
+    mApi.navigateTo({
+      url: `../my-DDB/index?from=&#39;gift&#39;`
+    })
+  }</code></pre>
+<h3 id="js去除字符串空格-空白符"><a href="#js去除字符串空格-空白符" class="headerlink" title="js去除字符串空格(空白符)"></a><a href="https://www.cnblogs.com/a-cat/p/8872498.html" target="_blank" rel="noopener">js去除字符串空格(空白符)</a></h3><ol>
+<li><strong>replace正则匹配方法</strong></li>
+</ol>
+<ul>
+<li>去除字符串内所有的空格：str = str.replace(/\s*/g,””);</li>
+<li>去除字符串内两头的空格：str = str.replace(/^\s<em>|\s</em>$/g,””);</li>
+<li>去除字符串内左侧的空格：str = str.replace(/^\s*/,””);</li>
+<li>去除字符串内右侧的空格：str = str.replace(/(\s*$)/g,””);</li>
+</ul>
+<ol start="2">
+<li><strong>str.trim()方法</strong></li>
+<li><strong>$.trim(str)方法</strong></li>
+</ol>
+<p>**</p>
+<h3 id="注解检查参数"><a href="#注解检查参数" class="headerlink" title="注解检查参数"></a>注解检查参数</h3><pre><code class="javascript">  /**
+   * 启动定时器
+   * @param countdown millisecond
+   * @param fn 每步回调
+   * @param {Number} countdown millisecond
+   * @param {Function} fn 每步回调
+   */
+  start (countdown, fn) {
+    this.cancel()
+    if (typeof countdown !== &#39;number&#39; || countdown &lt;= 0) return
+    this.countdown = countdown
+    this.fn = fn
+    this._isTimeUp()
+  }</code></pre>
+<h3 id="HOC-实现权限验证"><a href="#HOC-实现权限验证" class="headerlink" title="HOC 实现权限验证"></a>HOC 实现权限验证</h3><pre><code class="javascript">/**
+* 用户权限检查
+* @param authSetting
+*/
+authCheck(afterCheck, modifiers) {
+  const _that = this
+  return function () {
+    if (!_that.has(modifiers)) {
+      return uni.showToast({ title: &quot;您无权进行此操作&quot;, icon: &quot;none&quot; });
+    }
+    if (afterCheck) afterCheck()
+  }
+},
+  // 权限检查方法
+  has(modifiers) {
+    let isExist = false;
+    let { data: buttonperms } = JSON.parse(localStorage.getItem(&#39;permission&#39;));
+    if (buttonperms == undefined || buttonperms == null || JSON.stringify(modifiers) === &#39;{}&#39;) {
+      return false;
+    }
+    for (let modifier of modifiers) {
+      if (buttonperms[modifier]) {
+        isExist = true;
+        break;
+      }
+    }
+    return isExist;
+  }</code></pre>
+<p><a href="https://mp.weixin.qq.com/s/a3-dPLprmYlkUsvUPLlGoQ" target="_blank" rel="noopener">参考链接</a></p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

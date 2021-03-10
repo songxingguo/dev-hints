@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Countdown | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-tzgvoi" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/tzgvoi/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Countdown <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="javascript">/**
+ * 自动定时器，支持自定义步长，支持onFinish回调
+ */
+module.exports = class Countdown {
+  constructor (step = 1000) {
+    this.countdown = 0
+    this.step = step
+    this.timer = null
+    this.frame = null
+    this.fn = null
+    this.onFinish = null
+    this.preStartTime = null
+  }
+
+  /**
+   * 是否在工作
+   * @returns {Boolean}
+   */
+  isWorking () {
+    return this.countdown !== 0
+  }
+
+  /**
+   * 启动定时器
+   * @param {Number} countdown millisecond
+   * @param {Function} fn 每步回调
+   */
+  start (countdown, fn) {
+    this.cancel()
+    if (typeof countdown !== &#39;number&#39; || countdown &lt;= 0) return
+    this.countdown = countdown
+    this.fn = fn
+    this._isTimeUp()
+  }
+
+  /**
+   * 取消倒计时
+   */
+  cancel () {
+    if (this.timer) clearTimeout(this.timer)
+    if (this.frame) cancelAnimationFrame(this.frame)
+    this.resetPreStartTime()
+  }
+
+  resetPreStartTime () {
+    this.preStartTime = null
+  }
+
+  _isTimeUp () {
+    // TODO 计时器使用Worker控制
+    // 由于setTimeout的异步特点，此处给予时间补偿。正数说明滞后执行，负数说明提前执行，只有为0时说明刚好执行无需补偿，滞后需要减掉，提前需要加上，那么减负数就是加上。
+    let realIntervalTime = this.preStartTime ? (new Date()).getTime() - this.preStartTime : 0
+    let needSetCountDown = realIntervalTime - this.step
+    if (this.countdown &gt; this.step &amp;&amp; realIntervalTime !== 0 &amp;&amp; needSetCountDown !== 0) {
+      this.countdown -= needSetCountDown
+    }
+    if (this.countdown &lt;= 0) this.countdown = 0
+    if (this.fn) this.fn(this.countdown)
+    if (this.countdown === 0) {
+      this.resetPreStartTime()
+      if (this.onFinish &amp;&amp; typeof this.onFinish === &#39;function&#39;) this.onFinish()
+      return
+    }
+    let delay = this.countdown - this.step &gt; 0 ? this.step : this.countdown
+    this.countdown -= delay
+    this.preStartTime = (new Date()).getTime()
+    // this.frame = requestAnimationFrame(() =&gt; {
+    //   this._isTimeUp()
+    // })
+    this.timer = setTimeout(() =&gt; {
+      this._isTimeUp()
+    }, delay)
+  }
+}</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

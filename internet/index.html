@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>科学上网 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-internet" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/internet/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 科学上网 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h2 id="VPN-代理"><a href="#VPN-代理" class="headerlink" title="VPN 代理"></a>VPN 代理</h2><h3 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a><a href="https://github.com/shadowsocks" target="_blank" rel="noopener">Shadowsocks</a></h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1582606753454-a712673f-4328-4d21-a1ac-cf3fe89b0403.png#align=left&display=inline&height=763&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1526&originWidth=2874&size=296751&status=done&style=none&width=1437" alt="image.png"><br /></p>
+<h4 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h4><p><a href="https://github.com/dudefu/btgfw" target="_blank" rel="noopener">自建梯子教程-翻墙-科学上网-google</a><br /><a href="https://jiyiren.github.io/2016/10/06/fanqiang/" target="_blank" rel="noopener">自己搭建翻墙服务器</a><br /><a href="https://www.textarea.com/ExpectoPatronum/shiyong-shadowsocks-kexue-shangwang-265/" target="_blank" rel="noopener">使用shadowsocks科学上网</a></p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>系统<br />Debian 7 x64<br />安装 wget</p>
+<pre><code class="bash">apt-get install wget 或 yum -y install wget</code></pre>
+<p>下载 SSR</p>
+<pre><code class="bash">wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</code></pre>
+<p>或</p>
+<pre><code class="bash">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</code></pre>
+<p>管理脚本：</p>
+<pre><code class="bash">bash ssr.sh</code></pre>
+<p>安装并配置SSR:</p>
+<blockquote>
+<p>端口：333<br>加密：chacha20<br>协议：auth_sha1_v4<br>混淆：plain</p>
+</blockquote>
+<p>chacha20 需要提前安装。<br />详细步骤：<br /><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1585014164075-4dbe8d39-83e7-4bdc-876c-894e4d5a0f70.png#align=left&display=inline&height=722&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1444&originWidth=1916&size=356381&status=done&style=none&width=958" alt="image.png">安装 BBR 加速<br /><code>bash ssr.sh</code>  执行后选择 14, 不安装内核</p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="noopener">Mac</a><br /><a href="https://shadowsocks.org/en/download/clients.html" target="_blank" rel="noopener">客户端</a></p>
+<h4 id="SwitchyOmega-插件安装"><a href="#SwitchyOmega-插件安装" class="headerlink" title="SwitchyOmega 插件安装"></a>SwitchyOmega 插件安装</h4><blockquote>
+<p>SSR改为手动代理</p>
+</blockquote>
+<h4 id="加速"><a href="#加速" class="headerlink" title="加速"></a>加速</h4><p>逐行执行下面命令安装 BBR。</p>
+<pre><code class="javascript">wget — no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh</code></pre>
+<p><br /><a href="https://medium.com/@jackme256/vultr%E6%90%AD%E5%BB%BAss%E5%8F%8A%E9%94%90%E9%80%9F%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-69763d7e2cdc" target="_blank" rel="noopener">参考地址</a></p>
+<h4 id="手机上使用"><a href="#手机上使用" class="headerlink" title="手机上使用"></a>手机上使用</h4><blockquote>
+<p>同一 wifi, 电脑ip, 1087<br>手机连接上 wifi 使用代理</p>
+</blockquote>
+<p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1589252359638-ad062c25-cedc-421c-8566-5ead8683f958.png#align=left&display=inline&height=350&margin=%5Bobject%20Object%5D&name=image.png&originHeight=699&originWidth=834&size=119899&status=done&style=none&width=417" alt="image.png"><br /><br><br /><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1585488711950-c75aeaaf-4bc4-43cb-9c75-d2385c5b4f61.png#align=left&display=inline&height=219&margin=%5Bobject%20Object%5D&name=image.png&originHeight=438&originWidth=422&size=55331&status=done&style=none&width=211" alt="image.png"></p>
+<h3 id="V2Ray"><a href="#V2Ray" class="headerlink" title="V2Ray"></a>V2Ray</h3><h3 id="trojan"><a href="#trojan" class="headerlink" title="trojan"></a><a href="https://github.com/trojan-gfw/trojan" target="_blank" rel="noopener">trojan</a></h3><h2 id="VPS-服务器"><a href="#VPS-服务器" class="headerlink" title="VPS 服务器"></a>VPS 服务器</h2><h3 id="搬瓦工"><a href="#搬瓦工" class="headerlink" title="搬瓦工"></a><a href="https://bwh88.net/" target="_blank" rel="noopener">搬瓦工</a></h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1582606995538-33fbc0bd-e51f-40ba-809c-6e212d86a966.png#align=left&display=inline&height=763&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1526&originWidth=2880&size=1837449&status=done&style=none&width=1440" alt="image.png"><br /><br><br /><strong>VPS 服务器提供商（按月收费）</strong></p>
+<h3 id="Vultr"><a href="#Vultr" class="headerlink" title="Vultr"></a><a href="https://www.vultr.com/?ref=8478504-6G" target="_blank" rel="noopener">Vultr</a></h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1582607151208-a60bf1f9-33d3-4624-9e7e-c371f0920466.png#align=left&display=inline&height=761&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1522&originWidth=2874&size=1273879&status=done&style=none&width=1437" alt="image.png"><br /><br><br /><strong>VPS 服务器提供商（按量收费，最大 $3.5，支持支付宝）</strong><br /><a href="http://www.idcspy.com/vultr-snapshots-backup.html" target="_blank" rel="noopener">Vultr利用快照Snapshots备份和迁移数据</a><br /><a href="https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password" target="_blank" rel="noopener">官网修改密码</a><br /><a href="">修改密码</a></p>
+<h3 id="免费VPN"><a href="#免费VPN" class="headerlink" title="免费VPN"></a><a href="https://zh.vpnmentor.com/blog/%E5%B9%B4%E5%89%8D%E5%85%AD%E5%A4%A7%EF%BC%88%E7%9C%9F%E6%AD%A3%E5%85%8D%E8%B4%B9%EF%BC%89vpn%E6%9C%8D%E5%8A%A1/" target="_blank" rel="noopener">免费VPN</a></h3><h3 id="OpenDNS"><a href="#OpenDNS" class="headerlink" title="OpenDNS"></a><a href="http://www.opendns.com/" target="_blank" rel="noopener">OpenDNS</a></h3><h2 id="机场"><a href="#机场" class="headerlink" title="机场"></a>机场<a href="https://www.duyaoss.com/" target="_blank" rel="noopener"><br /></a></h2><h3 id="毒药机场"><a href="#毒药机场" class="headerlink" title="毒药机场"></a><a href="https://www.duyaoss.com/" target="_blank" rel="noopener">毒药机场</a></h3><h2 id="远程服务器管理"><a href="#远程服务器管理" class="headerlink" title="远程服务器管理"></a>远程服务器管理</h2><h3 id="FinalShell"><a href="#FinalShell" class="headerlink" title="FinalShell"></a>FinalShell</h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1583381678360-4efdf799-9812-4811-b481-d81f7bb392ec.png#align=left&display=inline&height=877&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1754&originWidth=2880&size=198537&status=done&style=none&width=1440" alt="image.png"><br /><br><br /><a href="http://www.hostbuf.com/t/1059.html" target="_blank" rel="noopener">安装</a></p>
+<h3 id="WinSCP-WinSCP"><a href="#WinSCP-WinSCP" class="headerlink" title="WinSCP::WinSCP"></a><a href="https://winscp.net/eng/docs/lang:chs" target="_blank" rel="noopener">WinSCP::WinSCP</a></h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1583071544483-da41fb3f-de75-4562-b6e8-ad0ce419ac30.png#align=left&display=inline&height=764&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1528&originWidth=2878&size=269513&status=done&style=none&width=1439" alt="image.png"></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="敏感词防和谐工具"><a href="#敏感词防和谐工具" class="headerlink" title="敏感词防和谐工具"></a><a href="https://we.laogongshuo.com/" target="_blank" rel="noopener">敏感词防和谐工具</a></h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1582638072895-0f3a852b-5360-4e2f-aeda-2fa9228df95f.png#align=left&display=inline&height=762&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1524&originWidth=2872&size=145734&status=done&style=none&width=1436" alt="image.png"><br /><br><br /><strong>输入框里面的加密结果就自动用一些不可见的空格隔开了，不会被系统敏感词拦截。</strong></p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

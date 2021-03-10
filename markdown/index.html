@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Markdown | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-markdown" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/markdown/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Markdown <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p>用于展示常用的Markdown命令，采用 <strong>示例</strong> 和 <strong>代码</strong> 的形式展示，部分语法会给出 <strong>说明</strong> 。</p>
+<hr>
+<h2 id="Markdown-常用命令"><a href="#Markdown-常用命令" class="headerlink" title="Markdown 常用命令"></a>Markdown 常用命令</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题</code></pre><pre><code>大标题
+===
+小标题
+---</code></pre><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>**符号之后的空格不能少，-+<em>效果一样，但不能混合使用，因混合是嵌套列表，内容可超长</em></p>
+<ul>
+<li>无序列表<ul>
+<li>无序列表1</li>
+<li>无序列表2</li>
+<li>无序列表3</li>
+</ul>
+</li>
+</ul>
+<pre><code>- 无序列表1
+- 无序列表2
+- 无序列表3</code></pre><ul>
+<li>有序列表<ol>
+<li>有序列表1</li>
+<li>有序列表2</li>
+<li>有序列表3</li>
+</ol>
+</li>
+</ul>
+<pre><code>1. 有序列表1
+2. 有序列表2
+3. 有序列表3</code></pre><ul>
+<li>嵌套列表<ul>
+<li>嵌套列表1<ul>
+<li>嵌套列表2</li>
+<li>嵌套列表3</li>
+</ul>
+</li>
+<li>嵌套列表4</li>
+</ul>
+</li>
+</ul>
+<pre><code>- 嵌套列表1
+  + 嵌套列表2
+  * 嵌套列表3
+- 嵌套列表4</code></pre><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
+<p>这里是引用</p>
+<blockquote>
+<p>这里是引用中的引用</p>
+</blockquote>
+</blockquote>
+<pre><code>&gt; 这里是引用
+ &gt;&gt;这里是引用中的引用</code></pre><h3 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h3><ul>
+<li><p>插入链接</p>
+</li>
+<li><p><a href="https://www.songxingguo.com/" target="_blank" rel="noopener">阿有的博客</a></p>
+</li>
+</ul>
+<pre><code>  [阿有的博客](https://www.songxingguo.com/)</code></pre><ul>
+<li><p>自动链接</p>
+</li>
+<li><p><a href="mailto:1328989942@qq.com" target="_blank" rel="noopener">1328989942@qq.com</a></p>
+</li>
+</ul>
+<pre><code>&lt;1328989942@qq.com&gt;</code></pre><ul>
+<li>插入图片</li>
+<li><img src="http://pajsphiyq.bkt.clouddn.com/images/mine/mine-bg.jpg#alt=%E8%BF%99%E9%87%8C%E6%98%AF%E5%9B%BE%E7%89%87" alt=""></li>
+</ul>
+<pre><code>![这里是图片](http://pajsphiyq.bkt.clouddn.com/images/mine/mine-bg.jpg)</code></pre><ul>
+<li>设置图片宽度和高度</li>
+<li><img src="http://pajsphiyq.bkt.clouddn.com/images/mine/mine-bg.jpg#alt=%E8%BF%99%E9%87%8C%E6%98%AF%E8%AE%BE%E7%BD%AE%E5%AE%BD%E5%BA%A6%E5%92%8C%E9%AB%98%E5%BA%A6%E7%9A%84%E5%9B%BE%E7%89%87&height&width=256#alt=%E8%BF%99%E9%87%8C%E6%98%AF%E5%9B%BE%E7%89%87" alt=""></li>
+</ul>
+<pre><code>&lt;img src=&quot;http://pajsphiyq.bkt.clouddn.com/images/mine/mine-bg.jpg&quot; width=256 height=auto alt=&quot;这里是设置宽度和高度的图片&quot; /&gt;</code></pre><h3 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h3><ul>
+<li>粗体</li>
+<li><strong>这里是粗体</strong></li>
+</ul>
+<pre><code>**这里是粗体**</code></pre><ul>
+<li>斜体</li>
+<li><em>这里是斜体</em></li>
+</ul>
+<pre><code>*这里是斜体*</code></pre><h3 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h3><pre><code class="html">&lt;!DOCTYPE html&gt;</code></pre>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><pre><code>---
+***</code></pre><h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><pre><code>&lt;!-- 注释 --&gt;</code></pre><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><p>半方大的空白 或 看，飞碟</p>
+<p>全方大的空白 或 看，飞碟</p>
+<p>不断行的空白格 或 看，飞碟</p>
+<p>  段落从此开始。</p>
+<pre><code class="html">半方大的空白&amp;ensp;或&amp;#8194;看，飞碟
+全方大的空白&amp;emsp;或&amp;#8195;看，飞碟
+不断行的空白格&amp;nbsp;或&amp;#160;看，飞碟
+&amp;emsp;&amp;emsp;段落从此开始。</code></pre>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p><code>HTML</code>、<code>CSS</code>、<code>JavaScript</code></p>
+<pre><code>`HTML`、`CSS`、`JavaScript`</code></pre><h3 id="字体、字号、颜色"><a href="#字体、字号、颜色" class="headerlink" title="字体、字号、颜色"></a>字体、字号、颜色</h3><p>我是黑体字<br /><br>我是微软雅黑<br /><br>我是华文彩云<br /><br>黑体<br /><br>null<br /><br>gray</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>价格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody></table>
+<pre><code>项目      | 价格
+--------   | ---
+Computer   | $1600
+Phone     | $12
+Pipe      | $1</code></pre><h3 id="生成目录"><a href="#生成目录" class="headerlink" title="生成目录"></a>生成目录</h3><p><strong>该命令在本文档中是不能正确显示的。</strong></p>
+<pre><code>[TOC]</code></pre><h3 id="链接引用"><a href="#链接引用" class="headerlink" title="链接引用"></a>链接引用</h3><p><strong>可以用于将链接统一放在一起，方便管理。</strong></p>
+<ul>
+<li><a href="https://www.songxingguo.com/" target="_blank" rel="noopener">这里是链接</a></li>
+</ul>
+<pre><code>[这里是链接][link]
+
+[link]: https://www.songxingguo.com/</code></pre><ul>
+<li>参考文献</li>
+<li><strong>该命令在本文档中是不能正确显示的。</strong></li>
+</ul>
+<pre><code>参考文献[^demo]
+[^demo]: http://marxi.co/client_en</code></pre><h2 id="相关文章阅读"><a href="#相关文章阅读" class="headerlink" title="相关文章阅读"></a>相关文章阅读</h2><ul>
+<li><a href="https://sspai.com/post/25137" target="_blank" rel="noopener">认识与入门 Markdown</a></li>
+<li><a href="https://blog.csdn.net/u011419965/article/details/50536937" target="_blank" rel="noopener">Markdown 语法 示例 字体 字号 颜色</a></li>
+<li><a href="http://marxi.co/#fn:demo" target="_blank" rel="noopener">Welcome to Marxico</a></li>
+<li><a href="https://blog.csdn.net/yhl_leo/article/details/50099843" target="_blank" rel="noopener">MarkDown 图片大小问题</a></li>
+<li><a href="http://wowubuntu.com/markdown/#list" target="_blank" rel="noopener">Markdown 语法说明 (简体中文版)</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/syntax" target="_blank" rel="noopener">Markdown 语法说明 (英文版)</a></li>
+</ul>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

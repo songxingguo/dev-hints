@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>decorator | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-zgew6a" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/zgew6a/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> decorator <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="javascript">const _debounce = require(&#39;../lib/lodash-debounce&#39;)
+const _throttle = require(&#39;../lib/lodash-throttle&#39;)
+const mApi = require(&#39;../api/wxApi&#39;)
+const DEFAULT_DELAY = 350
+
+/**
+ * 防抖动
+ * @param delay
+ */
+exports.debounce = function (delay = DEFAULT_DELAY) {
+  return function (target, name, descriptor) {
+    descriptor.value = _debounce(descriptor.value, delay)
+    return descriptor
+  }
+}
+/**
+ * 节流阀
+ * @param delay
+ */
+exports.throttle = function (delay = DEFAULT_DELAY) {
+  return function (target, name, descriptor) {
+    descriptor.value = _throttle(descriptor.value, delay)
+    return descriptor
+  }
+}
+/**
+ * 串行，支持loading
+ * @param loadingText
+ */
+exports.series = function (loadingText) {
+  return function (target, name, descriptor) {
+    const oriFun = descriptor.value
+    let isPending = false
+    const loading = _debounce(function () {
+      if (!(loadingText &amp;&amp; isPending)) return
+      mApi.showLoading({title: loadingText, mask: true})
+    }, DEFAULT_DELAY)
+    const hideLoading = _debounce(function () {
+      mApi.hideLoading()
+    }, DEFAULT_DELAY)
+    const finish = function () {
+      isPending = false
+      hideLoading()
+    }
+    descriptor.value = async function (...args) {
+      try {
+        if (isPending) return
+        isPending = true
+        loading()
+        await oriFun.apply(this, args)
+        finish()
+      } catch (err) {
+        finish()
+        throw err
+      }
+    }
+    return descriptor
+  }
+}
+/**
+ * 微信小程序权限检查
+ * @param authSetting
+ */
+exports.authSettingCheck = function (authSetting) {
+  const modalContent = {
+    &#39;scope.address&#39;: {
+      title: &#39;收货地址获取受阻&#39;,
+      content: &#39;点击确定去打开&quot;通讯地址&quot;&#39;
+    },
+    &#39;scope.writePhotosAlbum&#39;: {
+      title: &#39;相册访问受阻&#39;,
+      content: &#39;点击确定去打开&quot;保存到相册&quot;&#39;
+    },
+    &#39;scope.userLocation&#39;: {
+      title: &#39;获取地址受阻&#39;,
+      content: &#39;点击确定去打开&quot;获取地址&quot;&#39;
+    }
+  }[authSetting]
+  if (!modalContent) throw new Error(`authSettingCheck not found ${authSetting}`)
+  return function (target, name, descriptor) {
+    const oriFun = descriptor.value
+    descriptor.value = function (...args) {
+      // TODO 优化为mApi
+      const _this = this
+      const showModal = () =&gt; {
+        wx.showModal({
+          ...modalContent,
+          success (res) {
+            if (res.confirm) {
+              openSetting()
+            }
+          }
+        })
+      }
+      const openSetting = () =&gt; {
+        wx.openSetting({
+          success (setting) {
+            if (!setting.authSetting[authSetting]) return
+            oriFun.apply(_this, args)
+          }
+        })
+      }
+      wx.getSetting({
+        success (res) {
+          if (!res.authSetting[authSetting]) {
+            wx.authorize({
+              scope: authSetting,
+              success () {
+                oriFun.apply(_this, args)
+              },
+              fail () {
+                showModal()
+              }
+            })
+          } else {
+            oriFun.apply(_this, args)
+          }
+        }
+      })
+    }
+    return descriptor
+  }
+}</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

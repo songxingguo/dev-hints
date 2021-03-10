@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Vue | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-mkx0r4" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/mkx0r4/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Vue <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h3 id="好用特性"><a href="#好用特性" class="headerlink" title="好用特性"></a>好用特性</h3><blockquote>
+<p>物尽其用。</p>
+</blockquote>
+<ul>
+<li>vuex</li>
+<li>computed</li>
+<li>watch</li>
+<li>ref&amp;$refs</li>
+<li>$children / $parent</li>
+<li>props / $emit</li>
+<li>mixins</li>
+<li>filters</li>
+<li>directives</li>
+<li>provide/ inject</li>
+<li>eventBus</li>
+</ul>
+<h3 id="子组件并不能实时根据父组件的值改变"><a href="#子组件并不能实时根据父组件的值改变" class="headerlink" title="子组件并不能实时根据父组件的值改变"></a>子组件并不能实时根据父组件的值改变</h3><blockquote>
+<p>使用vue 的watch属性来监听父组件传过来的值</p>
+</blockquote>
+<pre><code class="vue">//基础数据类型
+watch:{
+     num1(newVal){
+         this.img = newVal
+     }
+}</code></pre>
+<pre><code class="vue">//数组的监听
+watch:{
+    arr1: {
+        handler(newVal) {
+            this.tableData = newVal
+        },
+        deep: true        //划重点
+    }
+}</code></pre>
+<pre><code class="vue">//对象的监听
+watch:{
+    obj1: {
+        handler(newVal) {
+            this.form = newVal
+        },
+        deep: true        //划重点
+    }
+}</code></pre>
+<blockquote>
+<p>vuex中的数据，在子组件中并不能实时更新、子组件中无法使用watch直接监听this.$store.state</p>
+</blockquote>
+<pre><code class="vue">// 使用computed来配合watch监听
+watch:{
+  list(newVal){
+          //最好使用vue.set更新数据
+      this.$set(this.treeData,&#39;lists&#39;,newVal)
+  }
+},
+computed:{
+    list(){
+        return this.$store.state.menu
+    }
+}</code></pre>
+<p><a href="https://blog.csdn.net/weixin_45266125/article/details/102807663" target="_blank" rel="noopener">参考地址</a></p>
+<h3 id="vue中使用iframe如何不影响路由"><a href="#vue中使用iframe如何不影响路由" class="headerlink" title="vue中使用iframe如何不影响路由"></a>vue中使用iframe如何不影响路由</h3><p>this.$refs.ifr.contentWindow.location.replace(‘<a href="http://baidu.com&#39;" target="_blank" rel="noopener">http://baidu.com&#39;</a>)</p>
+<h3 id="Vue组件深度-deep-监听props对象属性无效的解决办法"><a href="#Vue组件深度-deep-监听props对象属性无效的解决办法" class="headerlink" title="Vue组件深度(deep)监听props对象属性无效的解决办法"></a>Vue组件深度(deep)监听props对象属性无效的解决办法</h3><blockquote>
+<p>之所以会出现这个现象是因为直接ES5已经舍弃了<code>Object.observe</code>方法，<code>Vue</code>无法监听对象属性删除和新增，故即使使用<code>deep</code>方法监听对象<code>prop</code>也没有用。</p>
+</blockquote>
+<pre><code class="vue">&lt;!-- 父组件 --&gt;
+&lt;template&gt;
+  &lt;div class=&quot;hello&quot;&gt;
+    &lt;Child :data=&quot;data&quot;&gt;
+    &lt;/Child&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import Child from &#39;./Child&#39;
+export default {
+  name: &#39;HelloWorld&#39;,
+
+  data () {
+    return {
+      data: {
+        init: &#39;init&#39;,
+        // refresh: &#39;&#39;
+      }
+    }
+  },
+
+  components: {
+    Child
+  },
+
+  mounted () {
+    setTimeout(() =&gt; {
+      this.data.refresh = &#39;refresh&#39;
+      // this.$set(this.data, &#39;refresh&#39;, &#39;refresh&#39;)
+      // this.data = Object.assign({}, this.data)
+    })
+  }
+}
+&lt;/script&gt;
+
+&lt;!-- 子组件 --&gt;
+&lt;template&gt;
+  &lt;h1&gt;
+    &lt;p&gt;init{{data.init}}&lt;/p&gt;
+    &lt;p&gt;refresh{{data.refresh}}&lt;/p&gt;
+  &lt;/h1&gt;
+&lt;/template&gt;
+&lt;script&gt;
+export default {
+  name: &#39;Child&#39;,
+
+  props: [&#39;data&#39;],
+
+  watch: {
+    data: {
+      handler (newVal) {
+        console.log(this.data.init, this.data.refresh)
+      },
+      deep: true,
+      immediate: true
+    }
+  }
+}
+&lt;/script&gt;</code></pre>
+<ol>
+<li>在父组件中声明对象的键</li>
+<li>使用<code>this.$set()</code>方法</li>
+<li>使用<code>Object.assign({}, obj)</code>方法</li>
+</ol>
+<br />
+
+<h3 id="引用类型对象直接赋值导致-Vue-无法监听子属性变更"><a href="#引用类型对象直接赋值导致-Vue-无法监听子属性变更" class="headerlink" title="引用类型对象直接赋值导致 Vue 无法监听子属性变更"></a>引用类型对象直接赋值导致 Vue 无法监听子属性变更</h3><blockquote>
+<p>使用深拷贝对对象进行赋值触发 Vue watch</p>
+</blockquote>
+<pre><code class="json">this.searchList = JSON.parse(JSON.stringify(commentsList));</code></pre>
+<h3 id="组件名称重复"><a href="#组件名称重复" class="headerlink" title="组件名称重复"></a>组件名称重复</h3><pre><code>For recursive components, make sure to provide the &quot;name&quot; option.</code></pre><h3 id="没有实现组件的处理方法"><a href="#没有实现组件的处理方法" class="headerlink" title="没有实现组件的处理方法"></a>没有实现组件的处理方法</h3><pre><code>Vue warn]: Error in v-on handler: &quot;TypeError: Cannot read property &#39;apply&#39; of undefined&quot;
+
+found in
+
+---&gt; &lt;CommentCard&gt; at src/components/comment/CommentCard.vue
+       &lt;CommentBox&gt; at src/components/comment/CommentBox.vue
+         at src/views/fileDetail/fileDetail.vue</code></pre><h3 id="绑定在页面的事件立即执行问题"><a href="#绑定在页面的事件立即执行问题" class="headerlink" title="绑定在页面的事件立即执行问题"></a>绑定在页面的事件立即执行问题</h3><blockquote>
+<p>将事件放在了 computed 中（下面是错误代码） ，这种立即执行的问题都是代码绑定有问题，仔细检查代码</p>
+</blockquote>
+<pre><code class="vue">&lt;template&gt;
+  &lt;view :class=&quot;[&#39;comment-card-container&#39;, isSelected?&#39;active&#39;:&#39;&#39;]&quot;
+    v-if=&quot;commentData&quot;&gt;
+    &lt;view class=&quot;flex-column&quot;&gt;
+      &lt;view class=&quot;flex-row flex-items-center flex-content-between&quot;&gt;
+        &lt;view class=&quot;flex-row flex-items-center&quot;&gt;
+          &lt;view class=&quot;comment-card__head-icon&quot;&gt;
+            &lt;img :src=&quot;commentData.userinfo.avatar&quot;
+              alt=&quot;&quot;&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;comment-card__name&quot;&gt;
+            {{commentData.userinfo.real_name}}
+          &lt;/view&gt;
+        &lt;/view&gt;
+        &lt;view class=&quot;flex-row flex-items-center&quot;&gt;
+          &lt;text :class=&quot;[&#39;iconfont icon-huabi1&#39;, isSelected?&#39;active&#39;:&#39;&#39;]&quot;
+            v-if=&quot;isShowDraw&quot;&gt;&lt;/text&gt;
+          &lt;view :class=&quot;[&#39;tag&#39;, isSelected?&#39;active&#39;:&#39;&#39;]&quot;
+            v-if=&quot;commentData.media_time!==&#39;-1&#39;&quot;&gt;{{commentData.media_time | formatDuration}}&lt;/view&gt;
+        &lt;/view&gt;
+      &lt;/view&gt;
+      &lt;view class=&quot;comment-body&quot;&gt;
+        &lt;view class=&quot;comment-card__content&quot;&gt;
+          {{commentData.content}}
+        &lt;/view&gt;
+        &lt;view class=&quot;flex-row flex-items-center flex-content-between&quot;&gt;
+          &lt;view class=&quot;comment-card__desc&quot;&gt;
+            {{commentData.created_at  * 1000 | moment}}
+          &lt;/view&gt;
+          &lt;view class=&quot;flex-row flex-items-center&quot;&gt;
+            &lt;view class=&quot;comment-card__desc&quot;
+              @tap.stop=&quot;handleReply&quot;&gt;
+              回复 {{replyCount}}
+            &lt;/view&gt;
+            &lt;view class=&quot;iconfont icon-shanchu&quot;
+              @tap.stop=&quot;handleDelete&quot;
+              v-if=&quot;isMine&quot;&gt;&lt;/view&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+      &lt;/view&gt;
+    &lt;/view&gt;
+  &lt;/view&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { mapGetters } from &quot;vuex&quot;;
+
+export default {
+  props: {
+    commentData: Object,
+    type: String,
+    replyCount: Number,
+  },
+  computed: {
+    ...mapGetters({
+      selectedComment: &quot;comment/selectedComment&quot;,
+    }),
+    isSelected() {
+      const { type } = this;
+      return type == &quot;list&quot; ? this.selectedComment.id == this.commentData.id : false;
+    },
+    handleDelete() {
+      const { commentData } = this;
+      this.$emit(&quot;delete&quot;, commentData);
+    },
+    handleReply() {
+      const { commentData } = this;
+      this.$emit(&quot;reply&quot;, commentData);
+    },
+    isShowDraw() {
+      const {
+        commentData: { label },
+      } = this;
+      return label &amp;&amp; label !== &quot;&quot;;
+    },
+    isMine() {
+      return this.commentData.userinfo.user_id === this.$store.state.user.userInfo.uId;
+    },
+  },
+  mounted() {},
+};
+&lt;/script&gt;
+
+&lt;style lang=&quot;scss&quot; scoped&gt;
+@import &quot;@assets/style/mixin.scss&quot;;
+
+.comment-card-container {
+  padding: 40rpx;
+  background-color: #010616;
+  &amp;.active {
+    background: #1c2233;
+  }
+  .comment-body {
+    margin-left: 80rpx;
+  }
+  .comment-card__head-icon {
+    width: 64rpx;
+    height: 64rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: inherit;
+      height: inherit;
+    }
+  }
+  .comment-card__name {
+    font-size: 28rpx;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 10rpx;
+    @include max-text(200rpx);
+  }
+  .comment-card__content {
+    font-size: 24rpx;
+    color: #ffffff;
+    line-height: 40rpx;
+    letter-spacing: 0rpx;
+    margin: 22rpx 0 18rpx;
+  }
+  .comment-card__desc {
+    font-size: 24rpx;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .iconfont {
+    color: #ffffff;
+    &amp;.icon-shanchu {
+      font-size: 32rpx;
+      color: rgba(255, 255, 255, 0.8);
+      margin-left: 12rpx;
+    }
+    &amp;.icon-huabi1 {
+      font-size: 40rpx;
+      margin-right: 24rpx;
+    }
+    &amp;.active {
+      color: #3468fe;
+    }
+  }
+}
+.tag {
+  display: inline-block;
+  padding: 0.15em 0.75em;
+  border-radius: 0.2em;
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 1.5em;
+  background-color: #353b4f;
+  border-radius: 6rpx;
+  font-weight: 500;
+  &amp;.active {
+    background: linear-gradient(90deg, #3e3bff, #336dfe);
+  }
+}
+&lt;/style&gt;</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

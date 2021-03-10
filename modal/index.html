@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Modal | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-modal" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/modal/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Modal <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="javascript">const ABORT = &#39;abort&#39;
+
+class Modal {
+  /**
+   * @param onClose {Function}
+   * @param onShow {Function}
+   */
+  constructor ({onClose, onShow} = {}) {
+    this._hasShow = false
+    this._onShow = onShow
+    this._onClose = onClose
+    this.pending = null
+  }
+
+  /**
+   * 自动warp一个promise，弹窗一定是串行的不可能是并行的。
+   * @returns {Promise&lt;unknown&gt;}
+   */
+  show () {
+    this._hasShow = true
+    return new Promise((resolve, reject) =&gt; {
+      this.pending = {resolve, reject}
+      if (this._onShow) this._onShow(this)
+    })
+  }
+
+  /**
+   * 关闭当前弹窗
+   */
+  close () {
+    this._hasShow = false
+    this.pending.resolve()
+    if (this._onClose) this._onClose()
+  }
+
+  /**
+   * 中断后续播放
+   */
+  abort () {
+    this._hasShow = false
+    this.pending.reject(new Error(ABORT))
+  }
+}
+
+class ModalManager {
+  /**
+   *
+   * @param modalArr {[Modal]}
+   */
+  constructor (modalArr = []) {
+    this._stack = modalArr
+  }
+
+  /**
+   * @param modalIns {Modal}
+   */
+  push (modalIns) {
+    this._stack.push(modalIns)
+  }
+
+  /**
+   * @returns {Modal}
+   */
+  shift () {
+    return this._stack.shift()
+  }
+
+  /**
+   * 按照编排顺序自动播放弹窗
+   * @returns {Promise&lt;void&gt;}
+   */
+  async play () {
+    let modalIns = this.shift()
+    while (modalIns) {
+      try {
+        await modalIns.show()
+        modalIns = this.shift()
+      } catch (e) {
+        if (e.message === ABORT) {
+          modalIns = null
+        } else {
+          throw e
+        }
+      }
+    }
+  }
+}
+
+function sleep (time) {
+  return new Promise(resolve =&gt; {
+    setTimeout(() =&gt; resolve(), time)
+  })
+}
+
+async function boot () {
+  const firstModal = new Modal({
+    onShow: async (modalHandler) =&gt; {
+      console.log(&#39;firstModal onShow&#39;)
+      await sleep(2000)
+      console.log(&#39;sleep 2 second&#39;)
+      modalHandler.close()
+    },
+    onClose: () =&gt; {
+      console.log(&#39;firstModal close&#39;)
+    }
+  })
+  const secondModal = new Modal({
+    onShow: (modalHandler) =&gt; {
+      console.log(&#39;secondModal onShow&#39;)
+      modalHandler.abort()
+      console.log(&#39;secondModal abort&#39;)
+    }
+  })
+  const thirdModal = new Modal({
+    onShow: (modalHandler) =&gt; {
+      console.log(&#39;thirdModal onShow&#39;)
+      modalHandler.close()
+    }
+  })
+  // 定义播放顺序，栈就是播放顺序，调整栈的顺序就是调整弹窗优先级，这样可以直观的看出优先级。
+  // 如果使用参数管理优先级，那么和CSS的z-index设置会遇到相同的问题，插入一个中间的优先级需要修改后续的全部z-index值。
+  const mM = new ModalManager([thirdModal, secondModal, firstModal])
+  // 数据准备好启动播放(阻塞式)。
+  await mM.play()
+  // 数据准备好启动播放(非阻塞式)。
+  // mM.play()
+  console.log(&#39;play finish&#39;)
+  // 独立使用，不用管理器
+  await thirdModal.show()
+}
+
+boot()</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

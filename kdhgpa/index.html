@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>代码规范 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-kdhgpa" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/kdhgpa/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 代码规范 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h2 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h2><h3 id="用有意义且常用的单词命名"><a href="#用有意义且常用的单词命名" class="headerlink" title="用有意义且常用的单词命名"></a>用有意义且常用的单词命名</h3><pre><code>// Bad:
+const yyyymmdstr = moment().format(&#39;YYYY/MM/DD&#39;);
+// Good:
+const currentDate = moment().format(&#39;YYYY/MM/DD&#39;);</code></pre><h3 id="保持统一"><a href="#保持统一" class="headerlink" title="保持统一"></a>保持统一</h3><p>对同一类型的变量使用相同的命名保持统一：</p>
+<pre><code>// Bad:
+getUserInfo();
+getClientData();
+getCustomerRecord();
+// Good:
+getUser()</code></pre><h3 id="每个常量-全大写-都该命名"><a href="#每个常量-全大写-都该命名" class="headerlink" title="每个常量(全大写)都该命名"></a>每个常量(全大写)都该命名</h3><p>可以用 <code>ESLint</code> 检测代码中未命名的常量。</p>
+<pre><code>// Bad:
+// 其他人知道 86400000 的意思吗？
+setTimeout( blastOff, 86400000 );
+// Good:
+const MILLISECOND_IN_A_DAY = 86400000;
+setTimeout( blastOff, MILLISECOND_IN_A_DAY );</code></pre><h3 id="避免无意义的前缀"><a href="#避免无意义的前缀" class="headerlink" title="避免无意义的前缀"></a>避免无意义的前缀</h3><p>如果创建了一个对象 car，就没有必要把它的颜色命名为 carColor。</p>
+<pre><code>// Bad:
+const car = {
+    carMake: &#39;Honda&#39;,
+    carModel: &#39;Accord&#39;,
+    carColor: &#39;Blue&#39;
+};
+function paintCar( car ) {
+    car.carColor = &#39;Red&#39;;
+}
+// Good:
+const car = {
+    make: &#39;Honda&#39;,
+    model: &#39;Accord&#39;,
+    color: &#39;Blue&#39;
+};
+function paintCar( car ) {
+    car.color = &#39;Red&#39;;
+}</code></pre><h3 id="传参使用默认值"><a href="#传参使用默认值" class="headerlink" title="传参使用默认值"></a>传参使用默认值</h3><pre><code>// Bad:
+function createMicrobrewery( name ) {
+    const breweryName = name || &#39;Hipster Brew Co.&#39;;
+    // ...
+}
+// Good:
+function createMicrobrewery( name = &#39;Hipster Brew Co.&#39; ) {
+    // ...
+}</code></pre><h2 id="二、函数"><a href="#二、函数" class="headerlink" title="二、函数"></a>二、函数</h2><h3 id="函数参数-最好-2-个或更少"><a href="#函数参数-最好-2-个或更少" class="headerlink" title="函数参数( 最好 2 个或更少 )"></a>函数参数( 最好 2 个或更少 )</h3><p>如果参数超过两个，建议使用 ES6 的解构语法，不用考虑参数的顺序。</p>
+<pre><code>// Bad:
+function createMenu( title, body, buttonText, cancellable ) {
+    // ...
+}
+// Good:
+function createMenu( { title, body, buttonText, cancellable } ) {
+    // ...
+}
+createMenu({
+    title: &#39;Foo&#39;,
+    body: &#39;Bar&#39;,
+    buttonText: &#39;Baz&#39;,
+    cancellable: true
+});</code></pre><h3 id="一个方法只做一件事情"><a href="#一个方法只做一件事情" class="headerlink" title="一个方法只做一件事情"></a>一个方法只做一件事情</h3><p>这是一条在软件工程领域流传久远的规则。严格遵守这条规则会让你的代码可读性更好，也更容易重构。如果违反这个规则，那么代码会很难被测试或者重用。</p>
+<pre><code>// Bad:
+function emailClients( clients ) {
+    clients.forEach( client =&gt; {
+        const clientRecord = database.lookup( client );
+        if ( clientRecord.isActive() ) {
+            email( client );
+        }
+    });
+}
+// Good:
+function emailActiveClients( clients ) {
+    clients
+        .filter( isActiveClient )
+        .forEach( email );
+}
+function isActiveClient( client ) {
+    const clientRecord = database.lookup( client );    
+    return clientRecord.isActive();
+}</code></pre><h3 id="函数名上体现它的作用"><a href="#函数名上体现它的作用" class="headerlink" title="函数名上体现它的作用"></a>函数名上体现它的作用</h3><pre><code>// Bad:
+function addToDate( date, month ) {
+    // ...
+}
+const date = new Date();
+// 很难知道是把什么加到日期中
+addToDate( date, 1 );
+// Good:
+function addMonthToDate( month, date ) {
+    // ...
+}
+const date = new Date();
+addMonthToDate( 1, date );</code></pre><h3 id="删除重复代码，合并相似函数"><a href="#删除重复代码，合并相似函数" class="headerlink" title="删除重复代码，合并相似函数"></a>删除重复代码，合并相似函数</h3><p>很多时候虽然是同一个功能，但由于一两个不同点，让你不得不写两个几乎相同的函数。</p>
+<pre><code>// Bad:
+function showDeveloperList(developers) {
+  developers.forEach((developer) =&gt; {
+    const expectedSalary = developer.calculateExpectedSalary();
+    const experience = developer.getExperience();
+    const githubLink = developer.getGithubLink();
+    const data = {
+      expectedSalary,
+      experience,
+      githubLink
+    };
+    render(data);
+  });
+}
+function showManagerList(managers) {
+  managers.forEach((manager) =&gt; {
+    const expectedSalary = manager.calculateExpectedSalary();
+    const experience = manager.getExperience();
+    const portfolio = manager.getMBAProjects();
+    const data = {
+      expectedSalary,
+      experience,
+      portfolio
+    };
+    render(data);
+  });
+}
+// Good:
+function showEmployeeList(employees) {
+  employees.forEach(employee =&gt; {
+    const expectedSalary = employee.calculateExpectedSalary();
+    const experience = employee.getExperience();
+    const data = {
+      expectedSalary,
+      experience,
+    };
+    switch(employee.type) {
+      case &#39;develop&#39;:
+        data.githubLink = employee.getGithubLink();
+        break
+      case &#39;manager&#39;:
+        data.portfolio = employee.getMBAProjects();
+        break
+    }
+    render(data);
+  })
+}</code></pre><h3 id="使用-Object-assign-设置默认属性"><a href="#使用-Object-assign-设置默认属性" class="headerlink" title="使用 Object.assign 设置默认属性"></a>使用 Object.assign 设置默认属性</h3><pre><code>// Bad:
+const menuConfig = {
+  title: null,
+  body: &#39;Bar&#39;,
+  buttonText: null,
+  cancellable: true
+};
+function createMenu(config) {
+  config.title = config.title || &#39;Foo&#39;;
+  config.body = config.body || &#39;Bar&#39;;
+  config.buttonText = config.buttonText || &#39;Baz&#39;;
+  config.cancellable = config.cancellable !== undefined ? config.cancellable : true;
+}
+createMenu(menuConfig);
+// Good:
+const menuConfig = {
+  title: &#39;Order&#39;,
+  // 不包含 body
+  buttonText: &#39;Send&#39;,
+  cancellable: true
+};
+function createMenu(config) {
+  config = Object.assign({
+    title: &#39;Foo&#39;,
+    body: &#39;Bar&#39;,
+    buttonText: &#39;Baz&#39;,
+    cancellable: true
+  }, config);
+  // config : {title: &quot;Order&quot;, body: &quot;Bar&quot;, buttonText: &quot;Send&quot;, cancellable: true}
+  // ...
+}
+createMenu(menuConfig);</code></pre><h3 id="尽量不要写全局方法"><a href="#尽量不要写全局方法" class="headerlink" title="尽量不要写全局方法"></a>尽量不要写全局方法</h3><p>在 JavaScript 中，永远不要污染全局，会在生产环境中产生难以预料的 bug。举个例子，比如你在 Array.prototype 上新增一个 diff 方法来判断两个数组的不同。而你同事也打算做类似的事情，不过他的 diff 方法是用来判断两个数组首位元素的不同。很明显你们方法会产生冲突，遇到这类问题我们可以用 ES2015/ES6 的语法来对 Array 进行扩展。</p>
+<pre><code>// Bad:
+Array.prototype.diff = function diff(comparisonArray) {
+  const hash = new Set(comparisonArray);
+  return this.filter(elem =&gt; !hash.has(elem));
+};
+// Good:
+class SuperArray extends Array {
+  diff(comparisonArray) {
+    const hash = new Set(comparisonArray);
+    return this.filter(elem =&gt; !hash.has(elem));        
+  }
+}</code></pre><h3 id="尽量别用“非”条件句"><a href="#尽量别用“非”条件句" class="headerlink" title="尽量别用“非”条件句"></a>尽量别用“非”条件句</h3><pre><code>// Bad:
+function isDOMNodeNotPresent(node) {
+  // ...
+}
+if (!isDOMNodeNotPresent(node)) {
+  // ...
+}
+// Good:
+function isDOMNodePresent(node) {
+  // ...
+}
+if (isDOMNodePresent(node)) {
+  // ...
+}</code></pre><h3 id="不要过度优化"><a href="#不要过度优化" class="headerlink" title="不要过度优化"></a>不要过度优化</h3><p>现代浏览器已经在底层做了很多优化，过去的很多优化方案都是无效的，会浪费你的时间。</p>
+<pre><code>// Bad:
+// 现代浏览器已对此( 缓存 list.length )做了优化。
+for (let i = 0, len = list.length; i &lt; len; i++) {
+  // ...
+}
+// Good:
+for (let i = 0; i &lt; list.length; i++) {
+  // ...
+}</code></pre><h3 id="删除弃用代码"><a href="#删除弃用代码" class="headerlink" title="删除弃用代码"></a>删除弃用代码</h3><p>这里没有实例代码，删除就对了</p>
+<h2 id="三、类"><a href="#三、类" class="headerlink" title="三、类"></a>三、类</h2><h3 id="使用-ES6-的-class"><a href="#使用-ES6-的-class" class="headerlink" title="使用 ES6 的 class"></a>使用 ES6 的 class</h3><p>在 ES6 之前，没有类的语法，只能用构造函数的方式模拟类，可读性非常差。</p>
+<pre><code>// Good:
+// 动物
+class Animal {
+  constructor(age) {
+    this.age = age
+  };
+  move() {};
+}
+// 哺乳动物
+class Mammal extends Animal{
+  constructor(age, furColor) {
+    super(age);
+    this.furColor = furColor;
+  };
+  liveBirth() {};
+}
+// 人类
+class Human extends Mammal{
+  constructor(age, furColor, languageSpoken) {
+    super(age, furColor);
+    this.languageSpoken = languageSpoken;
+  };
+  speak() {};
+}</code></pre><h3 id="使用链式调用"><a href="#使用链式调用" class="headerlink" title="使用链式调用"></a>使用链式调用</h3><p>这种模式相当有用，可以在很多库中都有使用。它让你的代码简洁优雅。</p>
+<pre><code>class Car {
+  constructor(make, model, color) {
+    this.make = make;
+    this.model = model;
+    this.color = color;
+  }
+  setMake(make) {
+    this.make = make;
+  }
+  setModel(model) {
+    this.model = model;
+  }
+  setColor(color) {
+    this.color = color;
+  }
+  save() {
+    console.log(this.make, this.model, this.color);
+  }
+}
+// Bad:
+const car = new Car(&#39;Ford&#39;,&#39;F-150&#39;,&#39;red&#39;);
+car.setColor(&#39;pink&#39;);
+car.save();
+// Good:
+const car = new Car(&#39;Ford&#39;,&#39;F-150&#39;,&#39;red&#39;)
+  .setColor(&#39;pink&#39;);
+  .save();</code></pre><h2 id="四、异步"><a href="#四、异步" class="headerlink" title="四、异步"></a>四、异步</h2><h3 id="使用-promise-或者-Async-Await-代替回调"><a href="#使用-promise-或者-Async-Await-代替回调" class="headerlink" title="使用 promise 或者 Async/Await 代替回调"></a>使用 promise 或者 Async/Await 代替回调</h3><pre><code>// Bad:
+get(&#39;https://en.wikipedia.org/wiki/Robert_Cecil_Martin&#39;, (requestErr, response) =&gt; {
+  if (requestErr) {
+    console.error(requestErr);
+  } else {
+    writeFile(&#39;article.html&#39;, response.body, (writeErr) =&gt; {
+      if (writeErr) {
+        console.error(writeErr);
+      } else {
+        console.log(&#39;File written&#39;);
+      }
+    });
+  }
+});
+// Good:
+get(&#39;https://en.wikipedia.org/wiki/Robert_Cecil_Martin&#39;)
+  .then((response) =&gt; {
+    return writeFile(&#39;article.html&#39;, response);
+  })
+  .then(() =&gt; {
+    console.log(&#39;File written&#39;);
+  })
+  .catch((err) =&gt; {
+    console.error(err);
+  });
+// perfect:
+async function getCleanCodeArticle() {
+  try {
+    const response = await get(&#39;https://en.wikipedia.org/wiki/Robert_Cecil_Martin&#39;);
+    await writeFile(&#39;article.html&#39;, response);
+    console.log(&#39;File written&#39;);
+  } catch(err) {
+    console.error(err);
+  }
+}</code></pre><h2 id="这样写的-JS-代码看着就很舒服"><a href="#这样写的-JS-代码看着就很舒服" class="headerlink" title="这样写的 JS 代码看着就很舒服"></a><a href="https://mp.weixin.qq.com/s/wfNOed913zeEZQhNnZAjjQ" target="_blank" rel="noopener">这样写的 JS 代码看着就很舒服</a></h2>
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>交互 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-nu0m2g" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/nu0m2g/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 交互 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h3 id="优雅地增加点击区域大小"><a href="#优雅地增加点击区域大小" class="headerlink" title="优雅地增加点击区域大小"></a>优雅地增加点击区域大小</h3><pre><code class="css">.icon-clear {
+   width：16px;
+   height：16px;
+   border：11px solid transparent;
+   ……
+}</code></pre>
+<h3 id="如何添加border-对原有布局不影响"><a href="#如何添加border-对原有布局不影响" class="headerlink" title="如何添加border 对原有布局不影响"></a>如何添加border 对原有布局不影响</h3><p>1、利用设置属性box-sizing设置容器为怪异模式</p>
+<pre><code class="css">box-sizing:border-box;
+border: 2px solid yellow;</code></pre>
+<p>2、利用h5的新属性box-shadow为元素添加实体的阴影作为边框</p>
+<pre><code class="css">// good
+box-shadow: inset 2px 2px 0 0 yellow,inset -2px -2px 0 0 yellow;</code></pre>
+<h3 id="图片加载失败后CSS样式处理最佳实践"><a href="#图片加载失败后CSS样式处理最佳实践" class="headerlink" title="图片加载失败后CSS样式处理最佳实践"></a>图片加载失败后CSS样式处理最佳实践</h3><blockquote>
+<p><code>onerror</code>事件</p>
+</blockquote>
+<h4 id="onerror事件"><a href="#onerror事件" class="headerlink" title="onerror事件"></a><code>onerror</code>事件</h4><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1604113250882-6d2c385c-32d6-429b-9dd3-8064a7a065ca.png#align=left&display=inline&height=97&margin=%5Bobject%20Object%5D&name=image.png&originHeight=193&originWidth=470&size=39426&status=done&style=none&width=235" alt="image.png"></p>
+<pre><code class="html">&lt;img src=&quot;xxx.png&quot; alt=&quot;鑫空间鑫生活&quot; onerror=&quot;this.src=&#39;break.svg&#39;;&quot;&gt;</code></pre>
+<pre><code class="css">img[src$=&quot;break.svg&quot;] {
+    object-fit: contain;
+}</code></pre>
+<h4 id="同时显示-alt-信息"><a href="#同时显示-alt-信息" class="headerlink" title="同时显示 alt 信息"></a>同时显示 alt 信息</h4><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1604113232090-26f5e4a2-e014-4320-b7ba-3d640724df4f.png#align=left&display=inline&height=116&margin=%5Bobject%20Object%5D&name=image.png&originHeight=231&originWidth=476&size=39137&status=done&style=none&width=238" alt="image.png"></p>
+<pre><code class="html">&lt;img src=&quot;zxx.png&quot; alt=&quot;CSS新世界封面&quot; onerror=&quot;this.classList.add(&#39;error&#39;);&quot;&gt;</code></pre>
+<pre><code class="css">img.error {
+  display: inline-block;
+  transform: scale(1);
+  content: &#39;&#39;;
+  color: transparent;
+}
+img.error::before {
+  content: &#39;&#39;;
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: #f5f5f5 url(break.svg) no-repeat center / 50% 50%;
+}
+img.error::after {
+  content: attr(alt);
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%;
+  line-height: 2;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}</code></pre>
+<h4 id="CSS代码中的兜底图像均使用的外链地址"><a href="#CSS代码中的兜底图像均使用的外链地址" class="headerlink" title="CSS代码中的兜底图像均使用的外链地址"></a>CSS代码中的兜底图像均使用的外链地址</h4><pre><code class="css">img.error::before {
+  background: #f5f5f5 url(&quot;data:image/svg+xml,%3Csvg class=&#39;icon&#39; viewBox=&#39;0 0 1024 1024&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;200&#39; height=&#39;200&#39;%3E%3Cpath d=&#39;M304.128 456.192c48.64 0 88.064-39.424 88.064-88.064s-39.424-88.064-88.064-88.064-88.064 39.424-88.064 88.064 39.424 88.064 88.064 88.064zm0-116.224c15.36 0 28.16 12.288 28.16 28.16s-12.288 28.16-28.16 28.16-28.16-12.288-28.16-28.16 12.288-28.16 28.16-28.16z&#39; fill=&#39;%23e6e6e6&#39;/%3E%3Cpath d=&#39;M887.296 159.744H136.704C96.768 159.744 64 192 64 232.448v559.104c0 39.936 32.256 72.704 72.704 72.704h198.144L500.224 688.64l-36.352-222.72 162.304-130.56-61.44 143.872 92.672 214.016-105.472 171.008h335.36C927.232 864.256 960 832 960 791.552V232.448c0-39.936-32.256-72.704-72.704-72.704zm-138.752 71.68v.512H857.6c16.384 0 30.208 13.312 30.208 30.208v399.872L673.28 408.064l75.264-176.64zM304.64 792.064H165.888c-16.384 0-30.208-13.312-30.208-30.208v-9.728l138.752-164.352 104.96 124.416-74.752 79.872zm81.92-355.84l37.376 228.864-.512.512-142.848-169.984c-3.072-3.584-9.216-3.584-12.288 0L135.68 652.8V262.144c0-16.384 13.312-30.208 30.208-30.208h474.624L386.56 436.224zm501.248 325.632c0 16.896-13.312 30.208-29.696 30.208H680.96l57.344-93.184-87.552-202.24 7.168-7.68 229.888 272.896z&#39; fill=&#39;%23e6e6e6&#39;/%3E%3C/svg%3E&quot;) no-repeat center / 50% 50%;
+}</code></pre>
+<p><a href="https://www.zhangxinxu.com/wordpress/2020/10/css-style-image-load-fail/" target="_blank" rel="noopener">图片加载失败后CSS样式处理最佳实践</a><br /></p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

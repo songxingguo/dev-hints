@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Util | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-pai99e" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/pai99e/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Util <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="javascript">const {safeSubstr} = require(&#39;./tools&#39;)
+const DateBox = require(&#39;./date-box&#39;)
+
+const dateObj = date =&gt; {
+  return {
+    year: date.getFullYear(),
+    month: date.getMonth() + 1,
+    day: date.getDate(),
+    week: date.getDay(),
+    hour: date.getHours(),
+    minute: date.getMinutes(),
+    second: date.getSeconds()
+  }
+}
+
+const formatTime = date =&gt; {
+  const {year, month, day, hour, minute} = dateObj(date)
+  return [formatNumber(year), &#39;年&#39;, formatNumber(month), &#39;月&#39;, formatNumber(day), &#39;日&#39;].join(&#39;&#39;) + &#39; &#39; + [hour, minute].map(formatNumber).join(&#39;:&#39;)
+}
+
+const formatDate = date =&gt; {
+  return formatTime(date).slice(0, 11)
+}
+
+const dateFormat = date =&gt; {
+  const {year, month, day} = dateObj(date)
+  return [year, month, day].map(item =&gt; formatNumber(item)).join(&#39;-&#39;)
+}
+
+const formatWeek = date =&gt; {
+  const {month, day, week} = dateObj(date)
+  const weekText = [
+    &#39;周日&#39;,
+    &#39;周一&#39;,
+    &#39;周二&#39;,
+    &#39;周三&#39;,
+    &#39;周四&#39;,
+    &#39;周五&#39;,
+    &#39;周六&#39;
+  ][week]
+  return `${[month, day].join(&#39;/&#39;)} ${weekText}`
+}
+
+const formatNumber = n =&gt; {
+  n = n.toString()
+  return n[1] ? n : &#39;0&#39; + n
+}
+
+const parseCountdown = countdownMS =&gt; {
+  countdownMS = Number(countdownMS)
+  if (Number.isNaN(countdownMS)) throw new Error(&#39;countdownMS is NaN&#39;)
+  let seconds = countdownMS / 1000
+  let ms = Math.floor(countdownMS % 1000 / 100)
+  let second = Math.floor(seconds % 60)
+  let minute = Math.floor(seconds % 3600 / 60)
+  let hour = Math.floor(seconds / 3600)
+  return {
+    hour: formatNumber(hour),
+    minute: formatNumber(minute),
+    second: formatNumber(second),
+    ms: ms
+  }
+}
+const secretName = (name = &#39;&#39;) =&gt; {
+  const length = Array.from(name).length
+  if (length &lt; 2) return `${safeSubstr(name, 0, 1) || &#39;&#39;}`
+  else if (length &lt; 3) return `${safeSubstr(name, 0, 1)}${safeSubstr(name, 1, 1)}`
+  else return `${safeSubstr(name, 0, 1)}*${safeSubstr(name, length - 1, 1)}`
+}
+// 分页状态管理器
+const pagination = ({currentPage = 1, pageSize = 20} = {}) =&gt; {
+  const _pagination = {
+    currentPage,
+    pageSize
+  }
+  let _hasNext = true
+
+  /**
+   * 根据返回数据设置是否还有更多数据，分页只能处理数组。
+   * @param data
+   */
+  function setNext (data) {
+    if (!Array.isArray(data)) throw new Error(&#39;data type must be array&#39;)
+    _hasNext = data.length &gt;= _pagination.pageSize
+  }
+
+  /**
+   * 检查是否还有下一页，如果有则返回true，并自动增加currentPage。
+   * @returns {boolean}
+   */
+  function next () {
+    if (!_hasNext) return false
+    _pagination.currentPage++
+    return true
+  }
+
+  return {
+    pagination: _pagination,
+    setNext,
+    next
+  }
+}
+// 数字、金额格式化无符号
+const _numFormatWithoutSym = function (value, {decimalSize = 2, decimalSym = &#39;.&#39;, intSepSize = 3, intSep = &#39;,&#39;} = {}) {
+  const numVal = Number(value)
+  if (Number.isNaN(numVal)) throw new Error(&#39;value is NaN&#39;)
+  const [intPart, decimalPart] = Number(value).toFixed(decimalSize).split(&#39;.&#39;)
+  const decimalParts = decimalSize === 0 ? &#39;&#39; : `${decimalSym}${decimalPart}`
+  const intPartLen = intPart.length
+  const sepTimes = Math.ceil(intPartLen / intSepSize)
+  const intParts = new Array(sepTimes)
+  for (let i = 1; i &lt;= sepTimes; i++) {
+    intParts[sepTimes - i] = intPart.slice(-i * intSepSize, intPartLen - (i - 1) * intSepSize)
+  }
+  return `${intParts.join(intSep)}${decimalParts}`
+}
+// 整数格式化
+const numberFormat = (value) =&gt; {
+  try {
+    return _numFormatWithoutSym(value, {decimalSize: 0})
+  } catch (err) {
+    return value
+  }
+}
+// 金额格式化无符号
+const currencyFormatWithoutSym = (value) =&gt; {
+  try {
+    return _numFormatWithoutSym(value)
+  } catch (err) {
+    return value
+  }
+}
+// 有小数保留，没有就没有
+const currencyFormat = (value) =&gt; {
+  try {
+    let decimalSize = 2
+    if (Number(_numFormatWithoutSym(value, {decimalSize: 0})) === Number(value)) decimalSize = 0
+    return `¥${_numFormatWithoutSym(value, {decimalSize})}`
+  } catch (err) {
+    return value
+  }
+}
+// 格式化日期
+const format = (date, pattern) =&gt; {
+  const dateBox = new DateBox(date)
+  return dateBox.format(pattern)
+}
+
+// 计算两个日期之间相差时间
+const duration = (ms, pattern) =&gt; {
+  return DateBox.duration(ms, pattern)
+}
+
+// 计算两个日期之间相差
+const diff = (sDate, eDate) =&gt; {
+  const dateBox = new DateBox(sDate)
+  return dateBox.diff(eDate)
+}
+
+/**
+ * 标准金额转换，系统在金额方面不支持小数，仅支持以分为基础单位的金额格式。
+ * 参考 IEEE 754 标准
+ * @param currency
+ * @param floatBase
+ * @returns {number}
+ */
+function _currencyConvert (currency, floatBase = true) {
+  return floatBase ? currency * 100 : currency / 100
+}
+
+/**
+ * 金额服务端转本地
+ * @param currency
+ * @returns {number}
+ */
+function currencyToLocal (currency) {
+  return _currencyConvert(currency, false)
+}
+
+/**
+ * 金额本地转服务端
+ * @param currency
+ * @returns {number}
+ */
+function currencyToServer (currency) {
+  return _currencyConvert(currency)
+}
+
+module.exports = {
+  formatDate,
+  formatTime,
+  formatWeek,
+  parseCountdown,
+  secretName,
+  pagination,
+  numberFormat,
+  currencyFormatWithoutSym,
+  dateFormat,
+  format,
+  diff,
+  duration,
+  currencyToLocal,
+  currencyToServer,
+  currencyFormat,
+  formatNumber
+}</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

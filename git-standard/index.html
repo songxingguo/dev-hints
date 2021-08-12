@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Standard | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-git-standard" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/git-standard/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Standard <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p><img src="https://img.shields.io/badge/VERSION-1.0.0-brightgreen.svg#align=left&display=inline&height=20&originHeight=20&originWidth=100&status=done&style=none&width=100" alt=""></p>
+<p><a name="acd92c5f"></a></p>
+<h1 id="Git-使用规范"><a href="#Git-使用规范" class="headerlink" title="Git 使用规范"></a>Git 使用规范</h1><p>保证团队使用统一的规范来协作。</p>
+<p><a name="40605509"></a></p>
+<h2 id="Git-分支命名规范"><a href="#Git-分支命名规范" class="headerlink" title="Git 分支命名规范"></a>Git 分支命名规范</h2><p>功能分支</p>
+<blockquote>
+<p>feature-xxx-zzz 主功能分支<br>feature-xxx-yyy-zzz 子功能分支<br>xxx代表主功能名称（驼峰命名），yyy代表主功能下的子功能（驼峰命名）。<br>zzz代表分支版本号。<br>例如：feature-Account-Auth-1.0.0（用户-授权-1.0.0）<br>主功能分支用来开发某一个大的功能，那么在开发中，一个大功能可被拆分为多个子功能。<br>这样拆分的好处是，此时如果某一个独立的子功能不能发布那么可以取消掉子功能的合并。</p>
+</blockquote>
+<p>修复分支</p>
+<blockquote>
+<p>hotfix-xxx-yyy<br>xxx是修复功能名称。<br>【选填】yyy是bug编号，例如 hotfix-somebug-#1233（修复-闪退-#1233）。</p>
+</blockquote>
+<p>发布分支</p>
+<blockquote>
+<p>release-xxx-yyy<br>xxx代表主功能名称，yyy代表版本号，例如：release-sale-1.0.0。<br>每个release控制一次发布，master将会只接受来自release的上线请求。<br>此分支负责功能上的合并与版本管理，develop与master应该只是接受release的合并请求。<br>【备注】小项目可接受来自feature分支的请求。</p>
+</blockquote>
+<p>测试分支</p>
+<blockquote>
+<p>develop<br>此分支与测试环境关联，如果push则测试环境自动构建。</p>
+</blockquote>
+<p>预发分支</p>
+<blockquote>
+<p>staging<br>此分支用来上线前进行镜像测试。</p>
+</blockquote>
+<p>生产分支</p>
+<blockquote>
+<p>master<br>此分支为保护分支。</p>
+</blockquote>
+<p><a name="e2c48666"></a></p>
+<h2 id="Git-分支创建规范"><a href="#Git-分支创建规范" class="headerlink" title="Git 分支创建规范"></a>Git 分支创建规范</h2><ul>
+<li>feature分支</li>
+</ul>
+<blockquote>
+<p>一次迭代后，在合并节点开新分支。<br>例如：feature-salePay-mulPay-1.0.0开发完成，需要继续开发下个版本，那么此时在feature-salePay-mulPay-1.0.0基础上创建feature-salePay-mulPay-1.0.1分支。<br>当功能不需要继续迭代时，在master节点处新建新功能分支。</p>
+</blockquote>
+<ul>
+<li>hotfix分支</li>
+</ul>
+<blockquote>
+<p>修复线上问题时，hotfix分支每次需要从master节点处新建，确保只是修复线上问题。</p>
+</blockquote>
+<ul>
+<li>release分支</li>
+</ul>
+<blockquote>
+<p>当功能开发完毕，需要发布（测试）并且此时没有此功能的release分支时，请在master处创建一个新的release分支，并将功能分支合并至当前release分支。</p>
+</blockquote>
+<ul>
+<li>develop、development、master</li>
+</ul>
+<blockquote>
+<p>系统维护。</p>
+</blockquote>
+<p><a name="323894cc"></a></p>
+<h2 id="Git-分支整理"><a href="#Git-分支整理" class="headerlink" title="Git 分支整理"></a>Git 分支整理</h2><p>开发人员需要在正式提交合并请求前rebase一下自己的功能分支，仅保留符合逻辑的阶段提交。</p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

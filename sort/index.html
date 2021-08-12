@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>常用排序 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-sort" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/sort/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 常用排序 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h2 id="Sorting-Algorithms-in-Javascript"><a href="#Sorting-Algorithms-in-Javascript" class="headerlink" title="Sorting Algorithms in Javascript"></a>Sorting Algorithms in Javascript</h2><blockquote>
+<p>This is just for quick reference does not really talk about CS theory for now.</p>
+</blockquote>
+<h3 id="Bubble-Sort"><a href="#Bubble-Sort" class="headerlink" title="Bubble Sort"></a><a href="https://h3manth.com/javascript-sorting/#bubble-sort-" target="_blank" rel="noopener">Bubble Sort</a></h3><pre><code class="javascript">let compare = (n1, n2) =&gt; n1 - n2;
+let bubbleSort = (arr, cmp = compare) =&gt; {
+  for (let i = 0; i &lt; arr.length; i++) {
+    for (let j = i; j &gt; 0; j--) {
+      if (cmp(arr[j], arr[j - 1]) &lt; 0) {
+        [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]];
+      }
+    }
+  }
+  return arr;
+};</code></pre>
+<h3 id="Insertion-Sort"><a href="#Insertion-Sort" class="headerlink" title="Insertion Sort"></a><a href="https://h3manth.com/javascript-sorting/#insertion-sort-" target="_blank" rel="noopener">Insertion Sort</a></h3><pre><code class="javascript">let insertionSort = (arr) =&gt; {
+    for (let i = 0; i &lt; a.length; i++) {
+        let toCmp = arr[i];
+        for (let j = i; j &gt; 0 &amp;&amp; toCmp &lt; a[j - 1]; j--)
+            arr[j] = a[j - 1];
+        arr[j] = toCmp;
+    }
+    return arr;
+}</code></pre>
+<h3 id="Selection-Sort"><a href="#Selection-Sort" class="headerlink" title="Selection Sort"></a><a href="https://h3manth.com/javascript-sorting/#selection-sort-" target="_blank" rel="noopener">Selection Sort</a></h3><pre><code class="javascript">var selectionSort = function (arr) {
+  let i,m,j;
+  for (i = -1; ++i &lt; a.length;) {
+    for (m = j = i; ++j &lt; a.length;) {
+      if (arr[m] &gt; arr[j]) m = j;
+    }
+    [arr[m], arr[i]] = [arr[i], arr[m]];
+ }
+ return arr;
+}</code></pre>
+<h3 id="Merge-Sort"><a href="#Merge-Sort" class="headerlink" title="Merge Sort"></a><a href="https://h3manth.com/javascript-sorting/#merge-sort-" target="_blank" rel="noopener">Merge Sort</a></h3><pre><code class="javascript">let mergeSort = (arr) =&gt; {
+  if (arr.length &lt; 2) return arr;
+  let middle = parseInt(arr.length / 2),
+  left = arr.slice(0, middle),
+  right = arr.slice(middle);
+  return merge(mergeSort(left), mergeSort(right));
+}
+let merge = (left, right) =&gt; {
+  let result = [];
+  while (left.length &amp;&amp; right.length) {
+    left[0] &lt;= right[0] ?
+    result.push(left.shift()) :
+    result.push(right.shift());
+  }
+  while (left.length) result.push(left.shift());
+  while (right.length) result.push(right.shift());
+  return result;
+}</code></pre>
+<h3 id="Quick-Sort"><a href="#Quick-Sort" class="headerlink" title="Quick Sort"></a><a href="https://h3manth.com/javascript-sorting/#quick-sort-" target="_blank" rel="noopener">Quick Sort</a></h3><pre><code class="javascript">let quicksort = function(arr) {
+  if(arr.length &lt;= 1) return arr;
+  let pivot = Math.floor((arr.length -1)/2);
+  let val = arr[pivot], less = [], more = [];
+  arr.splice(pivot, 1);
+  arr.forEach(function(e,i,a){
+    e &lt; val ? less.push(e) : more.push(e);
+  });
+  return (quicksort(less)).concat([val],quicksort(more))
+}</code></pre>
+<h2 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h2><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1596122574732-876f0f01-a567-4650-8216-19f5b8a2cc4c.png#align=left&display=inline&height=453&margin=%5Bobject%20Object%5D&name=image.png&originHeight=588&originWidth=968&size=435552&status=done&style=none&width=746" alt="image.png"></p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a href="https://h3manth.com/javascript-sorting/" target="_blank" rel="noopener">参考链接</a></li>
+<li><a href="https://www.cnblogs.com/itsharehome/p/11058010.html" target="_blank" rel="noopener">十大经典排序</a></li>
+<li><a href="https://javascript.ruanyifeng.com/library/sorting.html#toc8" target="_blank" rel="noopener">阮一峰教程</a></li>
+</ul>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

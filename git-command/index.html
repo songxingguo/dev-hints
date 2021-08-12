@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>command | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-git-command" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/git-command/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> command <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p><a name="hYd9B"></a></p>
+<h3 id="查看状态"><a href="#查看状态" class="headerlink" title="查看状态"></a>查看状态</h3><pre><code class="git">$ git status</code></pre>
+<p><a name="aFJBl"></a></p>
+<h3 id="把项目添加到仓库"><a href="#把项目添加到仓库" class="headerlink" title="把项目添加到仓库"></a>把项目添加到仓库</h3><pre><code class="git">$ git add 【-A】|【文件名称】|$ git add .</code></pre>
+<p><a name="0Oemc"></a></p>
+<h3 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h3><pre><code class="git">$ git commit -m &quot;文件描述&quot;</code></pre>
+<p><a name="nRgkR"></a></p>
+<h3 id="推送到远端"><a href="#推送到远端" class="headerlink" title="推送到远端"></a>推送到远端</h3><p>推送到默认分支</p>
+<pre><code class="git">$ git push</code></pre>
+<p>推送到远程分支</p>
+<pre><code class="git">$ git push origin master</code></pre>
+<p>将本地仓库和远程仓库进行关联</p>
+<pre><code class="git">$ git remote add origin https://github.com/guyibang/TEST2.git</code></pre>
+<p>把本地仓库的项目推送到远程仓库</p>
+<pre><code class="git">$ git push -u origin master</code></pre>
+<p><a name="BEELi"></a></p>
+<h3 id="移除远程仓库"><a href="#移除远程仓库" class="headerlink" title="移除远程仓库"></a>移除远程仓库</h3><pre><code class="git">$ git remote rm origin</code></pre>
+<p><a name="28Pyk"></a></p>
+<h3 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h3><p>查看远程分支</p>
+<pre><code class="git">$ git branch --remote</code></pre>
+<p>查看本地分支</p>
+<pre><code>$ git branch</code></pre><p>查看所有远程分支</p>
+<pre><code>$ git branch -a</code></pre><p>切换到 <strong>source-code</strong> 分支</p>
+<pre><code>git checkout source-code</code></pre><p><a name="RXafq"></a></p>
+<h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><p>配置用户名和邮箱</p>
+<pre><code>git config --global user.name &quot;songxingguo&quot;
+git config --global user.email &quot;1328989942@qqc.com&quot;</code></pre><p>设置原 npm 镜像</p>
+<pre><code>npm config set registry http://registry.npmjs.org</code></pre><p>设置淘宝镜像</p>
+<pre><code>npm config set registry https://registry.npm.taobao.org</code></pre><p>查看镜像</p>
+<pre><code>npm config get registry</code></pre>
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

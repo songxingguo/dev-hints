@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>正则表达式 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-regexp" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/regexp/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 正则表达式 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p><a href="https://regexper.com/" target="_blank" rel="noopener">可视化工具</a></p>
+<hr>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p><a href="https://devhints.io/regexp" target="_blank" rel="noopener">regexp</a></p>
+<h3 id="Character-classes"><a href="#Character-classes" class="headerlink" title="Character classes"></a>Character classes</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>.</code></td>
+<td>Any character, except newline</td>
+</tr>
+<tr>
+<td><code>\w</code></td>
+<td>Word</td>
+</tr>
+<tr>
+<td><code>\d</code></td>
+<td>Digit</td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>Whitespace</td>
+</tr>
+<tr>
+<td><code>\W</code></td>
+<td>Not word</td>
+</tr>
+<tr>
+<td><code>\D</code></td>
+<td>Not digit</td>
+</tr>
+<tr>
+<td><code>\S</code></td>
+<td>Not whitespace</td>
+</tr>
+<tr>
+<td><code>[abc]</code></td>
+<td>Any of a, b, or c</td>
+</tr>
+<tr>
+<td><code>[a-e]</code></td>
+<td>Characters between <code>a</code> and <code>e</code></td>
+</tr>
+<tr>
+<td><code>[1-9]</code></td>
+<td>Digit between <code>1</code> and <code>9</code></td>
+</tr>
+<tr>
+<td><code>[^abc]</code></td>
+<td>Any character except <code>a</code>, <code>b</code> or <code>c</code></td>
+</tr>
+</tbody></table>
+<h3 id="Anchors"><a href="#Anchors" class="headerlink" title="Anchors"></a>Anchors</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>\G</code></td>
+<td>Start of match</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td>Start of string</td>
+</tr>
+<tr>
+<td><code>$</code></td>
+<td>End of string</td>
+</tr>
+<tr>
+<td><code>\A</code></td>
+<td>Start of string</td>
+</tr>
+<tr>
+<td><code>\Z</code></td>
+<td>End of string</td>
+</tr>
+<tr>
+<td><code>\z</code></td>
+<td>Absolute end of string</td>
+</tr>
+<tr>
+<td><code>\b</code></td>
+<td>A word boundry</td>
+</tr>
+<tr>
+<td><code>\B</code></td>
+<td>Non-word boundry</td>
+</tr>
+<tr>
+<td><code>^abc</code></td>
+<td>Start with <code>abc</code></td>
+</tr>
+<tr>
+<td><code>abc$</code></td>
+<td>End with <code>abc</code></td>
+</tr>
+</tbody></table>
+<h3 id="Escaped-characters"><a href="#Escaped-characters" class="headerlink" title="Escaped characters"></a>Escaped characters</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>\. \* \\</code></td>
+<td>Escape special character used by regex</td>
+</tr>
+<tr>
+<td><code>\t</code></td>
+<td>Tab</td>
+</tr>
+<tr>
+<td><code>\n</code></td>
+<td>Newline</td>
+</tr>
+<tr>
+<td><code>\r</code></td>
+<td>Carriage return</td>
+</tr>
+</tbody></table>
+<h3 id="Groups"><a href="#Groups" class="headerlink" title="Groups"></a>Groups</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>(abc)</code></td>
+<td>Capture group</td>
+</tr>
+<tr>
+<td>`(a</td>
+<td>b)`</td>
+</tr>
+<tr>
+<td><code>(?:abc)</code></td>
+<td>Match <code>abc</code>, but don’t capture</td>
+</tr>
+</tbody></table>
+<h3 id="Quantifiers"><a href="#Quantifiers" class="headerlink" title="Quantifiers"></a>Quantifiers</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>a*</code></td>
+<td>Match 0 or more</td>
+</tr>
+<tr>
+<td><code>a+</code></td>
+<td>Match 1 or more</td>
+</tr>
+<tr>
+<td><code>a?</code></td>
+<td>Match 0 or 1</td>
+</tr>
+<tr>
+<td><code>a{5}</code></td>
+<td>Match exactly 5</td>
+</tr>
+<tr>
+<td><code>a{,3}</code></td>
+<td>Match up to 3</td>
+</tr>
+<tr>
+<td><code>a{3,}</code></td>
+<td>Match 3 or more</td>
+</tr>
+<tr>
+<td><code>a{1,3}</code></td>
+<td>Match between 1 and 3</td>
+</tr>
+</tbody></table>
+<h3 id="Lookahead-amp-Lookbehind"><a href="#Lookahead-amp-Lookbehind" class="headerlink" title="Lookahead &amp; Lookbehind"></a>Lookahead &amp; Lookbehind</h3><table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>a(?=b)</code></td>
+<td>Match <code>a</code> in <code>baby</code> but not in <code>bay</code></td>
+</tr>
+<tr>
+<td><code>a(?!b)</code></td>
+<td>Match <code>a</code> in <code>Stan</code> but not in <code>Stab</code></td>
+</tr>
+<tr>
+<td><code>(?&lt;=a)b</code></td>
+<td>Match <code>b</code> in <code>crabs</code> but not in <code>cribs</code></td>
+</tr>
+<tr>
+<td><code>(?&lt;!a)b</code></td>
+<td>Match <code>b</code> in <code>fib</code> but not in <code>fab</code></td>
+</tr>
+</tbody></table>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><h3 id="标签处理"><a href="#标签处理" class="headerlink" title="标签处理"></a>标签处理</h3><table>
+<thead>
+<tr>
+<th>正则</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>/(&lt;h4.*?h4&gt;)/g</td>
+<td>匹配h4标签</td>
+</tr>
+<tr>
+<td>/(&lt;/?a.*?&gt;)/g</td>
+<td>去除a标签，只留下内容</td>
+</tr>
+<tr>
+<td>/(<a name=.*?>.*?&lt;/a&gt;)/g</td>
+<td>去除锚点</td>
+</tr>
+</tbody></table>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

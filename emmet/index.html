@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Emmet | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-emmet" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/emmet/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Emmet <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p>div#box&gt;p.title+ul.list&gt;li.child<img src="https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%98%AF%E7%AC%AC#card=math&code=%7B%E6%88%91%E6%98%AF%E7%AC%AC" alt="">个}*3^div#box2</p>
+<p>div#box&gt;p.title+ul(.list&gt;child<img src="https://g.yuque.com/gr/latex?%7B%E6%88%91%E6%98%AF%E7%AC%AC#card=math&code=%7B%E6%88%91%E6%98%AF%E7%AC%AC" alt="">)个}*3)+div#box2</p>
+<pre><code class="html">&lt;div id=&quot;box&quot;&gt;
+  &lt;p class=&quot;title&quot;&gt;&lt;/p&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li class=&quot;child1&quot;&gt;我是第1个&lt;/li&gt;
+    &lt;li class=&quot;child2&quot;&gt;我是第2个&lt;/li&gt;
+    &lt;li class=&quot;child3&quot;&gt;我是第3个&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div id=&quot;box2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="html初始结构"><a href="#html初始结构" class="headerlink" title="html初始结构"></a>html初始结构</h3><p><strong>!</strong></p>
+<pre><code class="html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot;
+        content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3 id="id（-）-class（-）"><a href="#id（-）-class（-）" class="headerlink" title="id（#）,class（.）"></a>id（#）,class（.）</h3><p><strong>div#test</strong></p>
+<pre><code class="html">&lt;div id=&quot;test&quot;&gt;&lt;/div&gt;</code></pre>
+<h3 id="子节点（-gt-），兄弟节点（-），上级节点（-）"><a href="#子节点（-gt-），兄弟节点（-），上级节点（-）" class="headerlink" title="子节点（&gt;），兄弟节点（+），上级节点（^）"></a>子节点（&gt;），兄弟节点（+），上级节点（^）</h3><p><strong>div&gt;ul&gt;li^div</strong></p>
+<pre><code class="html">&lt;div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="重复（-）"><a href="#重复（-）" class="headerlink" title="重复（*）"></a>重复（*）</h3><p>div*5</p>
+<pre><code class="html">&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;</code></pre>
+<h3 id="分组（-）"><a href="#分组（-）" class="headerlink" title="分组（()）"></a>分组（()）</h3><p>div&gt;(ul&gt;li&gt;a)+div&gt;p</p>
+<p><strong>括号里面的内容为一个代码块，表示与括号内部嵌套和外面的的层级无关</strong></p>
+<pre><code class="html">&lt;div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="属性（-attr-）"><a href="#属性（-attr-）" class="headerlink" title="属性（[attr]）"></a>属性（[attr]）</h3><p>a[href=’<a href="http://www.baidu.com’" target="_blank" rel="noopener">www.baidu.com’</a> name=‘名字’]</p>
+<pre><code class="html">&lt;a href=&quot;www.baidu.com&quot; name=&quot;名字&quot;&gt;&lt;/a&gt;</code></pre>
+<h3 id="编号（-）"><a href="#编号（-）" class="headerlink" title="编号（$）"></a>编号（$）</h3><p>ul&gt;li.test$*3</p>
+<pre><code class="html">&lt;ul&gt;
+  &lt;li class=&quot;test1&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test2&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test3&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<p>一个$ 代表一位数。</p>
+<p>如果想自定义从几开始递增的话就利用：<img src="https://g.yuque.com/gr/latex?%40%2B%E6%95%B0%E5%AD%97_%E6%95%B0%E5%AD%97%3Cbr%20%2F%3E%E4%BE%8B%E5%A6%82%EF%BC%9Aul%3Eli.test#card=math&code=%40%2B%E6%95%B0%E5%AD%97_%E6%95%B0%E5%AD%97%3Cbr%20%2F%3E%E4%BE%8B%E5%A6%82%EF%BC%9Aul%3Eli.test&height=30&width=292" alt=""><a href="">@3_3 </a></p>
+<pre><code class="html">&lt;ul&gt;
+  &lt;li class=&quot;test33&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test34&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test35&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<h3 id="文本（-）"><a href="#文本（-）" class="headerlink" title="文本（{}）"></a>文本（{}）</h3><p>ul&gt;li.test<img src="https://g.yuque.com/gr/latex?%7B%E6%B5%8B%E8%AF%95#card=math&code=%7B%E6%B5%8B%E8%AF%95" alt="">}*3</p>
+<pre><code class="html">&lt;ul&gt;
+  &lt;li class=&quot;test1&quot;&gt;测试1&lt;/li&gt;
+  &lt;li class=&quot;test2&quot;&gt;测试2&lt;/li&gt;
+  &lt;li class=&quot;test3&quot;&gt;测试3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<p>div{你好}</p>
+<pre><code class="html">&lt;div&gt;你好&lt;/div&gt;</code></pre>
+<h3 id="隐式标签"><a href="#隐式标签" class="headerlink" title="隐式标签"></a>隐式标签</h3><p>.test</p>
+<p>部分标签可以不使用输入标签，直接输入指令，即可识别父类标签。</p>
+<pre><code class="html">&lt;div class=&quot;test&quot;&gt;&lt;/div&gt;</code></pre>
+<p>ul&gt;.test$*3</p>
+<pre><code class="html">&lt;ul&gt;
+  &lt;li class=&quot;test1&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test2&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;test3&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<p>select&gt;.test$*5</p>
+<pre><code class="html">&lt;select name=&quot;&quot; id=&quot;&quot;&gt;
+  &lt;option value=&quot;&quot; class=&quot;test1&quot;&gt;&lt;/option&gt;
+  &lt;option value=&quot;&quot; class=&quot;test2&quot;&gt;&lt;/option&gt;
+  &lt;option value=&quot;&quot; class=&quot;test3&quot;&gt;&lt;/option&gt;
+  &lt;option value=&quot;&quot; class=&quot;test4&quot;&gt;&lt;/option&gt;
+  &lt;option value=&quot;&quot; class=&quot;test5&quot;&gt;&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+<p>隐私标签有如下几个：<br /><br>li：用于 ul 和 ol 中<br /><br>tr：用于 table、tbody、thead 和 tfoot 中<br /><br>td：用于 tr 中<br /><br>option：用于 select 和 optgroup 中</p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

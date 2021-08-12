@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>JWT | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-oeiykg" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/oeiykg/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> JWT <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <pre><code class="javascript">let Koa = require(&#39;koa&#39;);
+let Router = require(&#39;koa-router&#39;);
+let bodyparser = require(&#39;koa-bodyparser&#39;);
+let jwt = require(&#39;jwt-simple&#39;);
+let router = new Router()
+let app = new Koa();
+app.use(bodyparser());
+// 可以自己自定义
+let secret = &#39;zhenglei&#39;;
+// 验证是否登陆
+router.post(&#39;/login&#39;,async(ctx)=&gt;{ 
+    let {username,password} = ctx.request.body;
+    if(username === &#39;admin&#39; &amp;&amp; password === &#39;admin&#39;){
+       // 通常会查数据库，这里简单的演示
+       let token =  jwt.encode(username, secret);
+       ctx.body = {
+            code:200,
+            username,
+            token,
+       }
+    }
+});
+// 验证是否有权限
+router.get(&#39;/validate&#39;,async(ctx)=&gt;{ 
+    let Authorization = ctx.get(&#39;authorization&#39;)
+    let [,token] = Authorization.split(&#39; &#39;);
+    if(token){
+        try{
+            let r = jwt.decode(token,secret);
+            ctx.body = {
+                code:200,
+                username:r,
+                token
+            }
+        }catch(e){
+            ctx.body = {
+                code:401,
+                data:&#39;没有登陆&#39;
+            }
+        }
+    }else{
+        ctx.body = {
+            code:401,
+            data:&#39;没有登陆&#39;
+        }
+    }
+
+});
+app.use(router.routes());
+app.listen(4000);</code></pre>
+<pre><code class="javascript">let myJwt = {
+    sign(content,secret){
+        let r = crypto.createHmac(&#39;sha256&#39;,secret).update(content).digest(&#39;base64&#39;);
+        return this.base64urlEscape(r)
+    },
+    base64urlEscape(str){
+        return str.replace(/\+/g, &#39;-&#39;).replace(/\//g, &#39;_&#39;).replace(/=/g, &#39;&#39;);
+    },
+    toBase64(content){
+        return this.base64urlEscape(Buffer.from(JSON.stringify(content)).toString(&#39;base64&#39;))
+    },
+    encode(username,secret){
+        let header = this.toBase64({ typ: &#39;JWT&#39;, alg: &#39;HS256&#39; });
+        let content = this.toBase64(username);
+        let sign = this.sign([header,content].join(&#39;.&#39;),secret);
+        return  [header,content,sign].join(&#39;.&#39;)
+    },
+    base64urlUnescape(str) {
+        str += new Array(5 - str.length % 4).join(&#39;=&#39;);
+        return str.replace(/\-/g, &#39;+&#39;).replace(/_/g, &#39;/&#39;);
+    },
+    decode(token,secret){
+        let [header,content,sign] = token.split(&#39;.&#39;);
+        let newSign = this.sign([header,content].join(&#39;.&#39;),secret);
+        if(sign === newSign){
+            return Buffer.from(this.base64urlUnescape(content),&#39;base64&#39;).toString();
+        }else{
+            throw new Error(&#39;被篡改&#39;)
+        }
+    }
+}</code></pre>
+<p><a href="https://mp.weixin.qq.com/s/CY6vshBYUVp_hWY98b_bCQ" target="_blank" rel="noopener">原文地址</a></p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

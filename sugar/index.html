@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>语法糖🍬 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-sugar" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/sugar/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 语法糖🍬 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p><a name="CAKpe"></a></p>
+<h2 id="函数绑定"><a href="#函数绑定" class="headerlink" title="函数绑定"></a>函数绑定</h2><p><a name="q5HUD"></a></p>
+<h2 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h2><blockquote>
+<p>实现异步操作的链式调用，解决回调地狱</p>
+</blockquote>
+<p><a name="LUqpX"></a></p>
+<h3 id="回调地狱-（老酒）"><a href="#回调地狱-（老酒）" class="headerlink" title="回调地狱 （老酒）"></a>回调地狱 （老酒）</h3><pre><code class="javascript">doSomething(function(result) {
+  doSomethingElse(result, function(newResult) {
+    doThirdThing(newResult, function(finalResult) {
+      console.log(&#39;Got the final result: &#39; + finalResult);
+    }, failureCallback);
+  }, failureCallback);
+}, failureCallback);</code></pre>
+<p><a name="ryHEa"></a></p>
+<h3 id="Promise-链-（新壶）"><a href="#Promise-链-（新壶）" class="headerlink" title="Promise 链 （新壶）"></a>Promise 链 （新壶）</h3><pre><code class="javascript">doSomething().then(function(result) {
+  return doSomethingElse(result);
+})
+.then(function(newResult) {
+  return doThirdThing(newResult);
+})
+.then(function(finalResult) {
+  console.log(&#39;Got the final result: &#39; + finalResult);
+})
+.catch(failureCallback);</code></pre>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/394169/1566980356127-62c32e09-8967-4e9e-be81-ae8feffa5f3a.png" alt=""><a name="wk4jT"></a></p>
+<h3 id="async-await-https-developer-mozilla-org-zh-CN-docs-Web-JavaScript-Reference-Statements-async-function"><a href="#async-await-https-developer-mozilla-org-zh-CN-docs-Web-JavaScript-Reference-Statements-async-function" class="headerlink" title="[async/await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)"></a><code>[async/await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)</code></h3><blockquote>
+<p>让代码同步执行</p>
+</blockquote>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction" target="_blank" rel="noopener"><code>AsyncFunction</code></a></p>
+<blockquote>
+<p>异步函数是指通过事件循环异步执行的函数，它会通过一个隐式的 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank" rel="noopener"><code>Promise</code></a> 返回其结果。</p>
+</blockquote>
+<p><a name="W1KCK"></a></p>
+<h2 id="Decorator"><a href="#Decorator" class="headerlink" title="Decorator"></a>Decorator</h2><blockquote>
+<p>Object.defineProperty(target,name,descriptor)</p>
+</blockquote>
+<p><a name="k1e2D"></a></p>
+<h2 id="展开语法（…）"><a href="#展开语法（…）" class="headerlink" title="展开语法（…）"></a><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_syntax" target="_blank" rel="noopener"><strong>展开语法（…）</strong></a></h2><p><a name="8fg4Z"></a></p>
+<h3 id="Function-prototype-apply-https-developer-mozilla-org-zh-CN-docs-Web-JavaScript-Reference-Global-Objects-Function-apply-（老酒）"><a href="#Function-prototype-apply-https-developer-mozilla-org-zh-CN-docs-Web-JavaScript-Reference-Global-Objects-Function-apply-（老酒）" class="headerlink" title="[Function.prototype.apply](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) （老酒）"></a><code>[Function.prototype.apply](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)</code> （老酒）</h3><pre><code class="javascript">function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction.apply(null, args);</code></pre>
+<p><a name="c5Sn7"></a></p>
+<h3 id="…-（新壶）"><a href="#…-（新壶）" class="headerlink" title="… （新壶）"></a>… （新壶）</h3><pre><code class="javascript">function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction(...args);</code></pre>
+<p><a name="9jH5k"></a></p>
+<h2 id="结构赋值"><a href="#结构赋值" class="headerlink" title="结构赋值"></a>结构赋值</h2><p>······</p>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>Bash | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-bash" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/bash/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> Bash <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <p><a name="20731fe2"></a></p>
+<h3 id="目录操作"><a href="#目录操作" class="headerlink" title="目录操作"></a>目录操作</h3><p>查看目录中的文件</p>
+<pre><code class="bash">ls -l</code></pre>
+<blockquote>
+<p><strong>-a, –all 列出目录下的所有文件，包括以 . 开头的隐含文件</strong></p>
+</blockquote>
+<blockquote>
+<p>-a 横向展示</p>
+</blockquote>
+<pre><code class="bash">ls -a</code></pre>
+<blockquote>
+<p>-all 竖向展示</p>
+</blockquote>
+<pre><code class="bash">ls -all</code></pre>
+<p>查看目录文件</p>
+<pre><code class="bash">ll</code></pre>
+<p>相对路径</p>
+<pre><code class="bash">root/data</code></pre>
+<p>绝对路径(最前面多一个斜杠）</p>
+<pre><code class="bash">/root/data</code></pre>
+<p>回到根目录</p>
+<pre><code class="bash">../..</code></pre>
+<p>~代表你的/home/用户名目录</p>
+<blockquote>
+<p>假设你的用户名是x，那么~/就是/home/x/</p>
+</blockquote>
+<p><strong>.</strong> 是代表此目录本身，但是一般可以不写</p>
+<blockquote>
+<p>所以cd ~/. 和cd ~ 和cd ~/效果是一样的</p>
+</blockquote>
+<p><a name="52cefcb2"></a></p>
+<h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><p>创建文件</p>
+<pre><code class="bash">touch example.js</code></pre>
+<p>编辑文件</p>
+<pre><code class="bash">vim example.js</code></pre>
+<blockquote>
+<p>输入 i，进入编辑模式。<br /><br>输入为v进入视图模式，可进行多行选择。<br /><br>使用Esc按钮，退出编辑模式，输入:wq，回车，保存文件内容并退出。</p>
+</blockquote>
+<blockquote>
+<p>退出编辑<br /><br><code>shift zz</code></p>
+</blockquote>
+<p>查看文件</p>
+<pre><code class="bash">cat /var/log/mysqld.log</code></pre>
+<p>删除文件</p>
+<pre><code class="bash">rm example.js</code></pre>
+<p>拷贝文件</p>
+<pre><code class="bash">cat test.json|pbcopy</code></pre>
+<p><a name="230c0e28"></a></p>
+<h3 id="文件夹操作"><a href="#文件夹操作" class="headerlink" title="文件夹操作"></a>文件夹操作</h3><p>新建文件夹</p>
+<pre><code class="bash">mkdir test</code></pre>
+<p>强制并递归删除目录（删除有内容的文件夹）</p>
+<pre><code class="bash">rm -rf /root/node-v6.9.5-linux-x64.tar.xz</code></pre>
+<p>拷贝文件夹</p>
+<blockquote>
+<p>如将/test1目录下的file1复制到/test3目录，并将文件名改为file2,可输入以下命令：</p>
+</blockquote>
+<pre><code class="bash">cp /test1/file1 /test3/file2</code></pre>
+<p>移动文件夹</p>
+<blockquote>
+<p>如将/test1目录下的file1<strong>复制到/test3</strong> 目录，并将<strong>文件名改为file2</strong>,可输入以下命令：</p>
+</blockquote>
+<pre><code class="bash">mv /test1/file1 /test3/file2</code></pre>
+<p>如果是移动文件夹下的所有文件的话就可以文件夹后面跟上 /*</p>
+<pre><code class="bash">mv /data/new/* /data/old/</code></pre>
+<p><a name="f88522cf"></a></p>
+<h3 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h3><p>查看端口号</p>
+<pre><code class="bash">netstat -apn|grep 80</code></pre>
+<p>查看进程</p>
+<pre><code class="bash">ps -ef|grep mysqld</code></pre>
+<pre><code class="bash">ps aux|grep mysql</code></pre>
+<p>杀死进程(上边的进程号)</p>
+<pre><code class="bash">kill -9 112704</code></pre>
+<p>杀死所有输出的进程</p>
+<pre><code>ps aux|grep mysql|awk &#39;{print $2}&#39;|xargs kill -9</code></pre><p>CentOS重启ssh服务命令</p>
+<pre><code class="bash">service sshd restart</code></pre>
+<p><a name="0285d6e4"></a></p>
+<h3 id="链接操作"><a href="#链接操作" class="headerlink" title="链接操作"></a>链接操作</h3><p>添加链接</p>
+<pre><code class="bash">ln -s /usr/jboss4.0.5.GA/jboss</code></pre>
+<p>删除链接</p>
+<pre><code class="bash">rm /usr/jboss4.0.5.GA/jboss</code></pre>
+<p><a name="581acc26"></a></p>
+<h3 id="文件下载目录"><a href="#文件下载目录" class="headerlink" title="文件下载目录"></a>文件下载目录</h3><ul>
+<li>wget等命令行工具：默认下载到运行该程序的当前目录</li>
+<li>浏览器：默认的下载目录一般在桌面，具体情况可以查看设置</li>
+<li>其他下载工具：一般都会在/home/用户名/里面的该工具的隐藏目录下或是新建的download目录下，具体情况请查看配置文件</li>
+</ul>
+<p><a name="973f70e4"></a></p>
+<h3 id="综合应用"><a href="#综合应用" class="headerlink" title="综合应用"></a>综合应用</h3><p>将文件移动位置并改变链接</p>
+<pre><code class="bash">  mkdir -p /opt/node/
+  mv /root/node-v6.9.5-linux-x64/* /opt/node/
+  rm -f /usr/local/bin/node
+  rm -f /usr/local/bin/npm
+  ln -s /opt/node/bin/node /usr/local/bin/node
+  ln -s /opt/node/bin/npm /usr/local/bin/npm</code></pre>
+<p><a name="98a315c0"></a></p>
+<h3 id="授权"><a href="#授权" class="headerlink" title="授权"></a>授权</h3><p>修改权限</p>
+<pre><code class="bash">chmod +x hexo-generate.sh</code></pre>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>

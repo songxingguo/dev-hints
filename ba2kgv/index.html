@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+
+  
+  <title>文字排版 | 开发宝典</title>
+  
+    <link rel="icon" href="/img/light.png">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flex.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-ba2kgv" class="article article-type-post" itemscope itemprop="blogPost">
+  <nav class='top-nav' data-js-no-preview role='navigation'>
+  <div class='container'>
+      <div class='left'>
+        <a class='home back-button' href='/'></a>
+      </div>
+
+      <div class='actions'>
+          <ul class='page-actions flex-row'>
+              
+                  <li class='link yuque -button hint--bottom' data-hint='Edit'>
+                      <a href='https://www.yuque.com/songxingguo/devhints/ba2kgv/edit' target="_blank" rel="noopener">
+                          <span class='text -visible'>Edit</span>
+                      </a>
+                  </li>
+              
+             
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+  <div class='body-area'>
+    <header class='main-heading -center' role='banner'>
+      <h1 class='h1'> 文字排版 <em></em></h1>
+    </header>
+
+
+    <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
+      <h3 id="字母x与CSS中的x-height"><a href="#字母x与CSS中的x-height" class="headerlink" title="字母x与CSS中的x-height"></a>字母x与CSS中的x-height</h3><p><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1601884705951-314b33c9-f68b-4420-8742-d211bfbc3b40.png#align=left&display=inline&height=110&margin=%5Bobject%20Object%5D&name=image.png&originHeight=110&originWidth=410&size=28560&status=done&style=none&width=410" alt="image.png"></p>
+<ul>
+<li>baseline 基线</li>
+<li>ascender height：上下线高度。</li>
+<li>cap height：大写字母高度。</li>
+<li>median：中线。</li>
+<li>descender height：下行线高度。</li>
+</ul>
+<h3 id="图标和文字中间位置对齐"><a href="#图标和文字中间位置对齐" class="headerlink" title="图标和文字中间位置对齐"></a>图标和文字中间位置对齐</h3><blockquote>
+<p>ex CSS中的一个相对单位，指的是小写字母x的高度。</p>
+</blockquote>
+<pre><code class="css">.icon-arrow {
+   display：inline-block;
+   width：20px;
+   height：1ex;
+   background：url（arrow.png） no-repeat center;
+}</code></pre>
+<h3 id="line-height"><a href="#line-height" class="headerlink" title="line-height"></a>line-height</h3><blockquote>
+<p>内联元素的高度之本，改变“行距。</p>
+</blockquote>
+<p><br />行距”分散在当前文字的上方和下方，也就是即使是第一行文字，其上方也是有“行距”的，只不过这个“行距”的高度仅仅是完整“行距”高度的一半。<br /><br><br />行距 = 行高− em-box<br /><br><br />行距 = line-height - font-size<br /><br><br /><img src="https://cdn.nlark.com/yuque/0/2020/png/394169/1601885856870-486ddbae-71b2-4e53-bb64-174a5ee12145.png#align=left&display=inline&height=205&margin=%5Bobject%20Object%5D&name=image.png&originHeight=205&originWidth=438&size=31518&status=done&style=none&width=438" alt="image.png"></p>
+<h3 id="多行文本或者替换元素的垂直居中"><a href="#多行文本或者替换元素的垂直居中" class="headerlink" title="多行文本或者替换元素的垂直居中"></a>多行文本或者替换元素的垂直居中</h3><pre><code class="html">&lt;div class=&quot;box&quot;&gt;
+   &lt;div class=&quot;content&quot;&gt;基于行高实现的……&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<pre><code class="css">.box {
+   line-height：120px;
+   background-color：#f0f3f9;
+}
+.content {
+   display：inline-block;
+   line-height：20px;
+   margin：0 20px;
+   vertical-align：middle;
+}</code></pre>
+<h3 id="创建-“幽灵空白节”"><a href="#创建-“幽灵空白节”" class="headerlink" title="创建 “幽灵空白节”"></a>创建 “幽灵空白节”</h3><blockquote>
+<p>display：inline-block，创建一个独立的“行框盒子”。</p>
+</blockquote>
+<h3 id="vertical-align"><a href="#vertical-align" class="headerlink" title="vertical-align"></a>vertical-align</h3><blockquote>
+<p>vertical-align属性只能作用在display计算值为inline、inline- block，inline-table或table-cell的元素上。</p>
+</blockquote>
+<h3 id="图片垂直居中"><a href="#图片垂直居中" class="headerlink" title="图片垂直居中"></a>图片垂直居中</h3><blockquote>
+<p>让幽灵节点有高度，设置 line-height</p>
+</blockquote>
+<pre><code class="html">&lt;div class=&quot;box&quot;&gt;
+   &lt;img src=&quot;1.jpg&quot;&gt;
+&lt;/div&gt;</code></pre>
+<pre><code class="css">.box {
+   height：128px;
+   line-height：128px;   /* 关键CSS属性 */
+}
+.box &gt; img {
+   height：96px;
+   vertical-align：middle;
+}</code></pre>
+<h3 id="常见的图片底部留间隙"><a href="#常见的图片底部留间隙" class="headerlink" title="常见的图片底部留间隙"></a>常见的图片底部留间隙</h3><blockquote>
+<p>“幽灵空白节点”、line-height和vertical-align属性共同作用的结果</p>
+</blockquote>
+
+    </main>
+  </div>
+
+  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+
+</article>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="../js/article.js"></script>
+
+
+</section>
+      </div>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+</nav> -->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+ -->
+  </div>
+
+</body>
+</html>
